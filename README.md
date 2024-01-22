@@ -1,5 +1,15 @@
 # PiHole
 
+## OS Selection
+
+- [DietPi]()
+
+
+
+
+
+
+
 ## Hardening
 
 - [Harden my pi running pihole?](https://discourse.pi-hole.net/t/harden-my-pi-running-pihole-install-ufw/5642/17)
