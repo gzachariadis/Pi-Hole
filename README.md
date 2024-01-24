@@ -6,6 +6,9 @@
 
 
 
+- Lower Device Power Consumpion
+- Lean OS
+
 
 
 
