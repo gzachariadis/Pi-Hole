@@ -35,3 +35,6 @@ A second PiHole will be for redundancy, not for DNS balancing. Depending on your
 
 ## Unbound
 - [Unbound Config](https://gist.github.com/Overbryd/ab15ee86c58260cb6d0be634a4c58057)
+
+
+Pihole + Unbound can get you DNS over TLS, DOT. This is fully encrypted DNS. Your ISP will not be able to see your DNS requests.
