@@ -7,10 +7,6 @@ www.reddit.com
 reddit.com
 ```
 
-```
-(\.|^)reddit\.com$
-```
-
 ## Condent Delivery Network (CDN) - Images
 
 ```
