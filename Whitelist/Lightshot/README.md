@@ -3,7 +3,8 @@
 ## Host Domains
 
 ```
-
+prnt.sc
+prntscr.com
 ```
 
 ## Application Programming Interface (API)
@@ -18,3 +19,5 @@
 image.prntscr.com
 ```
 
+
+st.prntscr.com
