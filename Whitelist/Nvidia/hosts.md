@@ -1,5 +1,7 @@
 # Nvidia
 
+I only download my required drivers, I don't install any Nvidia Software.
+
 ## Host Domains
 
 ```
