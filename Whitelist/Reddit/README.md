@@ -7,6 +7,10 @@ www.reddit.com
 reddit.com
 ```
 
+```
+(\.|^)reddit\.com$
+```
+
 ## Condent Delivery Network (CDN) - Images
 
 ```
@@ -15,6 +19,8 @@ embedly.com
 cdn.embedly.com	
 cdn.embed.ly
 ```
+
+```[a-z]\.thumbs\.redditmedia\.com```
 
 ## Condent Delivery Network (CDN) - Videos
 
