@@ -1,11 +1,17 @@
-# Google Play Store
+<h1 align="center">Google Play Store</h1>
 
 ## Application 
 
 ```
-play.googleapis.com	
+play.googleapis.com
+play.app.goo.gl
 play-fe.googleapis.com	
 play.google.com
+```
+
+## Content Delivery Network (CDN)
+
+```
 play-lh.googleusercontent.com
 playatoms-pa.googleapis.com
 ```
@@ -21,3 +27,5 @@ androidpay-users-pa.googleapis.com
 ```
 digitalassetlinks.googleapis.com
 ```
+
+
