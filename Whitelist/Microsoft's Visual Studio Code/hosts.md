@@ -1,6 +1,6 @@
 # Visual Studio Code
 
-## Download
+## Host Domains (Download)
 
 ```
 vscode.dev
