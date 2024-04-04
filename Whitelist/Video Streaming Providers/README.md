@@ -2,7 +2,7 @@
 
 ## Voe (Content Delivery Network & Video Cloud Provider)
 
-### Domains
+### Host Domains
 
 ```
 voe.sx
@@ -16,7 +16,7 @@ i.voe.sx
 
 ## Mega (Secure and Private Cloud Storage)
 
-### Domain
+### Host Domains
 
 ```
 mega.nz	
@@ -24,20 +24,20 @@ mega.nz
 
 ## Doodstream
 
-### Domains
+### Host Domains
 
 ```
 doodstream.com	
 d000d.com	
 ```
 
-### Content Delivery Network (CDN)
+### Content Delivery Network (CDN) - Static Pages
 
 ```
 static.doodcdn.co	
 ```
 
-### Video Thumbnails
+### Content Delivery Network (CDN) - Video Thumbnails
 
 ```
 img.doodcdn.co	
@@ -52,11 +52,33 @@ i.doodcdn.co
 streamvid.net
 ```
 
-## Mcloud (Video Provider for Embeded Videos)
+### Content Delivery Network (CDN) - Video Thumbnails
 
-### Domains
+```
+b1.trafficdeposit.com
+```
+
+## Mcloud
+
+### Host Domains
 
 ```
 mcloud.bz
+```
+
+## Putlocker
+
+### Host Domains
+
+```
+putlocker.pe
+```
+
+## Streamtape
+
+### Host Domains
+
+```
+streamtape.com
 ```
 
