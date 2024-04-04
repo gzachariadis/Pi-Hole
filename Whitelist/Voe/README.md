@@ -10,7 +10,7 @@
 voe.sx
 ```
 
-## Content Delivery Network (CDN) - Video Thumbnails
+## Video Thumbnails
 
 ```
 i.voe.sx
