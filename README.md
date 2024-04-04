@@ -1,5 +1,7 @@
 # PiHole
 
+A compehensive guide to setting up your personal PiHole.
+
 ## OS Selection
 
 - [DietPi]()
@@ -38,3 +40,11 @@ A second PiHole will be for redundancy, not for DNS balancing. Depending on your
 
 
 Pihole + Unbound can get you DNS over TLS, DOT. This is fully encrypted DNS. Your ISP will not be able to see your DNS requests.
+
+
+## Whitelist
+
+Need somewhere to start? A robust collection of personal "white-listed" websites offered in a "by-service" structure for your consumption can be found at the root directory of this project.
+
+My whitelist aims to be as minimal as possible, being severely tested for allowing the minimum amount of domains to go through in case of any service and sometimes directly aimed at my goals. An example of what I mean by that, would be Instagram, where I use a modified application and only use the messaging function, so I don't need domains servicing content or activity status notifications to go through. You can add those on your own.
+
