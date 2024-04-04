@@ -14,3 +14,9 @@ In case problem persists, try whitelisting
 ```
 android.clients.google.com
 ```
+
+## Application Programming Interface (API)
+
+```
+android.apis.google.com
+```
