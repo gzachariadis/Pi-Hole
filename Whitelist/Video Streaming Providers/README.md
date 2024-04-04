@@ -82,3 +82,10 @@ putlocker.pe
 streamtape.com
 ```
 
+## Vidplay
+
+### Host Domains
+
+```
+vidplay.online
+```
