@@ -51,3 +51,12 @@ i.doodcdn.co
 ```
 streamvid.net
 ```
+
+## Mcloud (Video Provider for Embeded Videos)
+
+### Domains
+
+```
+mcloud.bz
+```
+
