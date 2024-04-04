@@ -52,6 +52,10 @@ i.doodcdn.co
 streamvid.net
 ```
 
+```
+[a-zA-Z0-9]*.streamvid.cyou
+```
+
 ### Content Delivery Network (CDN) - Video Thumbnails
 
 ```
@@ -64,6 +68,10 @@ b1.trafficdeposit.com
 
 ```
 mcloud.bz
+```
+
+```
+[a-zA-Z]*.mcloud.bz
 ```
 
 ## Putlocker
