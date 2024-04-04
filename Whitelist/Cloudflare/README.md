@@ -25,8 +25,10 @@ challenges.cloudflare.com
 ```
 
 
+
+```
 cloudflare-ipfs.com	
 dooh.cloudflare-dns.com	
-
-
+a.nel.cloudflare.com
+```
 
