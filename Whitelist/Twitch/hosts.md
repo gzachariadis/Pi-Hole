@@ -1,6 +1,6 @@
 # Twitch
 
-## Domains
+## Host Domains
 
 ```
 m.twitch.tv
