@@ -12,6 +12,12 @@ vscode.dev
 marketplace.visualstudio.com
 ```
 
+## Extensions
+
+```
+[-_a-zA-Z0-9]*.(gallerycdn|gallery).vsassets.io$
+```
+
 ## Software Updates
 
 ```
