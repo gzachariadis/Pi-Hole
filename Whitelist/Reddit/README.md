@@ -1,4 +1,4 @@
-# Reddit
+<h1 align="center">Reddit</h1>
 
 ## Host Domains
 
