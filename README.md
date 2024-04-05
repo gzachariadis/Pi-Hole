@@ -48,3 +48,14 @@ Need somewhere to start? A robust collection of personal "white-listed" websites
 
 My whitelist aims to be as minimal as possible, being severely tested for allowing the minimum amount of domains to go through in case of any service and sometimes directly aimed at my goals. An example of what I mean by that, would be Instagram, where I use a modified application and only use the messaging function, so I don't need domains servicing content or activity status notifications to go through. You can add those on your own.
 
+
+## FAQ
+
+1. is it better to have csv or txt lists? any difference?
+
+### Ways to root out bad lists
+
+1. .ipset - Mostly contain ip's which are not useful for PiHole.
+2. adblock - Mostly contain lists which have adblock syntax and are not compatible with PiHole.
+3. .netset - Mostly contains lists of ip addresses.
+
