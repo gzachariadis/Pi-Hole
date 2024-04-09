@@ -14,11 +14,17 @@ A compehensive guide to setting up my personal PiHole.
 - [Building a PiHole for Privacy and Performance](https://thesmashy.medium.com/building-a-pihole-for-privacy-and-performance-f762dbcb66e5)
 - [Securing PiHole](https://discourse.pi-hole.net/t/securing-pihole/1155)
 
-## Dual Setup
+## Redundancy
 
-A second PiHole will be for redundancy, not for DNS balancing. Depending on your network and with two Pi-Holes running in parallel, the split between the two Pi-Holes is not predictable or controllable, although the first Pi-Hole listed as DNS usually receives the majority of the traffic. You won't have any control over the load balance if both Pi-Holes serve your entire network. But, you will have instant redundancy if one of the two Pi-Holes goes offline.
+### Dual Setup
 
-## Unbound
+A second PiHole is used for redundancy, not for DNS balancing. Depending on your network and with two Pi-Holes running in parallel, the split between the two Pi-Holes is not predictable or controllable, although the first Pi-Hole listed as DNS usually receives the majority of the traffic.
+
+You won't have any control over the load balance if both Pi-Holes serve your entire network. But, you will have instant redundancy if one of the two Pi-Holes goes offline.
+
+## Privacy
+
+### Unbound
 
 - [Unbound Config](https://gist.github.com/Overbryd/ab15ee86c58260cb6d0be634a4c58057)
 
@@ -26,43 +32,35 @@ Pihole + Unbound can get you DNS over TLS, DOT. This is fully encrypted DNS. You
 
 ## Whitelist
 
-Need somewhere to start? A robust collection of personal "white-listed" websites offered in a "by-service" structure for your consumption can be found at the root directory of this project.
+Need somewhere to start? A robust collection of personal "white-listed" websites offered in a "by-service" structure for your consumption can be found under the Whitelist directory of this project's root folder.
 
-My whitelist aims to be as minimal as possible, being severely tested for allowing the minimum amount of domains to go through in case of any service and sometimes directly aimed at my goals. An example of what I mean by that, would be Instagram, where I use a modified application and only use the messaging function, so I don't need domains servicing content or activity status notifications to go through. You can add those on your own.
+My whitelist aims to serve my own personal requirements and is being severely tested to contain as few domains as possible for each service. An example of that would be not including Youtube Thumbnails domains under my Youtube.
+
+Feel free to fork this repository and modify these lists as you see fit for your own use.
+
+Pull requests for whitelist will only be accepted if the fix an error.
 
 ## Blacklists
 
-I series of blacklisted domains, I gather from various Adblock rulesets.
+### Popular
 
-```
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/1.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/2.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/3.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/4.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/5.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/6.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/7.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/8.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/9.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/10.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/11.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/12.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/13.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/14.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/15.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/16.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/17.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/18.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/19.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/20.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/21.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/22.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/23.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/24.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/25.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/26.txt
-https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/27.txt
-```
+- [StevenBlack's Hosts](https://github.com/StevenBlack/hosts)
+- [Hagezi's Hosts](https://github.com/hagezi/dns-blocklists/tree/main)
+- [Nickoppen's Pihole Blocklist](https://github.com/nickoppen/pihole-blocklists)
+- [AnudeepND Blocklist](https://github.com/anudeepND/blacklist)
+- [Blocklist Project](https://github.com/blocklistproject/Lists)
+- [EasyList](https://easylist.to/)
+- [The Firebog](https://firebog.net/)
+- [LightSwitch05](https://github.com/lightswitch05/hosts)
+- [OISD](https://dbl.oisd.nl/)
+- [OISD NSFW](https://dbl.oisd.nl/nsfw/)
+
+### Social Media
+
+- [Bolawell's Social Media Hosts](https://github.com/bolawell/Social-media-Blocklists)
+- [D43m0nhLlnt3r's Social Media Hosts](https://github.com/d43m0nhLInt3r/socialblocklists)
+- [Gieljnssns's Social Media Blocklist](https://github.com/gieljnssns/Social-media-Blocklists)
+- [Koen20's Facebook Blocklist](https://github.com/koen20/pihole-facebook)
 
 ## FAQ
 
@@ -78,4 +76,3 @@ https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/27.txt
 - .zip
 - .raw
 - .tar.gz
-
