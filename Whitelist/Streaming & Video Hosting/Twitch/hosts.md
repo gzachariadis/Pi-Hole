@@ -13,11 +13,17 @@ www.twitch.tv
 m.twitch.tv
 ```
 
-## Content Delivery Network (CDN)
+## Content Delivery Network (CDN) - Static Pages
 
 ```
 static-cdn.jtvnw.net
 static.twitchcdn.net
+```
+
+## Content Delivery Network (CDN) - Live Player
+
+```
+usher.ttvnw.net
 ```
 
 ## [Application Programming Interface (API)](https://dev.twitch.tv/docs/api/)
@@ -25,6 +31,7 @@ static.twitchcdn.net
 ```
 api.twitch.tv
 gql.twitch.tv
+passport.twitch.tv
 ```
 
 ## Content Delivery Network (CDN) - [Internet Relay Chat (IRC)](https://dev.twitch.tv/docs/pubsub/)
