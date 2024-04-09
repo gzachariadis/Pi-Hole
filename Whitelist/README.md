@@ -7,6 +7,7 @@
 ## Cloud Storage
 
 - [ ] Proton Drive
+- [ ] Mega
 
 ## Messaging
 
@@ -124,7 +125,6 @@
 ## Video Hosting
 
 - [ ] DoodStream
-- [ ] Mega
 - [x] My Cloud
 - [ ] Putlocker
 - [ ] Streamtape
