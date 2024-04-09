@@ -32,17 +32,10 @@ www.youtube-nocookie.com
 youtube-nocookie.com
 ```
 
-## Application Programming Interface (API)
+## Application Programming Interface (API) - [Cookie Management](https://tipsforefficiency.com/jnn-pa-googleapis-com/)
 
 ```
 jnn-pa.googleapis.com
-```
-
-## Content Delivery Network (CDN) - Videos
-
-```
-yt3.ggpht.com	
-yt3.googleusercontent.com
 ```
 
 ## Content Delivery Network (CDN) - Account
@@ -57,7 +50,7 @@ accounts.youtube.com
 
 ```
 
- ## Content Delivery Network (CDN) - Thumbnails
+## Content Delivery Network (CDN) - [Thumbnails](https://www.reddit.com/r/privacy/comments/q5h62m/what_is_ggphtcom/)
 
 ```
 i.ytimg.com	
