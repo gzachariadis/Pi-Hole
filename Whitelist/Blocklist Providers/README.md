@@ -1,6 +1,6 @@
 <h1 align="center">Blocklist Providers</h1>
 
-## Host Domains
+## Domains
 
 ```
 filterlists.com
