@@ -13,7 +13,7 @@ www.github.com
 api.github.com
 ```
 
-## Content Delivery Network (CDN) - Files in Raw Form (Documents)
+## Content Delivery Network (CDN) - RAW Files
 
 ```
 raw.github.com
