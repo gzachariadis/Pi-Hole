@@ -26,7 +26,7 @@ raw.githubusercontent.com
 github.io
 ```
 
-## User Avatar - Profile Pictures
+## Content Delivery Network (CDN) - User Avatars & Profile Pictures
 
 ```
 avatars.githubusercontent.com
