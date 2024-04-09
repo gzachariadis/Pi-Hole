@@ -1,4 +1,5 @@
 <h1 align="center">Twitch</h1>
+<h3 align="center">An American video live-streaming service that focuses on video game live streaming.</h3>
 
 ## Domains
 
@@ -53,7 +54,3 @@ clips-media-assets2.twitch.tv
 global.poe.live-video.net
 vod-secure.twitch.tv
 ```
-
-
-
-
