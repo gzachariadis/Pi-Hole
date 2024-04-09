@@ -1,5 +1,5 @@
 <h1 align="center">Reddit</h1>
-<h3 align="center">A network of communities where people can dive into their interests, hobbies and passions in a forum-like format.</h3>
+<h3 align="center">A network of communities where people can dive into their interests in a forum-like format.</h3>
 
 ## Domains
 
