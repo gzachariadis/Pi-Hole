@@ -1,3 +1,9 @@
+## Browsers
+
+- [ ] LibreWolf
+- [ ] Brave
+- [ ] Tor
+
 ## Code Hosting Websites
 
 - [x] Github
@@ -8,7 +14,6 @@
 
 - [ ] Malwarebytes
 - [ ] Microsoft's Visual Studio Code
-- [ ] Mozilla Firefox
 - [ ] Raindrop
 
 ## Content Hosting Services
@@ -32,6 +37,10 @@
 - [ ] ProtonMail
 - [ ] Tutanota
 
+## Forums
+
+- [ ] StackOverFlow
+
 ## Hardware Manufacturers
 
 - [ ] Corsair
@@ -42,14 +51,14 @@
 - [ ] Imgur
 - [ ] Lightshot
 
-## NSFW
+## Network Time Protocol (NTP)
+
+- [ ] Greece
+
+## Not Safe for Work (NSFW)
 
 - [ ] Pornhub
 - [ ] Xsyprn
-
-## Network Time Protocol (NTP)
-
-- [ ] D
 
 ## Online Shopping
 
@@ -61,6 +70,11 @@
 
 - [ ] Android
 - [ ] MacOS
+
+## Others
+
+- [ ] Linktree
+- [ ] Pastebin
 
 ## Piracy
 
@@ -84,10 +98,6 @@
 - [ ] Instagram
 - [x] Reddit
 - [ ] Snapchat
-
-## Forums
-
-- [ ] StackOverFlow
 
 ## Streaming
 
