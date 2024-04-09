@@ -7,19 +7,25 @@ youtube.com
 www.youtube.com	
 ```
 
-## Mobile Youtube
+## Mobile
 
 ```
 m.youtube.com
 ```
 
-## Shorteners
+## [Shorteners](https://www.reddit.com/r/explainlikeimfive/comments/2b1grt/eli5_on_reddit_why_are_links_to_youtube_sometimes/)
 
 ```
 youtu.be
-s.youtube.com	
 ```
-## Domains (Embedded Videos)
+
+## [History](https://www.reddit.com/r/pihole/comments/dw428p/what_is_syoutubecom/)
+
+```
+s.youtube.com
+```
+
+## [Embedded Videos](https://www.youtube.com/watch?v=UsFCsRbYDyA)
 
 ```
 www.youtube-nocookie.com
