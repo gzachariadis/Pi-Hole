@@ -1,6 +1,6 @@
 <h1 align="center">Gmail</h1>
 
-## Host Domains
+## Domains
 
 ```
 mail.google.com
