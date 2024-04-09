@@ -32,13 +32,13 @@ Pihole + Unbound can get you DNS over TLS, DOT. This is fully encrypted DNS. You
 
 ## Whitelist
 
-Need somewhere to start? A robust collection of personal "white-listed" websites offered in a "by-service" structure for your consumption can be found under the Whitelist directory of this project's root folder.
+Need somewhere to start? A robust collection of personal white-listed websites offered in a by-service structure for your consumption can be found under the Whitelist directory of this project's root folder.
 
-My whitelist aims to serve my own personal requirements and is being severely tested to contain as few domains as possible for each service. An example of that would be not including Youtube Thumbnails domains under my Youtube.
+**BEWARE** The whitelist aims to serve my own personal requirements, and therefore is only to be used as a starting block. For example, my [Youtube](https://github.com/gzachariadis/Pi-Hole/tree/main/Whitelist/Video%20Hosting/Youtube) list, does not contain Thumbnail Domains; that's because I don't like to see Youtube Thumbnails, I find them misleading and distracting, if you disagree, just add those domains afterwards from your Query Log.
 
-Feel free to fork this repository and modify these lists as you see fit for your own use.
+I plan to keep updating this repository, quite frequently, but feel free to fork this repository and modify these lists as you see fit for your own use.
 
-Pull requests for whitelist will only be accepted if the fix an error.
+Pull requests for whitelist will only be accepted for errors and improvements, not for additional content.
 
 ## Blacklists
 
@@ -48,12 +48,15 @@ Pull requests for whitelist will only be accepted if the fix an error.
 - [Hagezi's Hosts](https://github.com/hagezi/dns-blocklists/tree/main)
 - [Nickoppen's Pihole Blocklist](https://github.com/nickoppen/pihole-blocklists)
 - [AnudeepND Blocklist](https://github.com/anudeepND/blacklist)
-- [Blocklist Project](https://github.com/blocklistproject/Lists)
+- [Blocklist Project](https://github.com/blocklistproject/Lists) or [Mirror](https://blocklistproject.github.io/Lists/)
 - [EasyList](https://easylist.to/)
 - [The Firebog](https://firebog.net/)
 - [LightSwitch05](https://github.com/lightswitch05/hosts)
-- [OISD](https://dbl.oisd.nl/)
-- [OISD NSFW](https://dbl.oisd.nl/nsfw/)
+- [OISD](https://dbl.oisd.nl/) & [OISD NSFW](https://dbl.oisd.nl/nsfw/)
+- [NoTracking](https://github.com/notracking/hosts-blocklists?tab=readme-ov-file)
+- [Wally3K](https://github.com/WaLLy3K/wally3k.github.io)
+- [Just Domains](https://github.com/justdomains/blocklists) or [Mirror](https://justdomains.github.io/blocklists/)
+- [CombinedPrivacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
 
 ### Social Media
 
@@ -62,17 +65,14 @@ Pull requests for whitelist will only be accepted if the fix an error.
 - [Gieljnssns's Social Media Blocklist](https://github.com/gieljnssns/Social-media-Blocklists)
 - [Koen20's Facebook Blocklist](https://github.com/koen20/pihole-facebook)
 
+### Apple Specific
+
+- [Apple Telemetry](https://github.com/cedws/apple-telemetry)
+
+### Outdated
+
+- [hl2guide](https://github.com/hl2guide/Filterlist-for-AdGuard-or-PiHole?tab=readme-ov-file)
+
 ## FAQ
 
 1. is it better to have csv or txt lists? any difference?
-
-### Ways to root out bad lists
-
-- .ipset
-- adblock
-- .netset
-- .lsrules
-- .json
-- .zip
-- .raw
-- .tar.gz
