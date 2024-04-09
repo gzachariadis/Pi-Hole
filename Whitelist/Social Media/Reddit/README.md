@@ -35,7 +35,7 @@ packaged-media.redd.it
 v.redd.it
 ```
 
-## Condent Delivery Network (CDN) - Media **Regex**
+## Condent Delivery Network (CDN) - Media (Regex)
 
 ```
 [a-z]\.thumbs\.redditmedia\.com
