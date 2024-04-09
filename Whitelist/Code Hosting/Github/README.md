@@ -1,6 +1,6 @@
-# Github
+<h1 align="center">Github</h1>
 
-## Host Domains
+## Domains
 
 ```
 github.com
@@ -33,8 +33,9 @@ avatars.githubusercontent.com
 user-images.githubusercontent.com
 ```
 
-## Coding Snippets (Gists)
+##  Content Delivery Network (CDN) - Coding Snippets (Gists)
 
 ```
+gist.github.com
 gist.githubusercontent.com
 ```
