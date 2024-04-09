@@ -16,8 +16,8 @@ api.github.com
 ## Content Delivery Network (CDN) - Files in Raw Form (Documents)
 
 ```
-raw.githubusercontent.com
 raw.github.com
+raw.githubusercontent.com
 ```
 
 ## Github Pages - Websites for Github Projects
