@@ -34,4 +34,12 @@ googleapis.com
 csi.gstatic.com
 ```
 
+## Google Captcha
+
+```
+play.googleapis.com
+google.com
+www.google.com
+```
+
 goo.gl
