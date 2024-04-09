@@ -26,14 +26,13 @@ raw.githubusercontent.com
 github.io
 ```
 
-## Content Delivery Network (CDN) - User Avatars & Profile Pictures
+## Content Delivery Network (CDN) - [README Images](https://stackoverflow.com/questions/57857193/ddg#57862219)
 
 ```
-avatars.githubusercontent.com
-user-images.githubusercontent.com
+camo.githubusercontent.com
 ```
 
-##  Content Delivery Network (CDN) - Coding Snippets (Gists)
+## Content Delivery Network (CDN) - Coding Snippets (Gists)
 
 ```
 gist.github.com

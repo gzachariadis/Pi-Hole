@@ -1,14 +1,12 @@
 <h1 align="center">My Cloud</h1>
 
-<h3 align="center">Reliable Video Streaming</h3>
-
-<br>
-
-## Host Domains
+## Domains
 
 ```
 mcloud.bz
 ```
+
+## Content Delivery Network (CDN) - Videos
 
 ```
 [a-zA-Z]*.mcloud.bz

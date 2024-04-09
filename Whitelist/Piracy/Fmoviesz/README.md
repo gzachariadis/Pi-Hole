@@ -3,17 +3,18 @@
 ## Domains
 
 ```
-
+fmoviesz.to
+www.fmoviesz.to
 ```
 
-## Content Delivery Network (CDN)
+## Content Delivery Network (CDN) - Static Pages (CSS)
 
 ```
-
+static.fmoviesz.to
 ```
 
-## Application Programming Interface (API)
+## Content Delivery Network (CDN) -
 
 ```
-
+cdnjs.cloudflare.com
 ```

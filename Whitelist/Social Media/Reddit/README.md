@@ -1,27 +1,41 @@
 <h1 align="center">Reddit</h1>
-
-## Host Domains
+<h3 align="center">Network of communities in Forum format.</h3>
+## Domains
 
 ```
 www.reddit.com
 reddit.com
 ```
 
+## Application Programming Interface (API) - Acccount Preferences
+
+```
+gql.reddit.com
+```
+
+## Condent Delivery Network (CDN) - Cascading Style Sheets (CSS)
+
+```
+www.redditstatic.com
+styles.redditmedia.com
+```
+
 ## Condent Delivery Network (CDN) - Images
 
 ```
-embed.ly	
-embedly.com	
-cdn.embedly.com	
-cdn.embed.ly
+i.redd.it
+preview.redd.it
+packaged-media.redd.it
 ```
-
-```[a-z]\.thumbs\.redditmedia\.com```
 
 ## Condent Delivery Network (CDN) - Videos
 
 ```
-m1.daumcdn.net	
-m1.nsimg.net	
-m2.nsimg.net
+v.redd.it
+```
+
+## Condent Delivery Network (CDN) - Media **Regex**
+
+```
+[a-z]\.thumbs\.redditmedia\.com
 ```
