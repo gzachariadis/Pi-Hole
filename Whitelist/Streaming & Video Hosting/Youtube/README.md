@@ -38,7 +38,7 @@ youtube-nocookie.com
 jnn-pa.googleapis.com
 ```
 
-## Content Delivery Network (CDN) - Account
+## Content Delivery Network (CDN) - Account Management
 
 ```
 accounts.youtube.com
