@@ -44,7 +44,7 @@ jnn-pa.googleapis.com
 accounts.youtube.com
 ```
 
-## Content Delivery Network (CDN) - [Channel Icons & Video Thumbnails](https://www.reddit.com/r/privacy/comments/q5h62m/what_is_ggphtcom/)
+## Content Delivery Network (CDN) - [Channel icons & Video Thumbnails](https://www.reddit.com/r/privacy/comments/q5h62m/what_is_ggphtcom/)
 
 ```
 i.ytimg.com	
