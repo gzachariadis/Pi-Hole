@@ -89,8 +89,8 @@
 
 ## Piracy
 
-- [ ] Flixtorz
-- [ ] Fmoviez
+- [x] Flixtorz
+- [x] Fmoviez
 
 ## RSS Feeds
 
@@ -125,10 +125,10 @@
 
 - [ ] DoodStream
 - [ ] Mega
-- [ ] My Cloud
+- [x] My Cloud
 - [ ] Putlocker
 - [ ] Streamtape
 - [ ] Streamvid
-- [ ] Vidplay
+- [x] Vidplay
 - [ ] Voe
 - [x] Youtube
