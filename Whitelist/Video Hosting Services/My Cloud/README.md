@@ -1,9 +1,12 @@
 <h1 align="center">My Cloud</h1>
+<h3 align="center">File sharing site popular with Pirate sites.</h3>
 
 ## Domains
 
 ```
 mcloud.bz
+c8365730d4.nl
+www.c8365730d4.nl
 ```
 
 ## Content Delivery Network (CDN) - Videos
@@ -11,4 +14,3 @@ mcloud.bz
 ```
 [a-zA-Z]*.mcloud.bz
 ```
-
