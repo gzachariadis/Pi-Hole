@@ -4,6 +4,15 @@
 - [ ] Brave
 - [ ] Tor
 
+## Cloud Storage
+
+- [ ] Proton Drive
+
+## Messaging
+
+- [ ] Signal
+- [ ] Threema
+
 ## Code Hosting Websites
 
 - [x] Github
@@ -30,12 +39,14 @@
 
 - [ ] Cloudflare
 - [ ] Quad9
+- [ ] NextDNS
 
 ## Email Providers
 
 - [ ] Gmail
 - [ ] ProtonMail
 - [ ] Tutanota
+- [ ] Skiff
 
 ## Forums
 
@@ -91,6 +102,12 @@
 - [ ] Searx
 - [ ] StartPage
 
+## Web Server Hosting
+
+- [ ] Privex
+- [ ] 1984 Web Hosting
+- [ ] Njalla
+
 ## Social Media
 
 - [ ] Discord
@@ -98,6 +115,7 @@
 - [ ] Instagram
 - [x] Reddit
 - [ ] Snapchat
+- [ ] Rimgo
 
 ## Streaming
 
