@@ -48,14 +48,14 @@ Pull requests for whitelist will only be accepted for errors and improvements, n
 - [Hagezi's Hosts](https://github.com/hagezi/dns-blocklists/tree/main)
 - [Nickoppen's Pihole Blocklist](https://github.com/nickoppen/pihole-blocklists)
 - [AnudeepND Blocklist](https://github.com/anudeepND/blacklist)
-- [Blocklist Project](https://github.com/blocklistproject/Lists) or [Mirror](https://blocklistproject.github.io/Lists/)
+- [Blocklist Project](https://github.com/blocklistproject/Lists)
 - [EasyList](https://easylist.to/)
 - [The Firebog](https://firebog.net/)
 - [LightSwitch05](https://github.com/lightswitch05/hosts)
 - [OISD](https://dbl.oisd.nl/) & [OISD NSFW](https://dbl.oisd.nl/nsfw/)
 - [NoTracking](https://github.com/notracking/hosts-blocklists?tab=readme-ov-file)
 - [Wally3K](https://github.com/WaLLy3K/wally3k.github.io)
-- [Just Domains](https://github.com/justdomains/blocklists) or [Mirror](https://justdomains.github.io/blocklists/)
+- [Just Domains](https://github.com/justdomains/blocklists)
 - [CombinedPrivacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
 
 ### Social Media
