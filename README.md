@@ -57,6 +57,7 @@ Pull requests for whitelist will only be accepted for errors and improvements, n
 - [Wally3K](https://github.com/WaLLy3K/wally3k.github.io)
 - [Just Domains](https://github.com/justdomains/blocklists)
 - [CombinedPrivacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
+- [Accomplist](https://github.com/cbuijs/accomplist)
 
 ### Social Media
 
