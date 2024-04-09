@@ -13,7 +13,7 @@ www.youtube.com
 m.youtube.com
 ```
 
-## Domains (Shorteners)
+## Shorteners
 
 ```
 youtu.be
