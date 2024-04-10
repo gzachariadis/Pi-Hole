@@ -42,37 +42,38 @@ Pull requests for whitelist will only be accepted for errors and improvements, n
 
 ## Blacklists
 
+I propose you select the lists of you find more useful and add them from multiple mirrors, for redudancy. Although, it will make managing them a bit tougher once they grow into many.
+
 ### Popular
 
-- [StevenBlack's Hosts](https://github.com/StevenBlack/hosts)
-- [Hagezi's Hosts](https://github.com/hagezi/dns-blocklists/tree/main)
-- [Nickoppen's Pihole Blocklist](https://github.com/nickoppen/pihole-blocklists)
-- [AnudeepND Blocklist](https://github.com/anudeepND/blacklist)
-- [Blocklist Project](https://github.com/blocklistproject/Lists)
-- [EasyList](https://easylist.to/)
-- [The Firebog](https://firebog.net/)
-- [LightSwitch05](https://github.com/lightswitch05/hosts)
-- [OISD](https://dbl.oisd.nl/) & [OISD NSFW](https://dbl.oisd.nl/nsfw/)
-- [NoTracking](https://github.com/notracking/hosts-blocklists?tab=readme-ov-file)
-- [Wally3K](https://github.com/WaLLy3K/wally3k.github.io)
-- [Just Domains](https://github.com/justdomains/blocklists)
-- [CombinedPrivacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
-- [Accomplist](https://github.com/cbuijs/accomplist)
+- [x] [StevenBlack's Hosts](https://github.com/StevenBlack/hosts)
+- [x] [Hagezi's Hosts](https://github.com/hagezi/dns-blocklists/tree/main)
+- [x] [Nickoppen's Pihole Blocklist](https://github.com/nickoppen/pihole-blocklists)
+- [x] [AnudeepND Blocklist](https://github.com/anudeepND/blacklist)
+- [x] [Blocklist Project](https://github.com/blocklistproject/Lists)
+- [ ] [EasyList](https://easylist.to/)
+- [x] [The Firebog](https://firebog.net/)
+- [x] [LightSwitch05](https://github.com/lightswitch05/hosts)
+- [x] [OISD](https://dbl.oisd.nl/) & [OISD NSFW](https://dbl.oisd.nl/nsfw/)
+- [x] [NoTracking](https://github.com/notracking/hosts-blocklists?tab=readme-ov-file)
+- [x] [Just Domains](https://github.com/justdomains/blocklists)
+- [x] [CombinedPrivacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
+- [x] [Accomplist](https://github.com/cbuijs/accomplist)
 
 ### Social Media
 
-- [Bolawell's Social Media Hosts](https://github.com/bolawell/Social-media-Blocklists)
-- [D43m0nhLlnt3r's Social Media Hosts](https://github.com/d43m0nhLInt3r/socialblocklists)
-- [Gieljnssns's Social Media Blocklist](https://github.com/gieljnssns/Social-media-Blocklists)
-- [Koen20's Facebook Blocklist](https://github.com/koen20/pihole-facebook)
+- [x] [Bolawell's Social Media Hosts](https://github.com/bolawell/Social-media-Blocklists)
+- [x] [D43m0nhLlnt3r's Social Media Hosts](https://github.com/d43m0nhLInt3r/socialblocklists)
+- [x] [Gieljnssns's Social Media Blocklist](https://github.com/gieljnssns/Social-media-Blocklists)
+- [x] [Koen20's Facebook Blocklist](https://github.com/koen20/pihole-facebook)
 
 ### Apple Specific
 
-- [Apple Telemetry](https://github.com/cedws/apple-telemetry)
+- [x] [Apple Telemetry](https://github.com/cedws/apple-telemetry)
 
 ### Outdated
 
-- [hl2guide](https://github.com/hl2guide/Filterlist-for-AdGuard-or-PiHole?tab=readme-ov-file)
+- [x] [hl2guide](https://github.com/hl2guide/Filterlist-for-AdGuard-or-PiHole?tab=readme-ov-file)
 
 ## FAQ
 
