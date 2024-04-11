@@ -75,15 +75,16 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [Esox-Lucius](https://github.com/Esox-Lucius/PiHoleblocklists)
 - [ ] [Phising](https://phishing.army/)
 - [ ] [EasyList - EasyPrivacy - Fanboy](https://github.com/easylist/easylist)
+- [ ] [ShadowWhisperer](https://github.com/ShadowWhisperer/BlockLists/tree/master)
 
 ### Social Media
-
+s
 - [x] [Bolawell's Social Media Hosts](https://github.com/bolawell/Social-media-Blocklists)
 - [x] [D43m0nhLlnt3r's Social Media Hosts](https://github.com/d43m0nhLInt3r/socialblocklists)
 - [x] [Gieljnssns's Social Media Blocklist](https://github.com/gieljnssns/Social-media-Blocklists)
 - [x] [Facebook Blocklist](https://github.com/koen20/pihole-facebook)
 - [ ] [Facebook Blocklists v2](https://github.com/imkarthikk/pihole-facebook)
-- [ ] 
+- [ ]
 
 ### Specific
 
@@ -100,7 +101,7 @@ I propose you select the lists of you find more useful and add them from multipl
 
 - [x] [hl2guide](https://github.com/hl2guide/Filterlist-for-AdGuard-or-PiHole?tab=readme-ov-file)
 - [ ] [EnergizedProtection](https://github.com/EnergizedProtection/block)
-      
+
 ### Others
 
 - [ ] [ph00lt0](https://github.com/ph00lt0/blocklist)
