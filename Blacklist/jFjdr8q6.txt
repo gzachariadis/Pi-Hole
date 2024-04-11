@@ -1,0 +1,1303 @@
+# Random shit
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
+127.0.0.1 malbot.net
+127.0.0.1 tracking.opencandy.com
+127.0.0.1 media.opencandy.com
+127.0.0.1 cdn.opencandy.com
+127.0.0.1 tracking.opencandy.com
+127.0.0.1 api.opencandy.com
+
+# Microsoft shit
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads2.msads.net
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 a.rad.msn.com
+0.0.0.0 a-0001.a-msedge.net
+0.0.0.0 a-0002.a-msedge.net
+0.0.0.0 a-0003.a-msedge.net
+0.0.0.0 a-0004.a-msedge.net
+0.0.0.0 a-0005.a-msedge.net
+0.0.0.0 a-0006.a-msedge.net
+0.0.0.0 a-0007.a-msedge.net
+0.0.0.0 a-0008.a-msedge.net
+0.0.0.0 a-0009.a-msedge.net
+0.0.0.0 ac3.msn.com
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 adnexus.net
+0.0.0.0 adnxs.com
+0.0.0.0 ads.msn.com
+0.0.0.0 ads1.msads.net
+0.0.0.0 ads1.msn.com
+0.0.0.0 aidps.atdmt.com
+0.0.0.0 aka-cdn-ns.adtech.de
+0.0.0.0 a-msedge.net
+0.0.0.0 az361816.vo.msecnd.net
+0.0.0.0 az512334.vo.msecnd.net
+0.0.0.0 b.ads1.msn.com
+0.0.0.0 b.ads2.msads.net
+0.0.0.0 b.rad.msn.com
+0.0.0.0 bs.serving-sys.com
+0.0.0.0 c.atdmt.com
+0.0.0.0 c.msn.com
+0.0.0.0 cdn.atdmt.com
+0.0.0.0 cds26.ams9.msecn.net
+0.0.0.0 choice.microsoft.com
+0.0.0.0 choice.microsoft.com.nsatc.net
+0.0.0.0 compatexchange.cloudapp.net
+0.0.0.0 corp.sts.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 cs1.wpc.v0cdn.net
+0.0.0.0 db3aqu.atdmt.com
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 diagnostics.support.microsoft.com
+0.0.0.0 ec.atdmt.com
+0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 feedback.search.microsoft.com
+0.0.0.0 feedback.windows.com
+0.0.0.0 flex.msn.com
+0.0.0.0 g.msn.com
+0.0.0.0 h1.msn.com
+0.0.0.0 i1.services.social.microsoft.com
+0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 lb1.www.ms.akadns.net
+0.0.0.0 live.rads.msn.com
+0.0.0.0 m.adnxs.com
+0.0.0.0 msedge.net
+0.0.0.0 msftncsi.com
+0.0.0.0 msnbot-65-55-108-23.search.msn.com
+0.0.0.0 msntest.serving-sys.com
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
+0.0.0.0 pre.footprintpredict.com
+0.0.0.0 preview.msn.com
+0.0.0.0 rad.live.com
+0.0.0.0 rad.msn.com
+0.0.0.0 redir.metaservices.microsoft.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 schemas.microsoft.akadns.net
+0.0.0.0 secure.adnxs.com
+0.0.0.0 secure.flashtalking.com
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 sls.update.microsoft.com.akadns.net
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
+0.0.0.0 ssw.live.com
+0.0.0.0 static.2mdn.net
+0.0.0.0 statsfe1.ws.microsoft.com
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
+0.0.0.0 telemetry.appex.bing.net
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 v10.vortex-win.data.microsoft.com
+0.0.0.0 vortex.data.glbdns2.microsoft.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
+0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 vortex-win.data.metron.live.com.nsatc.net
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 watson.live.com
+0.0.0.0 web.vortex.data.microsoft.com
+0.0.0.0 www.msftncsi.com
+# Malware Shit
+0.0.0.0 d3anogn3pbtk4v.cloudfront.net
+0.0.0.0 d3oltyb66oj2v8.cloudfront.net
+0.0.0.0 d2bgg7rjywcwsy.cloudfront.net
+0.0.0.0 hybl9bazbc35.pflexads.com
+0.0.0.0 hhbekxxw5d9e.pflexads.com
+0.0.0.0 www.pflexads.com
+0.0.0.0 orencia.pflexads.com
+0.0.0.0 a.vserv.mobi
+0.0.0.0 admin.vserv.mobi
+0.0.0.0 c.vserv.mobi
+0.0.0.0 ads.vserv.mobi
+0.0.0.0 sf.vserv.mobi
+0.0.0.0 cdn.celtra.com
+0.0.0.0 ads.celtra.com
+0.0.0.0 cache-ssl.celtra.com
+0.0.0.0 cache.celtra.com
+0.0.0.0 track.celtra.com
+0.0.0.0 atti.velti.com
+0.0.0.0 ru.velti.com
+0.0.0.0 mwc.velti.com
+0.0.0.0 bos-tapreq01.jumptap.com
+0.0.0.0 bos-tapreq02.jumptap.com
+0.0.0.0 bos-tapreq03.jumptap.com
+0.0.0.0 bos-tapreq04.jumptap.com
+0.0.0.0 bos-tapreq05.jumptap.com
+0.0.0.0 bos-tapreq06.jumptap.com
+0.0.0.0 bos-tapreq07.jumptap.com
+0.0.0.0 bos-tapreq08.jumptap.com
+0.0.0.0 bos-tapreq09.jumptap.com
+0.0.0.0 bos-tapreq10.jumptap.com
+0.0.0.0 bos-tapreq11.jumptap.com
+0.0.0.0 bos-tapreq12.jumptap.com
+0.0.0.0 bos-tapreq13.jumptap.com
+0.0.0.0 bos-tapreq14.jumptap.com
+0.0.0.0 bos-tapreq15.jumptap.com
+0.0.0.0 bos-tapreq16.jumptap.com
+0.0.0.0 bos-tapreq17.jumptap.com
+0.0.0.0 bos-tapreq18.jumptap.com
+0.0.0.0 bos-tapreq19.jumptap.com
+0.0.0.0 bos-tapreq20.jumptap.com
+0.0.0.0 web64.jumptap.com
+0.0.0.0 web63.jumptap.com
+0.0.0.0 web65.jumptap.com
+0.0.0.0 bo.jumptap.com
+0.0.0.0 i.jumptap.com
+0.0.0.0 a.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 pdn.applovin.com
+0.0.0.0 mobpartner.mobi
+0.0.0.0 go.mobpartner.mobi
+0.0.0.0 r.mobpartner.mobi
+0.0.0.0 uk-ad2.adinfuse.com
+0.0.0.0 adinfuse.com
+0.0.0.0 go.adinfuse.com
+0.0.0.0 ad1.adinfuse.com
+0.0.0.0 ad2.adinfuse.com
+0.0.0.0 sky.adinfuse.com
+0.0.0.0 orange-fr.adinfuse.com
+0.0.0.0 sky-connect.adinfuse.com
+0.0.0.0 uk-go.adinfuse.com
+0.0.0.0 orangeuk-mc.adinfuse.com
+0.0.0.0 intouch.adinfuse.com
+0.0.0.0 funnel0.adinfuse.com
+0.0.0.0 cvt.mydas.mobi
+0.0.0.0 lp.mydas.mobi
+0.0.0.0 golds.lp.mydas.mobi
+0.0.0.0 suo.lp.mydas.mobi
+0.0.0.0 aio.lp.mydas.mobi
+0.0.0.0 lp.mp.mydas.mobi
+0.0.0.0 media.mydas.mobi
+0.0.0.0 ads.mp.mydas.mobi
+0.0.0.0 neptune.appads.com
+0.0.0.0 neptune1.appads.com
+0.0.0.0 neptune2.appads.com
+0.0.0.0 neptune3.appads.com
+0.0.0.0 saturn.appads.com
+0.0.0.0 saturn1.appads.com
+0.0.0.0 saturn2.appads.com
+0.0.0.0 saturn3.appads.com
+0.0.0.0 jupiter.appads.com
+0.0.0.0 jupiter1.appads.com
+0.0.0.0 jupiter2.appads.com
+0.0.0.0 jupiter3.appads.com
+0.0.0.0 req.appads.com
+0.0.0.0 req1.appads.com
+0.0.0.0 req2.appads.com
+0.0.0.0 req3.appads.com
+0.0.0.0 swappit.tapad.com
+0.0.0.0 campaign-tapad.s3.amazonaws.com
+0.0.0.0 adsrv1.tapad.com
+0.0.0.0 ads1.mojiva.com
+0.0.0.0 ads2.mojiva.com
+0.0.0.0 ads3.mojiva.com
+0.0.0.0 ads4.mojiva.com
+0.0.0.0 ads5.mojiva.com
+0.0.0.0 i.w.inmobi.com
+0.0.0.0 r.w.inmobi.com
+0.0.0.0 c.w.inmobi.com
+0.0.0.0 adtracker.inmobi.com
+0.0.0.0 china.inmobi.com
+0.0.0.0 japan.inmobi.com
+0.0.0.0 mdn1.phluantmobile.net
+0.0.0.0 mdn2.phluantmobile.net
+0.0.0.0 mdn3.phluantmobile.net
+0.0.0.0 mdn3origin.phluantmobile.net
+0.0.0.0 soma.smaato.net
+0.0.0.0 c29new.smaato.net
+0.0.0.0 c01.smaato.net
+0.0.0.0 c02.smaato.net
+0.0.0.0 c03.smaato.net
+0.0.0.0 c04.smaato.net
+0.0.0.0 c05.smaato.net
+0.0.0.0 c06.smaato.net
+0.0.0.0 c07.smaato.net
+0.0.0.0 c08.smaato.net
+0.0.0.0 c09.smaato.net
+0.0.0.0 c10.smaato.net
+0.0.0.0 c11.smaato.net
+0.0.0.0 c12.smaato.net
+0.0.0.0 c13.smaato.net
+0.0.0.0 c14.smaato.net
+0.0.0.0 c15.smaato.net
+0.0.0.0 c16.smaato.net
+0.0.0.0 c17.smaato.net
+0.0.0.0 c18.smaato.net
+0.0.0.0 c19.smaato.net
+0.0.0.0 c20.smaato.net
+0.0.0.0 c21.smaato.net
+0.0.0.0 c22.smaato.net
+0.0.0.0 c23.smaato.net
+0.0.0.0 c24.smaato.net
+0.0.0.0 c25.smaato.net
+0.0.0.0 c26.smaato.net
+0.0.0.0 c27.smaato.net
+0.0.0.0 c28.smaato.net
+0.0.0.0 c29.smaato.net
+0.0.0.0 c30.smaato.net
+0.0.0.0 c31.smaato.net
+0.0.0.0 c32.smaato.net
+0.0.0.0 c33.smaato.net
+0.0.0.0 c34.smaato.net
+0.0.0.0 c35.smaato.net
+0.0.0.0 c36.smaato.net
+0.0.0.0 c37.smaato.net
+0.0.0.0 c38.smaato.net
+0.0.0.0 c39.smaato.net
+0.0.0.0 c40.smaato.net
+0.0.0.0 c41.smaato.net
+0.0.0.0 c42.smaato.net
+0.0.0.0 c43.smaato.net
+0.0.0.0 c44.smaato.net
+0.0.0.0 c45.smaato.net
+0.0.0.0 c46.smaato.net
+0.0.0.0 c47.smaato.net
+0.0.0.0 c48.smaato.net
+0.0.0.0 c49.smaato.net
+0.0.0.0 c50.smaato.net
+0.0.0.0 c51.smaato.net
+0.0.0.0 c52.smaato.net
+0.0.0.0 c53.smaato.net
+0.0.0.0 c54.smaato.net
+0.0.0.0 c55.smaato.net
+0.0.0.0 c56.smaato.net
+0.0.0.0 c57.smaato.net
+0.0.0.0 c58.smaato.net
+0.0.0.0 c59.smaato.net
+0.0.0.0 c60.smaato.net
+0.0.0.0 f03.smaato.net
+0.0.0.0 f04.smaato.net
+0.0.0.0 f05.smaato.net
+0.0.0.0 f06.smaato.net
+0.0.0.0 f07.smaato.net
+0.0.0.0 f08.smaato.net
+0.0.0.0 f09.smaato.net
+0.0.0.0 f10.smaato.net
+0.0.0.0 f11.smaato.net
+0.0.0.0 f12.smaato.net
+0.0.0.0 f13.smaato.net
+0.0.0.0 f14.smaato.net
+0.0.0.0 f15.smaato.net
+0.0.0.0 f16.smaato.net
+0.0.0.0 f17.smaato.net
+0.0.0.0 f18.smaato.net
+0.0.0.0 f19.smaato.net
+0.0.0.0 f20.smaato.net
+0.0.0.0 f21.smaato.net
+0.0.0.0 f22.smaato.net
+0.0.0.0 f23.smaato.net
+0.0.0.0 f24.smaato.net
+0.0.0.0 f25.smaato.net
+0.0.0.0 f26.smaato.net
+0.0.0.0 f27.smaato.net
+0.0.0.0 f28.smaato.net
+0.0.0.0 f29.smaato.net
+0.0.0.0 f30.smaato.net
+0.0.0.0 f31.smaato.net
+0.0.0.0 f32.smaato.net
+0.0.0.0 f33.smaato.net
+0.0.0.0 f34.smaato.net
+0.0.0.0 f35.smaato.net
+0.0.0.0 f36.smaato.net
+0.0.0.0 f37.smaato.net
+0.0.0.0 f38.smaato.net
+0.0.0.0 f39.smaato.net
+0.0.0.0 f40.smaato.net
+0.0.0.0 f41.smaato.net
+0.0.0.0 f42.smaato.net
+0.0.0.0 f43.smaato.net
+0.0.0.0 f44.smaato.net
+0.0.0.0 f45.smaato.net
+0.0.0.0 f46.smaato.net
+0.0.0.0 f47.smaato.net
+0.0.0.0 f48.smaato.net
+0.0.0.0 f49.smaato.net
+0.0.0.0 f50.smaato.net
+0.0.0.0 f51.smaato.net
+0.0.0.0 f52.smaato.net
+0.0.0.0 f53.smaato.net
+0.0.0.0 f54.smaato.net
+0.0.0.0 f55.smaato.net
+0.0.0.0 f56.smaato.net
+0.0.0.0 f57.smaato.net
+0.0.0.0 f58.smaato.net
+0.0.0.0 f59.smaato.net
+0.0.0.0 f60.smaato.net
+0.0.0.0 img.ads1.mojiva.com
+0.0.0.0 img.ads2.mojiva.com
+0.0.0.0 img.ads3.mojiva.com
+0.0.0.0 img.ads4.mojiva.com
+0.0.0.0 akamai.smartadserver.com
+0.0.0.0 cdn1.smartadserver.com
+0.0.0.0 diff.smartadserver.com
+0.0.0.0 diff2.smartadserver.com
+0.0.0.0 diff3.smartadserver.com
+0.0.0.0 eqx.smartadserver.com
+0.0.0.0 im2.smartadserver.com
+0.0.0.0 itx5-publicidad.smartadserver.com
+0.0.0.0 itx5.smartadserver.com
+0.0.0.0 tcy.smartadserver.com
+0.0.0.0 ww129.smartadserver.com
+0.0.0.0 ww13.smartadserver.com
+0.0.0.0 ww14.smartadserver.com
+0.0.0.0 ww234.smartadserver.com
+0.0.0.0 ww251.smartadserver.com
+0.0.0.0 ww264.smartadserver.com
+0.0.0.0 ww302.smartadserver.com
+0.0.0.0 ww362.smartadserver.com
+0.0.0.0 ww370.smartadserver.com
+0.0.0.0 ww381.smartadserver.com
+0.0.0.0 ww392.smartadserver.com
+0.0.0.0 ww55.smartadserver.com
+0.0.0.0 ww57.smartadserver.com
+0.0.0.0 ww84.smartadserver.com
+0.0.0.0 www.smartadserver.com
+0.0.0.0 www2.smartadserver.com
+0.0.0.0 www3.smartadserver.com
+0.0.0.0 www4.smartadserver.com
+0.0.0.0 img.ads1.mocean.mobi
+0.0.0.0 img.ads2.mocean.mobi
+0.0.0.0 img.ads3.mocean.mobi
+0.0.0.0 img.ads4.mocean.mobi
+0.0.0.0 ads.mobclix.com
+0.0.0.0 data.mobclix.com
+0.0.0.0 s.mobclix.com
+0.0.0.0 ads.mdotm.com
+0.0.0.0 cdn.mdotm.com
+0.0.0.0 ads2.greystripe.com
+0.0.0.0 adsx.greystripe.com
+0.0.0.0 c.greystripe.com
+0.0.0.0 aax-us-east.amazon-adsystem.com
+0.0.0.0 aax-us-west.amazon-adsystem.com
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 admarvel.s3.amazonaws.com
+0.0.0.0 html5adkit.plusmo.s3.amazonaws.com
+0.0.0.0 inneractive-assets.s3.amazonaws.com
+0.0.0.0 strikeadcdn.s3.amazonaws.com
+0.0.0.0 a.admob.com
+0.0.0.0 analytics.admob.com
+0.0.0.0 c.admob.com
+0.0.0.0 media.admob.com
+0.0.0.0 p.admob.com
+0.0.0.0 met.adwhirl.com
+0.0.0.0 mob.adwhirl.com
+0.0.0.0 ad-g.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad.mo.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead.googlesyndication.com
+0.0.0.0 pagead1.googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 events.foreseeresults.com
+0.0.0.0 survey.foreseeresults.com
+0.0.0.0 m.quantserve.com
+0.0.0.0 ad.leadboltmobile.net
+0.0.0.0 img.adecorp.co.kr
+0.0.0.0 us0.adlibr.com
+0.0.0.0 ad.parrot.mable-inc.com
+0.0.0.0 aos.wall.youmi.net
+0.0.0.0 au.youmi.net
+0.0.0.0 coconuts.boy.jp
+0.0.0.0 iacpromotion.s3.amazonaws.com
+0.0.0.0 plugin.2easydroid.com
+0.0.0.0 adimg3.search.naver.net
+0.0.0.0 st.a-link.co.kr
+0.0.0.0 cdn.ajillionmax.com
+0.0.0.0 dispatch.admixer.co.kr
+0.0.0.0 ifc.inmobi.com
+0.0.0.0 thinknear-hosted.thinknearhub.com
+0.0.0.0 ads.adadapted.com
+0.0.0.0 a.medialytics.com
+0.0.0.0 c.medialytics.com
+0.0.0.0 cdn.creative.medialytics.com
+0.0.0.0 p.medialytics.com
+0.0.0.0 px.cdn.creative.medialytics.com
+0.0.0.0 t.medialytics.com
+0.0.0.0 google-analytics.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 applift.com
+0.0.0.0 trackersimulator.org
+0.0.0.0 eviltracker.net
+0.0.0.0 do-not-tracker.org
+127.0.0.1 lb.usemaxserver.de
+127.0.0.1 tracking.klickthru.com
+127.0.0.1 gsmtop.net
+127.0.0.1 click.buzzcity.net
+127.0.0.1 ads.admoda.com
+127.0.0.1 stats.pflexads.com
+127.0.0.1 a.glcdn.co
+127.0.0.1 wwww.adleads.com
+127.0.0.1 ad.madvertise.de
+127.0.0.1 apps.buzzcity.net
+127.0.0.1 ads.mobgold.com
+127.0.0.1 android.bcfads.com
+127.0.0.1 show.buzzcity.net
+127.0.0.1 api.analytics.omgpop.com
+127.0.0.1 r.edge.inmobicdn.net
+127.0.0.1 www.mmnetwork.mobi
+127.0.0.1 img.ads.huntmad.com
+127.0.0.1 creative1cdn.mobfox.com
+127.0.0.1 admicro2.vcmedia.vn
+127.0.0.1 admicro1.vcmedia.vn
+127.0.0.1 s3.phluant.com
+127.0.0.1 c.vrvm.com
+127.0.0.1 go.vrvm.com
+127.0.0.1 static.estebull.com
+127.0.0.1 mobile.Banzai.it
+127.0.0.1 ads.xxxad.net
+127.0.0.1 img.ads.mojiva.com
+127.0.0.1 adcontent.saymedia.com
+127.0.0.1 ads.saymedia.com
+127.0.0.1 ftpcontent.worldnow.com
+127.0.0.1 s0.2mdn.net
+127.0.0.1 img.ads.mocean.mobi
+127.0.0.1 bigmobileads.com
+127.0.0.1 banners.bigmobileads.com
+127.0.0.1 ads.mopub.com
+127.0.0.1 images.mpression.net
+127.0.0.1 images.millennialmedia.com
+127.0.0.1 oasc04012.247realmedia.com
+127.0.0.1 assets.cntdy.mobi
+127.0.0.1 ad.leadboltapps.net ## another airpush style ad#
+127.0.0.1 api.airpush.com ## hope this is all #
+127.0.0.1 ad.where.com
+127.0.0.1 i.tapit.com
+127.0.0.1 cdn1.crispadvertising.com
+127.0.0.1 cdn2.crispadvertising.com
+127.0.0.1 medrx.sensis.com.au
+127.0.0.1 rs-staticart.ybcdn.net
+127.0.0.1 img.ads.taptapnetworks.com
+127.0.0.1 adserver.ubiyoo.com
+127.0.0.1 c753738.r38.cf2.rackcdn.com
+127.0.0.1 edge.reporo.net
+127.0.0.1 ads.n-ws.org 
+127.0.0.1 adultmoda.com
+127.0.0.1 ads.smartdevicemedia.com
+127.0.0.1 b.scorecardresearch.com
+127.0.0.1 m.adsymptotic.com
+127.0.0.1 cdn.vdopia.com
+127.0.0.1 api.yp.com
+127.0.0.1 asotrack1.fluentmobile.com
+127.0.0.1 android-sdk31.transpera.com
+127.0.0.1 apps.mobilityware.com
+127.0.0.1 ads.mobilityware.com
+127.0.0.1 ads.admarvel.com
+127.0.0.1 netdna.reporo.net
+127.0.0.1 www.eltrafiko.com
+127.0.0.1 cdn.trafficforce.com
+127.0.0.1 gts-ads.twistbox.com
+127.0.0.1 static.cdn.gtsmobi.com
+127.0.0.1 ads.matomymobile.com
+127.0.0.1 ads.adiquity.com
+127.0.0.1 img.ads.mobilefuse.net
+127.0.0.1 as.adfonic.net
+127.0.0.1 media.mobpartner.mobi
+127.0.0.1 cdn.us.goldspotmedia.com
+127.0.0.1 ads2.mediaarmor.com
+127.0.0.1 cdn.nearbyad.com
+127.0.0.1 ads.ookla.com
+127.0.0.1 mobiledl.adobe.com
+127.0.0.1 ads.flurry.com
+127.0.0.1 gemini.yahoo.com
+0.0.0.0 fr.a2dfp.net
+0.0.0.0 m.fr.a2dfp.net
+0.0.0.0 mfr.a2dfp.net
+0.0.0.0 ad.a8.net
+0.0.0.0 asy.a8ww.net
+0.0.0.0 static.a-ads.com
+0.0.0.0 abcstats.com
+0.0.0.0 a.abv.bg
+0.0.0.0 adserver.abv.bg
+0.0.0.0 adv.abv.bg
+0.0.0.0 bimg.abv.bg
+0.0.0.0 ca.abv.bg
+0.0.0.0 track.acclaimnetwork.com
+0.0.0.0 accuserveadsystem.com
+0.0.0.0 www.accuserveadsystem.com
+0.0.0.0 achmedia.com
+0.0.0.0 csh.actiondesk.com
+0.0.0.0 ads.activepower.net
+0.0.0.0 ad.activesolutions.cz
+0.0.0.0 app.activetrail.com
+0.0.0.0 traffic.acwebconnecting.com
+0.0.0.0 office.ad1.ru
+0.0.0.0 cms.ad2click.nl
+0.0.0.0 ad2games.com
+0.0.0.0 content.ad20.net
+0.0.0.0 core.ad20.net
+0.0.0.0 banner.ad.nu
+0.0.0.0 adadvisor.net
+0.0.0.0 tag1.adaptiveads.com
+0.0.0.0 www.adbanner.ro
+0.0.0.0 wad.adbasket.net
+0.0.0.0 adbox.hu
+0.0.0.0 b.adbox.lv
+0.0.0.0 james.adbutler.de #[Tracking.Cookie]
+0.0.0.0 www.adbutler.de
+0.0.0.0 www.adchimp.com
+0.0.0.0 static.adclick.lt
+0.0.0.0 engine.adclick.lv
+0.0.0.0 show.adclick.lv
+0.0.0.0 static.adclick.lv
+0.0.0.0 www.adclick.lv
+0.0.0.0 servedby.adcombination.com
+0.0.0.0 adcomplete.com
+0.0.0.0 www.adcomplete.com
+0.0.0.0 adcore.ru
+0.0.0.0 pixel.adcrowd.com
+0.0.0.0 ct1.addthis.com
+0.0.0.0 static.uk.addynamo.com
+0.0.0.0 adexc.net
+0.0.0.0 www.adexit.com
+0.0.0.0 s.adexpert.cz
+0.0.0.0 static.adfclick1.com
+0.0.0.0 222-33544_999.pub.adfirmative.com
+0.0.0.0 c.adfirmative.com
+0.0.0.0 www.adfirmative.com
+0.0.0.0 adfocus.ru
+0.0.0.0 adx.adform.net
+0.0.0.0 dmp.adform.net
+0.0.0.0 s1.adform.net
+0.0.0.0 server.adform.net
+0.0.0.0 track.adform.net
+0.0.0.0 server.adformdsp.net
+0.0.0.0 adforce.ru
+0.0.0.0 ads.adfox.ru
+0.0.0.0 gazeta.adfox.ru
+0.0.0.0 p.adframesrc.com
+0.0.0.0 s.adframesrc.com
+0.0.0.0 media.adfrontiers.com
+0.0.0.0 www.adgitize.com
+0.0.0.0 code.ad-gbn.com
+0.0.0.0 findadvertise.engine.adglare.net
+0.0.0.0 www.ad-groups.com #[Ban Man Pro Banner Code]
+0.0.0.0 adhall.com
+0.0.0.0 pool.adhese.be
+0.0.0.0 adhitzads.com
+0.0.0.0 adhome.biz
+0.0.0.0 ads.static.adhood.com
+0.0.0.0 app.pubserver.adhood.com
+0.0.0.0 app.winwords.adhood.com
+0.0.0.0 ssl3.adhost.com
+0.0.0.0 www2.adhost.com
+0.0.0.0 adfarm1.adition.com
+0.0.0.0 imagesrv.adition.com
+0.0.0.0 ad.adition.net
+0.0.0.0 hosting.adjug.com
+0.0.0.0 tracking.adjug.com
+0.0.0.0 aj.adjungle.com
+0.0.0.0 rotator.hadj7.adjuggler.net
+0.0.0.0 thewrap.rotator.hadj7.adjuggler.net
+0.0.0.0 yorick.adjuggler.net
+0.0.0.0 adserver-e7.com
+0.0.0.0 adsearch.adkontekst.pl
+0.0.0.0 stat.adlabs.ru
+0.0.0.0 d.tds.adlabs.ru
+0.0.0.0 www.adlantis.jp
+0.0.0.0 publicidad.adlead.com
+0.0.0.0 rc.de.adlink.net #[Tracking.Cookie]
+0.0.0.0 tr.de.adlink.net
+0.0.0.0 n.admagnet.net
+0.0.0.0 ads3.adman.gr #[Tracking.Cookie]
+0.0.0.0 gazzetta.adman.gr
+0.0.0.0 talos.adman.gr
+0.0.0.0 adman.in.gr
+0.0.0.0 ads5.admatic.com.tr
+0.0.0.0 cdn6.admatic.com.tr
+0.0.0.0 admarket.cz
+0.0.0.0 www.admarket.cz
+0.0.0.0 bridge.ame.admarketplace.net #[Spamdexing]
+0.0.0.0 bridge.sf.admarketplace.net
+0.0.0.0 bridge.sfo1.admarketplace.net
+0.0.0.0 a1.admaster.net
+0.0.0.0 img.admaster.net
+0.0.0.0 admedia.com
+0.0.0.0 w.admedia.com
+0.0.0.0 admedien.com
+0.0.0.0 www.admedien.com
+0.0.0.0 apps.admission.net #[Spotlight Ads]
+0.0.0.0 appcache.admission.net
+0.0.0.0 dt.admission.net
+0.0.0.0 view.admission.net
+0.0.0.0 ad.admitad.com
+0.0.0.0 cdn.admitad.com
+0.0.0.0 www.ad.admitad.com
+0.0.0.0 cdn.admixer.net
+0.0.0.0 ads.admodus.com #[Tracking.Cookie]
+0.0.0.0 run.admost.com
+0.0.0.0 assets3.admulti.com
+0.0.0.0 go.admulti.com
+0.0.0.0 s.admulti.com
+0.0.0.0 ads.adnet.am
+0.0.0.0 ad.adnet.biz #[Tracking.Cookie]
+0.0.0.0 adnet.com.ua
+0.0.0.0 delivery.adnetwork.vn
+0.0.0.0 img.adnet.com.tr
+0.0.0.0 www.ad-net.co.uk
+0.0.0.0 adnext.fr
+0.0.0.0 srv.adngin.com
+0.0.0.0 ad.adnow.com
+0.0.0.0 acdn.adnxs.com
+0.0.0.0 speednetwork14.adk2.co
+0.0.0.0 cdn.oas-c17.adnxs.com
+0.0.0.0 tt11.adobe.com
+0.0.0.0 ace.adoftheyear.com
+0.0.0.0 ad01.adonspot.com
+0.0.0.0 ad02.adonspot.com
+0.0.0.0 adperium.com
+0.0.0.0 www.adperium.com
+0.0.0.0 img.adplan-ds.com
+0.0.0.0 res.adplus.co.id
+0.0.0.0 e.adpower.bg
+0.0.0.0 ab.adpro.com.ua
+0.0.0.0 adpublimo.com
+0.0.0.0 pop.adrent.net
+0.0.0.0 adroll.com
+0.0.0.0 rtt.adrolays.de
+0.0.0.0 n.ads1-adnow.com
+0.0.0.0 n.ads2-adnow.com
+0.0.0.0 n.ads3-adnow.com
+0.0.0.0 vu.adschoom.com
+0.0.0.0 core1.adservingfactory.com
+0.0.0.0 content.adservingfactory.com
+0.0.0.0 track.adservingfactory.com
+0.0.0.0 p78878.adskape.ru
+0.0.0.0 mg.adskeeper.co.uk
+0.0.0.0 map2.adsniper.ru
+0.0.0.0 f-nod2.adsniper.ru
+0.0.0.0 content.adspynet.com
+0.0.0.0 engine.adspynet.com
+0.0.0.0 ads.adsready.com
+0.0.0.0 ads.adsurve.com
+0.0.0.0 www.adsurve.com
+0.0.0.0 cntr.adrime.com
+0.0.0.0 images.adrime.com #[Adsolutions]
+0.0.0.0 ad.adriver.ru
+0.0.0.0 content.adriver.ru
+0.0.0.0 ssp.adriver.ru
+0.0.0.0 r.adrolays.de
+0.0.0.0 adrotate.se
+0.0.0.0 www.adrotate.net
+0.0.0.0 adrunnr.com
+0.0.0.0 delivery.ads-creativesyndicator.com
+0.0.0.0 adsafiliados.com.br
+0.0.0.0 v2.adsbookie.com
+0.0.0.0 rh.adscale.de
+0.0.0.0 api-cache.adsnative.com
+0.0.0.0 assets.adtaily.com
+0.0.0.0 adtgs.com
+0.0.0.0 fusion.adtoma.com
+0.0.0.0 core.adunity.com
+0.0.0.0 engage2.advanstar.com
+0.0.0.0 ddnk.advertur.ru
+0.0.0.0 ds.advg.jp
+0.0.0.0 m.adx.bg
+0.0.0.0 www.adshost2.com
+0.0.0.0 js.adscale.de
+0.0.0.0 ih.adscale.de
+0.0.0.0 adscendmedia.com
+0.0.0.0 adservicedomain.info
+0.0.0.0 adserver-voice-online.co.uk
+0.0.0.0 adsfac.net #[Facilitate Tracking Code]
+0.0.0.0 adsgangsta.com
+0.0.0.0 adsfac.eu
+0.0.0.0 ad.ad-srv.net
+0.0.0.0 www.adshot.de
+0.0.0.0 f-nod1.adsniper.ru
+0.0.0.0 sync2.adsniper.ru
+0.0.0.0 cdn6.adspirit.de
+0.0.0.0 www.adspace.be
+0.0.0.0 adsplius.lt
+0.0.0.0 ads.adsponse.de
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 openx.adtext.ro
+0.0.0.0 ads.adtiger.de
+0.0.0.0 www.adtiger.de
+0.0.0.0 ad.adtoma.com
+0.0.0.0 au-01.adtomafusion.com
+0.0.0.0 bn-01.adtomafusion.com
+0.0.0.0 rek.adtotal.pl
+0.0.0.0 www.adtrade.net
+0.0.0.0 www.adtrader.com
+0.0.0.0 adtradr.com
+0.0.0.0 ads.adtube.de
+0.0.0.0 www.adultcommercial.net
+0.0.0.0 adultmoneymakers.com
+0.0.0.0 tracking.adultsense.com
+0.0.0.0 www.adult-tracker.de
+0.0.0.0 ad.aduserver.com
+0.0.0.0 adv758968.ru
+0.0.0.0 advaction.ru
+0.0.0.0 euroad1.advantage.as
+0.0.0.0 mf.advantage.as
+0.0.0.0 mfad1.advantage.as
+0.0.0.0 adve.net
+0.0.0.0 ad.adver.com.tw
+0.0.0.0 apps.advertlets.com
+0.0.0.0 www.advertlets.com
+0.0.0.0 ads.advertise.net
+0.0.0.0 ad.adverticum.net
+0.0.0.0 img.adverticum.net
+0.0.0.0 imgs.adverticum.net
+0.0.0.0 www.advertising365.com
+0.0.0.0 titan.advertserve.com
+0.0.0.0 ad.advertstream.com
+0.0.0.0 images.adviews.de
+0.0.0.0 www.adviews.de
+0.0.0.0 ad.adview.pl
+0.0.0.0 adp.adview.pl
+0.0.0.0 bi.adview.pl
+0.0.0.0 chart.advinion.com
+0.0.0.0 advizi.ru
+0.0.0.0 ads.adwitserver.com
+0.0.0.0 serve.adworldmedia.com
+0.0.0.0 ad.adworx.at
+0.0.0.0 adxite-ads.com
+0.0.0.0 www.ad-z.de
+0.0.0.0 show.adzpower.com
+0.0.0.0 ads.afa.net
+0.0.0.0 affbeat.com
+0.0.0.0 affiliate.affdirect.com
+0.0.0.0 sttc.affiliate.hu
+0.0.0.0 tr.affiliate.hu
+0.0.0.0 img.network.affiliando.com
+0.0.0.0 view.network.affiliando.com
+0.0.0.0 ads.affiliateclub.com
+0.0.0.0 affiliategroove.com
+0.0.0.0 banners.affiliatefuture.com
+0.0.0.0 media.affiliatelounge.com
+0.0.0.0 js.affiliatelounge.com
+0.0.0.0 record.affiliatelounge.com
+0.0.0.0 web1.affiliatelounge.com
+0.0.0.0 banners.affilimatch.de
+0.0.0.0 ad.afilo.pl
+0.0.0.0 adserwer.afilo.pl
+0.0.0.0 ads.afraccess.com
+0.0.0.0 ads.aftonbladet.se
+0.0.0.0 stats.agent.co.il
+0.0.0.0 stats.agentinteractive.com
+0.0.0.0 w.ahalogy.com
+0.0.0.0 ac.ajur.info #[WebBug]
+0.0.0.0 openx.ajur.info
+0.0.0.0 adlik2.akavita.com
+0.0.0.0 spotxchange-a.akamaihd.net
+0.0.0.0 dmtracking2.alibaba.com
+0.0.0.0 all2lnk.com
+0.0.0.0 ads.allaccess.com.ph
+0.0.0.0 adcontent2.allaccess.com.ph
+0.0.0.0 adservice.aliexpress.com
+0.0.0.0 ad.allstar.cz
+0.0.0.0 taobaoafp.allyes.cn
+0.0.0.0 bokee.allyes.com
+0.0.0.0 eastmoney.allyes.com
+0.0.0.0 sroomafp.allyes.com
+0.0.0.0 tom.allyes.com
+0.0.0.0 yeskyafp.allyes.com
+0.0.0.0 eas.almamedia.fi
+0.0.0.0 ad.altervista.org
+0.0.0.0 pqwaker.altervista.org
+0.0.0.0 adimg.alice.it
+0.0.0.0 adv.alice.it
+0.0.0.0 advloc.alice.it
+0.0.0.0 altmedia101.com
+0.0.0.0 adtools2.amakings.com
+0.0.0.0 amazing-offers.co.il
+0.0.0.0 ad.amgdgt.com
+0.0.0.0 adserver.amna.gr
+0.0.0.0 10394-127.ampxchange.com #[Spamdexing]
+0.0.0.0 10394-4254.ampxchange.com
+0.0.0.0 10394-2468.ampxchange.com
+0.0.0.0 vfdeprod.amobee.com
+0.0.0.0 widgets.amung.us
+0.0.0.0 whos.amung.us #[WebBug]
+0.0.0.0 analytics.analytics-egain.com
+0.0.0.0 cloud-us.analytics-egain.com
+0.0.0.0 www.anastasiasaffiliate.com
+0.0.0.0 advert.ananzi.co.za
+0.0.0.0 advert2.ananzi.co.za
+0.0.0.0 box.anchorfree.net
+0.0.0.0 rpt.anchorfree.net
+0.0.0.0 a.androidandme.com
+0.0.0.0 analytics.androidandme.com #[Piwik.Analytics]
+0.0.0.0 www.anticlown.com
+0.0.0.0 antventure.com
+0.0.0.0 webtracker.apicasystem.com
+0.0.0.0 junior.apk.net
+0.0.0.0 openx.apollo.lv
+0.0.0.0 five.partner.archive-it.org
+0.0.0.0 ads.asia1.com.sg
+0.0.0.0 ads.ask.com
+0.0.0.0 stats.asp24.pl
+0.0.0.0 ads.aspalliance.com
+0.0.0.0 www.astalavista.us
+0.0.0.0 atemda.com
+0.0.0.0 logw349.ati-host.net
+0.0.0.0 rules.atgsvcs.com
+0.0.0.0 logw312.ati-host.net
+0.0.0.0 p.ato.mx
+0.0.0.0 s.ato.mx
+0.0.0.0 ads.auctionads.com
+0.0.0.0 banners.audioholics.com
+0.0.0.0 ad.auditude.com
+0.0.0.0 ads.auctioncity.co.nz
+0.0.0.0 d.audienceiq.com
+0.0.0.0 ads.autoscout24.com
+0.0.0.0 ads.autotrader.com
+0.0.0.0 adserving.autotrader.com
+0.0.0.0 profiling.avandor.com
+0.0.0.0 avantlink.com
+0.0.0.0 www.avantlink.com
+0.0.0.0 ias.avidmedia.net
+0.0.0.0 rev.avsforum.com
+0.0.0.0 ads.avusa.co.za
+0.0.0.0 analytics.aweber.com
+0.0.0.0 tracker.azet.sk
+0.0.0.0 www.azmsoft.com
+0.0.0.0 fashion-tube.be #[Win32/InstallMonetizer.AN]
+0.0.0.0 www.experclick.com #[Tracking.Cookie]
+0.0.0.0 e-marketing.entelchile.net #[RealMedia]
+0.0.0.0 eisenstein.dk #[tracking.ping]
+0.0.0.0 webstats.eco.de #[Piwik.Analytics]
+0.0.0.0 ai.direct-software.com #[Riskware/PUP]
+0.0.0.0 track.did-it.com #[Tracking.Cookie]
+0.0.0.0 piwik.denik.cz #[Piwik.Analytics]
+0.0.0.0 stats.berkman.harvard.edu #[Piwik.Analytics]
+0.0.0.0 www.hypertracker.com #[Tracking.Cookie]
+0.0.0.0 pcbutts1.software.informer.com #[Unauthorized.Downloads]
+0.0.0.0 int.cdn.hw.installzone.info #[Win32/DownloadAdmin.Z]
+0.0.0.0 newadserver.interfree.it #[Adcycle]
+0.0.0.0 www.itcompany.com #[Riskware/PUP]
+0.0.0.0 link.ixs1.net #[WebBug]
+0.0.0.0 wa.kurier.at #[ad.adworx.at]
+0.0.0.0 www3.macys.com #[WebBug.eluminate]
+0.0.0.0 directads.mcafee.com #[Tracking.Cookie]
+0.0.0.0 vitals.tracking.mdxdata.com
+0.0.0.0 mcmads.mediacapital.pt #[DoubleClick]
+0.0.0.0 idpix.media6degrees.com #[WebBug]
+0.0.0.0 www.messagetag.com #[Email tracker]
+0.0.0.0 pubs.mgn.net #[Grolier Network]
+0.0.0.0 track.send.microad.jp #[WebBug]
+0.0.0.0 msgtag.com #[Email tracker]
+0.0.0.0 mydati.com #[HotspotShield]
+0.0.0.0 pool.ads.netlog.com #[adhese.com]
+0.0.0.0 ntlligent.info #[Spamdexing]
+0.0.0.0 www18.officedepot.com #[WebBug.eluminate]
+# 0.0.0.0 assets.onswipe.com #[affects mobile devices]
+0.0.0.0 stats.partypoker.com #[WebBug]
+0.0.0.0 trg.peer39.net #[PrivacyChoice.Tracker]
+0.0.0.0 pixel.pcworld.com #[WebBug]
+0.0.0.0 www.pheedo.com #[RSS Advertising]
+0.0.0.0 promo.content.premiumpass.com
+0.0.0.0 safedownloadnow.work #[Win32/DownloadAssistant.C]
+0.0.0.0 serenescreen-marine-aquarium.en.softonic.com #[Win32/SoftonicDownloader.F]
+0.0.0.0 analytics.soup.io #[Piwik.Analytics]
+0.0.0.0 analytic.spamfighter.com #[Omniture]
+0.0.0.0 oas.tidningsnatet.se #[ads.realmedia.basefarm.net]
+0.0.0.0 ad.jp.ap.valuecommerce.com #[WebBug]
+0.0.0.0 d1.windows8downloads.com #[Win32/InstallCore.NE]
+0.0.0.0 wba.wirtschaftsblatt.at #[styria.adverserve.net]
+0.0.0.0 www.win-spy.com #[Spyware.WinSpy]
+0.0.0.0 analytics.worldnow.com #[WebBug]
+0.0.0.0 wtsdc.worldnow.com #[WebTrends]
+# [O2.pl Ltd][AS31080][193.17.41.0 - 193.17.41.255]
+0.0.0.0 ads.o2.pl
+0.0.0.0 adserver.o2.pl
+0.0.0.0 adfiles.o2.pl.sds.o2.pl
+# [1&1 Internet][AS8560][195.20.243.0 - 195.20.255.255]
+0.0.0.0 madclient.uimserv.net
+# [1&1 Internet][AS8560][212.227.36.0 - 212.227.60.255]
+0.0.0.0 tools.ad-net.co.uk
+# [1&1 Internet][AS8560][217.160.128.0 - 217.160.143.255]
+0.0.0.0 am-display.com
+0.0.0.0 statistik.polizei-beratung.de #[Piwik.Analytics]
+# [1&1 Internet][AS8560][217.72.192.0 - 217.72.204.255]
+0.0.0.0 advertising.ingame.de
+0.0.0.0 uim.tifbs.net
+0.0.0.0 fips.uimserv.net
+0.0.0.0 uidbox.uimserv.net
+# [1&1 Internet][AS8560][74.208.0.0 - 74.208.191.255]
+0.0.0.0 xp.classifieds1000.com
+0.0.0.0 www.elementnetwork.com
+0.0.0.0 ads.emqus.com
+0.0.0.0 server.siteamplifier.net
+0.0.0.0 ww1.tongji123.com
+0.0.0.0 ww2.tongji123.com
+0.0.0.0 ww3.tongji123.com
+0.0.0.0 ww4.tongji123.com
+# [1&1 Internet][AS8560][82.165.192.0 - 82.165.199.255]
+0.0.0.0 www.countok.de
+0.0.0.0 collect.evisitanalyst.com
+# [1&1 Internet][AS8560][87.106.16.0 - 87.106.31.255]
+0.0.0.0 www.7search.com #[Spyware.SevenSearch]
+0.0.0.0 xbs.mtree.com #[Troj/NSUpdate-A]
+0.0.0.0 xbs.pao.mtree.com #[TROJ_DYFUCA.X]
+0.0.0.0 xbs.sea.mtree.com #[MoneyTree Dialer]
+0.0.0.0 banners.outster.com #[Tracking.Cookie]
+0.0.0.0 mt1.mtree.com
+0.0.0.0 mt2.mtree.com
+0.0.0.0 mt4.mtree.com #[xxxtoolbar.com]
+0.0.0.0 mt10.mtree.com
+0.0.0.0 mt11.mtree.com
+0.0.0.0 mt12.mtree.com
+0.0.0.0 mt15.mtree.com
+0.0.0.0 mt32.mtree.com
+0.0.0.0 mt34.mtree.com #[Google.Diagnostic]
+0.0.0.0 mt35.mtree.com
+0.0.0.0 mt37.mtree.com
+0.0.0.0 mt55.mtree.com #[Troj/Istbar-BL]
+0.0.0.0 mt58.mtree.com
+0.0.0.0 mt83.mtree.com
+0.0.0.0 mt94.mtree.com
+0.0.0.0 mt103.mtree.com
+0.0.0.0 mt113.mtree.com
+0.0.0.0 mt124.mtree.com
+0.0.0.0 mt127.mtree.com
+0.0.0.0 porn.mtree.com #[Dialer.Moneytree]
+0.0.0.0 cgi.sexlist.com #[Tracking.Cookie]
+0.0.0.0 clit1.sextracker.com #[Tracking.Cookie]
+# [Accretive / Flying Crocodile][216.127.32.0 - 216.127.63.255]
+0.0.0.0 counter3.sextracker.com #[Tracking.Cookie]
+0.0.0.0 austria1.adverserve.net #[Tracking.Cookie]
+0.0.0.0 banners.valuead.com #[ADW_VALUEAD.M]
+0.0.0.0 textads.adultadworld.com #[AdEngage]
+0.0.0.0 files4.securedownload01.com #[Win32/DownloadAdmin.N]
+0.0.0.0 files4.downloadnet1188.com #[Win32/DownloadAdmin.N]
+0.0.0.0 js.hs-analytics.net #[HubSpot Analytics Tracking Code]
+0.0.0.0 download.cdn.sharelive.net #[Win32/Toolbar.SearchSuite]
+0.0.0.0 ma156-r.analytics.edgesuite.net #[AkamaiPlayerAnalytics]
+0.0.0.0 dmeserv.newsinc.com #[Analytics.Tracker]
+0.0.0.0 ads.pro-market.net #[Tracking.Cookie]
+0.0.0.0 download.cdn.downloadquick.net #[Win32/iLivid.A]
+0.0.0.0 download.cdn.torchbrowser.com #[Win32/TorchMedia]
+0.0.0.0 motd.pinion.gg #[Game Adverts]
+0.0.0.0 services.krxd.net #[Geo.Webbug]
+0.0.0.0 dc8xl0ndzn2cb.cloudfront.net #[Snowplow analytics]
+0.0.0.0 www.currentupdateconcepts.com #[Riskware/PUP]
+0.0.0.0 www.tagclearbits.com #[Riskware/PUP]
+0.0.0.0 web-t.9gag.com #[Piwik.Analytics]
+0.0.0.0 www.apphostcapital.com #[ScamFraudAlert.Flash]
+0.0.0.0 www.applicationsdeliveryupdate.com #[Win32/InstallCore]
+0.0.0.0 www.bestfactorydelivery.com #[Win32/InstallCore]
+0.0.0.0 ads.chargeads.com
+0.0.0.0 www.chucklefunhead.com #[Riskware/PUP]
+0.0.0.0 www.conecptpackagecycle.com #[ScamFraudAlert.Flash]
+0.0.0.0 www.conceptsbyteupdate.com #[ScamFraudAlert.Flash]
+0.0.0.0 infinityid.condenastdigital.com
+0.0.0.0 fastnclick.com
+0.0.0.0 www.guardappsfarm.com #[ScamFraudAlert.Flash]
+0.0.0.0 afftracking.justanswer.com
+0.0.0.0 track.leadin.com
+0.0.0.0 mantodea.mantisadnetwork.com
+0.0.0.0 dk-gmtdmp.mookie1.com
+0.0.0.0 us-gmtdmp.mookie1.com
+0.0.0.0 us.pixel.newscgp.com
+0.0.0.0 www.quickbitsdownloads.com #[Riskware/PUP]
+0.0.0.0 www.stockhostingvault.com #[Riskware/PUP]
+0.0.0.0 is-gateway.supersonicads.com
+0.0.0.0 www.tagzone.site #[ScamFraudAlert.Flash]
+0.0.0.0 go.tracksz.co
+0.0.0.0 www.greatdownloadapps45.download #[Riskware/PUP]
+0.0.0.0 htl.bid
+0.0.0.0 contentz.mkt61.net
+0.0.0.0 cdn.my-pc-cleaner.org
+0.0.0.0 cdn.permutive.com
+0.0.0.0 dove.saymedia.com
+0.0.0.0 static.site24x7rum.com
+0.0.0.0 outcome.supersonicads.com
+0.0.0.0 adserver.tappsgames.com
+0.0.0.0 www.thedownloadpremiumfree36.com #[ScamFraudAlert.Flash]
+0.0.0.0 www.applicationsflashbinaries.com #[Riskware/PUP]
+0.0.0.0 www.bitsfarmclean.com #[Riskware/PUP]
+0.0.0.0 www.bitspresentdownload.com #[Riskware/PUP]
+0.0.0.0 www.bitstagcontent.com #[Riskware/PUP]
+0.0.0.0 www.bundlerepositorycontent.com #[Riskware/PUP]
+0.0.0.0 www.guardcyclequick.com #[Riskware/PUP]
+0.0.0.0 www.megagiftcity.com #[Riskware/PUP]
+0.0.0.0 cdn.opensubcontent.com #[Win32/InstallCore.ACZ]
+0.0.0.0 collector-195.tvsquared.com #[Piwik.Analytics]
+# [Amazon.com][AS14618][54.160.0.0 - 54.175.255.255]
+0.0.0.0 d2vg62nuq66wql.cloudfront.net #[Snowplow Analytics]
+0.0.0.0 cdn.matheranalytics.com #[Snowplow Analytics]
+0.0.0.0 cdn.avmws.com #[AvantMetrics]
+0.0.0.0 d1fc8wv8zag5ca.cloudfront.net #[Snowplow JavaScript tracker]
+0.0.0.0 d1l6p2sc9645hc.cloudfront.net
+0.0.0.0 d1piupybsgr6dr.cloudfront.net
+0.0.0.0 d13dhn7ldhrcf6.cloudfront.net #[Win32/InstallCore.QC]
+0.0.0.0 gsf-cf.softonic.com #[Win32/OpenCandy.C]
+0.0.0.0 di.rlcdn.com #[Marketing Evolution Tracking]
+0.0.0.0 w.mlv-cdn.com #[MyLikes advertising]
+0.0.0.0 track.moreniche.com
+0.0.0.0 t.mtagmonetizationc.com
+0.0.0.0 c.mtro.co #[MetroGuild Widget Tracking]
+0.0.0.0 zdbb.netshelter.net
+0.0.0.0 desv383oqqc0.cloudfront.net #[Popcorn Metrics]
+0.0.0.0 n.targetbtracker.com
+0.0.0.0 collector-184.tvsquared.com #[Piwik.Analytics]
+0.0.0.0 collector-428.tvsquared.com #[Piwik.Analytics]
+0.0.0.0 dl.gameplaylabs.com #[Adware:Win32/GamePlayLabs]
+0.0.0.0 pr.atwola.com #[Tracking.Cookie]
+0.0.0.0 www.advertising.com #[Tracking.Cookie]
+0.0.0.0 loga.xiti.com #[Tracking.Cookie]
+0.0.0.0 logv18.xiti.com #[WebBug]
+0.0.0.0 float.2299.bm-impbus.prod.nym2.adnexus.net #[Microsoft Mahjong]
+# [Appserve][AS23376][64.241.102.160 - 64.241.102.191]
+# [Argeweb][AS8315][193.34.150.0 - 193.34.151.255]
+0.0.0.0 b.ds1.nl
+0.0.0.0 k1s.nl #[Daisycon]
+# [Argeweb][AS8315][91.200.48.0 - 91.200.51.255]
+# [Aruba][AS31034][62.149.128.0 - 62.149.159.255]
+0.0.0.0 www.infotelsrl.com
+0.0.0.0 www.juiceadv.com
+0.0.0.0 www.prdirectory.biz
+0.0.0.0 ads.vjaffiliates.com
+# [Aruba][AS31034][95.110.200.0 - 95.110.207.255]
+0.0.0.0 adserver.hwupgrade.it
+# [Aruba][AS31034][95.110.200.0 - 95.110.207.255]
+0.0.0.0 advdl.ammadv.it
+0.0.0.0 adv.arubamediamarketing.it
+0.0.0.0 feed.hype-ads.com
+0.0.0.0 srv.juiceadv.com
+# [Asp Ltd][AS35480][193.192.48.0 - 193.192.49.255]
+0.0.0.0 bulgariabg.com
+0.0.0.0 espresso-reklam.eu
+0.0.0.0 openx.imoti.net
+0.0.0.0 rot2.imoti.net
+0.0.0.0 ads1.legalworld.bg
+0.0.0.0 pagead.topobiavi.com
+0.0.0.0 uppyads.com
+0.0.0.0 ads.zajenata.bg
+# [Aspect Networks][AS34848][195.190.31.0 - 195.190.31.255]
+0.0.0.0 media01.adservinghost.com
+# [Aspectra-net][AS9100][212.47.170.0 - 212.47.173.255]
+0.0.0.0 swissinf.wemfbox.ch #[WebBug]
+# [Autonomous][AS43489][193.232.159.0 - 193.232.159.255]
+# [Awknet Communications][AS17048][69.42.208.0 - 69.42.223.255]
+0.0.0.0 adtegrity.com
+0.0.0.0 www.adtegrity.com
+# [Axill][72.3.140.224 - 72.3.140.231]
+0.0.0.0 www.axill.com
+# [Axill Europe][84.45.70.0 - 84.45.70.255]
+0.0.0.0 www.globe7.com
+# [Axill Europe][AS41813][84.45.63.0 - 84.45.63.255]
+# [Axxa Commerce][AS3491][207.226.176.128 - 207.226.176.191]
+# [Aznet][AS44976][194.150.236.0 - 194.150.237.255]
+0.0.0.0 www.cashtrafic.com
+0.0.0.0 ads.clicmanager.fr
+# [Bahnhof][AS21503][AS8473][5.150.195.160 - 5.150.195.191]
+0.0.0.0 rotator.adxite.com
+# [Baltic Center][AS49017][194.60.205.0 - 194.60.205.255]
+# [Bayan][AS6648][125.212.0.0 - 125.212.127.255]
+# [Bay Area / Visistat][AS7151][209.128.64.0 - 209.128.127.255]
+0.0.0.0 stats.sa-as.com
+0.0.0.0 stats.visistat.com
+# [Bay Area / Veruta][AS7151][72.172.176.0 - 72.172.191.255]
+0.0.0.0 adserver.veruta.com
+# [Bay Area / Tumri][AS7151][72.20.120.0 - 72.20.120.255]
+0.0.0.0 images.tumri.net
+0.0.0.0 www.tumri.net
+# [Beanfield][AS21949][206.223.160.0 - 206.223.191.255]
+0.0.0.0 ard.sexplaycam.com
+0.0.0.0 flashbanners.static.ard.sexplaycam.com
+0.0.0.0 ard.xxxblackbook.com
+0.0.0.0 flashbanners.static.ard.xxxblackbook.com
+0.0.0.0 geo.xxxblackbook.com
+0.0.0.0 static.ard.xxxblackbook.com
+# [Beanfield][AS21949][76.9.192.0 - 76.9.223.255]
+0.0.0.0 ard.sweetdiscreet.com
+# [Bell Canada][AS6539][209.139.192.0 - 209.139.255.255]
+# [Bell Canada][AS6539][216.18.0.0 - 216.18.127.255]
+0.0.0.0 api.nrelate.com
+# [Bell Globemedia Interactive][AS10808][199.246.60.0 - 199.246.71.255]
+0.0.0.0 c.bigmir.net #[WebBug]
+0.0.0.0 bbtv.blinkx.com #[Trojan.Win32.Agent.wif]
+0.0.0.0 www.yrals.com #[WebBug]
+# [Bluepark Solutions][AS29131][78.129.199.0 - 78.129.199.255]
+# [BraveNet][Tracking Service]
+0.0.0.0 bravenet.com #[Tracking.Cookie]
+0.0.0.0 adserv.bravenet.com
+0.0.0.0 counter1.bravenet.com
+0.0.0.0 yrtas.btrll.com #[BrightRoll AdSystem]
+# [BrightRoll][AS39995][165.254.0.0 - 165.254.255.255]
+0.0.0.0 brxserv-21.btrll.com
+0.0.0.0 geo-errserv.btrll.com
+# [Broadband Enterprises][AS3561][64.15.238.64 - 64.15.238.127]
+0.0.0.0 addirector.vindicosuite.com
+0.0.0.0 web.vindicosuite.com #[WebBug]
+# [Broadbandone][AS13645][64.135.0.0 - 64.135.127.255]
+0.0.0.0 ads.crawler.com
+0.0.0.0 ads.websearch.com
+# [Broadbandone][AS13645][75.119.128.0 - 75.119.191.255]
+0.0.0.0 tracking.godatafeed.com
+# [BroadRiver][AS13703][208.52.128.0 - 208.52.191.255]
+0.0.0.0 www.cbeckads.com
+# [BroadRiver][AS13703][63.135.160.0 - 63.135.175.255]
+0.0.0.0 a.netmng.com
+0.0.0.0 display.digitalriver.com
+# [Bso Network][AS31216][89.30.126.0 - 89.30.126.255]
+0.0.0.0 tracking.tomsguide.com
+0.0.0.0 tracking.tomshardware.com
+0.0.0.0 www.ad.twitchguru.com
+# [Bulgarian Teleco][AS8866][46.10.0.0 - 46.10.255.255]
+0.0.0.0 ads.bl-consulting.net
+# [Bulgarian Teleco][AS8866][95.43.230.192 - 95.43.230.255]
+0.0.0.0 ads.gladen.bg
+0.0.0.0 ads10.gladen.bg
+0.0.0.0 ads.ibox.bg
+0.0.0.0 ads.money.bg
+# [Businessnet][AS13093][192.118.72.0 - 192.118.75.255]
+0.0.0.0 dclk.haaretz.com
+0.0.0.0 dclk.haaretz.co.il
+0.0.0.0 dclk.themarker.com
+# [Casalemedia][AS27381][192.40.32.0 - 192.40.39.255]
+0.0.0.0 a1589.casalemedia.com
+0.0.0.0 a1653.casalemedia.com
+0.0.0.0 a1664.casalemedia.com
+0.0.0.0 a1681.casalemedia.com
+# [Cash4Downloads][CidHelp Group][67.15.107.168]
+0.0.0.0 c4dl.com
+0.0.0.0 www.c4dl.com
+0.0.0.0 www.cash4downloads.com
+# [C4L][AS25577][109.104.96.0 - 109.104.127.255]
+0.0.0.0 adserver.merciless.localstars.com
+# [C4L][AS25577][82.197.70.0 - 82.197.70.127]
+0.0.0.0 statto.plus8.net
+# [C4L / Globalcharge-net][AS25577][84.45.71.0 - 84.45.71.255]
+0.0.0.0 www.globalcharge.com
+# [California Regional][AS10439][209.126.128.0 - 209.126.255.255]
+# [California Regional / i-Serve][AS10439][71.6.128.0 - 71.6.255.255]
+0.0.0.0 gk.rts.sparkstudios.com
+# [Camea Ltd][AS48180][91.209.48.0 - 91.209.48.255]
+# [Capital Communication][AS49829][89.114.97.0 - 89.114.97.255]
+# [Caravan][AS15756][212.24.47.224 - 212.24.47.255]
+# [Caravan / Lanways-net][AS15756][217.23.132.248 - 217.23.132.255]
+0.0.0.0 spytrack.tic.ru
+# [Caravan / Mediadome][AS15756][62.213.100.0 - 62.213.100.255]
+# [Carmen Media][66.212.235.192 - 66.212.235.255]
+# [Caronet][AS13618][174.34.224.0 - 174.34.255.255]
+0.0.0.0 cdn.zeusclicks.com
+# [Caronet][AS13618][209.59.224.0 - 209.59.255.255]
+# [Caronet][AS13618][69.59.16.0 - 69.59.31.255]
+# [Caronet][AS13618][74.81.168.0 - 74.81.169.255]
+# [Caronet / Aebn][74.81.184.0 - 74.81.185.255]
+0.0.0.0 hostedbannerads.aebn.net
+0.0.0.0 realtouchbannerwidget.aebn.net
+0.0.0.0 ox.tossoffads.com
+# [Caronet][74.81.187.56 - 74.81.187.63]
+0.0.0.0 affiliate.blucigs.com
+0.0.0.0 bluhostedbanners.blucigs.com
+# [Caronet][76.76.4.0 - 76.76.5.255]
+0.0.0.0 ads.kaktuz.net
+# [Caronet][76.76.8.0 - 76.76.9.255]
+0.0.0.0 ads.bnmedia.com
+0.0.0.0 ieginc.com
+0.0.0.0 ads.iwangmedia.com
+0.0.0.0 banners.rexmag.com
+# [Caronet][91.213.157.0 - 91.213.157.255]
+# [Carpathia Hosting][AS29748][209.222.128.0 - 209.222.159.255]
+0.0.0.0 piwik.redtube.com #[Piwik Analytics]
+# [Carpathia Hosting][AS15226][66.197.0.0 - 66.197.127.255]
+0.0.0.0 webstats.oanda.com
+# [Carpathia Hosting][AS29748][66.197.0.0 - 66.197.127.255]
+# [Casablanca][AS15685][109.123.202.0 - 109.123.202.255]
+0.0.0.0 static.ad.libimseti.cz
+# [Casablanca / Inteso-it][AS15685][217.11.237.96 - 217.11.237.111]
+# [Casablanca / Hakenadam][AS15685][77.78.109.64 - 77.78.109.95]
+0.0.0.0 h.waudit.cz #[WebBug]
+0.0.0.0 hitx.waudit.cz
+# [Casablanca][AS15685][82.208.46.0 - 82.208.46.255]
+0.0.0.0 intext.lookit.cz
+0.0.0.0 ads.monogram.sk
+# [Casale Media][Comspec Communications]
+0.0.0.0 bbtv.blinkx.com #[Trojan.Win32.Agent.wif]
+0.0.0.0 amare.softwaregarden.com #[Win32/TrojanDownloader.Small.AWA]
+0.0.0.0 gamevance.com #[Trojan-Downloader.Win32.Small.gkk]
+0.0.0.0 www.adroz.com #[Trojan.Win32.Generic!BT]
+0.0.0.0 adserver.trojaner-info.de
+0.0.0.0 www.outwar.com #[Trojan.Win32.VB.iy][ADW_OUTWAR.A]
+0.0.0.0 dl1.ezthemes.com #[Trojan-Downloader.Win32.Small.bke]
+0.0.0.0 ezthemes.ezthemes.com #[StopBadware.ezthemes]
+0.0.0.0 dl.ezthemes.com #[AdWare.Win32.WebRebates.p]
+0.0.0.0 www.ezthemes.com #[Win32/Adware.RK.AN]
+0.0.0.0 www.themexp.org #[StopBadware.Warning]
+0.0.0.0 adwarereport.us.intellitxt.com
+0.0.0.0 www.zedo.com #[Adware.RaxSearch]
+0.0.0.0 c1.zxxds.net
+# [Zero Lag][AS20093][67.201.0.0 - 67.201.63.255]
+# [Zero Lag][AS20093][68.71.240.0 - 68.71.255.255]
+0.0.0.0 rt.udmserve.net
+# [Zero Lag][AS20093][72.37.216.0 - 72.37.217.255]
+0.0.0.0 www.stickylogic.com
+0.0.0.0 www.winadiscount.com #[Dr.Web.Adware.Xbarre]
+0.0.0.0 www.winaproduct.com
+0.0.0.0 fashion-tube.be #[Win32/InstallMonetizer.AN]
+0.0.0.0 int.cdn.hw.installzone.info #[Win32/DownloadAdmin.Z]
+0.0.0.0 www.pacificpoker.com #[AdWare.Win32.Casino.m]
+0.0.0.0 softwareupdaterlp.com #[Win32/DownWare.AA]
+0.0.0.0 amare.softwaregarden.com #[Win32/TrojanDownloader.Small.AWA]
+0.0.0.0 gamevance.com #[Trojan-Downloader.Win32.Small.gkk]
+0.0.0.0 www.digiaquascr.com #[AdWare.Win32.iBryte.jda]
+0.0.0.0 www.adroz.com #[Trojan.Win32.Generic!BT]
+0.0.0.0 download.funwebproducts.com #[AdWare.Win32.FunWeb.e]
+0.0.0.0 www.funwebproducts.com #[Adware.Bundler.Funwebproducts.M]
+0.0.0.0 help.mysearch.com #[Ewido.Spyware.MySearch]
+0.0.0.0 www.mysearch.com #[ADW_MIWAY.B][ADWARE_BHO_MYWAY]
+0.0.0.0 mywebsearch.com #[Adware.MyWebSearch]
+0.0.0.0 bar.mywebsearch.com #[ADW_MYWEB.A]
+0.0.0.0 search.mywebsearch.com #[Panda.Adware/MyWebSearch]
+0.0.0.0 weatherbugbrowserbar.mywebsearch.com
+0.0.0.0 www.mywebsearch.com #[Ewido.Spyware.MyWebSearch]
+0.0.0.0 ka.bar.need2find.com #[Adware.Need2Find]
+0.0.0.0 kc.search.need2find.com #[mwave.AdWare.MySearch.e]
+0.0.0.0 kz.search.need2find.com #[altnet.com]
+# 0.0.0.0  wzus1.reference.com #[affects Dictonary.com]
+# [Comscore / Relevant Knowledge]
+0.0.0.0 siterecruit.comscore.com
+0.0.0.0 oss-content.securestudies.com
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 beacon.scorecardresearch.com #[WebBug]
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 www2.survey-poll.com
+# [Comscore Network][AS3561][165.193.78.128 - 165.193.78.255]
+0.0.0.0 www.premieropinion.com
+0.0.0.0 a.scorecardresearch.com
+0.0.0.0 c.scorecardresearch.com
+0.0.0.0 post.securestudies.com
+0.0.0.0 www.voicefive.com
+# [Comscore Network][AS3561][205.218.0.0 - 205.219.255.255]
+0.0.0.0 udm.ia8.scorecardresearch.com #[Microsoft Mahjong]
+0.0.0.0 udm.ia9.scorecardresearch.com
+# [Comscore Network][AS3561][66.119.33.128 - 66.119.33.191]
+0.0.0.0 beacon.securestudies.com
+0.0.0.0 ar.voicefive.com
+# [Comscore Network][66.119.34.32 - 66.119.34.63]
+0.0.0.0 rules.securestudies.com
+# [Comscore Network][66.119.41.0 - 66.119.41.127]
+0.0.0.0 srv.buysellads.com
+0.0.0.0 stats.buysellads.com
+0.0.0.0 oascentral.buy.com
+0.0.0.0 oascentral.buysell.com
+0.0.0.0 assets.buysellads.com
+0.0.0.0 cdn.buysellads.com
+0.0.0.0 traffic.buyservices.com
+0.0.0.0 s3.buysellads.com
+# [Peer 1][AS13768][46.20.119.247 - 46.20.119.247]
+# [Peer 1][AS11305][64.224.0.0 - 64.227.255.255]
+# [Quantcast][AS27281][64.94.107.0 - 64.94.107.255]
+0.0.0.0 quantserve.com
+0.0.0.0 edge.quantserve.com
+0.0.0.0 www.edge.quantserve.com
+0.0.0.0 flash.quantserve.com
+0.0.0.0 pixel.quantserve.com #[WebBug]
+0.0.0.0 secure.quantserve.com
+0.0.0.0 segapi.quantserve.com
+# [Quantcast][AS27281][74.217.63.0 - 74.217.63.255]
+0.0.0.0 cms.quantserve.com

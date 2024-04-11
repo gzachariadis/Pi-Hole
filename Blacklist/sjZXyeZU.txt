@@ -1,0 +1,174 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+fe80::1%lo0	localhost
+
+#adingo
+127.0.0.1 sp.adingo.jp.eimg.jp
+127.0.0.1 sh.adingo.jp
+127.0.0.1 rd.adingo.jp
+127.0.0.1 img.fluct.jp.eimg.jp
+#adjust
+127.0.0.1 cre.adjust-net.jp
+127.0.0.1 i.adjust-sp.jp
+127.0.0.1 js.adjust-sp.jp
+127.0.0.1 r.advg.jp
+#Adlantis
+127.0.0.1 ad.adlantis.jp
+127.0.0.1 sp.click.adlantis.jp
+127.0.0.1 sp.ad.adlantis.jp
+127.0.0.1 static.adlantis.jp
+127.0.0.1 a.adimg.net
+127.0.0.1 log.adtracking.adlantis.jp
+#admeld
+127.0.0.1 js.admeld.com
+127.0.0.1 tag.admeld.com
+#admob
+127.0.0.1 media.admob.com
+127.0.0.1 mm.admob.com
+127.0.0.1 mmv.admob.com
+127.0.0.1 p.admob.com
+127.0.0.1 r.admob.com
+#amoad
+127.0.0.1 j.amoad.com
+127.0.0.1 d.amoad.com
+127.0.0.1 i.amoad.com
+#adresult
+127.0.0.1 i.adresult-sp.jp
+127.0.0.1 d.adresult-sp.jp
+#cyberwing
+127.0.0.1 aimds.er.cyberwing.co.jp
+127.0.0.1 ak.dr.cyberwing.co.jp
+#cydia
+127.0.0.1 my.mobfox.com
+127.0.0.1 www.mobfox.com
+#dmm
+127.0.0.1 ad.dmm.com
+127.0.0.1 aqua.dmm.co.jp
+#excite
+127.0.0.1 adimp.excite.co.jp
+127.0.0.1 md.exblog.jp
+#FC2 blog
+127.0.0.1 spdeliver.i-mobile.co.jp
+127.0.0.1 spad.i-mobile.co.jp
+127.0.0.1 spapi.i-mobile.co.jp
+127.0.0.1 aimg.fc2.com
+#fm-p
+127.0.0.1 ad1.fm-p.jp
+127.0.0.1 ad2.fm-p.jp
+#InMobi(jp)
+127.0.0.1 c.w.inmobi.com
+127.0.0.1 cf.cdn.inmobi.com
+127.0.0.1 r.w.inmobi.com
+127.0.0.1 w.inmobi.com
+#impact ad
+127.0.0.1 as.dc.impact-ad.jp
+127.0.0.1 as.py.impact-ad.jp
+127.0.0.1 m.one.impact-ad.jp
+127.0.0.1 y.one.impact-ad.jp
+#kau.li
+127.0.0.1 33766.y.kau.li
+127.0.0.1 js.kau.li
+#microad
+127.0.0.1 adf.send.microad.jp
+127.0.0.1 cm.send.microad.jp
+127.0.0.1 dsp.send.microad.jp
+127.0.0.1 image-vsc.microad.jp
+127.0.0.1 msend.microad.jp
+127.0.0.1 s-dsp.send.microad.jp
+127.0.0.1 send.microad.jp
+127.0.0.1 spvsc.send.microad.jp
+127.0.0.1 ssend.microad.jp
+127.0.0.1 vsc.send.microad.jp
+#mixi
+127.0.0.1 ads.mixi.jp
+127.0.0.1 img.ads.mreco0.jp
+127.0.0.1 pr.m.mixi.jp
+127.0.0.1 pr.mixi.jp
+#MSN
+127.0.0.1 ads1.msads.net
+127.0.0.1 ads1.msn.com
+127.0.0.1 g.msn.com
+#NEND(jp) 
+127.0.0.1 ad1.nend.net
+127.0.0.1 js1.nend.net
+127.0.0.1 output.nend.net
+#ninja
+127.0.0.1 adm.shinobi.jp
+127.0.0.1 js.fout.jp
+127.0.0.1 s.jimdo.com
+127.0.0.1 sync.fout.jp
+#rakuten
+127.0.0.1 grp01.ias.rakuten.co.jp
+127.0.0.1 hbb.afl.rakuten.co.jp
+127.0.0.1 static.affiliate.rakuten.co.jp
+127.0.0.1 xml.affiliate.rakuten.co.jp
+#TG AD
+127.0.0.1 ad2.trafficgate.net
+127.0.0.1 iphone.trafficgate.net
+#Yahoo
+127.0.0.1 bc.geocities.yahoo.co.jp
+127.0.0.1 im.ov.yahoo.co.jp
+127.0.0.1 yjaxc.yahoo.co.jp
+#webtracker
+127.0.0.1 i.t.webtracker.jp
+#yicha
+127.0.0.1 yichaad.durasite.net
+127.0.0.1 adpimg.yicha.jp
+#youtube
+127.0.0.1 adm.fwmrm.net
+#google
+127.0.0.1 googleads.g.doubleclick.net
+127.0.0.1 googlesyndication.com
+127.0.0.1 pagead2.googleadservices.com
+127.0.0.1 pagead2.googlesyndication.com
+127.0.0.1 www.googleadservices.com
+#atwiki
+127.0.0.1 bid.openx.net
+127.0.0.1 d.href.org.uk
+#yieldmanager
+127.0.0.1 ad.yieldmanager.com
+127.0.0.1 content.yieldmanager.edgesuite.net
+#0taku
+127.0.0.1 otaimg.com
+127.0.0.1 otapict.com
+#other
+127.0.0.1 ad.adcv.jp
+127.0.0.1 ad.maist.jp
+127.0.0.1 ad.mega-r.com
+127.0.0.1 adc.media-rep.com
+127.0.0.1 ads.nicovideo.jp
+127.0.0.1 adv.addeluxe.jp
+127.0.0.1 api.unthem.com
+127.0.0.1 app.click.livedoor.com
+127.0.0.1 axia-hakusan.com
+127.0.0.1 bizad.nikkeibp.co.jp
+127.0.0.1 ck.rd.livedoor.com
+127.0.0.1 click-search.org
+127.0.0.1 clink.nifty.com
+127.0.0.1 consearch.jp
+127.0.0.1 d.moras.jp
+127.0.0.1 data.flurry.com
+127.0.0.1 dlv.itmedia.jp
+127.0.0.1 gigazine.asia
+127.0.0.1 h.accesstrade.net
+127.0.0.1 js.ad-stir.com
+127.0.0.1 match.seesaa.jp
+127.0.0.1 media-b.jp
+127.0.0.1 mob.adwhirl.com
+127.0.0.1 ngs.impress.co.jp
+127.0.0.1 red.st-hatena.com
+127.0.0.1 serv.ads.pixiv.org
+127.0.0.1 sp.ads.jlisting.jp
+127.0.0.1 spstatic.ameba.jp
+127.0.0.1 static.adroute.focas.jp
+127.0.0.1 www.pcoach.cc
+127.0.0.1 www.sumapo.org
+127.0.0.1 www2.liveads.jp
+127.0.0.1 ads.mocean.mobi

@@ -1,0 +1,12 @@
+www.googleadservices.com
+www.google-analytics.com
+firebaselogging-pa.googleapis.com
+firebaseinstallations.googleapis.com
+firebase-settings.crashlytics.com
+row-advil.waze.com
+advil.gcp.wazestg.com
+adsassets.waze.com
+ads-resources-legacy.waze.com
+ads-resources.waze.com
+sdk.waze.com
+app-measurement.com
