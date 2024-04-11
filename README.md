@@ -128,6 +128,9 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [Smashblock](https://github.com/smashah/smashblock)
 - [ ] [Emerging Threats](https://github.com/tweedge/emerging-threats-pihole)
 - [ ] [PeterDaveHello - Threats](https://github.com/PeterDaveHello/threat-hostlist)
+- [ ] [UrlHaus-Filter](https://github.com/curbengh/urlhaus-filter)
+- [ ] [KADHosts](https://github.com/FiltersHeroes/KADhosts)
+- [ ] [NoCoin Adblock](https://github.com/hoshsadiq/adblock-nocoin-list)
 
 ## FAQ
 
