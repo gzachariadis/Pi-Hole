@@ -95,7 +95,6 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [NSA & CIA](https://github.com/tigthor/NSA-CIA-Blocklist)
 - [ ] [Tik-Tok](https://github.com/danhorton7/pihole-block-tiktok)
 - [ ] [Twitter](https://github.com/JackCuthbert/pihole-twitter)
-- [ ] 
 
 ### Outdated
 
@@ -131,6 +130,7 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [UrlHaus-Filter](https://github.com/curbengh/urlhaus-filter)
 - [ ] [KADHosts](https://github.com/FiltersHeroes/KADhosts)
 - [ ] [NoCoin Adblock](https://github.com/hoshsadiq/adblock-nocoin-list)
+- [ ] [Antifa-n](https://github.com/antifa-n/pihole)
 
 ## FAQ
 
