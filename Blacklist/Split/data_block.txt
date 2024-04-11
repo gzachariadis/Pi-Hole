@@ -1,0 +1,19 @@
+## 黑名单 - 开始
+# ETtoday 新闻云 - #@edenftp
+adv.ettoday.net
+api.ettoday.net
+dcs.ettoday.net
+# trvdp.com - #@edenftp
+trvdp.com
+## 黑名单 - 结束
+
+## 修正 - 开始
+# *.logic.cpm.cm.kankan.com（重复规则，共用相同 CNAME：logic.cpm.cm.kankan.com）- #@1
+logic.cpm.cm.kankan.com
+# api*.tuisong.baidu.com（重复规则，共用相同 CNAME：api.duapp.n.shifen.com）- #@2
+api.duapp.n.shifen.com
+# *.cnzz.com（重复规则，共用相同 CNAME：z.cnzz.com）- #@3 #@4 #@5
+c.cnzz.com
+q.cnzz.com
+z.cnzz.com
+## 修正 - 结束

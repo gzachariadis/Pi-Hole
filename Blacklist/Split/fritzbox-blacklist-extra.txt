@@ -1,0 +1,3 @@
+connect.decknetwork.net
+googleadservices.com
+googletagmanager.com

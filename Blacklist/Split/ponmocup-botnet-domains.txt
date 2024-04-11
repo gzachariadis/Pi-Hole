@@ -1,0 +1,37 @@
+# 
+# this list of ponmocup malware C&C domains is maintained by 
+# email:   toms.security.stuff -at- gmail.com
+# twitter: @c_APT_ure
+# blog:    http://c-apt-ure.blogspot.com/
+#
+# all domains and subdomains thereof should be considered malicious
+#
+# for a list of pre-infection domains and IPs please see 'ponmocup-malware-domains.txt' and 'ponmocup-malware-ips.txt'
+#
+# last updated: 2013-05-24
+#
+intohave.com
+storage1.static.itmages.ru
+storage2.static.itmages.ru
+storage3.static.itmages.ru
+storage4.static.itmages.ru
+storage5.static.itmages.ru
+storage6.static.itmages.ru
+storage7.static.itmages.ru
+storage8.static.itmages.ru
+storage9.static.itmages.ru
+neededpay.com
+#
+# added historical C&C domains below
+#
+montyinc.net
+intromem.com
+checkwebspeed.net
+contactfriendly.com
+assistancebeside.com
+surfacechicago.net
+professoractions.com
+levartnetcom.net
+victoryltd.net
+professoractions.com
+

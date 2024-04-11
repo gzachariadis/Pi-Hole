@@ -1,0 +1,336 @@
+[General]
+ipv6 = false
+loglevel = notify
+interface = 0.0.0.0
+keep-alive = infinite
+port = 6152
+socks-interface = 0.0.0.0
+socks-port = 6153
+enhanced-mode-by-rule = true
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+bypass-system = true
+bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+
+[Proxy]
+supercape = shadowsocks, jp.lbblbb.top, 56949,aes-256-cfb,justdoit
+
+[Rule]
+#ADBlock ['coolss']
+DOMAIN-KEYWORD,adsmogo,REJECT
+DOMAIN-KEYWORD,advert-sdk,REJECT
+DOMAIN-SUFFIX,admaster.com.cn,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,miaozhen.com,REJECT
+DOMAIN-SUFFIX,fastapi.net,REJECT
+DOMAIN-SUFFIX,inmobi.com,REJECT
+DOMAIN-SUFFIX,adlive.cn,REJECT
+DOMAIN-SUFFIX,sstc360.com,REJECT
+DOMAIN-SUFFIX,ad-brix.com,REJECT
+DOMAIN-SUFFIX,leadboltads.net,REJECT
+DOMAIN-SUFFIX,joyingmobi.com,REJECT
+DOMAIN-SUFFIX,irs01.com,REJECT
+DOMAIN,ads.mopub.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,sax.sina.cn,REJECT
+DOMAIN,sax.sina.com.cn,REJECT
+DOMAIN,mobi.adsage.com,REJECT
+DOMAIN,service.cocounion.com,REJECT
+DOMAIN,cm.ipinyou.com,REJECT
+DOMAIN,lianmeng.admin5.com,REJECT
+DOMAIN,union.admin5.com,REJECT
+DOMAIN,lm.admin5.com,REJECT
+DOMAIN,s.csbew.com,REJECT
+DOMAIN,ad.vsnoon.com,REJECT
+DOMAIN,de.soquair.com,REJECT
+DOMAIN,api.mix.guohead.com,REJECT
+DOMAIN,live.chartboost.com,REJECT
+DOMAIN,api.appodeal.com,REJECT
+DOMAIN,syndication.exoclick.com,REJECT
+DOMAIN,static.exoclick.com,REJECT
+#Vidapps ADBlock ['coolss']
+DOMAIN,n.mark.letv.com,REJECT
+DOMAIN,agn.aty.sohu.com,REJECT
+DOMAIN,ad.api.3g.tudou.com,REJECT
+DOMAIN,ad.api.3g.youku.com,REJECT
+DOMAIN,mf.atm.youku.com,REJECT
+DOMAIN,lives.l.qq.com,REJECT
+DOMAIN,livew.l.qq.com,REJECT
+DOMAIN,de.as.pptv.com,REJECT
+DOMAIN,x.da.hunantv.com,REJECT
+IP-CIDR,101.227.14.128/24,REJECT,no-resolve
+IP-CIDR,101.227.200.11/24,REJECT,no-resolve
+
+#Facebook Enhancements ['coolss']
+DOMAIN,snaptu-mini.facebook.com,DIRECT,enhanced-mode
+DOMAIN,edge-mqtt.facebook.com,DIRECT,enhanced-mode
+DOMAIN,graph.facebook.com,DIRECT,enhanced-mode
+DOMAIN,mqtt-mini.facebook.com,DIRECT,enhanced-mode
+DOMAIN, m.facebook.com,DIRECT, enhanced-mode
+DOMAIN,graph2.facebook.com,DIRECT,enhanced-mode
+DOMAIN,b-api.facebook.com,DIRECT,enhanced-mode
+DOMAIN,b-graph.facebook.com,DIRECT,enhanced-mode
+DOMAIN,z-m-graph.facebook.com,DIRECT,enhanced-mode
+DOMAIN,z-m-api.facebook.com,DIRECT,enhanced-mode
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+
+FINAL, supercape, enhanced-mode
+
+[Host]
+cache.armorgames.com = 93.184.220.39
+gamemedia.armorgames.com = 93.184.220.39
+quests.armorgames.com = 93.184.220.39
+armatars.armorgames.com = 93.184.220.39
+agi.armorgames.com = 93.184.220.39
+aws.amazon.com = 54.239.31.69
+console.aws.amazon.com = 54.239.30.25
+ap-northeast-1.console.aws.amazon.com = 54.239.96.90
+ap-southeast-1.console.aws.amazon.com = 54.240.226.81
+ap-southeast-2.console.aws.amazon.com = 54.240.193.125
+eu-west-1.console.aws.amazon.com = 54.239.38.102
+eu-central-1.console.aws.amazon.com = 54.239.54.102
+s3.amazonaws.com = 54.231.49.3
+s3-console-us-standard.console.aws.amazon.com = 54.239.31.128
+s3-ap-northeast-1.amazonaws.com = 52.219.0.4
+s3-ap-southeast-1.amazonaws.com = 54.231.242.170
+s3-ap-southeast-2.amazonaws.com = 54.231.251.21
+s3-eu-west-1.amazonaws.com = 52.218.16.140
+s3-eu-central-1.amazonaws.com = 54.231.193.37
+s3-sa-east-1.amazonaws.com = 52.92.72.2
+s3-us-west-1.amazonaws.com = 54.231.236.6
+s3-us-west-2.amazonaws.com = 54.231.168.160
+sa-east-1.console.aws.amazon.com = 177.72.244.194
+us-west-1.console.aws.amazon.com = 176.32.114.59
+us-west-2.console.aws.amazon.com = 54.240.254.230
+github-cloud.s3.amazonaws.com = 52.216.80.48
+github-com.s3.amazonaws.com = 54.231.48.40
+apkpure.com = 104.20.82.194
+a.apkpure.com = 104.20.82.194
+download.apkpure.com = 104.20.82.194
+m.apkpure.com = 104.20.82.194
+static.apkpure.com = 104.20.82.194
+translate.apkpure.com = 104.20.82.194
+archive.org = 207.241.224.22
+www.archive.org = 207.241.224.22
+ia802704.us.archive.org = 207.241.224.22
+analytics.archive.org = 207.241.224.22
+web.archive.org = 207.241.226.190
+web-beta.archive.org = 207.241.225.186
+wwwb-sentry.us.archive.org = 207.241.225.186
+app.box.com = 74.112.184.70
+m.box.com = 74.112.184.85
+bundlestars.com = 23.253.146.21
+cdn-images.bundlestars.com = 54.192.232.60
+support.bundlestars.com = 185.12.83.2
+bandwagonhost.com = 104.20.6.63
+disqus.com = 151.101.100.134
+www.disqus.com = 151.101.100.134
+content.disqus.com = 151.101.100.134
+referrer.disqus.com = 151.101.100.134
+docs.disqus.com = 151.101.100.134
+dropbox.disqus.com = 151.101.100.134
+apkpure.disqus.com = 151.101.100.134
+glitter.services.disqus.com = 151.101.100.64
+links.services.disqus.com = 151.101.100.64
+realtime.services.disqus.com = 173.192.82.196
+help.disqus.com = 50.18.249.249
+about.disqus.com = 23.65.183.218
+blog.disqus.com = 23.65.183.218
+publishers.disqus.com = 23.65.183.218
+db.tt = 108.160.173.233
+dropbox.com = 52.29.64.168
+www.dropbox.com = 52.29.64.168
+m.dropbox.com = 108.160.173.233
+dl-debug.dropbox.com = 108.160.173.162
+linux.dropbox.com = 52.85.76.60
+d.dropbox.com = 108.160.172.225
+d.v.dropbox.com = 108.160.172.225
+dl-doc.dropbox.com = 162.125.18.132
+api-d.dropbox.com = 108.160.172.225
+api.dropboxapi.com = 108.160.172.225
+api.dropbox.com = 108.160.172.225
+api.v.dropbox.com = 108.160.172.225
+api-notify.dropbox.com = 108.160.172.225
+www.dropboxstatic.com = 108.160.172.225
+cfl.dropboxstatic.com = 104.16.100.29
+dbxlocal.dropboxstatic.com = 108.160.172.229
+api-content.dropbox.com = 199.47.217.36
+api-content-photos.dropbox.com = 199.47.217.36
+photos.dropbox.com = 108.160.172.207
+bolt.dropbox.com = 162.125.34.129
+photos-thumb.dropbox.com = 162.125.17.129
+photos-thumb.x.dropbox.com = 162.125.17.129
+block.dropbox.com = 199.47.217.97
+block.v.dropbox.com = 199.47.217.97
+cf.dropboxstatic.com = 54.230.214.100
+client-cf.dropbox.com = 54.192.108.33
+dl.dropbox.com = 45.58.69.38
+dl-web.dropbox.com = 45.58.70.5
+dl.dropboxusercontent.com = 45.58.69.37
+photos-1.dropbox.com = 162.125.18.2
+photos-2.dropbox.com = 162.125.18.2
+photos-3.dropbox.com = 162.125.18.2
+photos-4.dropbox.com = 162.125.18.2
+photos-5.dropbox.com = 162.125.18.2
+photos-6.dropbox.com = 162.125.18.2
+status.dropbox.com = 54.192.213.118
+marketing.dropbox.com = 54.192.213.118
+blogs.dropbox.com = 54.192.213.118
+forums.dropbox.com = 54.192.213.118
+snapengage.dropbox.com = 54.192.213.118
+notify.dropbox.com = 162.125.32.129
+client-lb.dropbox.com = 108.160.172.236
+client-web.dropbox.com = 108.160.172.236
+client.dropbox.com = 108.160.172.236
+client.v.dropbox.com = 108.160.172.236
+log.getdropbox.com = 108.160.172.227
+duckduckgo.com = 50.18.192.250
+www.duckduckgo.com = 50.18.192.250
+ac.duckduckgo.com = 50.18.192.250
+icons.duckduckgo.com = 54.229.110.205
+images.duckduckgo.com = 54.229.110.205
+help.duckduckgo.com = 96.45.83.209
+fb.me = 157.240.3.35
+facebook.com = 157.240.3.35
+www.facebook.com = 157.240.3.35
+m.facebook.com = 157.240.3.35
+mqtt.facebook.com = 157.240.3.35
+mqtt-mini.facebook.com = 157.240.3.35
+mtouch.facebook.com = 157.240.3.35
+business.facebook.com = 157.240.3.35
+s-static.ak.facebook.com = 157.240.3.35
+static.ak.facebook.com = 23.76.153.42
+b.static.ak.facebook.com = 23.76.153.42
+graph.facebook.com = 157.240.3.35
+ssl.facebook.com = 157.240.3.35
+api.facebook.com = 157.240.3.35
+secure.facebook.com = 157.240.3.35
+zh-cn.facebook.com = 157.240.3.35
+l.facebook.com = 157.240.3.35
+login.facebook.com = 157.240.3.35
+attachments.facebook.com = 157.240.3.35
+touch.facebook.com = 157.240.3.35
+apps.facebook.com = 157.240.3.35
+upload.facebook.com = 157.240.3.35
+developers.facebook.com = 157.240.3.35
+beta-chat-01-05-ash3.facebook.com = 157.240.3.35
+channel-ecmp-05-ash3.facebook.com = 157.240.3.35
+channel-staging-ecmp-05-ash3.facebook.com = 157.240.3.35
+channel-testing-ecmp-05-ash3.facebook.com = 157.240.3.35
+0-edge-chat.facebook.com = 157.240.3.35
+1-edge-chat.facebook.com = 157.240.3.35
+2-edge-chat.facebook.com = 157.240.3.35
+3-edge-chat.facebook.com = 157.240.3.35
+4-edge-chat.facebook.com = 157.240.3.35
+5-edge-chat.facebook.com = 157.240.3.35
+6-edge-chat.facebook.com = 157.240.3.35
+api-read.facebook.com = 157.240.3.35
+bigzipfiles.facebook.com = 157.240.3.35
+check4.facebook.com = 157.240.3.35
+check6.facebook.com = 157.240.3.35
+code.facebook.com = 157.240.3.35
+connect.facebook.com = 157.240.3.35
+edge-chat.facebook.com = 157.240.3.35
+edge-mqtt.facebook.com = 157.240.7.16
+pixel.facebook.com = 157.240.3.35
+star.c10r.facebook.com = 157.240.3.35
+star.facebook.com = 157.240.3.35
+zh-tw.facebook.com = 157.240.3.35
+b-api.facebook.com = 157.240.3.35
+b-graph.facebook.com = 157.240.3.35
+orcart.facebook.com = 157.240.3.35
+s-static.facebook.com = 157.240.3.35
+vupload.facebook.com = 157.240.3.35
+vupload2.facebook.com = 157.240.3.35
+d.facebook.com = 157.240.3.35
+fbcdn.net = 157.240.3.35
+static.xx.fbcdn.net = 157.240.3.35
+scontent.xx.fbcdn.net = 157.240.3.35
+scontent-a.xx.fbcdn.net = 157.240.3.35
+scontent-b.xx.fbcdn.net = 157.240.3.35
+scontent-c.xx.fbcdn.net = 157.240.3.35
+scontent-d.xx.fbcdn.net = 157.240.3.35
+scontent-e.xx.fbcdn.net = 157.240.3.35
+scontent-mxp.xx.fbcdn.net = 157.240.3.35
+scontent-a-lax.xx.fbcdn.net = 157.240.3.35
+scontent-a-sin.xx.fbcdn.net = 157.240.3.35
+scontent-b-lax.xx.fbcdn.net = 157.240.3.35
+scontent-b-sin.xx.fbcdn.net = 157.240.3.35
+ent-a.xx.fbcdn.net = 157.240.3.35
+ent-b.xx.fbcdn.net = 157.240.3.35
+ent-c.xx.fbcdn.net = 157.240.3.35
+ent-d.xx.fbcdn.net = 157.240.3.35
+ent-e.xx.fbcdn.net = 157.240.3.35
+s-external.ak.fbcdn.net = 23.207.122.24
+s-static.ak.fbcdn.net = 23.34.45.177
+static.thefacebook.com = 157.240.3.35
+attachment.fbsbx.com = 157.240.3.35
+staticxx.facebook.com = 157.240.3.35
+connect.facebook.net = 157.240.3.35
+live.fb.com = 192.0.78.13
+work.fb.com = 192.0.78.13
+techprep.fb.com = 192.0.78.13
+nonprofits.fb.com = 192.0.78.13
+managingbias.fb.com = 192.0.78.13
+rightsmanager.fb.com = 192.0.78.13
+instantarticles.fb.com = 192.0.78.13
+messengerplatform.fb.com = 192.0.66.2
+threatexchange.fb.com = 199.201.64.67
+video.xx.fbcdn.net = 157.240.7.21
+fbcdn-sphotos-b-a.akamaihd.net = 184.28.188.10
+fb-s-d-a.akamaihd.net = 184.28.188.10
+vthumb.ak.fbcdn.net = 184.28.188.10
+photos-a.ak.fbcdn.net = 184.28.188.10
+photos-b.ak.fbcdn.net = 184.28.188.10
+photos-c.ak.fbcdn.net = 184.28.188.10
+photos-d.ak.fbcdn.net = 184.28.188.10
+photos-e.ak.fbcdn.net = 184.28.188.10
+photos-f.ak.fbcdn.net = 184.28.188.10
+photos-g.ak.fbcdn.net = 184.28.188.10
+photos-h.ak.fbcdn.net = 184.28.188.10
+creative.ak.fbcdn.net = 184.28.188.10
+external.ak.fbcdn.net = 184.28.188.10
+b.static.ak.fbcdn.net = 184.28.188.10
+static.ak.fbcdn.net = 184.28.188.10
+profile.ak.fbcdn.net = 184.28.188.10
+beacon.flipboard.com = 54.225.64.251
+fbprod.flipboard.com = 54.225.64.251
+gist.github.com = 192.30.253.118
+chatenabled.mail.google.com = 61.91.161.217
+filetransferenabled.mail.google.com = 61.91.161.217
+gmail.com = 61.91.161.217
+gmail.google.com = 61.91.161.217
+googlemail.l.google.com = 61.91.161.217
+inbox.google.com = 61.91.161.217
+isolated.mail.google.com = 61.91.161.217
+m.gmail.com = 61.91.161.217
+m.googlemail.com = 61.91.161.217
+mail.google.com = 61.91.161.217
+www.gmail.com = 61.91.161.217
+mail-settings.google.com = 61.91.161.217
+m.android.com = 64.233.188.121
+www.google.com = 61.91.161.217
+google.com = 61.91.161.217
+gcr.io = 61.91.161.217
+www.gcr.io = 61.91.161.217
+com.google = 61.91.161.217
+admin.google.com = 61.91.161.217
+accounts.google.com = 61.91.161.217
+accounts.google.cn = 61.91.161.217
+aboutme.google.com = 61.91.161.217
+atap.google.com = 61.91.161.217
+assistant.google.com = 61.91.161.217
+passwords.google.com = 61.91.161.217
+privacy.google.com = 61.91.161.217
+takeout.google.com = 61.91.161.217
+bpui0.google.com = 61.91.161.217
+cse.google.com = 61.91.161.217
+clients1.google.com = 61.91.161.217
+clients2.google.com = 61.91.161.217
+clients3.google.com = 61.91.161.217
+clients4.google.com = 61.91.161.217
+clients5.google.com = 61.91.161.217
+clients6.google.com = 61.91.161.217
+client2.google.com = 61.91.161.217

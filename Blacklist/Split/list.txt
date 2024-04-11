@@ -1,0 +1,19 @@
+#Version 1 - 03-01-2016
+
+address=/360yield.com/0.0.0.0
+address=/adcolony.com/0.0.0.0
+address=/admob.com/0.0.0.0
+address=/adnxs.com/0.0.0.0
+address=/ads.youtube.com/0.0.0.0
+address=/adsrvr.org/0.0.0.0
+address=/adtilt.com/0.0.0.0
+address=/doubleclick.net/0.0.0.0
+address=/flashtalking.com/0.0.0.0
+address=/flurry.com/0.0.0.0
+address=/google-analytics.com/0.0.0.0
+address=/googleadservices.com/0.0.0.0
+address=/googlesyndication.com/0.0.0.0
+address=/googletagservices.com/0.0.0.0
+address=/imrworldwide.com/0.0.0.0
+address=/mopub.com/0.0.0.0
+address=/serving-sys.com/0.0.0.0

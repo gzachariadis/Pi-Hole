@@ -1,0 +1,126 @@
+::1 ivw.rtl.de								# TRAC n-tv Nachrichten
+::1 settings.crashlytics.com				# NOTE FolderSync
+#::1 api.parse.com							# TRAC TimePIN but used by "Tap Tap Infinity clound save"
+::1 api.crittercism.com						# TRAC Gauge Battery Widget
+::1 mobidia.com								# HOME My Data Manager
+::1 mdmserver.mobidia.com					# HOME My Data Manager
+::1 api.appsflyer.com						# ADDS My Data Manager
+::1 track.appsflyer.com						# TRAC My Data Manager
+#::1 graph.facebook.com						# TRAC My Data Manager
+::1 reg20.ubermedia.com						# ADDS Plume
+::1 applab-sdk.amazon.com					# TRAC Plume
+::1 campaigns.services.mozilla.com			# HOME Firefox Beta
+::1 config.ioam.de							# TRAC GMX
+::1 api.statdns.com							# DNS  Javelin
+::1 px.wa.ui-portal.de						# TRAC GMX
+#::1 log.tapatalk.com						# HOME Tapatalk
+::1 www.mobisystems.com						# HOME OfficeSuite
+::1 adserver.ip-phone-forum.de				# ADDS IPPF website
+::1 asotrack1.fluentmobile.com				# TRAC PayPal
+::1 kraken-measurements.s3.amazonaws.com	# TRAC Amazon App-Shop
+::1 app.adjust.io							# TRAC PAYBACK
+::1 ticks2.bugsense.com						# TRAC PAYBACK
+::1 smetrics.payback.de						# TRAC PAYBACK
+::1 match.adsrvr.org						# ADDS XDA
+::1 ads.servebom.com						# ADDS XDA
+::1 ads.pubmatic.com						# ADDS XDA
+::1 c.amazon-adsystem.com					# ADDS XDA
+::1 sdmaid.darken.eu						# HOME SD Maid
+#::1 opsen.dolphin-browser.com				# HOME?Dolphin
+#::1 addon.dolphin-browser.com				# HOME?Dolphin
+::1 chelpus.com								# MALW
+::1 www.chelpus.com							# MALW
+::1 luckypatchers.com						# MALW
+::1 www.luckypatchers.com					# MALW
+::1 chelpus.defcon5.biz						# MALW
+::1 lucky-patcher.netbew.com				# MALW
+::1 sites.google.com						# MALW
+::1 www.freedomapk.info						# MALW
+::1 freedomapk.info							# MALW
+::1 oyag.lhzbdvm.com						# MALW RagentekOTA
+::1 oyag.prugskh.net						# MALW RagentekOTA
+::1 oyag.prugskh.com						# MALW RagentekOTA
+::1 lister-studios.com						# ADDS Einkaufsliste PRO
+::1 www.lister-studios.com					# ADDS Einkaufsliste PRO
+::1 scondoo-production.appspot.com			# ADDS Einkaufsliste PRO
+::1 reporting.aatkit.com					# ADDS
+::1 rules.aatkit.com						# ADDS
+::1 bos.ads.nexage.com						# ADDS
+::1 services.starfinanz.de					# HOME Sparkasse+
+::1 www.sparkasse.de						# HOME Sparkasse+
+# https://censys.io/certificates/c47adfe29edda2f3e321e9f59d211e04d41b4dece5c9c008744739b0dd50d4a0
+::1 sni35923.cloudflaressl.com
+::1 www.adaway.net
+::1 www.airecruit.co.uk
+::1 www.angularquestions.com
+::1 www.apexyachts.com
+::1 www.cheapcleanerslondon.com
+::1 www.crazyromanian.com
+::1 www.cursuriprogramare.org
+::1 www.dannywhittaker.com
+::1 www.dianestevensskincare.com
+::1 www.elrincondebequelba.com
+::1 www.escortscheck.com
+::1 www.galaxy-book.com
+::1 www.gnoccatrips.com
+::1 www.jigolox.com
+::1 www.jocurisecondhand.com
+::1 www.kingrootz.com
+::1 www.luckypatchers.com
+::1 www.lzodevelopment.com
+::1 www.lzomarketing.com
+::1 www.lzomedia.com
+::1 www.meatinapark.com.au
+::1 www.mmoingame.com
+::1 www.mxplayerpro.com
+::1 www.mysqlquestions.com
+::1 www.ndroidapk.com
+::1 www.ritualknifes.com
+::1 www.showpadappbuilder.com
+::1 www.snaptubepro.com
+::1 www.socialisy.com
+::1 www.telectronics.org.uk
+::1 www.trackerfilme.com
+::1 www.tubemateapk.com
+::1 www.tubematefree.com
+::1 www.ukhome-improvements.co.uk
+::1 www.vidmatehd.com
+::1 www.websitepit.com
+::1 www.wololo-project.es
+::1 adaway.net
+::1 airecruit.co.uk
+::1 angularquestions.com
+::1 apexyachts.com
+::1 cheapcleanerslondon.com
+::1 crazyromanian.com
+::1 cursuriprogramare.org
+::1 dannywhittaker.com
+::1 dianestevensskincare.com
+::1 elrincondebequelba.com
+::1 escortscheck.com
+::1 galaxy-book.com
+::1 gnoccatrips.com
+::1 jigolox.com
+::1 jocurisecondhand.com
+::1 kingrootz.com
+::1 luckypatchers.com
+::1 lzodevelopment.com
+::1 lzomarketing.com
+::1 lzomedia.com
+::1 meatinapark.com.au
+::1 mmoingame.com
+::1 mxplayerpro.com
+::1 mysqlquestions.com
+::1 ndroidapk.com
+::1 ritualknifes.com
+::1 showpadappbuilder.com
+::1 snaptubepro.com
+::1 socialisy.com
+::1 telectronics.org.uk
+::1 trackerfilme.com
+::1 tubemateapk.com
+::1 tubematefree.com
+::1 ukhome-improvements.co.uk
+::1 vidmatehd.com
+::1 websitepit.com
+::1 wololo-project.es

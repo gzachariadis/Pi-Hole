@@ -1,0 +1,101 @@
+#######################################
+###YAMA Industrials, Inc. 2017#########
+###Protection Series List-2############
+#######################################
+
+
+#Added 12/13/2017 from @hackread
+#This Fidget spinner app is sending other apps data to Chinese server, “Background System EToys” login system.
+api.e-toys.cn
+c.appjiagu.com
+#Added 12/19/2019 per RoadTrip and Online News
+curationservices.com
+adverrd.global.ssl.fastly.net
+coinrobot.xyz
+#Added 12/24/2017 from YAMA Threat Intelligence Unit
+unitcdn.info
+push.putaoya112.com
+global.ymtracking.com
+#Added 4/17/2018
+#phishing
+pspwieruszow.pl
+www.pspwieruszow.pl
+#botnet
+laykni.com
+www.laykni.com
+#zero-day malware
+filmi-porno-zvezdi-rossiya.dcshop.su
+www.filmi-porno-zvezdi-rossiya.dcshop.su
+#malware
+mdxh.com.cn
+www.mdxh.com.cn
+#virus over ssl
+cyren-wsd.xyz
+#zero day phishing
+applecloudestoragesecurity-devicewarningalertcodex01001x.xyz
+www.applecloudestoragesecurity-devicewarningalertcodex01001x.xyz
+#anonymizer
+www.cyren-wsd.xyz
+# Blocking mobile ad providers and some analytics providers
+bitmedia.io
+cdn.bitmedia.io
+www.bitmedia.io
+static.bitmedia.io
+www.bitstarz.com
+bitstarz.com
+# [Full-Page Ads]
+pconly4test.friendlysystems2upgrading.review
+friendlysystems2upgrading.review
+f020918.privacy4browsers.com
+privacy4browsers.com
+ask24update.trafficforupgrade.download
+trafficforupgrade.download
+easypdfcombine.com
+trck.addiliate.com
+addiliate.com
+jat01.iwantyourightnow.info
+iwantyourightnow.info
+messengertime.dist-app.com
+dist-app.com
+portmanchauffeurs.com
+oasis.com
+enterworldofupgradesalways.win
+testpconly12.enterworldofupgradesalways.win
+# FAKE Downloads
+getflash.co
+files.getflash.co
+www.getflash.co
+getflash.info
+files.getflash.info
+www.getflash.info
+css.getflash.info
+css.getflash.co
+findr.org
+www.findr.org
+# OTHER Lists
+Scarlet-Clicks.info
+07Bux.net
+10Bux.nt
+www.07Bux.net
+www.10Bux.nt
+www.b-u-x.net
+00bux.com
+www.00bux.com
+#Added 5/31/2018
+#cyren web security diagnostic
+www.cyren-wsd.xyz
+stmarylebone.org
+docusign.someanswers.net
+laykni.com
+nolimt.org
+morinsurface.com
+#shieldtest.com from mydigitalshield.com
+ishieldu.com
+cybrarro.com
+www.cybrarro.com
+#reddit/pi/added 8/23/2018
+iedc.fitbit.com
+e.reddit.com
+static.audienceinsights.net
+liberty.logs.roku.com
+
