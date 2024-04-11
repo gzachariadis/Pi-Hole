@@ -62,8 +62,10 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [NeoDev Hosts](https://github.com/neodevpro/neodevhost)
 - [ ] [Mobile Trackers](https://github.com/craiu/mobiletrackers)
 - [ ] [Blockconvert](https://github.com/mkb2091/blockconvert)
-
-- [ ] 
+- [ ] [MullVad DNS-Blocklist](https://github.com/mullvad/dns-blocklists?tab=readme-ov-file#lists)
+- [ ] [jmDugan's Blocklists](https://github.com/jmdugan/blocklists)
+- [ ] [1Hosts](https://github.com/badmojr/1Hosts)
+- [ ] [Sefinek Blocklist](https://github.com/sefinek24/Sefinek-Blocklist-Collection)
 
 ### Social Media
 
@@ -72,9 +74,12 @@ I propose you select the lists of you find more useful and add them from multipl
 - [x] [Gieljnssns's Social Media Blocklist](https://github.com/gieljnssns/Social-media-Blocklists)
 - [x] [Koen20's Facebook Blocklist](https://github.com/koen20/pihole-facebook)
 
-### Apple Specific
+### Specific
 
 - [x] [Apple Telemetry](https://github.com/cedws/apple-telemetry)
+- [ ] [No Google](https://github.com/nickspaargaren/no-google)
+- [ ] [Adobe](https://github.com/Ruddernation-Designs/Adobe-URL-Block-List)
+- [ ] 
 
 ### Outdated
 
@@ -85,6 +90,10 @@ I propose you select the lists of you find more useful and add them from multipl
 
 - [ ] [ph00lt0](https://github.com/ph00lt0/blocklist)
 - [ ] [Zangadoprojets](https://github.com/zangadoprojets/pi-hole-blocklist)
+- [ ] [The Great Wall](https://github.com/Sekhan/TheGreatWall)
+- [ ] [Perflyst](https://github.com/Perflyst/PiHoleBlocklist)
+- [ ] [Gyli](https://github.com/gyli/Blocklist)
+- [ ] [Anti-Telemetry](https://github.com/MoralCode/pihole-antitelemetry)
 
 ## FAQ
 
