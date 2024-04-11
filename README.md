@@ -51,7 +51,7 @@ I propose you select the lists of you find more useful and add them from multipl
 - [x] [Nickoppen's Pihole Blocklist](https://github.com/nickoppen/pihole-blocklists)
 - [x] [AnudeepND Blocklist](https://github.com/anudeepND/blacklist)
 - [x] [Blocklist Project](https://github.com/blocklistproject/Lists)
-- [ ] [EasyList](https://easylist.to/)
+- [ ] [EasyList](https://github.com/ZingyAwesome/easylists-for-pihole)
 - [x] [The Firebog](https://firebog.net/)
 - [x] [LightSwitch05](https://github.com/lightswitch05/hosts)
 - [x] [OISD](https://dbl.oisd.nl/) & [OISD NSFW](https://dbl.oisd.nl/nsfw/)
@@ -59,6 +59,11 @@ I propose you select the lists of you find more useful and add them from multipl
 - [x] [Just Domains](https://github.com/justdomains/blocklists)
 - [x] [CombinedPrivacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
 - [x] [Accomplist](https://github.com/cbuijs/accomplist)
+- [ ] [NeoDev Hosts](https://github.com/neodevpro/neodevhost)
+- [ ] [Mobile Trackers](https://github.com/craiu/mobiletrackers)
+- [ ] [Blockconvert](https://github.com/mkb2091/blockconvert)
+
+- [ ] 
 
 ### Social Media
 
@@ -74,6 +79,12 @@ I propose you select the lists of you find more useful and add them from multipl
 ### Outdated
 
 - [x] [hl2guide](https://github.com/hl2guide/Filterlist-for-AdGuard-or-PiHole?tab=readme-ov-file)
+- [ ] [EnergizedProtection](https://github.com/EnergizedProtection/block)
+      
+### Others
+
+- [ ] [ph00lt0](https://github.com/ph00lt0/blocklist)
+- [ ] [Zangadoprojets](https://github.com/zangadoprojets/pi-hole-blocklist)
 
 ## FAQ
 
