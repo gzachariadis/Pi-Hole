@@ -69,6 +69,10 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [ShadowWhisperer Blocklist](https://github.com/ShadowWhisperer/BlockLists)
 - [ ] [Black Mirror](https://github.com/T145/black-mirror)
 - [ ] [OISD NL](https://github.com/zoonderkins/dbl-oisd-nl)
+- [ ] [The Ultimate Hosts Blacklist](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist)
+- [ ] [hBlock](https://github.com/hectorm/hblock)
+- [ ] [Spam404](https://github.com/Spam404/lists)
+- [ ] [Esox-Lucius](https://github.com/Esox-Lucius/PiHoleblocklists)
 
 ### Social Media
 
@@ -87,6 +91,9 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [Porn](https://github.com/Bon-Appetit/porn-domains)
 - [ ] [Xiaomi](https://github.com/unknownFalleN/xiaomi-dns-blocklist)
 - [ ] [NSA & CIA](https://github.com/tigthor/NSA-CIA-Blocklist)
+- [ ] [Tik-Tok](https://github.com/danhorton7/pihole-block-tiktok)
+- [ ] [Twitter](https://github.com/JackCuthbert/pihole-twitter)
+- [ ] 
 
 ### Outdated
 
@@ -109,6 +116,15 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [Lassekongo83](https://github.com/lassekongo83/Frellwits-filter-lists)
 - [ ] [Piracy Blocklist](https://github.com/nextdns/piracy-blocklists)
 - [ ] [Blacklist](https://github.com/fabriziosalmi/blacklists)
+- [ ] [Yet another Pi-Hole List](https://github.com/JavanXD/ya-pihole-list)
+- [ ] [No Qanon](https://github.com/rimu/no-qanon)
+- [ ] [Scam BLocklist](https://github.com/durablenapkin/scamblocklist)
+- [ ] [DonutDNS](https://github.com/shoenig/donutdns)
+- [ ] [The Big List of Hacked Malware Websites](https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites)
+- [ ] [Notrack Blocklist](https://gitlab.com/quidsup/notrack-blocklists)
+- [ ] [Scam Blocklist](https://github.com/durablenapkin/scamblocklist)
+- [ ] [Smashblock](https://github.com/smashah/smashblock)
+- [ ] [Emerging Threats](https://github.com/tweedge/emerging-threats-pihole)
 
 ## FAQ
 
