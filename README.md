@@ -66,20 +66,27 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [jmDugan's Blocklists](https://github.com/jmdugan/blocklists)
 - [ ] [1Hosts](https://github.com/badmojr/1Hosts)
 - [ ] [Sefinek Blocklist](https://github.com/sefinek24/Sefinek-Blocklist-Collection)
+- [ ] [ShadowWhisperer Blocklist](https://github.com/ShadowWhisperer/BlockLists)
+- [ ] [Black Mirror](https://github.com/T145/black-mirror)
+- [ ] [OISD NL](https://github.com/zoonderkins/dbl-oisd-nl)
 
 ### Social Media
 
 - [x] [Bolawell's Social Media Hosts](https://github.com/bolawell/Social-media-Blocklists)
 - [x] [D43m0nhLlnt3r's Social Media Hosts](https://github.com/d43m0nhLInt3r/socialblocklists)
 - [x] [Gieljnssns's Social Media Blocklist](https://github.com/gieljnssns/Social-media-Blocklists)
-- [x] [Koen20's Facebook Blocklist](https://github.com/koen20/pihole-facebook)
+- [x] [Facebook Blocklist](https://github.com/koen20/pihole-facebook)
+- [ ] [Facebook Blocklists v2](https://github.com/imkarthikk/pihole-facebook)
+- [ ] 
 
 ### Specific
 
 - [x] [Apple Telemetry](https://github.com/cedws/apple-telemetry)
 - [ ] [No Google](https://github.com/nickspaargaren/no-google)
 - [ ] [Adobe](https://github.com/Ruddernation-Designs/Adobe-URL-Block-List)
-- [ ] 
+- [ ] [Porn](https://github.com/Bon-Appetit/porn-domains)
+- [ ] [Xiaomi](https://github.com/unknownFalleN/xiaomi-dns-blocklist)
+- [ ] [NSA & CIA](https://github.com/tigthor/NSA-CIA-Blocklist)
 
 ### Outdated
 
@@ -94,6 +101,14 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [Perflyst](https://github.com/Perflyst/PiHoleBlocklist)
 - [ ] [Gyli](https://github.com/gyli/Blocklist)
 - [ ] [Anti-Telemetry](https://github.com/MoralCode/pihole-antitelemetry)
+- [ ] [Ultimate-Blocklist](https://github.com/walshie4/Ultimate-Blocklist)
+- [ ] [KitsapCreator](https://github.com/KitsapCreator/pihole-blocklists)
+- [ ] [Mhhakim](https://github.com/mhhakim/pihole-blocklist)
+- [ ] [cNAME-Cloaking Blocking](https://github.com/nextdns/cname-cloaking-blocklist)
+- [ ] [DuckDuckGo Tracker](https://github.com/duckduckgo/tracker-blocklists)
+- [ ] [Lassekongo83](https://github.com/lassekongo83/Frellwits-filter-lists)
+- [ ] [Piracy Blocklist](https://github.com/nextdns/piracy-blocklists)
+- [ ] [Blacklist](https://github.com/fabriziosalmi/blacklists)
 
 ## FAQ
 
