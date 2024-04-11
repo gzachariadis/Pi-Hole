@@ -73,6 +73,8 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [hBlock](https://github.com/hectorm/hblock)
 - [ ] [Spam404](https://github.com/Spam404/lists)
 - [ ] [Esox-Lucius](https://github.com/Esox-Lucius/PiHoleblocklists)
+- [ ] [Phising](https://phishing.army/)
+- [ ] [EasyList - EasyPrivacy - Fanboy](https://github.com/easylist/easylist)
 
 ### Social Media
 
@@ -125,6 +127,7 @@ I propose you select the lists of you find more useful and add them from multipl
 - [ ] [Scam Blocklist](https://github.com/durablenapkin/scamblocklist)
 - [ ] [Smashblock](https://github.com/smashah/smashblock)
 - [ ] [Emerging Threats](https://github.com/tweedge/emerging-threats-pihole)
+- [ ] [PeterDaveHello - Threats](https://github.com/PeterDaveHello/threat-hostlist)
 
 ## FAQ
 
