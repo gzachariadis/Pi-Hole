@@ -1,9 +1,10 @@
-<h1 align="center">Raindrop</h1>
+<h1 align="center">Raindop</h1>
+<h3 align="center">All-in-one bookmark manager</h3>
 
-## Host Domains
+## Domains
 
 ```
-raindrop.io
+raindop.io
 ```
 
 ## Application Programming Interface (API)
@@ -12,7 +13,7 @@ raindrop.io
 
 ```
 
-## Content Delivery Network (CDN) - 
+## Content Delivery Network (CDN)
 
 ```
 

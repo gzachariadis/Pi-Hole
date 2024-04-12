@@ -1,9 +1,10 @@
 <h1 align="center">Digicert</h1>
+<h3 align="center">DigiCert is a leading provider of SSL digital certificates, encryption and authentication services.</h3>
 
-## Host Domains
+## Domains
 
 ```
-digicert.com	
+digicert.com
 www.digicert.com
 ```
 
@@ -13,8 +14,8 @@ www.digicert.com
 cacerts.digicert.com
 ```
 
-## Content Delivery Network (CDN) - 
+## Content Delivery Network (CDN) -
 
 ```
-ocsp.digicert.com	
+ocsp.digicert.com
 ```

@@ -1,24 +1,25 @@
-# Visual Studio Code
+<h1 align="center">Visual Studio Code</h1>
+<h3 align="center">Source code editor developed by Microsoft</h3>
 
-## Host Domains (Download)
+## Domains
 
 ```
 vscode.dev
 ```
 
-## Marketplace
+## Content Delivery Network (CDN) - Marketplace
 
 ```
 marketplace.visualstudio.com
 ```
 
-## Extensions
+## Content Delivery Network (CDN) - Extensions
 
 ```
 [-_a-zA-Z0-9]*.(gallerycdn|gallery).vsassets.io$
 ```
 
-## Software Updates
+## Content Delivery Network (CDN) - Software Updates
 
 ```
 update.code.visualstudio.com
