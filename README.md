@@ -18,6 +18,7 @@ A compehensive guide to setting up my personal configuration.
   - [Networking](#networking)
     - [DHCP or Static DNS?](#dhcp-or-static-dns)
     - [Forcing DNS](#forcing-dns)
+      - [Sources](#sources)
   - [Performance](#performance)
   - [Settings](#settings)
     - [Whitelist](#whitelist)
