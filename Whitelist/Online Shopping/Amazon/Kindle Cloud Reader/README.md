@@ -14,7 +14,7 @@ read.amazon.com
 amazon.com
 ```
 
-## Content Delivery Network (CDN) - Book Catalog Display
+## Content Delivery Network (CDN) - Catalog Display
 
 ```
 unagi.amazon.com
@@ -23,21 +23,21 @@ unagi-na.amazon.com
 unagi-eu.amazon.com
 ```
 
-## Content Delivery Network (CDN) - Book Covers
+## Content Delivery Network (CDN) - Covers
 
 ```
 images-na.ssl-images-amazon.com
 m.media-amazon.com
 ```
 
-## Content Delivery Network (CDN) - Book Highlights
+## Content Delivery Network (CDN) - Highlights
 
 ```
 fls-na.amazon.com
 fls-eu.amazon.co.uk
 ```
 
-## Content Delivery Network (CDN) - Book Contents
+## Content Delivery Network (CDN) - Contents
 
 ```
 k4wyjmetadata.s3.amazonaws.com
