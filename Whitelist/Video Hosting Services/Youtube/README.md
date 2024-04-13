@@ -3,8 +3,8 @@
 ## Domains
 
 ```
-youtube.com	
-www.youtube.com	
+youtube.com
+www.youtube.com
 ```
 
 ## Mobile Version
@@ -47,8 +47,7 @@ accounts.youtube.com
 ## Content Delivery Network (CDN) - [Channel icons & Video Thumbnails](https://www.reddit.com/r/privacy/comments/q5h62m/what_is_ggphtcom/)
 
 ```
-i.ytimg.com	
+i.ytimg.com
 yt3.ggpht.com
 yt3.googleusercontent.com
 ```
-
