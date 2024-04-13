@@ -1,4 +1,4 @@
-<h1 align="center">Vidplay</h1>
+<h1 align="center">VidStream</h1>
 <h3 align="center">A freemium video sharing platform.</h3>
 
 ## Domains
