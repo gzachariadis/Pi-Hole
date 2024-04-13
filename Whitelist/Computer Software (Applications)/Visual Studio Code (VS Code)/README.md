@@ -1,5 +1,5 @@
 <h1 align="center">Visual Studio Code</h1>
-<h3 align="center">Source code editor developed by Microsoft</h3>
+<h3 align="center">Source code editor developed by Microsoft.</h3>
 
 ## Domains
 

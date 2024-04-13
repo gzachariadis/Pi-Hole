@@ -1,16 +1,13 @@
 <h1 align="center">Voe</h1>
+<h3 align="center">Cloud Storage & Video Provider</h3>
 
-<h3 align="center">Video Cloud Provider</h3>
-
-<br>
-
-## Host Domains
+## Domains
 
 ```
 voe.sx
 ```
 
-## Video Thumbnails
+## Content Delivery Network (CDN) - Thumbnails
 
 ```
 i.voe.sx

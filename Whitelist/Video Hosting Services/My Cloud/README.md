@@ -1,5 +1,5 @@
 <h1 align="center">My Cloud</h1>
-<h3 align="center">File sharing site popular with Pirate sites.</h3>
+<h3 align="center">Video sharing site popular with Pirate sites.</h3>
 
 ## Domains
 

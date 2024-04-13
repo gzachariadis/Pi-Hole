@@ -55,6 +55,7 @@ media.discordapp.net
 ## Content Delivery Network (CDN) - Download Application
 
 ```
+discordapp.net
 dl.discordapp.net
 ```
 

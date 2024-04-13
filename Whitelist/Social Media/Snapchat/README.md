@@ -1,31 +1,11 @@
 <h1 align="center">Snapchat</h1>
+<h3 align="center">Instant Messaging Application</h3>
 
-## Host Domains
+## Domains
 
 ```
 www.snapchat.com
-```
-
-## Mobile Application 
-
-```
-app.snapchat.com
-aws.duplex.snapchat.com
-
-```
-
-## Account Login
-
-```
-auth.snapchat.com
-accounts.snapchat.com
-accounts.snap.com
-```
-
-## Snapchat Web
-
-```
-web.snapchat.com
+snapchat.com
 ```
 
 ## Application Programming Interface (API)
@@ -43,7 +23,22 @@ usc1-gcp-v62.api.snapchat.com
 snap-api.arkoselabs.com
 ```
 
-## Content Delivery Network (CDN)
+## Content Delivery Network (CDN) - Account Login
+
+```
+auth.snapchat.com
+accounts.snapchat.com
+accounts.snap.com
+```
+
+## Content Delivery Network (CDN) - Application Data
+
+```
+app.snapchat.com
+aws.duplex.snapchat.com
+```
+
+## Content Delivery Network (CDN) - Snaps
 
 ```
 gcs.sc-cdn.net
@@ -51,11 +46,9 @@ cf-st.sc-cdn.net
 snapnet-cdn.storage.googleapis.com
 ```
 
-## Content Delivery Network (CDN) - Chat
+## Content Delivery Network (CDN) - Instant Messages
 
 ```
 chat-getway-prod-chat.snapchat.com
 chat-gateway-prod.chat.snapchat.com
 ```
-
-mvm.snapchat.com

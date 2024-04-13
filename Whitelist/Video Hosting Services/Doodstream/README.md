@@ -1,13 +1,10 @@
 <h1 align="center">Doodstream</h1>
-
 <h3 align="center">Video Sharing Platform</h3>
 
-<br>
-
-## Host Domains
+## Domains
 
 ```
-doodstream.com	
+doodstream.com
 d000d.com
 ```
 

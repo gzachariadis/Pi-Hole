@@ -1,4 +1,5 @@
-<h1 align="center"></h1>
+<h1 align="center">Fmoviesz</h1>
+<h3 align="center">Free streaming of movies and TV shows in high quality.</h3>
 
 ## Domains
 
@@ -13,7 +14,7 @@ www.fmoviesz.to
 static.fmoviesz.to
 ```
 
-## Content Delivery Network (CDN) -
+## Content Delivery Network (CDN) - Images
 
 ```
 cdnjs.cloudflare.com

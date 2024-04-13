@@ -1,19 +1,14 @@
-<h1 align="center"></h1>
+<h1 align="center">Flixtorz</h1>
+<h3 align="center">Free seamless and enjoyable movie-watching experience</h3>
 
 ## Domains
 
 ```
-
+flixtorz.to
 ```
 
-## Content Delivery Network (CDN)
+## Content Delivery Network (CDN) - Static Pages (CSS)
 
 ```
-
-```
-
-## Application Programming Interface (API)
-
-```
-
+static.flixtorz.to
 ```

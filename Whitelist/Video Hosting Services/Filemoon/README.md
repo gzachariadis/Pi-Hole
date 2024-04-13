@@ -1,5 +1,5 @@
 <h1 align="center">Filemoon</h1>
-<h3 align="center">Filemoon is a platform that lets you upload and share your files with others to get money rewards.</h3>
+<h3 align="center">Video Sharing Platform</h3>
 
 ## Domains
 

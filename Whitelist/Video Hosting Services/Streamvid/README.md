@@ -1,19 +1,16 @@
 <h1 align="center">Streamvid</h1>
+<h3 align="center">Video Streaming Platform</h3>
 
-<h3 align="center">Video Streaming Provider</h3>
-
-<br>
-
-## Host Domains
+## Domains
 
 ```
 streamvid.net
 ```
 
-<br>
+## Content Delivery Network (CDN) - Videos
 
 ```
-[a-zA-Z0-9]*.streamvid.cyou
+[a-zA-Z0-9]*.streamvid.cyou 
 ```
 
 ## Content Delivery Network (CDN) - Video Thumbnails

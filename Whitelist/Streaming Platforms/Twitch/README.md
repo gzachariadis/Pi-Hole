@@ -1,5 +1,5 @@
 <h1 align="center">Twitch</h1>
-<h3 align="center">An American video live-streaming service that focuses on video game live streaming.</h3>
+<h3 align="center">Video live-streaming service centered around video games.</h3>
 
 ## Domains
 

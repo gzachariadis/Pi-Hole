@@ -8,13 +8,13 @@ digicert.com
 www.digicert.com
 ```
 
-## Application Programming Interface (API)
+## Application Programming Interface (API) - Certificate Service
 
 ```
 cacerts.digicert.com
 ```
 
-## Content Delivery Network (CDN) -
+## Content Delivery Network (CDN) - Online Certificate Status Protocol
 
 ```
 ocsp.digicert.com
