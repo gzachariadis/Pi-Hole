@@ -4,7 +4,7 @@ This is a list of websites, services and applications I whitelist under my confi
 
 **Follow at your own peril.**
 
-A checkbox next to an item means that website of application has passed it's "vetting" (for lack of a better word)
+A checkbox next to an item means that website of application has passed it's "vetting". (for lack of a better word)
 
 Vetting Process
 
@@ -15,9 +15,7 @@ Vetting Process
 5. Settle on the most minimal configuration which works.
 6. Done!
 
-Enjoy! :)
-
-## Table of Contents
+# Table of Contents
 
 ## Code Hosting Websites (Git)
 
