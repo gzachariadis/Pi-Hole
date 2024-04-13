@@ -1,134 +1,79 @@
-## Browsers
+## Code Hosting Websites (Git)
 
-- [ ] LibreWolf
-- [ ] Brave
-- [ ] Tor
+- [ ] GIthub
 
-## Cloud Storage
+## Computer Software (Applications)
 
-- [ ] Proton Drive
-- [ ] Mega
-
-## Messaging
-
-- [ ] Signal
-- [ ] Threema
-
-## Code Hosting Websites
-
-- [x] Github
-- [ ] Bitbucket
-- [ ] Gitlab
-
-## Computer Software
-
-- [ ] Malwarebytes
-- [ ] Microsoft's Visual Studio Code
-- [ ] Raindrop
-
-## Content Hosting Services
-
-- [ ] Linktree
-- [ ] Pastebin
+- [ ] Visual Studio Code (VS Code)
 
 ## Digital Certificate Authorities (DCA)
 
 - [ ] Digicert
-- [ ] Let's Encrypt
 
-## Domain Name Systems (DNS)
+## Entertainment
 
-- [ ] Cloudflare
-- [ ] Quad9
-- [ ] NextDNS
-
-## Email Providers
-
-- [ ] Gmail
-- [ ] ProtonMail
-- [ ] Tutanota
-- [ ] Skiff
-
-## Forums
-
-- [ ] StackOverFlow
+- [ ] Flixtorz
+- [ ] Fmoviesz
 
 ## Hardware Manufacturers
 
-- [ ] Corsair
-- [ ] Nvidia
+- [ ] Xiaomi
 
-## Image Hosting Services
+## Homelab
 
-- [ ] Imgur
-- [ ] Lightshot
-
-## Network Time Protocol (NTP)
-
-- [ ] Greece
-
-## Not Safe for Work (NSFW)
-
-- [ ] Pornhub
-- [ ] Xsyprn
+- [ ] Pi-Hole
 
 ## Online Shopping
 
-- [ ] Amazon
-  - [ ] Audible
-  - [ ] Kindle
+- Amazon
+  - [x] Kindle Cloud Reader
 
 ## Operating Systems
 
-- [ ] Android
-- [ ] MacOS
+- Android
+  - Applications
+    - [ ] Kindle
+  - [ ] Connectivity Check
+  - [ ] Google Play Store
 
-## Others
+## Password Managers
 
-- [ ] Linktree
-- [ ] Pastebin
+- [x] Bitwarden
 
-## Piracy
+## Porn (NSFW)
 
-- [x] Flixtorz
-- [x] Fmoviez
-
-## RSS Feeds
-
-- [x] Podcasts
+- [ ] Pornhub
 
 ## Search Engines
 
 - [ ] DuckDuckGo
-- [ ] Searx
-- [ ] StartPage
-
-## Web Server Hosting
-
-- [ ] Privex
-- [ ] 1984 Web Hosting
-- [ ] Njalla
 
 ## Social Media
 
 - [ ] Discord
-- [ ] Messenger
+- [ ] Facebook
 - [ ] Instagram
+- [ ] Messenger
 - [x] Reddit
 - [ ] Snapchat
-- [ ] Rimgo
+- [ ] Twitter
+- [ ] Youtube
 
-## Streaming
+## Streaming Platforms
 
 - [x] Twitch
 
-## Video Hosting
+## Video Hosting Services
 
 - [ ] DoodStream
-- [x] My Cloud
+- [ ] Filemoon
+- [ ] My Cloud
 - [ ] Putlocker
 - [ ] Streamtape
 - [ ] Streamvid
-- [x] Vidplay
+- [ ] Vidplay
 - [ ] Voe
-- [x] Youtube
+
+## Web Apps
+
+- [ ] Raindrop
