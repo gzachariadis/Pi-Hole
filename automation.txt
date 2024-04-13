@@ -1,0 +1,40 @@
+
+Steps :
+
+1. Find a way to make sense of exported teleport data.
+2. Find a match between groups and folders
+
+
+Fetch all entries by groups
+Seperate them by Comment
+Start from Domains
+Move to APIs
+then everything else
+- Preset + Comment
+place them in quotes 
+move
+
+
+
+For each folder in Whitelist
+
+function TO:
+repeat {
+    if folder has subfolders 
+        go inside the first one
+        until no subfolders
+}
+
+return Function_outcome
+fetch Function_outcome parent
+
+for each folder in the Function_outcome parent
+check inside for README.md file
+    if README.md file contains "Audited"
+        fetch folder_name
+        rename folder ✔️ space [it's name]
+        counter_success +1
+    else
+        rename folder ❌ space [it's name]
+        counter_failure +1
+

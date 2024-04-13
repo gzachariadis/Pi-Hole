@@ -39,6 +39,9 @@ youtube-nocookie.com
 accounts.youtube.com
 ```
 
+## Non-Mandatory 
+
+
 ## Content Delivery Network (CDN) - [Channel Avatars & Video Thumbnails](https://www.reddit.com/r/privacy/comments/q5h62m/what_is_ggphtcom/)
 
 ```
