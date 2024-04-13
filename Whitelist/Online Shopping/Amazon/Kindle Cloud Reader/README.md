@@ -8,7 +8,7 @@
 read.amazon.com
 ```
 
-## ## Content Delivery Network (CDN) - Account Login
+## Content Delivery Network (CDN) - Account Login
 
 ```
 amazon.com
