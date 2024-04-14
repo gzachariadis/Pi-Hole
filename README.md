@@ -182,7 +182,7 @@ Why so many?
 - [x] [CombinedPrivacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
 - [ ] [Accomplist](https://github.com/cbuijs/accomplist)
 - [x] [Mobile Trackers](https://github.com/craiu/mobiletrackers)
-- [ ] [Blockconvert](https://github.com/mkb2091/blockconvert)
+- [x] [Blockconvert](https://github.com/mkb2091/blockconvert)
 - [ ] [MullVad DNS-Blocklist](https://github.com/mullvad/dns-blocklists?tab=readme-ov-file#lists)
 - [ ] [jmDugan's Blocklists](https://github.com/jmdugan/blocklists)
 - [x] [1Hosts](https://github.com/badmojr/1Hosts)
