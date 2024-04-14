@@ -190,7 +190,18 @@ Another useful source for specific whitelists, can be found [here](https://githu
 - [x] [No Google](https://github.com/nickspaargaren/no-google)
 - [x] [Porn Domains](https://github.com/Bon-Appetit/porn-domains)
 - [x] [Xiaomi](https://github.com/unknownFalleN/xiaomi-dns-blocklist)
-     
+- [x] [Yet another Pi-Hole List](https://github.com/JavanXD/ya-pihole-list)
+- [x] [CNAME-Cloaking](https://github.com/nextdns/cname-cloaking-blocklist)
+- [x] [The Big List of Hacked Malware Websites](https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites)
+- [x] [Scam Blocklist](https://github.com/durablenapkin/scamblocklist)
+- [x] [UrlHaus-Filter](https://github.com/curbengh/urlhaus-filter)
+- [x] [KADHosts](https://github.com/FiltersHeroes/KADhosts)
+- [x] [NoCoin Adblock](https://github.com/hoshsadiq/adblock-nocoin-list)
+- [x] [Piracy Blocklist](https://github.com/nextdns/piracy-blocklists)
+- [x] [Blacklist](https://github.com/fabriziosalmi/blacklists)
+- [x] [The Great Wall](https://github.com/Sekhan/TheGreatWall)
+- [x] [Tik-Tok](https://github.com/danhorton7/pihole-block-tiktok)
+
 - [ ] [Accomplist](https://github.com/cbuijs/accomplist)
 - [ ] [MullVad DNS-Blocklist](https://github.com/mullvad/dns-blocklists?tab=readme-ov-file#lists)
 - [ ] [jmDugan's Blocklists](https://github.com/jmdugan/blocklists)
@@ -201,42 +212,34 @@ Another useful source for specific whitelists, can be found [here](https://githu
 
 - [ ] [Adobe](https://github.com/Ruddernation-Designs/Adobe-URL-Block-List)
 
-
-- [ ] [NSA & CIA](https://github.com/tigthor/NSA-CIA-Blocklist)
-- [ ] [Tik-Tok](https://github.com/danhorton7/pihole-block-tiktok)
 - [ ] [Twitter](https://github.com/JackCuthbert/pihole-twitter)
 
 
 - [ ] [ph00lt0](https://github.com/ph00lt0/blocklist)
 - [ ] [Zangadoprojets](https://github.com/zangadoprojets/pi-hole-blocklist)
-- [ ] [The Great Wall](https://github.com/Sekhan/TheGreatWall)
+
 - [ ] [Perflyst](https://github.com/Perflyst/PiHoleBlocklist)
 - [ ] [Gyli](https://github.com/gyli/Blocklist)
 - [ ] [Anti-Telemetry](https://github.com/MoralCode/pihole-antitelemetry)
-- [ ] [Ultimate-Blocklist](https://github.com/walshie4/Ultimate-Blocklist)
+
 - [ ] [KitsapCreator](https://github.com/KitsapCreator/pihole-blocklists)
+      
 - [ ] [Mhhakim](https://github.com/mhhakim/pihole-blocklist)
-- [ ] [cNAME-Cloaking Blocking](https://github.com/nextdns/cname-cloaking-blocklist)
-- [ ] [DuckDuckGo Tracker](https://github.com/duckduckgo/tracker-blocklists)
+      
 - [ ] [Lassekongo83](https://github.com/lassekongo83/Frellwits-filter-lists)
-- [ ] [Piracy Blocklist](https://github.com/nextdns/piracy-blocklists)
-- [ ] [Blacklist](https://github.com/fabriziosalmi/blacklists)
-- [ ] [Yet another Pi-Hole List](https://github.com/JavanXD/ya-pihole-list)
+
 - [ ] [No Qanon](https://github.com/rimu/no-qanon)
-- [ ] [Scam BLocklist](https://github.com/durablenapkin/scamblocklist)
+
 - [ ] [DonutDNS](https://github.com/shoenig/donutdns)
-- [ ] [The Big List of Hacked Malware Websites](https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites)
-- [ ] [Notrack Blocklist](https://gitlab.com/quidsup/notrack-blocklists)
-- [ ] [Scam Blocklist](https://github.com/durablenapkin/scamblocklist)
-- [ ] [Smashblock](https://github.com/smashah/smashblock)
+
 - [ ] [Emerging Threats](https://github.com/tweedge/emerging-threats-pihole)
+
 - [ ] [PeterDaveHello - Threats](https://github.com/PeterDaveHello/threat-hostlist)
-- [ ] [UrlHaus-Filter](https://github.com/curbengh/urlhaus-filter)
-- [ ] [KADHosts](https://github.com/FiltersHeroes/KADhosts)
-- [ ] [NoCoin Adblock](https://github.com/hoshsadiq/adblock-nocoin-list)
+
 - [ ] [Antifa-n](https://github.com/antifa-n/pihole)
-- [ ] [EasyList - EasyPrivacy - Fanboy](https://github.com/easylist/easylist)
+
 - [ ] [Esox-Lucius](https://github.com/Esox-Lucius/PiHoleblocklists)
+
 - [ ] [Chris Trackers](https://github.com/cbuijs/accomplist/tree/master/chris/trackers)
 
 # Maitenance
