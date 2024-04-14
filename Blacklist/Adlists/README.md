@@ -777,7 +777,6 @@ https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 https://urlhaus.abuse.ch/downloads/hostfile/
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
-https://dbl.oisd.nl/
 ```
 
 ## [CNAME Cloacking](https://github.com/nextdns/cname-cloaking-blocklist)
