@@ -201,6 +201,13 @@ Another useful source for specific whitelists, can be found [here](https://githu
 - [x] [Blacklist](https://github.com/fabriziosalmi/blacklists)
 - [x] [The Great Wall](https://github.com/Sekhan/TheGreatWall)
 - [x] [Tik-Tok](https://github.com/danhorton7/pihole-block-tiktok)
+- [x] [Twitter](https://github.com/JackCuthbert/pihole-twitter)
+- [x] [Mhhakim](https://github.com/mhhakim/pihole-blocklist)
+- [x] [Anti-Telemetry](https://github.com/MoralCode/pihole-antitelemetry)
+- [x] [Apple Telemetry](https://github.com/cedws/apple-telemetry)
+- [x] [Adobe](https://github.com/Ruddernation-Designs/Adobe-URL-Block-List)
+
+
 
 - [ ] [Accomplist](https://github.com/cbuijs/accomplist)
 - [ ] [MullVad DNS-Blocklist](https://github.com/mullvad/dns-blocklists?tab=readme-ov-file#lists)
@@ -208,11 +215,10 @@ Another useful source for specific whitelists, can be found [here](https://githu
 - [ ] [OISD NL](https://github.com/zoonderkins/dbl-oisd-nl)
 
 
-- [ ] [Apple Telemetry](https://github.com/cedws/apple-telemetry)
 
-- [ ] [Adobe](https://github.com/Ruddernation-Designs/Adobe-URL-Block-List)
 
-- [ ] [Twitter](https://github.com/JackCuthbert/pihole-twitter)
+
+
 
 
 - [ ] [ph00lt0](https://github.com/ph00lt0/blocklist)
@@ -220,11 +226,10 @@ Another useful source for specific whitelists, can be found [here](https://githu
 
 - [ ] [Perflyst](https://github.com/Perflyst/PiHoleBlocklist)
 - [ ] [Gyli](https://github.com/gyli/Blocklist)
-- [ ] [Anti-Telemetry](https://github.com/MoralCode/pihole-antitelemetry)
+
 
 - [ ] [KitsapCreator](https://github.com/KitsapCreator/pihole-blocklists)
       
-- [ ] [Mhhakim](https://github.com/mhhakim/pihole-blocklist)
       
 - [ ] [Lassekongo83](https://github.com/lassekongo83/Frellwits-filter-lists)
 
