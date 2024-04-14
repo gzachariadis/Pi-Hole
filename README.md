@@ -185,7 +185,12 @@ Another useful source for specific whitelists, can be found [here](https://githu
 - [x] [hBlock](https://github.com/hectorm/hblock)
 - [x] [Spam404](https://github.com/Spam404/lists)
 - [x] [Phishing Army](https://phishing.army/)                    
-
+- [x] [hl2guide](https://github.com/hl2guide/Filterlist-for-AdGuard-or-PiHole)
+- [x] [EnergizedProtection](https://github.com/EnergizedProtection/block)
+- [x] [No Google](https://github.com/nickspaargaren/no-google)
+- [x] [Porn Domains](https://github.com/Bon-Appetit/porn-domains)
+- [x] [Xiaomi](https://github.com/unknownFalleN/xiaomi-dns-blocklist)
+     
 - [ ] [Accomplist](https://github.com/cbuijs/accomplist)
 - [ ] [MullVad DNS-Blocklist](https://github.com/mullvad/dns-blocklists?tab=readme-ov-file#lists)
 - [ ] [jmDugan's Blocklists](https://github.com/jmdugan/blocklists)
@@ -193,15 +198,15 @@ Another useful source for specific whitelists, can be found [here](https://githu
 
 
 - [ ] [Apple Telemetry](https://github.com/cedws/apple-telemetry)
-- [ ] [No Google](https://github.com/nickspaargaren/no-google)
+
 - [ ] [Adobe](https://github.com/Ruddernation-Designs/Adobe-URL-Block-List)
-- [ ] [Porn](https://github.com/Bon-Appetit/porn-domains)
-- [ ] [Xiaomi](https://github.com/unknownFalleN/xiaomi-dns-blocklist)
+
+
 - [ ] [NSA & CIA](https://github.com/tigthor/NSA-CIA-Blocklist)
 - [ ] [Tik-Tok](https://github.com/danhorton7/pihole-block-tiktok)
 - [ ] [Twitter](https://github.com/JackCuthbert/pihole-twitter)
-- [ ] [hl2guide](https://github.com/hl2guide/Filterlist-for-AdGuard-or-PiHole?tab=readme-ov-file)
-- [ ] [EnergizedProtection](https://github.com/EnergizedProtection/block)
+
+
 - [ ] [ph00lt0](https://github.com/ph00lt0/blocklist)
 - [ ] [Zangadoprojets](https://github.com/zangadoprojets/pi-hole-blocklist)
 - [ ] [The Great Wall](https://github.com/Sekhan/TheGreatWall)
