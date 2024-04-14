@@ -168,11 +168,14 @@ Why so many?
 - Doubles as a Firewall.
 - Whitelist by Group.
 
-- [x] [StevenBlack's Hosts](https://github.com/StevenBlack/hosts)
-- [x] [Hagezi's Hosts](https://github.com/hagezi/dns-blocklists/tree/main)
-- [x] [Nickoppen's Pihole Blocklist](https://github.com/nickoppen/pihole-blocklists)
-- [x] [AnudeepND Blocklist](https://github.com/anudeepND/blacklist)
-- [x] [Blocklist Project](https://github.com/blocklistproject/Lists)
+- [x] [StevenBlack](https://github.com/StevenBlack/hosts)
+- [x] [Hagezi](https://github.com/hagezi/dns-blocklists/tree/main)
+- [x] [1Hosts](https://github.com/badmojr/1Hosts)
+- [x] [Nickoppen](https://github.com/nickoppen/pihole-blocklists)
+- [x] [Gieljnssns](https://github.com/gieljnssns/Social-media-Blocklists)
+- [x] [Crpietschmann](https://github.com/crpietschmann/pi-hole-blocklist)
+- [x] [AnudeepND](https://github.com/anudeepND/blacklist)
+- [x] [The Blocklist Project](https://github.com/blocklistproject/Lists)
 - [x] [EasyList](https://github.com/ZingyAwesome/easylists-for-pihole)
 - [x] [The Firebog](https://firebog.net/)
 - [x] [LightSwitch05](https://github.com/lightswitch05/hosts)
@@ -185,7 +188,7 @@ Why so many?
 - [x] [Blockconvert](https://github.com/mkb2091/blockconvert)
 - [ ] [MullVad DNS-Blocklist](https://github.com/mullvad/dns-blocklists?tab=readme-ov-file#lists)
 - [ ] [jmDugan's Blocklists](https://github.com/jmdugan/blocklists)
-- [x] [1Hosts](https://github.com/badmojr/1Hosts)
+
 - [x] [Sefinek Blocklist](https://github.com/sefinek24/Sefinek-Blocklist-Collection)
 - [x] [ShadowWhisperer Blocklist](https://github.com/ShadowWhisperer/BlockLists)
 - [x] [Black Mirror](https://github.com/T145/black-mirror)
