@@ -206,45 +206,22 @@ Another useful source for specific whitelists, can be found [here](https://githu
 - [x] [Anti-Telemetry](https://github.com/MoralCode/pihole-antitelemetry)
 - [x] [Apple Telemetry](https://github.com/cedws/apple-telemetry)
 - [x] [Adobe](https://github.com/Ruddernation-Designs/Adobe-URL-Block-List)
-
+- [x] [Emerging Threats](https://github.com/tweedge/emerging-threats-pihole)
+- [x] [PeterDaveHello - Threats](https://github.com/PeterDaveHello/threat-hostlist)
+- [x] [Antifa-n](https://github.com/antifa-n/pihole)
+- [x] [KitsapCreator](https://github.com/KitsapCreator/pihole-blocklists)
+- [x] [No Qanon](https://github.com/rimu/no-qanon)
+- [x] [DonutDNS](https://github.com/shoenig/donutdns)
+- [x] [Zangadoprojets](https://github.com/zangadoprojets/pi-hole-blocklist)
+- [x] [Gyli](https://github.com/gyli/Blocklist)
+- [x] [ph00lt0](https://github.com/ph00lt0/blocklist)
+- [x] [Perflyst](https://github.com/Perflyst/PiHoleBlocklist)
+- [x] [MullVad DNS-Blocklist](https://github.com/mullvad/dns-blocklists?tab=readme-ov-file#lists)
+- [x] [jmDugan's Blocklists](https://github.com/jmdugan/blocklists)
 
 
 - [ ] [Accomplist](https://github.com/cbuijs/accomplist)
-- [ ] [MullVad DNS-Blocklist](https://github.com/mullvad/dns-blocklists?tab=readme-ov-file#lists)
-- [ ] [jmDugan's Blocklists](https://github.com/jmdugan/blocklists)
-- [ ] [OISD NL](https://github.com/zoonderkins/dbl-oisd-nl)
-
-
-
-
-
-
-
-
-- [ ] [ph00lt0](https://github.com/ph00lt0/blocklist)
-- [ ] [Zangadoprojets](https://github.com/zangadoprojets/pi-hole-blocklist)
-
-- [ ] [Perflyst](https://github.com/Perflyst/PiHoleBlocklist)
-- [ ] [Gyli](https://github.com/gyli/Blocklist)
-
-
-- [ ] [KitsapCreator](https://github.com/KitsapCreator/pihole-blocklists)
-      
-      
-- [ ] [Lassekongo83](https://github.com/lassekongo83/Frellwits-filter-lists)
-
-- [ ] [No Qanon](https://github.com/rimu/no-qanon)
-
-- [ ] [DonutDNS](https://github.com/shoenig/donutdns)
-
-- [ ] [Emerging Threats](https://github.com/tweedge/emerging-threats-pihole)
-
-- [ ] [PeterDaveHello - Threats](https://github.com/PeterDaveHello/threat-hostlist)
-
-- [ ] [Antifa-n](https://github.com/antifa-n/pihole)
-
 - [ ] [Esox-Lucius](https://github.com/Esox-Lucius/PiHoleblocklists)
-
 - [ ] [Chris Trackers](https://github.com/cbuijs/accomplist/tree/master/chris/trackers)
 
 # Maitenance
