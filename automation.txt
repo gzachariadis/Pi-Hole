@@ -15,7 +15,6 @@ place them in quotes
 move
 
 
-
 For each folder in Whitelist
 
 function TO:
