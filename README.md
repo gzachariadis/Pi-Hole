@@ -188,7 +188,7 @@ Why so many?
 - [x] [1Hosts](https://github.com/badmojr/1Hosts)
 - [x] [Sefinek Blocklist](https://github.com/sefinek24/Sefinek-Blocklist-Collection)
 - [x] [ShadowWhisperer Blocklist](https://github.com/ShadowWhisperer/BlockLists)
-- [ ] [Black Mirror](https://github.com/T145/black-mirror)
+- [x] [Black Mirror](https://github.com/T145/black-mirror)
 - [ ] [OISD NL](https://github.com/zoonderkins/dbl-oisd-nl)
 - [ ] [The Ultimate Hosts Blacklist](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist)
 - [ ] [hBlock](https://github.com/hectorm/hblock)
