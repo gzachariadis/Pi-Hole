@@ -162,12 +162,6 @@ Another useful source for specific whitelists, can be found [here](https://githu
 
 ### Adlists
 
-Why so many?
-
-- Redudancy.
-- Doubles as a Firewall.
-- Whitelist by Group.
-
 - [x] [StevenBlack](https://github.com/StevenBlack/hosts)
 - [x] [Hagezi](https://github.com/hagezi/dns-blocklists/tree/main)
 - [x] [1Hosts](https://github.com/badmojr/1Hosts)
@@ -178,26 +172,26 @@ Why so many?
 - [x] [The Blocklist Project](https://github.com/blocklistproject/Lists)
 - [x] [EasyList](https://github.com/ZingyAwesome/easylists-for-pihole)
 - [x] [The Firebog](https://firebog.net/)
-- [x] [LightSwitch05](https://github.com/lightswitch05/hosts)
-- [ ] [OISD](https://dbl.oisd.nl/) & [OISD NSFW](https://dbl.oisd.nl/nsfw/)
-- [x] [NoTracking](https://github.com/notracking/hosts-blocklists?tab=readme-ov-file)
+- [x] [Developer Dan's LightSwitch05](https://github.com/lightswitch05/hosts)
+- [x] [NoTracking](https://github.com/notracking/hosts-blocklists)
 - [x] [Just Domains](https://github.com/justdomains/blocklists)
-- [x] [CombinedPrivacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
-- [ ] [Accomplist](https://github.com/cbuijs/accomplist)
+- [x] [Combined Privacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
 - [x] [Mobile Trackers](https://github.com/craiu/mobiletrackers)
 - [x] [Blockconvert](https://github.com/mkb2091/blockconvert)
+- [x] [Sefinek](https://github.com/sefinek24/Sefinek-Blocklist-Collection)
+- [x] [ShadowWhisperer](https://github.com/ShadowWhisperer/BlockLists)
+- [x] [Black Mirror](https://github.com/T145/black-mirror)
+- [x] [The Ultimate Hosts](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist)
+- [x] [hBlock](https://github.com/hectorm/hblock)
+- [x] [Spam404](https://github.com/Spam404/lists)
+- [x] [Phishing Army](https://phishing.army/)                    
+
+- [ ] [Accomplist](https://github.com/cbuijs/accomplist)
 - [ ] [MullVad DNS-Blocklist](https://github.com/mullvad/dns-blocklists?tab=readme-ov-file#lists)
 - [ ] [jmDugan's Blocklists](https://github.com/jmdugan/blocklists)
-
-- [x] [Sefinek Blocklist](https://github.com/sefinek24/Sefinek-Blocklist-Collection)
-- [x] [ShadowWhisperer Blocklist](https://github.com/ShadowWhisperer/BlockLists)
-- [x] [Black Mirror](https://github.com/T145/black-mirror)
 - [ ] [OISD NL](https://github.com/zoonderkins/dbl-oisd-nl)
-- [ ] [The Ultimate Hosts Blacklist](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist)
-- [ ] [hBlock](https://github.com/hectorm/hblock)
-- [ ] [Spam404](https://github.com/Spam404/lists)
-- [ ] [Phising](https://phishing.army/)
-- [ ] [ShadowWhisperer](https://github.com/ShadowWhisperer/BlockLists/tree/master)
+
+
 - [ ] [Apple Telemetry](https://github.com/cedws/apple-telemetry)
 - [ ] [No Google](https://github.com/nickspaargaren/no-google)
 - [ ] [Adobe](https://github.com/Ruddernation-Designs/Adobe-URL-Block-List)
