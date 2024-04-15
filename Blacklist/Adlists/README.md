@@ -1117,7 +1117,6 @@ https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/blacklist.txt
 https://oooo.b-cdn.net/blahdns/blahdns_hosts.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt
 https://mkb2091.github.io/blockconvert/output/domains.txt
-https://mkb2091.github.io/blockconvert/output/hosts.txt
 https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Blockzilla.txt
 https://raw.githubusercontent.com/chrisjudk/hosts/master/hosts
 https://raw.githubusercontent.com/CitizenXVIL/Hosts/master/mobile%20domains.txt
@@ -1167,7 +1166,6 @@ https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribabl
 https://raw.githubusercontent.com/biroloter/Mobile-Ad-Hosts/master/hosts
 https://raw.githubusercontent.com/some-username-here1/motd-adblock/master/motd-adblock
 https://raw.githubusercontent.com/austinheap/sophos-xg-block-lists/master/mvps-hosts-file.txt
-https://npc.0am.jp/hosts.php?dl=1
 http://blacklists.ntop.org/adblocker-hostnames.txt
 https://gitlab.com/morganas/dbl-oisd-nl/-/raw/master/dbl.txt
 https://gitlab.com/morganas/dbl-oisd-nl/-/raw/master/hosts.txt
