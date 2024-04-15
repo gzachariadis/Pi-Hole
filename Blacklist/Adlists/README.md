@@ -1450,7 +1450,7 @@ https://raw.githubusercontent.com/neodevpro/neodevhost/master/domain
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_domain
 ```
 
-## [Discoird & Stream - Phising](https://github.com/Dogino/Discord-Phishing-URLs)
+## [Discord & Stream - Phishing](https://github.com/Dogino/Discord-Phishing-URLs)
 
 ```
 https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
