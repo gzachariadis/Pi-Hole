@@ -1,4 +1,4 @@
-# Sources
+<h1 align="center">Sources</h1>
 
 ## [StevenBlack](https://github.com/StevenBlack/hosts)
 
