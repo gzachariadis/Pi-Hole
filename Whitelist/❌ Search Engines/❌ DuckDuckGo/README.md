@@ -7,11 +7,3 @@
 duckduckgo.com
 www.duckduckgo.com
 ```
-
-In case that doesn't work, go ahead and roam into settings and under Privacy, enable the following
-
-```
-GET Request
-
-Search queries are included in URL (if off, searches will use POST requests)
-```
