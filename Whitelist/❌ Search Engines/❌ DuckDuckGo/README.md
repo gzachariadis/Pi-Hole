@@ -8,9 +8,10 @@ duckduckgo.com
 www.duckduckgo.com
 ```
 
-## Content Delivery Network (CDN) - Search Results
+In case that doesn't work, go ahead and roam into settings and under Privacy, enable the following
 
 ```
-links.duckduckgo.com
-external-content.duckduckgo.com
+GET Request
+
+Search queries are included in URL (if off, searches will use POST requests)
 ```
