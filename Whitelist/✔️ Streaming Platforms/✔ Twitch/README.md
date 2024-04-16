@@ -47,6 +47,7 @@ irc-ws.chat.twitch.tv
 
 ```
 clips-media-assets2.twitch.tv
+clips.twitch.tv
 ```
 
 ## Content Delivery Network (CDN) - Video on demand(VOD)
