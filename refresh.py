@@ -132,17 +132,17 @@ def Populate_Category(mdFile, Title, Type, data):
                     level=2, title=f"{Title} - {x}", add_table_of_contents="n"
                 )
                 mdFile.insert_code(str("\n".join(v[x])).strip(), language="html")
-                mdFile.write("\n\n")
+                mdFile.write("  \n\n")
 
 
 # Create Files
 def create_file(Title, Root_Domains, data):
     mdFile = MdUtils(file_name="README")
     mdFile.write('<h1 align="center">{}</h1>'.format(str(Title).strip()))
-    mdFile.write("<br>")
+    mdFile.write("  \n\n")
     mdFile.new_header(level=2, title="Domains", add_table_of_contents="n")
     mdFile.insert_code(str("\n".join(Root_Domains)).strip(), language="html")
-    mdFile.write("<br>")
+    mdFile.write("  \n\n")
 
     Populate_Category(mdFile, "Application Programming Interface (API)", "API", data)
     Populate_Category(mdFile, "Content Delivery Networks (CDN)", "CDN", data)
