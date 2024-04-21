@@ -1,0 +1,7 @@
+play.google.com|Domain|Google Play Store|Android Applications
+digitalassetlinks.googleapis.com|CDN - Application Licensing|Google Play Store|Android Applications
+play-lh.googleusercontent.com|CDN - Application Details|Google Play Store|Android Applications
+play-fe.googleapis.com|CDN - Search Results|Google Play Store|Android Applications
+play.googleapis.com|API - Assets|Google Play Store|Android Applications
+android.clients.google.com|API - Application Catalog|Google Play Store|Android Applications
+android.apis.google.com|API - Application Catalog|Google Play Store|Android Applications
