@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 play.google.com|Domain|Google Play Store|Android Applications
 digitalassetlinks.googleapis.com|CDN - Application Licensing|Google Play Store|Android Applications
 play-lh.googleusercontent.com|CDN - Application Details|Google Play Store|Android Applications
@@ -5,3 +6,547 @@ play-fe.googleapis.com|CDN - Search Results|Google Play Store|Android Applicatio
 play.googleapis.com|API - Assets|Google Play Store|Android Applications
 android.clients.google.com|API - Application Catalog|Google Play Store|Android Applications
 android.apis.google.com|API - Application Catalog|Google Play Store|Android Applications
+=======
+github.com|Domain|Github|Code Hosting Websites
+api.github.com|API|Github|Code Hosting Websites
+www.github.com|Domain|Github|Code Hosting Websites
+www.instagram.com|Domain|Instagram|Social Media
+instagram.com|Domain|Instagram|Social Media
+gateway.instagram.com|Gateway|Instagram|Social Media
+www.twitch.tv|Domain|Twitch.tv|Streaming Platforms
+www.youtube.com|Domain|Youtube|Social Media
+youtube.com|Domain|Youtube|Social Media
+www.reddit.com|Domain|Reddit|Social Media
+reddit.com|Domain|Reddit|Social Media
+discord.com|Domain|Discord|Social Media
+gateway.discord.gg|Gateway|Discord|Social Media
+gateway-us-east1-d.discord.gg|Gateway|Discord|Social Media
+duckduckgo.com|Domain|DuckDuckGo|Search Engines
+www.snapchat.com|Domain|Snapchat|Social Media
+snapchat.com|Domain|Snapchat|Social Media
+gcp.api.snapchat.com|API|Snapchat|Social Media
+aws.api.snapchat.com|API|Snapchat|Social Media
+api-kit.snapchat.com|API|Snapchat|Social Media
+aws-proxy-gcp.api.snapchat.com|API|Snapchat|Social Media
+us-east1-aws.api.snapchat.com|API|Snapchat|Social Media
+us-central1-gcp.api.snapchat.com|API|Snapchat|Social Media
+us-east4-gcp.api.snapchat.com|API|Snapchat|Social Media
+europe-west1-gcp.api.snapchat.com|API|Snapchat|Social Media
+usc1-gcp-v62.api.snapchat.com|API|Snapchat|Social Media
+snap-api.arkoselabs.com|API|Snapchat|Social Media
+www.duckduckgo.com|Domain|DuckDuckGo|Search Engines
+filterlists.com|Domain|Blocklist Providers|
+ente.dev|Domain|Blocklist Providers|
+vscode.dev|Domain|Visual Studio Code|Computer Applications
+urlhaus.abuse.ch|Domain|Blocklist Providers|
+o0.pages.dev|Domain|Blocklist Providers|
+badmojr.gitlab.io|Domain|Blocklist Providers|
+phishing.army|Domain|Blocklist Providers|
+hosts.anudeep.me|Domain|Blocklist Providers|
+blocklistproject.github.io|Domain|Blocklist Providers|
+api.amazon.co.uk|API|Kindle|Android Applications
+api.amazon.com|API|Kindle|Android Applications
+us-east-1.amazonaws.com|API|Kindle|Android Applications
+read.amazon.com|Domain|Kindle Cloud Reader|Entertainment
+s3-eu-west-1.amazonaws.com|API|Kindle|Android Applications
+amazon.com|Domain|Kindle|Android Applications
+amazon.com|Domain|Kindle Cloud Reader|Entertainment
+www.bitwarden.com|Domain|Bitwarden|Password Managers
+bitwarden.com|Domain|Bitwarden|Password Managers
+www.amazon.com|Domain|Kindle|Android Applications
+amazon.co.uk|Domain|Kindle|Android Applications
+www.amazon.co.uk|Domain|Kindle|Android Applications
+m.twitch.tv|Domain|Twitch.tv|Streaming Platforms
+api.twitch.tv|API|Twitch.tv|Streaming Platforms
+twitch.tv|Domain|Twitch.tv|Streaming Platforms
+0.openwrt.pool.ntp.org|OpenWRT|Network Time Protocol Servers (NTPs]|
+0.ubnt.pool.ntp.org|Ubuntu|Network Time Protocol Servers (NTPs]|
+pgl.yoyo.org|Domain|Blocklist Providers|
+someonewhocares.org|Domain|Blocklist Providers|
+winhelp2002.mvps.org|Domain|Blocklist Providers|
+www.github.developerdan.com|Domain|Blocklist Providers|
+dbl.oisd.nl|Domain|Blocklist Providers|
+oisd.nl|Domain|Blocklist Providers|
+filters.adtidy.org|Domain|Blocklist Providers|
+easylist.to|Domain|Blocklist Providers|
+www.netify.ai|Domain|Blocklist Providers|
+www.i-dont-care-about-cookies.eu|Domain|Blocklist Providers|
+hosts-file.net|Domain|Blocklist Providers|
+v.firebog.net|Domain|Blocklist Providers|
+hostsfile.org|Domain|Blocklist Providers|
+hostsfile.mine.nu|Domain|Blocklist Providers|
+sysctl.org|Domain|Blocklist Providers|
+zeustracker.abuse.ch|Domain|Blocklist Providers|
+mirror.cyberbits.eu|Domain|Blocklist Providers|
+plug-mirror.rcac.purdue.edu|Domain|Blocklist Providers|
+filters.adavoid.org|Domain|Blocklist Providers|
+easylist-downloads.adblockplus.org|Domain|Blocklist Providers|
+ublockorigin.github.io|Domain|Blocklist Providers|
+malware-filter.gitlab.io|Domain|Blocklist Providers|
+curbengh.github.io|Domain|Blocklist Providers|
+ublockorigin.pages.dev|Domain|Blocklist Providers|
+api.audible.co.uk|API|Kindle|Android Applications
+usher.ttvnw.net|API|Twitch.tv|Streaming Platforms
+digicert.com|Domain|Digicert|Digital Certificate Authorities (DCAs)
+www.digicert.com|Domain|Digicert|Digital Certificate Authorities (DCAs)
+f-droid.org|Domain|F-Droid|Android Applications
+gitlab.com|Domain|Gitlab|Code Hosting Websites
+www.facebook.com|Domain|Facebook|Social Media
+www.facebook.com|Domain|Facebook Messenger|Social Media
+m.facebook.com|Domain|Facebook|Social Media
+m.facebook.com|Domain|Facebook Messenger|Social Media
+facebook.com|Domain|Facebook|Social Media
+facebook.com|Domain|Facebook Messenger|Social Media
+api.facebook.com|API|Facebook|Social Media
+api.facebook.com|API|Facebook Messenger|Social Media
+b-api.facebook.com|API|Facebook|Social Media
+b-api.facebook.com|API|Facebook Messenger|Social Media
+web.facebook.com|API|Instagram|Social Media
+gql-fed.reddit.com|GraphQL Database|Reddit|Social Media
+challenges.cloudflare.com|Domain|Gitlab|Code Hosting Websites
+stackoverflow.com|Domain|Default|
+docs.pi-hole.net|Domain|Default|
+discourse.pi-hole.net|Domain|Default|
+connectivitycheck.gstatic.com|Domain|Google|Search Engines
+connectivitycheck.android.com|Domain|Android|Operating Systems
+api.account.xiaomi.com|API - Account Management|Xiaomi|Hardware Manufacturers
+pornxp.com|Domain|PornXP|Porn (NSFW)
+ajax.googleapis.com|API|Google|Search Engines
+accounts.google.com|API|Google|Search Engines
+jnn-pa.googleapis.com|API - [Cookie Management](https://tipsforefficiency.com/jnn-pa-googleapis-com/)|Google|Search Engines
+account.xiaomi.com|API - Account Management|Xiaomi|Hardware Manufacturers
+d.pornxp.cc|CDN - Videos|PornXP|Porn (NSFW)
+i.pornxp.cc|CDN - Thumbnails|PornXP|Porn (NSFW)
+cn.pornxp.cc|CDN - Videos|PornXP|Porn (NSFW)
+mcloud.bz|Domain|My Cloud|Video Hosting Services
+c8365730d4.nl|Domain|My Cloud|Video Hosting Services
+fmoviesz.to|Domain|FMovies|Entertainment
+flixtorz.to|Domain|Flixtorz|Entertainment
+static.fmoviesz.to|CDN -  Static Assets|FMovies|Entertainment
+static.flixtorz.to|CDN -  Static Assets|Flixtorz|Entertainment
+www.fmoviesz.to|Domain|FMovies|Entertainment
+www.vidstream.to|Domain|VIDStream|Video Hosting Services
+vidstream.to|Domain|VIDStream|Video Hosting Services
+putlocker.pe|Domain|Putlocker|Video Hosting Services
+filemoon.to|Domain|Filemoon|Video Hosting Services
+www.filemoon.to|Domain|Filemoon|Video Hosting Services
+streamtape.com|Domain|StreamTape|Video Hosting Services
+streamvid.net|Domain|StreamTape|Video Hosting Services
+kerapoxy.cc|Domain|Filemoon|Video Hosting Services
+www.kerapoxy.cc|CDN - Videos|Filemoon|Video Hosting Services
+b1.trafficdeposit.com|CDN - Thumbnails|StreamTape|Video Hosting Services
+d000d.com|Domain|DoodStream|Video Hosting Services
+static.doodcdn.co|CDN - Static Assets|DoodStream|Video Hosting Services
+img.doodcdn.co|CDN - Thumbnails|DoodStream|Video Hosting Services
+i.doodcdn.co|CDN - Thumbnails|DoodStream|Video Hosting Services
+rapidcdn.cc|CDN - Videos|My Cloud|Video Hosting Services
+www.c8365730d4.nl|Domain|My Cloud|Video Hosting Services
+voe.sx|Domain|Voe|Video Hosting Services
+l.pornxp.cc|CDN -  Videos|PornXP|Porn (NSFW)
+i.voe.sx|CDN - Thumbnails|Voe|Video Hosting Services
+guardianproject.info|CDN - Repositories|F-Droid|Android Applications
+fdroid.tetaneutral.net|CDN - Repositories|F-Droid|Android Applications
+mirrors.dotsrc.org|CDN - Repositories|F-Droid|Android Applications
+dotsrc.org|CDN - Repositories|F-Droid|Android Applications
+cacerts.digicert.com|CDN - Certificate Issuing|Digicert|Digital Certificate Authorities (DCAs)
+ocsp.digicert.com|CDN - Certificate Verification|Digicert|Digital Certificate Authorities (DCAs)
+vault.bitwarden.com|Static Assets - Vault|Bitwarden|Password Managers
+icons.bitwarden.net|Static Assets - Media|Bitwarden|Password Managers
+m.media-amazon.com|CDN - Covers|Kindle Cloud Reader|Entertainment
+k4wyjmetadata.s3.amazonaws.com|CDN - Contents|Kindle Cloud Reader|Entertainment
+smyl-ebook-index.s3.amazonaws.com|CDN - Bookmarks|Kindle Cloud Reader|Entertainment
+fls-na.amazon.com|CDN - Highlights|Kindle|Android Applications
+fls-na.amazon.com|CDN - Highlights|Kindle Cloud Reader|Entertainment
+unagi.amazon.com|CDN - Library|Kindle|Android Applications
+unagi.amazon.com|CDN - Library|Kindle Cloud Reader|Entertainment
+unagi-na.amazon.com|CDN - Library|Kindle|Android Applications
+unagi-na.amazon.com|CDN - Library|Kindle Cloud Reader|Entertainment
+fls-eu.amazon.co.uk|CDN - Highlights|Kindle|Android Applications
+fls-eu.amazon.co.uk|CDN - Highlights|Kindle Cloud Reader|Entertainment
+images-na.ssl-images-amazon.com|CDN - Images|Kindle|Android Applications
+images-na.ssl-images-amazon.com|CDN - Images|Kindle Cloud Reader|Entertainment
+unagi.amazon.co.uk|CDN - Library|Kindle|Android Applications
+unagi-eu.amazon.com|CDN - Library|Kindle|Android Applications
+syncdelivery.audible.co.uk|CDN - Syncing|Kindle|Android Applications
+kindle-content-update-proxy.amazon.com|CDN - Library|Kindle|Android Applications
+kindle-digital-delivery.amazon.com|CDN - Download Books|Kindle|Android Applications
+mobile-app-expan.amazon.com|CDN - Preferences Backup|Kindle|Android Applications
+todo-ta-g7g.amazon.com|CDN - Syncing|Kindle|Android Applications
+cognito-identity.us-east-1.amazonaws.com|CDN - Authentication|Kindle|Android Applications
+marketplace.visualstudio.com|CDN - Extensions|Visual Studio Code|Computer Applications
+update.code.visualstudio.com|CDN - Update|Visual Studio Code|Computer Applications
+gql.twitch.tv|CDN - Database|Twitch.tv|Streaming Platforms
+static-cdn.jtvnw.net|Static  Assets|Twitch.tv|Streaming Platforms
+static.twitchcdn.net|Static Assets|Twitch.tv|Streaming Platforms
+clips-media-assets2.twitch.tv|CDN - Clips|Twitch.tv|Streaming Platforms
+global.poe.live-video.net|CDN - Video on Demand (VODs)|Twitch.tv|Streaming Platforms
+passport.twitch.tv|CDN - Authentication|Twitch.tv|Streaming Platforms
+vod-secure.twitch.tv|CDN - Video on Demand (VODs)|Twitch.tv|Streaming Platforms
+id.twitch.tv|CDN - OAuth (External Applications)|Twitch.tv|Streaming Platforms
+id-cdn.twitch.tv|CDN - OAuth (External Applications)|Twitch.tv|Streaming Platforms
+irc.chat.twitch.tv|CDN - Chat (External Applications)|Twitch.tv|Streaming Platforms
+player.twitch.tv|CDN - Player (External Applications)|Twitch.tv|Streaming Platforms
+clips.twitch.tv|CDN - Clips|Twitch.tv|Streaming Platforms
+github.githubassets.com|Static Assets|Github|Code Hosting Websites
+raw.githubusercontent.com|CDN - RAW Files|Github|Code Hosting Websites
+gist.github.com|CDN - Gists|Github|Code Hosting Websites
+gist.githubusercontent.com|CDN - Gists RAW|Github|Code Hosting Websites
+camo.githubusercontent.com|CDN - Images|Github|Code Hosting Websites
+avatars.githubusercontent.com|CDN - Avatars|Github|Code Hosting Websites
+youtu.be|CDN - Shortener|Youtube|Social Media
+youtube-nocookie.com|CDN - Embed Videos|Youtube|Social Media
+www.youtube-nocookie.com|CDN - Embed Videos|Youtube|Social Media
+accounts.youtube.com|CDN - Authentication|Youtube|Social Media
+m.youtube.com|Domain|Youtube|Social Media
+youtubei.googleapis.com|API|Youtube|Social Media
+s.youtube.com|Domain|Youtube|Social Media
+chat-getway-prod-chat.snapchat.com|CDN - Direct Messages|Snapchat|Social Media
+chat-gateway-prod.chat.snapchat.com|CDN - Direct Messages|Snapchat|Social Media
+www.redditstatic.com|Static Assets|Reddit|Social Media
+gql.reddit.com|CDN - Database|Reddit|Social Media
+www.redditmedia.com|CDN - Media|Reddit|Social Media
+styles.redditmedia.com|Static Assets|Reddit|Social Media
+i.redd.it|CDN - Media|Reddit|Social Media
+packaged-media.redd.it|CDN - Videos|Reddit|Social Media
+preview.redd.it|CDN - Images|Reddit|Social Media
+v.redd.it|CDN - Videos|Reddit|Social Media
+oauth.reddit.com|CDN - OAuth|Reddit|Social Media
+chat-e2ee-mini.facebook.com|CDN - Direct Messages|Facebook Messenger|Social Media
+i.instagram.com|CDN - Authentication|Instagram|Social Media
+i-fallback.instagram.com|CDN - Authentication|Instagram|Social Media
+b.i.instagram.com|CDN - Authentication|Instagram|Social Media
+z-p42-chat-e2ee-ig.facebook.com|CDN - Direct Messages|Instagram|Social Media
+connect.facebook.net|CDN - Authentication|Facebook|Social Media
+connect.facebook.net|CDN - Authentication|Facebook Messenger|Social Media
+gateway.facebook.com|CDN - Authentication|Facebook|Social Media
+gateway.facebook.com|CDN - Authentication|Facebook Messenger|Social Media
+l.facebook.com|CDN - Links|Facebook|Social Media
+l.facebook.com|CDN - Links|Facebook Messenger|Social Media
+images-ext-1.discordapp.net|CDN - Images|Discord|Social Media
+media.discordapp.net|CDN - Videos|Discord|Social Media
+discord.gg|CDN - Server Invitations|Discord|Social Media
+dl.discordapp.net|CDN - Download Application|Discord|Social Media
+updates.discord.com|CDN - Application Updates|Discord|Social Media
+remote-auth-gateway.discord.gg|CDN - Authenticaton|Discord|Social Media
+discordapp.com|CDN - Application|Discord|Social Media
+discordapp.net|CDN - Application|Discord|Social Media
+play.google.com|Domain|Default|
+play.google.com|Domain|Google Play Store|Android Applications
+www.virustotal.com|Domain|Default|
+anchor.fm|Domain|AntennaPod|Android Applications
+www.googleapis.com||Google|Search Engines
+www.google.com||Google|Search Engines
+signaler-pa.googleapis.com||Google|Search Engines
+ssl.gstatic.com||Google|Search Engines
+clients4.google.com||Google|Search Engines
+geller-pa.googleapis.com||Google|Search Engines
+clientservices.googleapis.com||Google|Search Engines
+www.gstatic.com||Google|Search Engines
+lamssettings-pa.googleapis.com||Google|Search Engines
+android.googleapis.com||Google|Search Engines
+crl3.digicert.com|CDN - Certificate Verification|Digicert|Digital Certificate Authorities (DCAs)
+crl4.digicert.com|CDN - Certificate Verification|Digicert|Digital Certificate Authorities (DCAs)
+auth.snapchat.com|CDN - Authentication|Snapchat|Social Media
+accounts.snapchat.com|CDN - Authentication|Snapchat|Social Media
+accounts.snap.com|CDN - Authentication|Snapchat|Social Media
+app.snapchat.com|CDN - Application|Snapchat|Social Media
+aws.duplex.snapchat.com|CDN - Application|Snapchat|Social Media
+wiki.mozilla.org|Domain|Firefox|Computer Applications
+addons.mozilla.org|Domain|Firefox|Computer Applications
+doodstream.com|Domain|DoodStream|Video Hosting Services
+www.bleepingcomputer.com|Domain|Default|
+www.gnu.org|Domain|Default|
+s3.amazonaws.com|Domain|Default|
+bittube.tv|Domain|Default|
+odysee.com|Domain|Default|
+lbry.tv|Domain|Default|
+keybase.io|Domain|Default|
+cdn.ghostery.com|CDN|Default|
+cdn.jsdelivr.net|CDN|Default|
+cdn.discordapp.com|CDN - Applications|Discord|Social Media
+pubsub-edge.twitch.tv|CDN - Internet Relay Chat (IRC)|Twitch.tv|Streaming Platforms
+irc-ws.chat.twitch.tv|CDN - Internet Relay Chat (IRC)|Twitch.tv|Streaming Platforms
+alt4-mtalk.google.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+alt3-mtalk.google.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+mtalk.google.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+alt7-mtalk.google.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+notifications-pa.googleapis.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+mtalk4.google.com||Google|Search Engines
+digitalassetlinks.googleapis.com|CDN - Application Licensing|Google Play Store|Android Applications
+play.googleapis.com|API - Assets|Google Play Store|Android Applications
+play-lh.googleusercontent.com|CDN - Application Details|Google Play Store|Android Applications
+play-fe.googleapis.com|CDN - Search Results|Google Play Store|Android Applications
+android.clients.google.com|API - Application Catalog|Google Play Store|Android Applications
+android.apis.google.com|API - Application Catalog|Google Play Store|Android Applications
+github.com|Domain|Github|Code Hosting Websites
+api.github.com|API|Github|Code Hosting Websites
+www.github.com|Domain|Github|Code Hosting Websites
+www.instagram.com|Domain|Instagram|Social Media
+instagram.com|Domain|Instagram|Social Media
+gateway.instagram.com|Gateway|Instagram|Social Media
+www.twitch.tv|Domain|Twitch.tv|Streaming Platforms
+www.youtube.com|Domain|Youtube|Social Media
+youtube.com|Domain|Youtube|Social Media
+www.reddit.com|Domain|Reddit|Social Media
+reddit.com|Domain|Reddit|Social Media
+discord.com|Domain|Discord|Social Media
+gateway.discord.gg|Gateway|Discord|Social Media
+gateway-us-east1-d.discord.gg|Gateway|Discord|Social Media
+duckduckgo.com|Domain|DuckDuckGo|Search Engines
+www.snapchat.com|Domain|Snapchat|Social Media
+snapchat.com|Domain|Snapchat|Social Media
+gcp.api.snapchat.com|API|Snapchat|Social Media
+aws.api.snapchat.com|API|Snapchat|Social Media
+api-kit.snapchat.com|API|Snapchat|Social Media
+aws-proxy-gcp.api.snapchat.com|API|Snapchat|Social Media
+us-east1-aws.api.snapchat.com|API|Snapchat|Social Media
+us-central1-gcp.api.snapchat.com|API|Snapchat|Social Media
+us-east4-gcp.api.snapchat.com|API|Snapchat|Social Media
+europe-west1-gcp.api.snapchat.com|API|Snapchat|Social Media
+usc1-gcp-v62.api.snapchat.com|API|Snapchat|Social Media
+snap-api.arkoselabs.com|API|Snapchat|Social Media
+www.duckduckgo.com|Domain|DuckDuckGo|Search Engines
+filterlists.com|Domain|Blocklist Providers|
+ente.dev|Domain|Blocklist Providers|
+vscode.dev|Domain|Visual Studio Code|Computer Applications
+urlhaus.abuse.ch|Domain|Blocklist Providers|
+o0.pages.dev|Domain|Blocklist Providers|
+badmojr.gitlab.io|Domain|Blocklist Providers|
+phishing.army|Domain|Blocklist Providers|
+hosts.anudeep.me|Domain|Blocklist Providers|
+blocklistproject.github.io|Domain|Blocklist Providers|
+api.amazon.co.uk|API|Kindle|Android Applications
+api.amazon.com|API|Kindle|Android Applications
+us-east-1.amazonaws.com|API|Kindle|Android Applications
+read.amazon.com|Domain|Kindle Cloud Reader|Entertainment
+s3-eu-west-1.amazonaws.com|API|Kindle|Android Applications
+amazon.com|Domain|Kindle|Android Applications
+amazon.com|Domain|Kindle Cloud Reader|Entertainment
+www.bitwarden.com|Domain|Bitwarden|Password Managers
+bitwarden.com|Domain|Bitwarden|Password Managers
+www.amazon.com|Domain|Kindle|Android Applications
+amazon.co.uk|Domain|Kindle|Android Applications
+www.amazon.co.uk|Domain|Kindle|Android Applications
+m.twitch.tv|Domain|Twitch.tv|Streaming Platforms
+api.twitch.tv|API|Twitch.tv|Streaming Platforms
+twitch.tv|Domain|Twitch.tv|Streaming Platforms
+0.openwrt.pool.ntp.org|OpenWRT|Network Time Protocol Servers (NTPs]|
+0.ubnt.pool.ntp.org|Ubuntu|Network Time Protocol Servers (NTPs]|
+pgl.yoyo.org|Domain|Blocklist Providers|
+someonewhocares.org|Domain|Blocklist Providers|
+winhelp2002.mvps.org|Domain|Blocklist Providers|
+www.github.developerdan.com|Domain|Blocklist Providers|
+dbl.oisd.nl|Domain|Blocklist Providers|
+oisd.nl|Domain|Blocklist Providers|
+filters.adtidy.org|Domain|Blocklist Providers|
+easylist.to|Domain|Blocklist Providers|
+www.netify.ai|Domain|Blocklist Providers|
+www.i-dont-care-about-cookies.eu|Domain|Blocklist Providers|
+hosts-file.net|Domain|Blocklist Providers|
+v.firebog.net|Domain|Blocklist Providers|
+hostsfile.org|Domain|Blocklist Providers|
+hostsfile.mine.nu|Domain|Blocklist Providers|
+sysctl.org|Domain|Blocklist Providers|
+zeustracker.abuse.ch|Domain|Blocklist Providers|
+mirror.cyberbits.eu|Domain|Blocklist Providers|
+plug-mirror.rcac.purdue.edu|Domain|Blocklist Providers|
+filters.adavoid.org|Domain|Blocklist Providers|
+easylist-downloads.adblockplus.org|Domain|Blocklist Providers|
+ublockorigin.github.io|Domain|Blocklist Providers|
+malware-filter.gitlab.io|Domain|Blocklist Providers|
+curbengh.github.io|Domain|Blocklist Providers|
+ublockorigin.pages.dev|Domain|Blocklist Providers|
+api.audible.co.uk|API|Kindle|Android Applications
+usher.ttvnw.net|API|Twitch.tv|Streaming Platforms
+digicert.com|Domain|Digicert|Digital Certificate Authorities (DCAs)
+www.digicert.com|Domain|Digicert|Digital Certificate Authorities (DCAs)
+f-droid.org|Domain|F-Droid|Android Applications
+gitlab.com|Domain|Gitlab|Code Hosting Websites
+www.facebook.com|Domain|Facebook|Social Media
+www.facebook.com|Domain|Facebook Messenger|Social Media
+m.facebook.com|Domain|Facebook|Social Media
+m.facebook.com|Domain|Facebook Messenger|Social Media
+facebook.com|Domain|Facebook|Social Media
+facebook.com|Domain|Facebook Messenger|Social Media
+api.facebook.com|API|Facebook|Social Media
+api.facebook.com|API|Facebook Messenger|Social Media
+b-api.facebook.com|API|Facebook|Social Media
+b-api.facebook.com|API|Facebook Messenger|Social Media
+web.facebook.com|API|Instagram|Social Media
+gql-fed.reddit.com|GraphQL Database|Reddit|Social Media
+challenges.cloudflare.com|Domain|Gitlab|Code Hosting Websites
+stackoverflow.com|Domain|Default|
+docs.pi-hole.net|Domain|Default|
+discourse.pi-hole.net|Domain|Default|
+connectivitycheck.gstatic.com|Domain|Google|Search Engines
+connectivitycheck.android.com|Domain|Android|Operating Systems
+api.account.xiaomi.com|API - Account Management|Xiaomi|Hardware Manufacturers
+pornxp.com|Domain|PornXP|Porn (NSFW)
+ajax.googleapis.com|API|Google|Search Engines
+accounts.google.com|API|Google|Search Engines
+jnn-pa.googleapis.com|API - [Cookie Management](https://tipsforefficiency.com/jnn-pa-googleapis-com/)|Google|Search Engines
+account.xiaomi.com|API - Account Management|Xiaomi|Hardware Manufacturers
+d.pornxp.cc|CDN - Videos|PornXP|Porn (NSFW)
+i.pornxp.cc|CDN - Thumbnails|PornXP|Porn (NSFW)
+cn.pornxp.cc|CDN - Videos|PornXP|Porn (NSFW)
+mcloud.bz|Domain|My Cloud|Video Hosting Services
+c8365730d4.nl|Domain|My Cloud|Video Hosting Services
+fmoviesz.to|Domain|FMovies|Entertainment
+flixtorz.to|Domain|Flixtorz|Entertainment
+static.fmoviesz.to|CDN -  Static Assets|FMovies|Entertainment
+static.flixtorz.to|CDN -  Static Assets|Flixtorz|Entertainment
+www.fmoviesz.to|Domain|FMovies|Entertainment
+www.vidstream.to|Domain|VIDStream|Video Hosting Services
+vidstream.to|Domain|VIDStream|Video Hosting Services
+putlocker.pe|Domain|Putlocker|Video Hosting Services
+filemoon.to|Domain|Filemoon|Video Hosting Services
+www.filemoon.to|Domain|Filemoon|Video Hosting Services
+streamtape.com|Domain|StreamTape|Video Hosting Services
+streamvid.net|Domain|StreamTape|Video Hosting Services
+kerapoxy.cc|Domain|Filemoon|Video Hosting Services
+www.kerapoxy.cc|CDN - Videos|Filemoon|Video Hosting Services
+b1.trafficdeposit.com|CDN - Thumbnails|StreamTape|Video Hosting Services
+d000d.com|Domain|DoodStream|Video Hosting Services
+static.doodcdn.co|CDN - Static Assets|DoodStream|Video Hosting Services
+img.doodcdn.co|CDN - Thumbnails|DoodStream|Video Hosting Services
+i.doodcdn.co|CDN - Thumbnails|DoodStream|Video Hosting Services
+rapidcdn.cc|CDN - Videos|My Cloud|Video Hosting Services
+www.c8365730d4.nl|Domain|My Cloud|Video Hosting Services
+voe.sx|Domain|Voe|Video Hosting Services
+l.pornxp.cc|CDN -  Videos|PornXP|Porn (NSFW)
+i.voe.sx|CDN - Thumbnails|Voe|Video Hosting Services
+guardianproject.info|CDN - Repositories|F-Droid|Android Applications
+fdroid.tetaneutral.net|CDN - Repositories|F-Droid|Android Applications
+mirrors.dotsrc.org|CDN - Repositories|F-Droid|Android Applications
+dotsrc.org|CDN - Repositories|F-Droid|Android Applications
+cacerts.digicert.com|CDN - Certificate Issuing|Digicert|Digital Certificate Authorities (DCAs)
+ocsp.digicert.com|CDN - Certificate Verification|Digicert|Digital Certificate Authorities (DCAs)
+vault.bitwarden.com|Static Assets - Vault|Bitwarden|Password Managers
+icons.bitwarden.net|Static Assets - Media|Bitwarden|Password Managers
+m.media-amazon.com|CDN - Covers|Kindle Cloud Reader|Entertainment
+k4wyjmetadata.s3.amazonaws.com|CDN - Contents|Kindle Cloud Reader|Entertainment
+smyl-ebook-index.s3.amazonaws.com|CDN - Bookmarks|Kindle Cloud Reader|Entertainment
+fls-na.amazon.com|CDN - Highlights|Kindle|Android Applications
+fls-na.amazon.com|CDN - Highlights|Kindle Cloud Reader|Entertainment
+unagi.amazon.com|CDN - Library|Kindle|Android Applications
+unagi.amazon.com|CDN - Library|Kindle Cloud Reader|Entertainment
+unagi-na.amazon.com|CDN - Library|Kindle|Android Applications
+unagi-na.amazon.com|CDN - Library|Kindle Cloud Reader|Entertainment
+fls-eu.amazon.co.uk|CDN - Highlights|Kindle|Android Applications
+fls-eu.amazon.co.uk|CDN - Highlights|Kindle Cloud Reader|Entertainment
+images-na.ssl-images-amazon.com|CDN - Images|Kindle|Android Applications
+images-na.ssl-images-amazon.com|CDN - Images|Kindle Cloud Reader|Entertainment
+unagi.amazon.co.uk|CDN - Library|Kindle|Android Applications
+unagi-eu.amazon.com|CDN - Library|Kindle|Android Applications
+syncdelivery.audible.co.uk|CDN - Syncing|Kindle|Android Applications
+kindle-content-update-proxy.amazon.com|CDN - Library|Kindle|Android Applications
+kindle-digital-delivery.amazon.com|CDN - Download Books|Kindle|Android Applications
+mobile-app-expan.amazon.com|CDN - Preferences Backup|Kindle|Android Applications
+todo-ta-g7g.amazon.com|CDN - Syncing|Kindle|Android Applications
+cognito-identity.us-east-1.amazonaws.com|CDN - Authentication|Kindle|Android Applications
+marketplace.visualstudio.com|CDN - Extensions|Visual Studio Code|Computer Applications
+update.code.visualstudio.com|CDN - Update|Visual Studio Code|Computer Applications
+gql.twitch.tv|CDN - Database|Twitch.tv|Streaming Platforms
+static-cdn.jtvnw.net|Static  Assets|Twitch.tv|Streaming Platforms
+static.twitchcdn.net|Static Assets|Twitch.tv|Streaming Platforms
+clips-media-assets2.twitch.tv|CDN - Clips|Twitch.tv|Streaming Platforms
+global.poe.live-video.net|CDN - Video on Demand (VODs)|Twitch.tv|Streaming Platforms
+passport.twitch.tv|CDN - Authentication|Twitch.tv|Streaming Platforms
+vod-secure.twitch.tv|CDN - Video on Demand (VODs)|Twitch.tv|Streaming Platforms
+id.twitch.tv|CDN - OAuth (External Applications)|Twitch.tv|Streaming Platforms
+id-cdn.twitch.tv|CDN - OAuth (External Applications)|Twitch.tv|Streaming Platforms
+irc.chat.twitch.tv|CDN - Chat (External Applications)|Twitch.tv|Streaming Platforms
+player.twitch.tv|CDN - Player (External Applications)|Twitch.tv|Streaming Platforms
+clips.twitch.tv|CDN - Clips|Twitch.tv|Streaming Platforms
+github.githubassets.com|Static Assets|Github|Code Hosting Websites
+raw.githubusercontent.com|CDN - RAW Files|Github|Code Hosting Websites
+gist.github.com|CDN - Gists|Github|Code Hosting Websites
+gist.githubusercontent.com|CDN - Gists RAW|Github|Code Hosting Websites
+camo.githubusercontent.com|CDN - Images|Github|Code Hosting Websites
+avatars.githubusercontent.com|CDN - Avatars|Github|Code Hosting Websites
+youtu.be|CDN - Shortener|Youtube|Social Media
+youtube-nocookie.com|CDN - Embed Videos|Youtube|Social Media
+www.youtube-nocookie.com|CDN - Embed Videos|Youtube|Social Media
+accounts.youtube.com|CDN - Authentication|Youtube|Social Media
+m.youtube.com|Domain|Youtube|Social Media
+youtubei.googleapis.com|API|Youtube|Social Media
+s.youtube.com|Domain|Youtube|Social Media
+chat-getway-prod-chat.snapchat.com|CDN - Direct Messages|Snapchat|Social Media
+chat-gateway-prod.chat.snapchat.com|CDN - Direct Messages|Snapchat|Social Media
+www.redditstatic.com|Static Assets|Reddit|Social Media
+gql.reddit.com|CDN - Database|Reddit|Social Media
+www.redditmedia.com|CDN - Media|Reddit|Social Media
+styles.redditmedia.com|Static Assets|Reddit|Social Media
+i.redd.it|CDN - Media|Reddit|Social Media
+packaged-media.redd.it|CDN - Videos|Reddit|Social Media
+preview.redd.it|CDN - Images|Reddit|Social Media
+v.redd.it|CDN - Videos|Reddit|Social Media
+oauth.reddit.com|CDN - OAuth|Reddit|Social Media
+chat-e2ee-mini.facebook.com|CDN - Direct Messages|Facebook Messenger|Social Media
+i.instagram.com|CDN - Authentication|Instagram|Social Media
+i-fallback.instagram.com|CDN - Authentication|Instagram|Social Media
+b.i.instagram.com|CDN - Authentication|Instagram|Social Media
+z-p42-chat-e2ee-ig.facebook.com|CDN - Direct Messages|Instagram|Social Media
+connect.facebook.net|CDN - Authentication|Facebook|Social Media
+connect.facebook.net|CDN - Authentication|Facebook Messenger|Social Media
+gateway.facebook.com|CDN - Authentication|Facebook|Social Media
+gateway.facebook.com|CDN - Authentication|Facebook Messenger|Social Media
+l.facebook.com|CDN - Links|Facebook|Social Media
+l.facebook.com|CDN - Links|Facebook Messenger|Social Media
+images-ext-1.discordapp.net|CDN - Images|Discord|Social Media
+media.discordapp.net|CDN - Videos|Discord|Social Media
+discord.gg|CDN - Server Invitations|Discord|Social Media
+dl.discordapp.net|CDN - Download Application|Discord|Social Media
+updates.discord.com|CDN - Application Updates|Discord|Social Media
+remote-auth-gateway.discord.gg|CDN - Authenticaton|Discord|Social Media
+discordapp.com|CDN - Application|Discord|Social Media
+discordapp.net|CDN - Application|Discord|Social Media
+play.google.com|Domain|Default|
+play.google.com|Domain|Google Play Store|Android Applications
+www.virustotal.com|Domain|Default|
+anchor.fm|Domain|AntennaPod|Android Applications
+www.googleapis.com||Google|Search Engines
+www.google.com||Google|Search Engines
+signaler-pa.googleapis.com||Google|Search Engines
+ssl.gstatic.com||Google|Search Engines
+clients4.google.com||Google|Search Engines
+geller-pa.googleapis.com||Google|Search Engines
+clientservices.googleapis.com||Google|Search Engines
+www.gstatic.com||Google|Search Engines
+lamssettings-pa.googleapis.com||Google|Search Engines
+android.googleapis.com||Google|Search Engines
+crl3.digicert.com|CDN - Certificate Verification|Digicert|Digital Certificate Authorities (DCAs)
+crl4.digicert.com|CDN - Certificate Verification|Digicert|Digital Certificate Authorities (DCAs)
+auth.snapchat.com|CDN - Authentication|Snapchat|Social Media
+accounts.snapchat.com|CDN - Authentication|Snapchat|Social Media
+accounts.snap.com|CDN - Authentication|Snapchat|Social Media
+app.snapchat.com|CDN - Application|Snapchat|Social Media
+aws.duplex.snapchat.com|CDN - Application|Snapchat|Social Media
+wiki.mozilla.org|Domain|Firefox|Computer Applications
+addons.mozilla.org|Domain|Firefox|Computer Applications
+doodstream.com|Domain|DoodStream|Video Hosting Services
+www.bleepingcomputer.com|Domain|Default|
+www.gnu.org|Domain|Default|
+s3.amazonaws.com|Domain|Default|
+bittube.tv|Domain|Default|
+odysee.com|Domain|Default|
+lbry.tv|Domain|Default|
+keybase.io|Domain|Default|
+cdn.ghostery.com|CDN|Default|
+cdn.jsdelivr.net|CDN|Default|
+cdn.discordapp.com|CDN - Applications|Discord|Social Media
+pubsub-edge.twitch.tv|CDN - Internet Relay Chat (IRC)|Twitch.tv|Streaming Platforms
+irc-ws.chat.twitch.tv|CDN - Internet Relay Chat (IRC)|Twitch.tv|Streaming Platforms
+alt4-mtalk.google.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+alt3-mtalk.google.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+mtalk.google.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+alt7-mtalk.google.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+notifications-pa.googleapis.com|API - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)|Google|Search Engines
+mtalk4.google.com||Google|Search Engines
+digitalassetlinks.googleapis.com|CDN - Application Licensing|Google Play Store|Android Applications
+play.googleapis.com|API - Assets|Google Play Store|Android Applications
+play-lh.googleusercontent.com|CDN - Application Details|Google Play Store|Android Applications
+play-fe.googleapis.com|CDN - Search Results|Google Play Store|Android Applications
+android.clients.google.com|API - Application Catalog|Google Play Store|Android Applications
+android.apis.google.com|API - Application Catalog|Google Play Store|Android Applications
+>>>>>>> 2e8805ec27032e80942f3b60b7cc05f79f8a7604
