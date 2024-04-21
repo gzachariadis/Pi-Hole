@@ -1,8 +1,9 @@
 
-Google Play Store
-=================
 
-# Domains
+
+<center># Google Play Store</center>
+
+## Domains
 
 
 ```html

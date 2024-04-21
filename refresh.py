@@ -128,15 +128,19 @@ def Populate_Category(mdFile, Title, Type, data):
     for k, v in data.items():
         if k == Type:
             for x in v.keys():
-                mdFile.new_header(level=2, title=f"{Title} - {x}")
+                mdFile.new_header(
+                    level=2, title=f"{Title} - {x}", add_table_of_contents="n"
+                )
                 mdFile.insert_code(str("\n".join(v[x])).strip(), language="html")
                 mdFile.write("\n")
 
 
 # Create Files
 def create_file(Title, Root_Domains, data):
-    mdFile = MdUtils(file_name="README", title=str(Title).strip())
-    mdFile.new_header(level=1, title="Domains")
+    mdFile = MdUtils(file_name="README")
+    mdFile.write("# {}".format(str(Title).strip()), align="center")
+    mdFile.write("\n")
+    mdFile.new_header(level=2, title="Domains", add_table_of_contents="n")
     mdFile.insert_code(str("\n".join(Root_Domains)).strip(), language="html")
     mdFile.write("\n")
 
