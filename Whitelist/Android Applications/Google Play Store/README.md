@@ -1,19 +1,23 @@
 
 
 
-<h1 align="center">Google Play Store</h1><br>
+<h1 align="center">Google Play Store</h1>  
+
+
 ## Domains
 
 
 ```html
 play.google.com
-```<br>
+```  
+
+
 ## Application Programming Interface (API) - Assets
 
 
 ```html
 play.googleapis.com
-```
+```  
 
 
 ## Application Programming Interface (API) - Application Catalog
@@ -22,7 +26,7 @@ play.googleapis.com
 ```html
 android.clients.google.com
 android.apis.google.com
-```
+```  
 
 
 ## Content Delivery Networks (CDN) - Application Licensing
@@ -30,7 +34,7 @@ android.apis.google.com
 
 ```html
 digitalassetlinks.googleapis.com
-```
+```  
 
 
 ## Content Delivery Networks (CDN) - Application Details
@@ -38,7 +42,7 @@ digitalassetlinks.googleapis.com
 
 ```html
 play-lh.googleusercontent.com
-```
+```  
 
 
 ## Content Delivery Networks (CDN) - Search Results
@@ -46,5 +50,5 @@ play-lh.googleusercontent.com
 
 ```html
 play-fe.googleapis.com
-```
+```  
 
