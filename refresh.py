@@ -210,14 +210,6 @@ for x in whitelist.keys():
 from git import Repo
 
 repo = Repo(root_directory)  # if repo is CWD just do '.'
-
-index = repo.index
-
-# Access blob objects.
-for (_path, _stage), _entry in index.entries.items():
-    print(_path)
-
-# repo.index.add(index.entries.items())
-# repo.index.commit("my commit description")
-# origin = repo.remote("origin")
-# origin.push()
+repo.git.add("-A")
+repo.git.commit("-m", "Automated Push")
+repo.remote(name="origin")
