@@ -177,6 +177,7 @@ Root_Domains = []
 for x in whitelist.keys():
     for y in whitelist[x].keys():
         for z in whitelist[x][y]:
+            print(z["Type"], z["Domain"])
             # Place all unique Root Domains in a List
             if z["Type"] == "Domain":
                 if z["Domain"] not in Root_Domains:
