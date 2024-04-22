@@ -65,6 +65,7 @@ try:
         category = str(line[pairs[2][0] + 1 : pairs[2][1]]).strip()
         domain = str(line[0 : pairs[0][0]]).strip()
 
+        print(domain)
         # Create a Dictionary
         if category not in whitelist.keys():
             if comment.find("-") != -1:
@@ -121,8 +122,6 @@ try:
                     ]
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
-
-print(json.dumps(whitelist, indent=4))
 
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
