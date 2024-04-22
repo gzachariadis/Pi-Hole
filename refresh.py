@@ -213,13 +213,6 @@ repo = Repo(root_directory)  # if repo is CWD just do '.'
 
 index = repo.index
 
-print(index)
-sys.exit()
-
-# The index contains all blobs in a flat list.
-assert len(list(index.iter_blobs())) == len(
-    [o for o in repo.head.commit.tree.traverse() if o.type == "blob"]
-)
 # Access blob objects.
 for (_path, _stage), _entry in index.entries.items():
     print(_path)
