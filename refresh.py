@@ -121,10 +121,6 @@ try:
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
 
-
-print(json.dumps(whitelist, indent=4))
-sys.exit()
-
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 
@@ -172,8 +168,14 @@ def create_file(Title, Root_Domains, data):
     mdFile.create_md_file()
 
 
-Doms = {}
+# The core of the data, regarding each domain, it's Type (CDN or API)  etc.
+Database = {}
+
+# The home domains, the root of any domain.
 Root_Domains = []
+
+# Static Assets = icons, thumbnails, buttons etc. that are rendered from different domains (eg. icons.bitwarden.com) - so anything CSS.
+Static_Assets = []
 
 # For each Category in the Whitelist
 for x in whitelist.keys():
@@ -181,20 +183,25 @@ for x in whitelist.keys():
         for z in whitelist[x][y]:
             # Place all unique Root Domains in a List
             if z["Type"] == "Domain":
-                if z["Domain"] not in Root_Domains:
+                if z["Domain"] not in Root_Domains and "Comment" not in z.keys():
                     Root_Domains.append(z["Domain"])
+            # Place all unique Root Domains in a List
+            if z["Type"] == "Static Assets":
+                if z["Domain"] not in Static_Assets and "Comment" not in z.keys():
+                    Static_Assets.append(z["Domain"])
             # Categorize all domains under API or CDN groups
             if z["Type"] == "API" or z["Type"] == "CDN":
-                if z["Type"] not in Doms.keys():
-                    Doms[z["Type"]] = {z["Comment"]: [z["Domain"]]}
-                if z["Comment"] not in Doms[z["Type"]].keys():
-                    Doms[z["Type"]][z["Comment"]] = [z["Domain"]]
-                elif z["Domain"] not in list(Doms[z["Type"]][z["Comment"]]):
-                    Doms[z["Type"]][z["Comment"]].append(z["Domain"])
+                if z["Type"] not in Database.keys():
+                    Database[z["Type"]] = {z["Comment"]: [z["Domain"]]}
+                if z["Comment"] not in Database[z["Type"]].keys():
+                    Database[z["Type"]][z["Comment"]] = [z["Domain"]]
+                elif z["Domain"] not in list(Database[z["Type"]][z["Comment"]]):
+                    Database[z["Type"]][z["Comment"]].append(z["Domain"])
 
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
-            create_file(y, Root_Domains, Doms)
-            Doms.clear()
+            create_file(y, Root_Domains, Database)
+            Database.clear()
             Root_Domains.clear()
+            Static_Assets.clear()
