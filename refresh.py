@@ -184,7 +184,6 @@ for x in whitelist.keys():
             # Categorize all domains under API or CDN groups
             if z["Type"] == "API" or z["Type"] == "CDN":
                 if z["Type"] not in Doms.keys():
-                    print(z["Domain"])
                     Doms[z["Type"]] = {z["Comment"]: [z["Domain"]]}
                 if z["Comment"] not in Doms[z["Type"]].keys():
                     Doms[z["Type"]][z["Comment"]] = [z["Domain"]]
@@ -193,6 +192,5 @@ for x in whitelist.keys():
 
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
-            pass
-            # os.chdir(Fpath)
-            # create_file(y, Root_Domains, Doms)
+            os.chdir(Fpath)
+            create_file(y, Root_Domains, Doms)
