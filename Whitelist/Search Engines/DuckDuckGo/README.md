@@ -3,6 +3,7 @@
 
 <h1 align="center">DuckDuckGo</h1>  
 
+<br>
 
 ## Domains
 

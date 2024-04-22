@@ -3,6 +3,7 @@
 
 <h1 align="center">Github</h1>  
 
+<br>
 
 ## Domains
 
@@ -12,7 +13,6 @@ github.com
 www.github.com
 ```  
 
-<br>
 
 ## Application Programming Interface (API) - Database Connector
 
