@@ -38,12 +38,12 @@ try:
     result = subprocess.check_output(
         command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
     )
-except subprocess.CalledProcessError as cpe:
-    result = cpe.output
 
-finally:
     for line in result.splitlines():
         print(line.decode())
+
+except subprocess.CalledProcessError as cpe:
+    result = cpe.output
 
 
 def findOccurrences(string):
