@@ -11,6 +11,8 @@ root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
 whitelist = {}
 
 # Run command to database
+
+subprocess.run(, )
 result = subprocess.run(
     [
         "sqlite3",
@@ -20,7 +22,8 @@ result = subprocess.run(
         "FROM",
         'domainlist"',
     ],
-    stdout=subprocess.PIPE,
+    shell=True, 
+    executable="/bin/bash"
 )
 
 result.stdout.decode("utf-8")
