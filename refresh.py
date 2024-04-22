@@ -94,7 +94,13 @@ try:
                             "Comment": str(comment[comment.index("-") + 1 :]).strip(),
                         }
                     ]
-
+                else:
+                    whitelist[category][group] = [
+                        {
+                            "Domain": str(domain).strip(),
+                            "Type": str(comment),
+                        }
+                    ]
             else:
                 whitelist[category][group].append(
                     [
