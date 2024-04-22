@@ -5,9 +5,29 @@ import shutil
 from mdutils.mdutils import MdUtils
 from mdutils import Html
 import sys
+import subprocess
 
 root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
 whitelist = {}
+
+# Run command to database
+result = subprocess.run(
+    [
+        "sqlite3",
+        '"/etc/pihole/gravity.db"',
+        "SELECT",
+        "domain,comment",
+        "FROM",
+        "domainlist",
+    ],
+    stdout=subprocess.PIPE,
+)
+
+#  "SELECT domain,comment,\"group\".name,\"group\".description FROM domainlist INNER JOIN domainlist_by_group ON domainlist_by_group.domainlist_id=domainlist.id INNER JOIN \"group\" ON \"group\".id=domainlist_by_group.group_id WHERE domainlist.type=0"
+
+result.stdout.decode("utf-8")
+
+print(result)
 
 
 def findOccurrences(string):
@@ -18,22 +38,17 @@ def findOccurrences(string):
     return indexes
 
 
-def get_immediate_subdirectories(directory):
-    return [f.name for f in os.scandir(directory) if f.is_dir()]
-
-
 def pairwise(l):
     return [(x, y) for x, y in zip(l[:-1], l[1:])]
 
-
-print("\nProcessing data...")
 
 # Fetch Data and Create a Dictionary
 with open("output.txt", "r", encoding="UTF-8") as file:
     while line := file.readline():
         line = str(line.rstrip()).strip()
-        indexes = findOccurrences(line)
-        pairs = pairwise(indexes)
+        pairs = pairwise(findOccurrences(line))
+
+        # From Pair of Intexes - Get strings
         comment = str(line[pairs[0][0] + 1 : pairs[0][1]]).strip()
         group = str(line[pairs[1][0] + 1 : pairs[1][1]]).strip()
         category = str(line[pairs[2][0] + 1 : pairs[2][1]]).strip()
@@ -93,16 +108,8 @@ with open("output.txt", "r", encoding="UTF-8") as file:
                         }
                     ]
 
-print("\nSuccessfully processed %d categories." % (int(len(whitelist.keys()))))
-
-
 # Reset the Structure before re-creating
-def reset(path):
-    shutil.rmtree(path, ignore_errors=True)
-
-
-print("\nPerforming reset on File Structure...")
-reset(os.path.join(root_directory, "Whitelist"))
+shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 
 
 # Create & Populate the Folder Structure based on Data
@@ -119,7 +126,6 @@ def populate_structure(category, subcategories):
         pass
 
 
-print("\nPopulating Folders...")
 for k, v in whitelist.items():
     populate_structure(k, list(whitelist[k].keys()))
 
@@ -155,6 +161,7 @@ Root_Domains = []
 # For each Category in the Whitelist
 for x in whitelist.keys():
     for y in whitelist[x].keys():
+        i = 0
         for z in whitelist[x][y]:
             # Place all unique Root Domains in a List
             if z["Type"] == "Domain":
