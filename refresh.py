@@ -207,13 +207,10 @@ for x in whitelist.keys():
             Static_Assets.clear()
 
 # Push changes to Github
-try:
-    subprocess.call("git add .", shell=True, executable="/bin/bash")
-    subprocess.call(
-        ["git", "commit", "-m", "Automatic push from Pihole"],
-        shell=True,
-        executable="/bin/bash",
-    )
-    subprocess.call(
-        ["git", "push", "origin", "main"], shell=True, executable="/bin/bash"
-    )
+subprocess.call("git add .", shell=True, executable="/bin/bash")
+subprocess.call(
+    ["git", "commit", "-m", "Automatic push from Pihole"],
+    shell=True,
+    executable="/bin/bash",
+)
+subprocess.call(["git", "push", "origin", "main"], shell=True, executable="/bin/bash")
