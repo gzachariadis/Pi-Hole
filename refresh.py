@@ -16,14 +16,22 @@ result = subprocess.run(
         "sqlite3",
         "/etc/pihole/gravity.db",
         "SELECT",
-        "domain,comment",
+        'domain,comment,"group".name,"group".description',
         "FROM",
         "domainlist",
+        "INNER",
+        "JOIN",
+        "domainlist_by_group",
+        "ON",
+        "domainlist_by_group.domainlist_id=domainlist.id",
+        "INNER",
+        "JOIN",
+        "ON" '"group".id=domainlist_by_group.group_id',
+        "WHERE",
+        "domainlist.type=0",
     ],
     stdout=subprocess.PIPE,
 )
-
-#  "SELECT domain,comment,\"group\".name,\"group\".description FROM domainlist INNER JOIN domainlist_by_group ON domainlist_by_group.domainlist_id=domainlist.id INNER JOIN \"group\" ON \"group\".id=domainlist_by_group.group_id WHERE domainlist.type=0"
 
 result.stdout.decode("utf-8")
 
