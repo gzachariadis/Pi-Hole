@@ -130,13 +130,11 @@ shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 # Create & Populate the Folder Structure based on Data
 def populate_structure(category, subcategories):
     path = os.path.join(root_directory, "Whitelist", category)
-    print(path)
-    sys.exit()
     try:
         if not os.path.exists(path):
             os.makedirs(path)
             for sub in subcategories:
-                sPath = path + "\\" + sub + "\\"
+                sPath = os.path.join(path, sub)
                 if not os.path.exists(sPath):
                     os.makedirs(sPath)
     except OSError:
