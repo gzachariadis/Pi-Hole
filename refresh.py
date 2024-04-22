@@ -34,8 +34,6 @@ command = " ".join(
     ]
 )
 
-print(command)
-sys.exit()
 try:
     result = subprocess.check_output(
         command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
