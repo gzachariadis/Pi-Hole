@@ -34,34 +34,15 @@ command = " ".join(
     ]
 )
 
+# Run Command to Dabase, Decoding every line
 try:
     result = subprocess.check_output(
         command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
     )
 
     for line in result.splitlines():
-        print(line.decode())
-
-except subprocess.CalledProcessError as cpe:
-    result = cpe.output
-
-
-def findOccurrences(string):
-    if string[:-1] == "\|":
-        string = Str[: len(string) - 1]
-    indexes = []
-    indexes = indexes + [x.start() for x in re.finditer("\|", string)] + [len(string)]
-    return indexes
-
-
-def pairwise(l):
-    return [(x, y) for x, y in zip(l[:-1], l[1:])]
-
-
-# Fetch Data and Create a Dictionary
-with open("output.txt", "r", encoding="UTF-8") as file:
-    while line := file.readline():
-        line = str(line.rstrip()).strip()
+        # Fetch Data by line
+        line = str(line.decode()).rstrip().strip()
         pairs = pairwise(findOccurrences(line))
 
         # From Pair of Intexes - Get strings
@@ -70,6 +51,7 @@ with open("output.txt", "r", encoding="UTF-8") as file:
         category = str(line[pairs[2][0] + 1 : pairs[2][1]]).strip()
         domain = str(line[0 : pairs[0][0]]).strip()
 
+        # Create a Dictionary
         if category not in whitelist.keys():
             if comment.find("-") != -1:
                 whitelist[category] = {
@@ -123,6 +105,22 @@ with open("output.txt", "r", encoding="UTF-8") as file:
                             "Type": str(comment).strip(),
                         }
                     ]
+
+except subprocess.CalledProcessError as cpe:
+    result = cpe.output
+
+
+def findOccurrences(string):
+    if string[:-1] == "\|":
+        string = Str[: len(string) - 1]
+    indexes = []
+    indexes = indexes + [x.start() for x in re.finditer("\|", string)] + [len(string)]
+    return indexes
+
+
+def pairwise(l):
+    return [(x, y) for x, y in zip(l[:-1], l[1:])]
+
 
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
