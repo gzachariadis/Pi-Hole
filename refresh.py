@@ -190,10 +190,10 @@ for x in whitelist.keys():
                 elif z["Domain"] not in list(Doms[z["Type"]][z["Comment"]]):
                     Doms[z["Type"]][z["Comment"]].append(z["Domain"])
 
-            Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
-            print(Fpath)
-            print(Doms)
-            print(sys.exit())
-            if os.path.exists(Fpath):
-                os.chdir(Fpath)
-                create_file(y, Root_Domains, Doms)
+        Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
+        print(Fpath)
+        print(Doms)
+        sys.exit()
+        if os.path.exists(Fpath):
+            os.chdir(Fpath)
+            create_file(y, Root_Domains, Doms)
