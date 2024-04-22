@@ -34,6 +34,19 @@ command = " ".join(
     ]
 )
 
+
+def findOccurrences(string):
+    if string[:-1] == "\|":
+        string = Str[: len(string) - 1]
+    indexes = []
+    indexes = indexes + [x.start() for x in re.finditer("\|", string)] + [len(string)]
+    return indexes
+
+
+def pairwise(l):
+    return [(x, y) for x, y in zip(l[:-1], l[1:])]
+
+
 # Run Command to Dabase, Decoding every line
 try:
     result = subprocess.check_output(
@@ -108,19 +121,6 @@ try:
 
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
-
-
-def findOccurrences(string):
-    if string[:-1] == "\|":
-        string = Str[: len(string) - 1]
-    indexes = []
-    indexes = indexes + [x.start() for x in re.finditer("\|", string)] + [len(string)]
-    return indexes
-
-
-def pairwise(l):
-    return [(x, y) for x, y in zip(l[:-1], l[1:])]
-
 
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
