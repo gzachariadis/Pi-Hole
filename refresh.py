@@ -134,9 +134,8 @@ def populate_structure(category, subcategories):
         if not os.path.exists(path):
             os.makedirs(path)
             for sub in subcategories:
-                sPath = os.path.join(path, sub)
-                if not os.path.exists(sPath):
-                    os.makedirs(sPath)
+                if not os.path.exists(os.path.join(path, sub)):
+                    os.makedirs(os.path.join(path, sub))
     except OSError:
         pass
 
@@ -144,9 +143,8 @@ def populate_structure(category, subcategories):
 for k, v in whitelist.items():
     populate_structure(k, list(whitelist[k].keys()))
 
-sys.exit()
 
-
+# Populate the Categories inside the README.md
 def Populate_Category(mdFile, Title, Type, data):
     for k, v in data.items():
         if k == Type:
