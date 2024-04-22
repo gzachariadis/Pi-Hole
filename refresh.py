@@ -179,7 +179,7 @@ for x in whitelist.keys():
         for z in whitelist[x][y]:
             # Place all unique Root Domains in a List
             if z["Type"] == "Domain":
-                if z["Domain"] not in Root_Domains and "Comment" not in z.keys():
+                if z["Domain"] not in Root_Domains:
                     Root_Domains.append(z["Domain"])
             # Categorize all domains under API or CDN groups
             if z["Type"] == "API" or z["Type"] == "CDN":
@@ -197,3 +197,4 @@ for x in whitelist.keys():
             os.chdir(Fpath)
             create_file(y, Root_Domains, Doms)
             Doms.clear()
+            Root_Domains.clear()
