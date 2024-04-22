@@ -16,10 +16,18 @@ result = subprocess.run(
         "sqlite3",
         '"/etc/pihole/gravity.db"',
         '"SELECT',
-        'domain,comment,"group".name,"group".description',
+        "domain,comment",
         "FROM",
-        "domainlist",
-        "INNER",
+        'domainlist"',
+    ],
+    stdout=subprocess.PIPE,
+)
+
+result.stdout.decode("utf-8")
+
+print(result)
+"""
+"INNER",
         "JOIN",
         "domainlist_by_group",
         "ON",
@@ -31,13 +39,7 @@ result = subprocess.run(
         '"group".id=domainlist_by_group.group_id',
         "WHERE",
         'domainlist.type=0"',
-    ],
-    stdout=subprocess.PIPE,
-)
-
-result.stdout.decode("utf-8")
-
-print(result)
+"""
 
 
 def findOccurrences(string):
