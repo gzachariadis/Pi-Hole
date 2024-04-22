@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">Google Play Store</h1>  
+<h1 align="center">Android</h1>  
 
 
 ## Domains
@@ -22,6 +22,9 @@ amazon.com
 www.amazon.co.uk
 f-droid.org
 play.google.com
+anchor.fm
+www.digicert.com
+connectivitycheck.android.com
 ```  
 
 
@@ -429,5 +432,23 @@ play-lh.googleusercontent.com
 
 ```html
 play-fe.googleapis.com
+```  
+
+
+## Content Delivery Networks (CDN) - Certificate Issuing
+
+
+```html
+cacerts.digicert.com
+```  
+
+
+## Content Delivery Networks (CDN) - Certificate Verification
+
+
+```html
+ocsp.digicert.com
+crl3.digicert.com
+crl4.digicert.com
 ```  
 

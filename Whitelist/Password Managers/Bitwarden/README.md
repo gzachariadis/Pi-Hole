@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">Google Play Store</h1>  
+<h1 align="center">Bitwarden</h1>  
 
 
 ## Domains
@@ -22,6 +22,7 @@ amazon.com
 www.amazon.co.uk
 f-droid.org
 play.google.com
+anchor.fm
 ```  
 
 

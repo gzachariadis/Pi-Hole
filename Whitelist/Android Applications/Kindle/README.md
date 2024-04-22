@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">Google Play Store</h1>  
+<h1 align="center">Kindle</h1>  
 
 
 ## Domains
@@ -20,8 +20,6 @@ vscode.dev
 addons.mozilla.org
 amazon.com
 www.amazon.co.uk
-f-droid.org
-play.google.com
 ```  
 
 
@@ -71,23 +69,6 @@ signaler-pa.googleapis.com
 ```html
 us-east-1.amazonaws.com
 s3-eu-west-1.amazonaws.com
-```  
-
-
-## Application Programming Interface (API) - Application Catalog
-
-
-```html
-android.clients.google.com
-android.apis.google.com
-```  
-
-
-## Application Programming Interface (API) - Application Assets
-
-
-```html
-play.googleapis.com
 ```  
 
 
@@ -394,40 +375,5 @@ kindle-digital-delivery.amazon.com
 
 ```html
 mobile-app-expan.amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Repositories
-
-
-```html
-guardianproject.info
-fdroid.tetaneutral.net
-mirrors.dotsrc.org
-dotsrc.org
-```  
-
-
-## Content Delivery Networks (CDN) - Application Licensing
-
-
-```html
-digitalassetlinks.googleapis.com
-```  
-
-
-## Content Delivery Networks (CDN) - Application Details
-
-
-```html
-play-lh.googleusercontent.com
-```  
-
-
-## Content Delivery Networks (CDN) - Search Results
-
-
-```html
-play-fe.googleapis.com
 ```  
 

@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">Google Play Store</h1>  
+<h1 align="center">Voe</h1>  
 
 
 ## Domains
@@ -22,6 +22,16 @@ amazon.com
 www.amazon.co.uk
 f-droid.org
 play.google.com
+anchor.fm
+www.digicert.com
+connectivitycheck.android.com
+pornxp.com
+www.c8365730d4.nl
+vidstream.to
+putlocker.pe
+kerapoxy.cc
+streamvid.net
+voe.sx
 ```  
 
 
@@ -91,6 +101,15 @@ play.googleapis.com
 ```  
 
 
+## Application Programming Interface (API) - Account Management
+
+
+```html
+api.account.xiaomi.com
+account.xiaomi.com
+```  
+
+
 ## Content Delivery Networks (CDN) - RAW Files
 
 
@@ -149,6 +168,10 @@ i.redd.it
 packaged-media.redd.it
 v.redd.it
 media.discordapp.net
+d.pornxp.cc
+cn.pornxp.cc
+l.pornxp.cc
+www.kerapoxy.cc
 ```  
 
 
@@ -429,5 +452,33 @@ play-lh.googleusercontent.com
 
 ```html
 play-fe.googleapis.com
+```  
+
+
+## Content Delivery Networks (CDN) - Certificate Issuing
+
+
+```html
+cacerts.digicert.com
+```  
+
+
+## Content Delivery Networks (CDN) - Certificate Verification
+
+
+```html
+ocsp.digicert.com
+crl3.digicert.com
+crl4.digicert.com
+```  
+
+
+## Content Delivery Networks (CDN) - Thumbnails
+
+
+```html
+i.pornxp.cc
+b1.trafficdeposit.com
+i.voe.sx
 ```  
 
