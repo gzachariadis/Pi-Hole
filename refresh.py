@@ -104,26 +104,18 @@ try:
             else:
                 if comment.find("-") != -1:
                     whitelist[category][group].append(
-                        [
-                            {
-                                "Domain": str(domain).strip(),
-                                "Type": str(
-                                    comment[0 : comment.index("-") - 1]
-                                ).strip(),
-                                "Comment": str(
-                                    comment[comment.index("-") + 1 :]
-                                ).strip(),
-                            }
-                        ]
+                        {
+                            "Domain": str(domain).strip(),
+                            "Type": str(comment[0 : comment.index("-") - 1]).strip(),
+                            "Comment": str(comment[comment.index("-") + 1 :]).strip(),
+                        }
                     )
                 else:
                     whitelist[category][group].append(
-                        [
-                            {
-                                "Domain": str(domain).strip(),
-                                "Type": str(comment),
-                            }
-                        ]
+                        {
+                            "Domain": str(domain).strip(),
+                            "Type": str(comment),
+                        }
                     )
 
 except subprocess.CalledProcessError as cpe:
