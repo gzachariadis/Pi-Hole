@@ -14,9 +14,9 @@ whitelist = {}
 result = subprocess.run(
     [
         "sqlite3",
-        "/etc/pihole/gravity.db",
-        "SELECT",
-        'domain,comment,""group"".name,""group"".description',
+        '"/etc/pihole/gravity.db"',
+        '"SELECT',
+        'domain,comment,"group".name,"group".description',
         "FROM",
         "domainlist",
         "INNER",
@@ -26,11 +26,11 @@ result = subprocess.run(
         "domainlist_by_group.domainlist_id=domainlist.id",
         "INNER",
         "JOIN",
-        '""group""',
+        '"group"',
         "ON",
         '"group".id=domainlist_by_group.group_id',
         "WHERE",
-        "domainlist.type=0",
+        'domainlist.type=0"',
     ],
     stdout=subprocess.PIPE,
 )
