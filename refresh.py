@@ -144,6 +144,8 @@ def populate_structure(category, subcategories):
 for k, v in whitelist.items():
     populate_structure(k, list(whitelist[k].keys()))
 
+sys.exit()
+
 
 def Populate_Category(mdFile, Title, Type, data):
     for k, v in data.items():
