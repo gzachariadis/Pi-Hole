@@ -122,9 +122,6 @@ try:
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
 
-
-print(json.dumps(whitelist, indent=4))
-
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 
@@ -145,6 +142,9 @@ def populate_structure(category, subcategories):
 
 for k, v in whitelist.items():
     populate_structure(k, list(whitelist[k].keys()))
+
+print("Populating")
+sys.exit()
 
 
 def Populate_Category(mdFile, Title, Type, data):
@@ -178,7 +178,6 @@ Root_Domains = []
 # For each Category in the Whitelist
 for x in whitelist.keys():
     for y in whitelist[x].keys():
-        i = 0
         for z in whitelist[x][y]:
             # Place all unique Root Domains in a List
             if z["Type"] == "Domain":
@@ -195,5 +194,6 @@ for x in whitelist.keys():
 
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
-            os.chdir(Fpath)
-            create_file(y, Root_Domains, Doms)
+            pass
+            # os.chdir(Fpath)
+            # create_file(y, Root_Domains, Doms)
