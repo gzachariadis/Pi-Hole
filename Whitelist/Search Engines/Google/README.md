@@ -9,6 +9,7 @@
 
 ```html
 connectivitycheck.gstatic.com
+www.google.com
 ```  
 
 <br>
