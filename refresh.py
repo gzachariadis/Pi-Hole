@@ -7,11 +7,11 @@ from mdutils import Html
 import sys
 import subprocess
 
-# /root/Pi-Hole
+# Home Directory of Script eg. /root/Pi-Hole
 root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
 whitelist = {}
 
-# Run command to database
+# Command to Fetch Whitelist from Database
 command = " ".join(
     [
         "sqlite3",
@@ -205,3 +205,15 @@ for x in whitelist.keys():
             Database.clear()
             Root_Domains.clear()
             Static_Assets.clear()
+
+# Push changes to Github
+try:
+    subprocess.call("git add .", shell=True, executable="/bin/bash")
+    subprocess.call(
+        ["git", "commit", "-m", "Automatic push from Pihole"],
+        shell=True,
+        executable="/bin/bash",
+    )
+    subprocess.call(
+        ["git", "push", "origin", "main"], shell=True, executable="/bin/bash"
+    )
