@@ -119,9 +119,10 @@ try:
                             "Type": str(comment).strip(),
                         }
                     ]
-
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
+
+print(json.dumps(whitelist, indent=4))
 
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
@@ -177,7 +178,6 @@ Root_Domains = []
 for x in whitelist.keys():
     for y in whitelist[x].keys():
         for z in whitelist[x][y]:
-            print(z["Type"], z["Domain"])
             # Place all unique Root Domains in a List
             if z["Type"] == "Domain":
                 if z["Domain"] not in Root_Domains:
@@ -193,8 +193,6 @@ for x in whitelist.keys():
 
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
-            print(y)
-            print(Root_Domains)
             os.chdir(Fpath)
             create_file(y, Root_Domains, Doms)
             Doms.clear()
