@@ -16,9 +16,9 @@ command = " ".join(
         "sqlite3",
         '"/etc/pihole/gravity.db"',
         '"SELECT',
-        '"group".name,"group".description',
+        'domain,comment,\\"group\\".name,\\"group\\".description',
         "FROM",
-        'domainlist"',
+        "domainlist",
         "INNER",
         "JOIN",
         "domainlist_by_group",
@@ -26,14 +26,16 @@ command = " ".join(
         "domainlist_by_group.domainlist_id=domainlist.id",
         "INNER",
         "JOIN",
-        '"group"',
+        '\\"group\\"',
         "ON",
-        '"group".id=domainlist_by_group.group_id',
+        '\\"group\\".id=domainlist_by_group.group_id',
         "WHERE",
         'domainlist.type=0"',
     ]
 )
 
+print(command)
+sys.exit()
 try:
     result = subprocess.check_output(
         command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
