@@ -22,9 +22,16 @@ command = " ".join(
     ]
 )
 
-result = subprocess.check_output(
-    command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
-)
+try:
+    result = subprocess.check_output(
+        command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
+    )
+except subprocess.CalledProcessError as cpe:
+    result = cpe.output
+
+finally:
+    for line in result.splitlines():
+        print(line.decode())
 
 """
 "INNER",
@@ -40,11 +47,6 @@ result = subprocess.check_output(
         "WHERE",
         'domainlist.type=0"',
 """
-
-result = subprocess.check_output(
-    command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
-)
-print(result)
 
 
 def findOccurrences(string):
