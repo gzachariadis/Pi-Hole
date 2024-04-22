@@ -14,7 +14,7 @@ whitelist = {}
 result = subprocess.run(
     [
         "sqlite3",
-        '"/etc/pihole/gravity.db"',
+        "/etc/pihole/gravity.db",
         "SELECT",
         "domain,comment",
         "FROM",
