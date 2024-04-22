@@ -64,8 +64,6 @@ try:
         group = str(line[pairs[1][0] + 1 : pairs[1][1]]).strip()
         category = str(line[pairs[2][0] + 1 : pairs[2][1]]).strip()
         domain = str(line[0 : pairs[0][0]]).strip()
-
-        print(category, domain, comment)
         # Create a Dictionary
         if category not in whitelist.keys():
             if comment.find("-") != -1:
