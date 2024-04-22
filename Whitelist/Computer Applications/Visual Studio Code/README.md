@@ -53,32 +53,42 @@ odysee.com
 lbry.tv
 keybase.io
 vscode.dev
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Database Connector
 
 
 ```html
 cdn.ghostery.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - JavaScript Library
 
 
 ```html
 cdn.jsdelivr.net
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Extensions
 
 
 ```html
 marketplace.visualstudio.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Update
 
 
 ```html
 update.code.visualstudio.com
-```<br>
+```  
+
+<br>

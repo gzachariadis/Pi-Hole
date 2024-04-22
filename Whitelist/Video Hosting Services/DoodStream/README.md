@@ -10,7 +10,9 @@
 ```html
 d000d.com
 doodstream.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Thumbnails
 
@@ -18,4 +20,6 @@ doodstream.com
 ```html
 img.doodcdn.co
 i.doodcdn.co
-```<br>
+```  
+
+<br>

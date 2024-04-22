@@ -11,7 +11,9 @@
 www.facebook.com
 m.facebook.com
 facebook.com
-```<br>
+```  
+
+<br>
 
 ## Application Programming Interface (API) - Database Connector
 
@@ -19,14 +21,18 @@ facebook.com
 ```html
 api.facebook.com
 b-api.facebook.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Direct Messages
 
 
 ```html
 chat-e2ee-mini.facebook.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Authentication
 
@@ -34,11 +40,15 @@ chat-e2ee-mini.facebook.com
 ```html
 connect.facebook.net
 gateway.facebook.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Links
 
 
 ```html
 l.facebook.com
-```<br>
+```  
+
+<br>

@@ -9,7 +9,9 @@
 
 ```html
 
-```<br>
+```  
+
+<br>
 
 ## Application Programming Interface (API) - Account Management
 
@@ -17,4 +19,6 @@
 ```html
 api.account.xiaomi.com
 account.xiaomi.com
-```<br>
+```  
+
+<br>

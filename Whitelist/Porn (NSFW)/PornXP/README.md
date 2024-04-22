@@ -9,7 +9,9 @@
 
 ```html
 pornxp.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Videos
 
@@ -18,11 +20,15 @@ pornxp.com
 d.pornxp.cc
 cn.pornxp.cc
 l.pornxp.cc
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Thumbnails
 
 
 ```html
 i.pornxp.cc
-```<br>
+```  
+
+<br>

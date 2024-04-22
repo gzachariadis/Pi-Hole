@@ -10,7 +10,9 @@
 ```html
 www.snapchat.com
 snapchat.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Direct Messages
 
@@ -18,7 +20,9 @@ snapchat.com
 ```html
 chat-getway-prod-chat.snapchat.com
 chat-gateway-prod.chat.snapchat.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Authentication
 
@@ -27,7 +31,9 @@ chat-gateway-prod.chat.snapchat.com
 auth.snapchat.com
 accounts.snapchat.com
 accounts.snap.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Application
 
@@ -35,4 +41,6 @@ accounts.snap.com
 ```html
 app.snapchat.com
 aws.duplex.snapchat.com
-```<br>
+```  
+
+<br>

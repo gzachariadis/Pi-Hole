@@ -10,14 +10,18 @@
 ```html
 digicert.com
 www.digicert.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Certificate Issuing
 
 
 ```html
 cacerts.digicert.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Certificate Verification
 
@@ -26,4 +30,6 @@ cacerts.digicert.com
 ocsp.digicert.com
 crl3.digicert.com
 crl4.digicert.com
-```<br>
+```  
+
+<br>
