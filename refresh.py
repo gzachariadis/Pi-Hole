@@ -81,14 +81,9 @@ try:
             else:
                 whitelist[category] = {
                     group: [
-                        {
-                            "Domain": str(domain).strip(),
-                            "Type": str(comment).strip(),
-                        }
+                        {"Domain": str(domain).strip(), "Type": str(comment).strip()}
                     ]
                 }
-                print(whitelist)
-                sys.exit()
         else:
             if group not in whitelist[category].keys():
                 if comment.find("-") != -1:
@@ -99,29 +94,18 @@ try:
                             "Comment": str(comment[comment.index("-") + 1 :]).strip(),
                         }
                     ]
-                else:
-                    whitelist[category][group] = [
-                        {
-                            "Domain": str(domain).strip(),
-                            "Type": str(comment).strip(),
-                        }
-                    ]
+
             else:
-                if comment.find("-") != -1:
-                    whitelist[category][group].append(
+                whitelist[category][group].append(
+                    [
                         {
                             "Domain": str(domain).strip(),
                             "Type": str(comment[0 : comment.index("-") - 1]).strip(),
                             "Comment": str(comment[comment.index("-") + 1 :]).strip(),
                         }
-                    )
-                else:
-                    whitelist[category][group] = [
-                        {
-                            "Domain": str(domain).strip(),
-                            "Type": str(comment).strip(),
-                        }
                     ]
+                )
+
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
 
