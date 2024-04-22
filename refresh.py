@@ -12,7 +12,6 @@ whitelist = {}
 
 # Run command to database
 
-subprocess.run(, )
 result = subprocess.run(
     [
         "sqlite3",
@@ -22,8 +21,8 @@ result = subprocess.run(
         "FROM",
         'domainlist"',
     ],
-    shell=True, 
-    executable="/bin/bash"
+    shell=True,
+    executable="/bin/bash",
 )
 
 result.stdout.decode("utf-8")
