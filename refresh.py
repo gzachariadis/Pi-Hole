@@ -7,11 +7,10 @@ from mdutils import Html
 import sys
 import subprocess
 
+# /root/Pi-Hole
 root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
 whitelist = {}
 
-print(root_directory)
-sys.exit()
 # Run command to database
 command = " ".join(
     [
@@ -130,7 +129,9 @@ shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 
 # Create & Populate the Folder Structure based on Data
 def populate_structure(category, subcategories):
-    path = os.path.join(root_directory + "\\Whitelist\\" + category)
+    path = os.path.join(root_directory, "Whitelist", category)
+    print(path)
+    sys.exit()
     try:
         if not os.path.exists(path):
             os.makedirs(path)
