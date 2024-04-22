@@ -191,6 +191,9 @@ for x in whitelist.keys():
                     Doms[z["Type"]][z["Comment"]].append(z["Domain"])
 
             Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
+            print(Fpath)
+            print(Doms)
+            print(sys.exit())
             if os.path.exists(Fpath):
                 os.chdir(Fpath)
                 create_file(y, Root_Domains, Doms)
