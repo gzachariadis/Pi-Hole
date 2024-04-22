@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">Google Play Store</h1>  
+<h1 align="center">Google</h1>  
 
 
 ## Domains
@@ -14,14 +14,6 @@ s.youtube.com
 snapchat.com
 facebook.com
 www.duckduckgo.com
-ublockorigin.pages.dev
-keybase.io
-vscode.dev
-addons.mozilla.org
-amazon.com
-www.amazon.co.uk
-f-droid.org
-play.google.com
 ```  
 
 
@@ -34,9 +26,6 @@ youtubei.googleapis.com
 api.facebook.com
 b-api.facebook.com
 api.twitch.tv
-api.amazon.co.uk
-api.amazon.com
-api.audible.co.uk
 ```  
 
 
@@ -62,32 +51,6 @@ accounts.google.com
 ```html
 mtalk4.google.com
 signaler-pa.googleapis.com
-```  
-
-
-## Application Programming Interface (API) - Media Delivery
-
-
-```html
-us-east-1.amazonaws.com
-s3-eu-west-1.amazonaws.com
-```  
-
-
-## Application Programming Interface (API) - Application Catalog
-
-
-```html
-android.clients.google.com
-android.apis.google.com
-```  
-
-
-## Application Programming Interface (API) - Application Assets
-
-
-```html
-play.googleapis.com
 ```  
 
 
@@ -122,7 +85,6 @@ gist.githubusercontent.com
 camo.githubusercontent.com
 preview.redd.it
 images-ext-1.discordapp.net
-images-na.ssl-images-amazon.com
 ```  
 
 
@@ -231,7 +193,6 @@ accounts.snap.com
 connect.facebook.net
 gateway.facebook.com
 passport.twitch.tv
-cognito-identity.us-east-1.amazonaws.com
 ```  
 
 
@@ -292,142 +253,5 @@ player.twitch.tv
 ```html
 pubsub-edge.twitch.tv
 irc-ws.chat.twitch.tv
-```  
-
-
-## Content Delivery Networks (CDN) - Database Connector
-
-
-```html
-cdn.ghostery.com
-```  
-
-
-## Content Delivery Networks (CDN) - JavaScript Library
-
-
-```html
-cdn.jsdelivr.net
-```  
-
-
-## Content Delivery Networks (CDN) - Extensions
-
-
-```html
-marketplace.visualstudio.com
-```  
-
-
-## Content Delivery Networks (CDN) - Update
-
-
-```html
-update.code.visualstudio.com
-```  
-
-
-## Content Delivery Networks (CDN) - Covers
-
-
-```html
-m.media-amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Contents
-
-
-```html
-k4wyjmetadata.s3.amazonaws.com
-```  
-
-
-## Content Delivery Networks (CDN) - Bookmarks
-
-
-```html
-smyl-ebook-index.s3.amazonaws.com
-```  
-
-
-## Content Delivery Networks (CDN) - Highlights
-
-
-```html
-fls-na.amazon.com
-fls-eu.amazon.co.uk
-```  
-
-
-## Content Delivery Networks (CDN) - Library
-
-
-```html
-unagi.amazon.com
-unagi-na.amazon.com
-unagi.amazon.co.uk
-unagi-eu.amazon.com
-kindle-content-update-proxy.amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Syncing
-
-
-```html
-syncdelivery.audible.co.uk
-todo-ta-g7g.amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Download Books
-
-
-```html
-kindle-digital-delivery.amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Preferences Backup
-
-
-```html
-mobile-app-expan.amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Repositories
-
-
-```html
-guardianproject.info
-fdroid.tetaneutral.net
-mirrors.dotsrc.org
-dotsrc.org
-```  
-
-
-## Content Delivery Networks (CDN) - Application Licensing
-
-
-```html
-digitalassetlinks.googleapis.com
-```  
-
-
-## Content Delivery Networks (CDN) - Application Details
-
-
-```html
-play-lh.googleusercontent.com
-```  
-
-
-## Content Delivery Networks (CDN) - Search Results
-
-
-```html
-play-fe.googleapis.com
 ```  
 

@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">Google Play Store</h1>  
+<h1 align="center">Kindle Cloud Reader</h1>  
 
 
 ## Domains
@@ -19,9 +19,6 @@ keybase.io
 vscode.dev
 addons.mozilla.org
 amazon.com
-www.amazon.co.uk
-f-droid.org
-play.google.com
 ```  
 
 
@@ -34,9 +31,6 @@ youtubei.googleapis.com
 api.facebook.com
 b-api.facebook.com
 api.twitch.tv
-api.amazon.co.uk
-api.amazon.com
-api.audible.co.uk
 ```  
 
 
@@ -62,32 +56,6 @@ accounts.google.com
 ```html
 mtalk4.google.com
 signaler-pa.googleapis.com
-```  
-
-
-## Application Programming Interface (API) - Media Delivery
-
-
-```html
-us-east-1.amazonaws.com
-s3-eu-west-1.amazonaws.com
-```  
-
-
-## Application Programming Interface (API) - Application Catalog
-
-
-```html
-android.clients.google.com
-android.apis.google.com
-```  
-
-
-## Application Programming Interface (API) - Application Assets
-
-
-```html
-play.googleapis.com
 ```  
 
 
@@ -231,7 +199,6 @@ accounts.snap.com
 connect.facebook.net
 gateway.facebook.com
 passport.twitch.tv
-cognito-identity.us-east-1.amazonaws.com
 ```  
 
 
@@ -366,68 +333,5 @@ fls-eu.amazon.co.uk
 ```html
 unagi.amazon.com
 unagi-na.amazon.com
-unagi.amazon.co.uk
-unagi-eu.amazon.com
-kindle-content-update-proxy.amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Syncing
-
-
-```html
-syncdelivery.audible.co.uk
-todo-ta-g7g.amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Download Books
-
-
-```html
-kindle-digital-delivery.amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Preferences Backup
-
-
-```html
-mobile-app-expan.amazon.com
-```  
-
-
-## Content Delivery Networks (CDN) - Repositories
-
-
-```html
-guardianproject.info
-fdroid.tetaneutral.net
-mirrors.dotsrc.org
-dotsrc.org
-```  
-
-
-## Content Delivery Networks (CDN) - Application Licensing
-
-
-```html
-digitalassetlinks.googleapis.com
-```  
-
-
-## Content Delivery Networks (CDN) - Application Details
-
-
-```html
-play-lh.googleusercontent.com
-```  
-
-
-## Content Delivery Networks (CDN) - Search Results
-
-
-```html
-play-fe.googleapis.com
 ```  
 
