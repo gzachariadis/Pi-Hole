@@ -10,11 +10,15 @@
 ```html
 streamtape.com
 streamvid.net
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Thumbnails
 
 
 ```html
 b1.trafficdeposit.com
-```<br>
+```  
+
+<br>

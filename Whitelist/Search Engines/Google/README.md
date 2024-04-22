@@ -9,14 +9,18 @@
 
 ```html
 connectivitycheck.gstatic.com
-```<br>
+```  
+
+<br>
 
 ## Application Programming Interface (API) - [Cookie Management](https://tipsforefficiency.com/jnn-pa-googleapis-com/)
 
 
 ```html
 jnn-pa.googleapis.com
-```<br>
+```  
+
+<br>
 
 ## Application Programming Interface (API) - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)
 
@@ -29,18 +33,24 @@ alt7-mtalk.google.com
 notifications-pa.googleapis.com
 mtalk4.google.com
 signaler-pa.googleapis.com
-```<br>
+```  
+
+<br>
 
 ## Application Programming Interface (API) - Search
 
 
 ```html
 ajax.googleapis.com
-```<br>
+```  
+
+<br>
 
 ## Application Programming Interface (API) - Authentication
 
 
 ```html
 accounts.google.com
-```<br>
+```  
+
+<br>

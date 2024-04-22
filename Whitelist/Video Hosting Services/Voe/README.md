@@ -9,11 +9,15 @@
 
 ```html
 voe.sx
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Thumbnails
 
 
 ```html
 i.voe.sx
-```<br>
+```  
+
+<br>

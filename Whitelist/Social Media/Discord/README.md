@@ -9,49 +9,63 @@
 
 ```html
 discord.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Images
 
 
 ```html
 images-ext-1.discordapp.net
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Videos
 
 
 ```html
 media.discordapp.net
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Server Invitations
 
 
 ```html
 discord.gg
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Download Application
 
 
 ```html
 dl.discordapp.net
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Application Updates
 
 
 ```html
 updates.discord.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Authenticaton
 
 
 ```html
 remote-auth-gateway.discord.gg
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Application
 
@@ -59,11 +73,15 @@ remote-auth-gateway.discord.gg
 ```html
 discordapp.com
 discordapp.net
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Applications
 
 
 ```html
 cdn.discordapp.com
-```<br>
+```  
+
+<br>

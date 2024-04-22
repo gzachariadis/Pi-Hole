@@ -9,7 +9,9 @@
 
 ```html
 f-droid.org
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Repositories
 
@@ -19,4 +21,6 @@ guardianproject.info
 fdroid.tetaneutral.net
 mirrors.dotsrc.org
 dotsrc.org
-```<br>
+```  
+
+<br>

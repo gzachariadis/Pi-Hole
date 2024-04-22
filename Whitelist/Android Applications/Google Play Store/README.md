@@ -9,7 +9,9 @@
 
 ```html
 play.google.com
-```<br>
+```  
+
+<br>
 
 ## Application Programming Interface (API) - Application Catalog
 
@@ -17,32 +19,42 @@ play.google.com
 ```html
 android.clients.google.com
 android.apis.google.com
-```<br>
+```  
+
+<br>
 
 ## Application Programming Interface (API) - Application Assets
 
 
 ```html
 play.googleapis.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Application Licensing
 
 
 ```html
 digitalassetlinks.googleapis.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Application Details
 
 
 ```html
 play-lh.googleusercontent.com
-```<br>
+```  
+
+<br>
 
 ## Content Delivery Networks (CDN) - Search Results
 
 
 ```html
 play-fe.googleapis.com
-```<br>
+```  
+
+<br>
