@@ -4,7 +4,7 @@
 <h1 align="center">Instagram</h1>  
 
 
-## Domains
+## Root Domains
 
 
 ```html

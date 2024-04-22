@@ -4,7 +4,7 @@
 <h1 align="center">Firefox</h1>  
 
 
-## Domains
+## Root Domains
 
 
 ```html

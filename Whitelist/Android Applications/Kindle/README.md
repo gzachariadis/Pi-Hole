@@ -4,7 +4,7 @@
 <h1 align="center">Kindle</h1>  
 
 
-## Domains
+## Root Domains
 
 
 ```html
