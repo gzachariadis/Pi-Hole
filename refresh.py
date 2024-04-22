@@ -157,6 +157,7 @@ def create_file(Title, Root_Domains, data):
     mdFile = MdUtils(file_name="README")
     mdFile.write('<h1 align="center">{}</h1>'.format(str(Title).strip()))
     mdFile.write("  \n\n")
+    mdFile.write("<br>\n")
     mdFile.new_header(level=2, title="Domains", add_table_of_contents="n")
     mdFile.insert_code(str("\n".join(Root_Domains)).strip(), language="html")
     mdFile.write("  \n\n")
