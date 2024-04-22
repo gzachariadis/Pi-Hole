@@ -8,6 +8,7 @@
 
 
 ```html
+gitlab.com
 challenges.cloudflare.com
 ```  
 

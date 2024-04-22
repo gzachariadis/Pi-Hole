@@ -8,9 +8,16 @@
 
 
 ```html
-challenges.cloudflare.com
-web.facebook.com
-s.youtube.com
+www.reddit.com
+reddit.com
+```  
+
+
+## Content Delivery Networks (CDN) - Database
+
+
+```html
+gql.reddit.com
 ```  
 
 
@@ -18,6 +25,7 @@ s.youtube.com
 
 
 ```html
+www.redditmedia.com
 i.redd.it
 ```  
 
