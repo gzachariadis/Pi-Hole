@@ -123,6 +123,7 @@ except subprocess.CalledProcessError as cpe:
 
 
 print(json.dumps(whitelist, indent=4))
+sys.exit()
 
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
