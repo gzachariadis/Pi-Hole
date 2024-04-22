@@ -11,8 +11,7 @@ root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
 whitelist = {}
 
 # Run command to database
-
-result = subprocess.run(
+command = " ".join(
     [
         "sqlite3",
         '"/etc/pihole/gravity.db"',
@@ -20,14 +19,13 @@ result = subprocess.run(
         "domain,comment",
         "FROM",
         'domainlist"',
-    ],
-    shell=True,
-    executable="/bin/bash",
+    ]
 )
 
-result.stdout.decode("utf-8")
+result = subprocess.check_output(
+    command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
+)
 
-print(result)
 """
 "INNER",
         "JOIN",
@@ -42,6 +40,11 @@ print(result)
         "WHERE",
         'domainlist.type=0"',
 """
+
+result = subprocess.check_output(
+    command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
+)
+print(result)
 
 
 def findOccurrences(string):
