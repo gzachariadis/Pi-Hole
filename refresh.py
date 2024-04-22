@@ -11,7 +11,7 @@ root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
 
 print(root_directory)
 whitelist = {}
-
+sys.exit()
 # Run command to database
 command = " ".join(
     [
