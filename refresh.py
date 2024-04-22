@@ -16,9 +16,21 @@ command = " ".join(
         "sqlite3",
         '"/etc/pihole/gravity.db"',
         '"SELECT',
-        "domain,comment",
+        '"group".name,"group".description',
         "FROM",
         'domainlist"',
+        "INNER",
+        "JOIN",
+        "domainlist_by_group",
+        "ON",
+        "domainlist_by_group.domainlist_id=domainlist.id",
+        "INNER",
+        "JOIN",
+        '"group"',
+        "ON",
+        '"group".id=domainlist_by_group.group_id',
+        "WHERE",
+        'domainlist.type=0"',
     ]
 )
 
@@ -32,21 +44,6 @@ except subprocess.CalledProcessError as cpe:
 finally:
     for line in result.splitlines():
         print(line.decode())
-
-"""
-"INNER",
-        "JOIN",
-        "domainlist_by_group",
-        "ON",
-        "domainlist_by_group.domainlist_id=domainlist.id",
-        "INNER",
-        "JOIN",
-        '"group"',
-        "ON",
-        '"group".id=domainlist_by_group.group_id',
-        "WHERE",
-        'domainlist.type=0"',
-"""
 
 
 def findOccurrences(string):
