@@ -4,7 +4,7 @@
 <h1 align="center">Visual Studio Code</h1>  
 
 
-## Domains
+## Root Domains
 
 
 ```html

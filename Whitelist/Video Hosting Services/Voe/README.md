@@ -4,7 +4,7 @@
 <h1 align="center">Voe</h1>  
 
 
-## Domains
+## Root Domains
 
 
 ```html
