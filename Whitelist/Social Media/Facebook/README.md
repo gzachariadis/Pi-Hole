@@ -8,10 +8,8 @@
 
 
 ```html
-challenges.cloudflare.com
-web.facebook.com
-s.youtube.com
-snapchat.com
+www.facebook.com
+m.facebook.com
 facebook.com
 ```  
 

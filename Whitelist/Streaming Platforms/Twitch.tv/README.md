@@ -8,11 +8,9 @@
 
 
 ```html
-challenges.cloudflare.com
-web.facebook.com
-s.youtube.com
-snapchat.com
-facebook.com
+www.twitch.tv
+m.twitch.tv
+twitch.tv
 ```  
 
 
@@ -21,6 +19,14 @@ facebook.com
 
 ```html
 api.twitch.tv
+```  
+
+
+## Content Delivery Networks (CDN) - Database
+
+
+```html
+gql.twitch.tv
 ```  
 
 

@@ -8,9 +8,7 @@
 
 
 ```html
-challenges.cloudflare.com
-web.facebook.com
-s.youtube.com
+www.snapchat.com
 snapchat.com
 ```  
 

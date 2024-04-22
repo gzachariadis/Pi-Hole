@@ -8,17 +8,9 @@
 
 
 ```html
-challenges.cloudflare.com
-web.facebook.com
-s.youtube.com
-snapchat.com
-facebook.com
-www.duckduckgo.com
-ublockorigin.pages.dev
-keybase.io
-vscode.dev
-addons.mozilla.org
 amazon.com
+www.amazon.com
+amazon.co.uk
 www.amazon.co.uk
 ```  
 

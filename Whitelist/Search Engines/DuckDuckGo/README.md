@@ -8,11 +8,7 @@
 
 
 ```html
-challenges.cloudflare.com
-web.facebook.com
-s.youtube.com
-snapchat.com
-facebook.com
+duckduckgo.com
 www.duckduckgo.com
 ```  
 
