@@ -206,11 +206,22 @@ for x in whitelist.keys():
             Root_Domains.clear()
             Static_Assets.clear()
 
-# Push changes to Github
-subprocess.call("git", "add", ".", shell=True, executable="/bin/bash")
-subprocess.call(
-    ["git", "commit", "-m", "Automatic push from Pihole"],
-    shell=True,
-    executable="/bin/bash",
+# Push Changes to Github
+from git import Repo
+
+repo = Repo(root_directory)  # if repo is CWD just do '.'
+
+index = repo.index
+
+# The index contains all blobs in a flat list.
+assert len(list(index.iter_blobs())) == len(
+    [o for o in repo.head.commit.tree.traverse() if o.type == "blob"]
 )
-subprocess.call(["git", "push", "origin", "main"], shell=True, executable="/bin/bash")
+# Access blob objects.
+for (_path, _stage), _entry in index.entries.items():
+    print(_path)
+
+# repo.index.add(index.entries.items())
+# repo.index.commit("my commit description")
+# origin = repo.remote("origin")
+# origin.push()
