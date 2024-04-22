@@ -3,15 +3,13 @@
 
 <h1 align="center">F-Droid</h1>  
 
-<br>
 
 ## Domains
 
 
 ```html
 f-droid.org
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Repositories
 
@@ -21,5 +19,4 @@ guardianproject.info
 fdroid.tetaneutral.net
 mirrors.dotsrc.org
 dotsrc.org
-```  
-
+```<br>

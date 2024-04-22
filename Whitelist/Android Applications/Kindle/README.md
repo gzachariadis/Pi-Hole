@@ -3,7 +3,6 @@
 
 <h1 align="center">Kindle</h1>  
 
-<br>
 
 ## Domains
 
@@ -13,8 +12,7 @@ amazon.com
 www.amazon.com
 amazon.co.uk
 www.amazon.co.uk
-```  
-
+```<br>
 
 ## Application Programming Interface (API) - Database Connector
 
@@ -23,8 +21,7 @@ www.amazon.co.uk
 api.amazon.co.uk
 api.amazon.com
 api.audible.co.uk
-```  
-
+```<br>
 
 ## Application Programming Interface (API) - Media Delivery
 
@@ -32,8 +29,7 @@ api.audible.co.uk
 ```html
 us-east-1.amazonaws.com
 s3-eu-west-1.amazonaws.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Highlights
 
@@ -41,8 +37,7 @@ s3-eu-west-1.amazonaws.com
 ```html
 fls-na.amazon.com
 fls-eu.amazon.co.uk
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Library
 
@@ -53,16 +48,14 @@ unagi-na.amazon.com
 unagi.amazon.co.uk
 unagi-eu.amazon.com
 kindle-content-update-proxy.amazon.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Images
 
 
 ```html
 images-na.ssl-images-amazon.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Syncing
 
@@ -70,29 +63,25 @@ images-na.ssl-images-amazon.com
 ```html
 syncdelivery.audible.co.uk
 todo-ta-g7g.amazon.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Download Books
 
 
 ```html
 kindle-digital-delivery.amazon.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Preferences Backup
 
 
 ```html
 mobile-app-expan.amazon.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Authentication
 
 
 ```html
 cognito-identity.us-east-1.amazonaws.com
-```  
-
+```<br>

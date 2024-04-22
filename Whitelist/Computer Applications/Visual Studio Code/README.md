@@ -3,7 +3,6 @@
 
 <h1 align="center">Visual Studio Code</h1>  
 
-<br>
 
 ## Domains
 
@@ -54,37 +53,32 @@ odysee.com
 lbry.tv
 keybase.io
 vscode.dev
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Database Connector
 
 
 ```html
 cdn.ghostery.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - JavaScript Library
 
 
 ```html
 cdn.jsdelivr.net
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Extensions
 
 
 ```html
 marketplace.visualstudio.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Update
 
 
 ```html
 update.code.visualstudio.com
-```  
-
+```<br>

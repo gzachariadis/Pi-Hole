@@ -3,7 +3,6 @@
 
 <h1 align="center">Facebook Messenger</h1>  
 
-<br>
 
 ## Domains
 
@@ -12,8 +11,7 @@
 www.facebook.com
 m.facebook.com
 facebook.com
-```  
-
+```<br>
 
 ## Application Programming Interface (API) - Database Connector
 
@@ -21,16 +19,14 @@ facebook.com
 ```html
 api.facebook.com
 b-api.facebook.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Direct Messages
 
 
 ```html
 chat-e2ee-mini.facebook.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Authentication
 
@@ -38,13 +34,11 @@ chat-e2ee-mini.facebook.com
 ```html
 connect.facebook.net
 gateway.facebook.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Links
 
 
 ```html
 l.facebook.com
-```  
-
+```<br>

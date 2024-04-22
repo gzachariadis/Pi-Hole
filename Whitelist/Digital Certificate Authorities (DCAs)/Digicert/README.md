@@ -3,7 +3,6 @@
 
 <h1 align="center">Digicert</h1>  
 
-<br>
 
 ## Domains
 
@@ -11,16 +10,14 @@
 ```html
 digicert.com
 www.digicert.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Certificate Issuing
 
 
 ```html
 cacerts.digicert.com
-```  
-
+```<br>
 
 ## Content Delivery Networks (CDN) - Certificate Verification
 
@@ -29,5 +26,4 @@ cacerts.digicert.com
 ocsp.digicert.com
 crl3.digicert.com
 crl4.digicert.com
-```  
-
+```<br>
