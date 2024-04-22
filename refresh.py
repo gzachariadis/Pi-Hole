@@ -193,7 +193,7 @@ for x in whitelist.keys():
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             print(y)
-            print(Doms)
+            print(Root_Domains)
             os.chdir(Fpath)
             create_file(y, Root_Domains, Doms)
             Doms.clear()
