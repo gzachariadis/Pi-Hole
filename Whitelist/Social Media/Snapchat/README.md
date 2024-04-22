@@ -3,6 +3,7 @@
 
 <h1 align="center">Snapchat</h1>  
 
+<br>
 
 ## Domains
 
