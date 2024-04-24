@@ -25,15 +25,6 @@ youtubei.googleapis.com
 
 <br>
 
-## Content Delivery Networks (CDN) - Shortener
-
-
-```html
-youtu.be
-```  
-
-<br>
-
 ## Content Delivery Networks (CDN) - Embed Videos
 
 
@@ -49,6 +40,15 @@ www.youtube-nocookie.com
 
 ```html
 accounts.youtube.com
+```  
+
+<br>
+
+## Content Delivery Networks (CDN) - URLs Shortener
+
+
+```html
+youtu.be
 ```  
 
 <br>

@@ -18,7 +18,6 @@ play.google.com
 
 ```html
 android.clients.google.com
-android.apis.google.com
 ```  
 
 <br>
@@ -28,6 +27,24 @@ android.apis.google.com
 
 ```html
 play.googleapis.com
+```  
+
+<br>
+
+## Application Programming Interface (API) - Push Notification Services
+
+
+```html
+android.apis.google.com
+```  
+
+<br>
+
+## Application Programming Interface (API) - Google Play Developer APIs
+
+
+```html
+android.googleapis.com
 ```  
 
 <br>

@@ -67,3 +67,12 @@ avatars.githubusercontent.com
 ```  
 
 <br>
+
+## Content Delivery Networks (CDN) - Hosting
+
+
+```html
+cdnjs.cloudflare.com
+```  
+
+<br>

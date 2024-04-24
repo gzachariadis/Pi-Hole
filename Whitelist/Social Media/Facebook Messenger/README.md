@@ -52,3 +52,21 @@ l.facebook.com
 ```  
 
 <br>
+
+## Content Delivery Networks (CDN) - Direct Message Images
+
+
+```html
+scontent.xx.fbcdn.net
+```  
+
+<br>
+
+## Content Delivery Networks (CDN) - Direct Messages Images
+
+
+```html
+cdn.fbsbx.com
+```  
+
+<br>

@@ -85,3 +85,13 @@ cdn.discordapp.com
 ```  
 
 <br>
+
+## Content Delivery Networks (CDN) - Authentication Gateway
+
+
+```html
+gateway.discord.gg
+gateway-us-east1-d.discord.gg
+```  
+
+<br>

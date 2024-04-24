@@ -14,15 +14,6 @@ www.google.com
 
 <br>
 
-## Application Programming Interface (API) - [Cookie Management](https://tipsforefficiency.com/jnn-pa-googleapis-com/)
-
-
-```html
-jnn-pa.googleapis.com
-```  
-
-<br>
-
 ## Application Programming Interface (API) - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)
 
 
@@ -56,11 +47,29 @@ accounts.google.com
 
 <br>
 
-## Application Programming Interface (API) - Library
+## Application Programming Interface (API) - Libraries for Google Apps
 
 
 ```html
 www.googleapis.com
+```  
+
+<br>
+
+## Application Programming Interface (API) - Google Cloud
+
+
+```html
+clientservices.googleapis.com
+```  
+
+<br>
+
+## Content Delivery Networks (CDN) - Firmware Updates
+
+
+```html
+geller-pa.googleapis.com
 ```  
 
 <br>

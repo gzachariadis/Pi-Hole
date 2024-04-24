@@ -14,6 +14,24 @@ snapchat.com
 
 <br>
 
+## Application Programming Interface (API) - Database Connector
+
+
+```html
+us-east4-gcp.api.snapchat.com
+gcp.api.snapchat.com
+aws-proxy-gcp.api.snapchat.com
+aws.api.snapchat.com
+usc1-gcp-v61.api.snapchat.com
+usc1-gcp-v62.api.snapchat.com
+us-east1-aws.api.snapchat.com
+us-central1-gcp.api.snapchat.com
+europe-west1-gcp.api.snapchat.com
+aws.duplex.snapchat.com
+```  
+
+<br>
+
 ## Content Delivery Networks (CDN) - Direct Messages
 
 
@@ -40,7 +58,15 @@ accounts.snap.com
 
 ```html
 app.snapchat.com
-aws.duplex.snapchat.com
+```  
+
+<br>
+
+## Content Delivery Networks (CDN) - Snaps
+
+
+```html
+cf-st.sc-cdn.net
 ```  
 
 <br>

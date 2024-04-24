@@ -81,21 +81,30 @@ irc.chat.twitch.tv
 
 <br>
 
-## Content Delivery Networks (CDN) - Player (External Applications)
-
-
-```html
-player.twitch.tv
-```  
-
-<br>
-
 ## Content Delivery Networks (CDN) - Internet Relay Chat (IRC)
 
 
 ```html
 pubsub-edge.twitch.tv
 irc-ws.chat.twitch.tv
+```  
+
+<br>
+
+## Content Delivery Networks (CDN) - Player
+
+
+```html
+usher.ttvnw.net
+```  
+
+<br>
+
+## Content Delivery Networks (CDN) - Player (External Applications)
+
+
+```html
+player.twitch.tv
 ```  
 
 <br>

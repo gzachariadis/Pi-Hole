@@ -14,10 +14,11 @@ reddit.com
 
 <br>
 
-## Content Delivery Networks (CDN) - Database
+## Application Programming Interface (API) - GraphQL Database Connector
 
 
 ```html
+gql-fed.reddit.com
 gql.reddit.com
 ```  
 

@@ -10,6 +10,7 @@
 ```html
 gitlab.com
 challenges.cloudflare.com
+a.nel.cloudflare.com
 ```  
 
 <br>
