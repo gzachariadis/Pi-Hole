@@ -39,3 +39,26 @@ android.googleapis.com
 ```  
 
 <br>
+
+## Application Programming Interface (API) - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)
+
+
+```html
+mtalk.google.com
+alt7-mtalk.google.com
+alt4-mtalk.google.com
+alt3-mtalk.google.com
+mtalk4.google.com
+alt5-mtalk.google.com
+```  
+
+<br>
+
+## Application Programming Interface (API) - Connection  Validator
+
+
+```html
+connectivitycheck.gstatic.com
+```  
+
+<br>
