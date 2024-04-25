@@ -213,4 +213,5 @@ repo = Repo(root_directory)  # if repo is CWD just do '.'
 repo.git.add("-A")
 repo.git.commit("-m", "Automated Push")
 origin = repo.remote(name="origin")
+origin.pull()
 origin.push()

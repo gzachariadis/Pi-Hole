@@ -1,0 +1,781 @@
+# hosts                                   2024/03/13-01  (C) NMS                  http://npc.0am.jp/
+# 当ファイルの使用、複製、改変、転載、再配布、すべて自由ですが、利用者ご自身の責任でご利用ください。
+# 著作権は放棄していません。リストに不備、追加情報等ございましたら、管理人までお知らせください。
+# Dropbox: https://dl.dropboxusercontent.com/s/jc9qwsokpcetl75/hosts
+# Light version: http://npc.0am.jp/hosts.php?file=hosts-m
+# Windows: %windir%\System32\drivers\etc\hosts    Linux: /etc/hosts    Android: /system/etc/hosts
+# Research tools we use: https://aguse.jp/ https://urlscan.io/
+
+0.0.0.0 metric-agent.i10c.net
+
+# ◆◆◆ 広告ブロックブロック
+0.0.0.0 ancientact.com
+0.0.0.0 a.pub.network
+
+# ◆◆◆ Stylish 情報送信回避用
+0.0.0.0 api.userstyles.org userstylesapi.com
+
+# ◆◆◆ SUPER 回避用
+0.0.0.0 meet-arabs.com www.downloadmanager4u.com
+
+# ◆◆◆ ポイントサイト除外
+# Club Panasonic コインモール
+# 0.0.0.0 click.linksynergy.com ck.jp.ap.valuecommerce.com atrrd.valuecommerce.com
+# ポイントインカム
+# 0.0.0.0 hb.afl.rakuten.co.jp
+# 0.0.0.0 h.accesstrade.net
+
+# ◆◆◆ 足を引っ張るサイト
+0.0.0.0 p.permalink-system.com i.permalink-system.com permalink-system.com
+
+# ◆◆◆ 悪質サイト
+0.0.0.0 www.uniblue.com securepccleaner.com land.pckeeper.software
+0.0.0.0 www.funmediatab.com ja.funmediatab.com nl.funmediatab.com
+0.0.0.0 www.reimageplus.com ja.reimageplus.com
+0.0.0.0 security.system.ssl-verified.site
+
+0.0.0.0 qtipr.com edtrk.xyz bbtbfr.pw yeabd66.cc
+0.0.0.0 boost.games724.com nova.rambler.ru yeabests.cc pwwysydh.com
+0.0.0.0 z4.cnzz.com jserr.cnzz.com c.cnzz.com
+0.0.0.0 ei.cnzz.com ca.cnzz.com
+0.0.0.0 www.51.la web.51.la icon.51.la js.users.51.la
+0.0.0.0 www.mmaaxx.com
+
+# ◆◆◆ 悪質サイト(2ch偽まとめ)
+0.0.0.0 blog.grassw.com airseed.org webuzz.me fine-cloud.net
+0.0.0.0 black-diamond.asia app-in.net
+0.0.0.0 blog-newstime.com
+0.0.0.0 blog.livetoo.net image.livelog.biz
+0.0.0.0 blog.alivedoors.com blog.livedoos.com blog-livedorr.com
+0.0.0.0 axia-hakusan.com free-video-movie.com nikoniko-blog.com game-like.info
+
+# ◆◆◆ 悪質サイト(2ch偽まとめ 系列ジャンプ)
+0.0.0.0 nxcount.com
+
+# ◆◆◆ 悪質サイト(リダイレクト)
+0.0.0.0 freeonline.com-topapp.com wixzz.detect.jepo.gdn grzzz.detect.jepo.gdn
+0.0.0.0 zz1.sierra-boa.com redirect2719.ws m73lae5cpmgrv38.com
+
+# ◆◆◆ 悪質サイト(リダイレクト おめでとうございます系)
+0.0.0.0 videowatchmore.com
+
+# ◆◆◆ 悪質サイト?(リダイレクト)
+0.0.0.0 secure.calcch.com
+
+# ◆◆◆ 悪質サイト(クリック)
+0.0.0.0 dolohen.com tracking.marketing
+
+# ◆◆◆ 悪質サイト(マルウェア・ウイルス)
+0.0.0.0 lp.pctonics.com www.microsoft.com-repair-windows.live
+0.0.0.0 pc.ourcdn.club pc.ourcdn.bid pc.ourcdn.online
+0.0.0.0 www.protectyourdevice.xyz
+
+# ◆◆◆ 危険媒体
+0.0.0.0 mmmzy.jp mmmzy.sixcore.jp
+
+# ◆◆◆ 通知系
+
+# 株式会社エフ・コード
+0.0.0.0 conf.f-tra.com asset.f-tra.com log.f-tra.com
+
+# 株式会社GNEX
+0.0.0.0 sdk.push7.jp api.push7.jp push.app.push7.jp gogotsu.app.push7.jp
+
+# Oracle					Addthis
+0.0.0.0 s3.addthis.com s7.addthis.com m.addthis.com
+
+# ◆◆◆ アクセス解析、履歴、tracking, データ収集、ビーコン系
+0.0.0.0 bs.nakanohito.jp cs.nakanohito.jp c01.nakanohito.jp cm-beacon.nakanohito.jp
+0.0.0.0 a5r.firmprotectedlinked.com secure.bidverdrd.com relay-dsp.ad-m.asia
+0.0.0.0 e2.extreme-dm.com trk.trackcpi.com data.lockscalecompare.com
+0.0.0.0 www.venturead.com terraclicks.com x.bidswitch.net ad-delivery.net
+0.0.0.0 counter.yadro.ru partner.shareaholic.com mediaoaktree.com
+0.0.0.0 www.mgid.com cdn.mgid.com udarem.com metrics.brightcove.com
+0.0.0.0 c.mgid.com jsc.mgid.com ak-gb.mgid.com cm.mgid.com
+0.0.0.0 sync.crwdcntrl.net bcp.crwdcntrl.net sstatic1.histats.com edayo.boost-next.co.jp
+0.0.0.0 px.owneriq.net analytics.shareaholic.com aa.agkn.com
+0.0.0.0 log.nordot.jp b.scorecardresearch.com sb.scorecardresearch.com
+
+# Wordpress
+0.0.0.0 pixel.wp.com
+
+# Google Inc.
+0.0.0.0 www.googletagmanager.com www.google-analytics.com
+0.0.0.0 ssl.google-analytics.com www.googletagservices.com
+
+# Oracle					BlueKai Tags
+0.0.0.0 stags.bluekai.com tags.bluekai.com tags.bkrtx.com
+
+# Adobe						Adobe Mobile Services
+0.0.0.0 assets.adobedtm.com
+
+# Adobe						Adobe Marketing Cloud
+0.0.0.0 dpm.demdex.net
+
+# Alexa						Adobe Marketing Cloud
+0.0.0.0 certify.alexametrics.com certify-js.alexametrics.com
+
+# Yahoo.com
+0.0.0.0 fc.yahoo.com
+0.0.0.0 edgecast-vod.yimg.com
+0.0.0.0 ups.analytics.yahoo.com
+
+# ヤフー株式会社			Yahoo! JAPAN
+0.0.0.0 ybx.yahoo.co.jp logql.yahoo.co.jp yjtag.yahoo.co.jp
+
+# Numerotron, Inc.			StatHat
+0.0.0.0 api.stathat.com
+
+# popIn株式会社				popIn
+0.0.0.0 api.popin.cc rlog.popin.cc
+
+# 株式会社エムフロ			i2i.jp
+0.0.0.0 rc3.i2i.jp rc5.i2i.jp ac9.i2i.jp acc.i2i.jp
+
+# 株式会社アナハイム・テクノロジー	アナハイム・テクノロジー
+0.0.0.0 lb.analyze.ah-tech.net
+
+# 株式会社Ptmind			Ptengine
+0.0.0.0 js.ptengine.jp demo.ptengine.jp demo.ptengine.com
+0.0.0.0 report.ptengine.jp reportv3.ptengine.jp report.ptengine.com reportv3.ptengine.com
+0.0.0.0 reportv3test.ptengine.jp reportv3test.ptengine.com testreportv3.ptengine.jp testreportv3.ptengine.com
+0.0.0.0 report.ptengine.cn testreport.ptengine.cn reportv3test.ptengine.cn
+
+# Cxense Inc.				Cxense
+0.0.0.0 api.cxense.com cdn.cxense.com scdn.cxense.com csyn.cxense.com
+0.0.0.0 comcluster.cxense.com scomcluster.cxense.com
+
+# LINE Corporation			LINE
+0.0.0.0 torimochi.line-apps.com
+
+# アクセリア株式会社		DuraSite-Tracker
+0.0.0.0 tracker.durasite.net
+
+# 株式会社Faber Company		Mieruca
+0.0.0.0 hm.mieru-ca.com ntjp.mieru-ca.com
+
+# Omniture					2o7.net
+0.0.0.0 kakakucom.112.2o7.net rakuten.112.2o7.net
+
+# Arm Limited				Arm Treasure Data
+0.0.0.0 in.treasuredata.com cdn.treasuredata.com
+
+# Mixpanel Inc.				Mixpanel
+0.0.0.0 api.mixpanel.com
+
+# Instart Logic Inc.		Instart Logic
+0.0.0.0 www.sdad.guru
+
+# 株式会社 フリークアウト	FreakOut
+0.0.0.0 sync.dmp.fout.jp
+
+# Yandex					Metrika
+0.0.0.0 mc.yandex.ru
+
+# Bombora					Bombora
+0.0.0.0 ml314.com
+
+# Outbrain					Outbrain
+0.0.0.0 log.outbrain.com odb.outbrain.com widgets.outbrain.com paid.outbrain.com
+
+# 株式会社インティメート・マージャー	IM-DMP (AudienceSearch)
+0.0.0.0 dmp.im-apps.net
+0.0.0.0 sync.im-apps.net sync-jp.im-apps.net cf.im-apps.net nebula.im-apps.net
+
+# FC2, Inc.					FC2
+0.0.0.0 analyzer2.fc2.com
+
+# 有限会社エーシーアール	ACR WEB
+0.0.0.0 file.ziyu.net ctfile.ziyu.net
+0.0.0.0 clicktrack.ziyu.net clicktrack4.ziyu.net clicktrack5.ziyu.net
+0.0.0.0 rranking.ziyu.net rranking2.ziyu.net rranking3.ziyu.net rranking12.ziyu.net rranking13.ziyu.net
+0.0.0.0 pranking5.ziyu.net pranking12.ziyu.net
+
+# RapLeaf					RapLeaf
+0.0.0.0 idsync.rlcdn.com
+
+# radiko
+0.0.0.0 log.radiko.jp
+
+# インプレス
+0.0.0.0 beacon.watch.impress.co.jp
+
+# D2C lnc.					※検出P:webtan.impress.co.jp
+0.0.0.0 script-sh.d2cdm.jp meas.addlv.smt.docomo.ne.jp
+
+# 株式会社FLUX
+0.0.0.0 a.flux.jp
+0.0.0.0 flux-cdn.com
+
+# 株式会社アッション		Visual Website Optimizer
+0.0.0.0 dev.visualwebsiteoptimizer.com
+
+# アイティメディア株式会社
+0.0.0.0 dlv.itmedia.jp fc.itmedia.co.jp tr.api.itmedia.jp cx.api.itmedia.co.jp aclog.itmedia.co.jp
+0.0.0.0 dualstack.beacon.itmedia.jp ipv4.beacon.itmedia.jp ipv6.beacon.itmedia.jp
+
+# Crazy Egg
+0.0.0.0 script.crazyegg.com
+
+# 1plusX
+0.0.0.0 cdn.opecloud.com tagger.opecloud.com mediaconsortium.tagger.opecloud.com
+
+# krxd
+0.0.0.0 beacon.krxd.net
+
+# Chartbeat
+0.0.0.0 static.chartbeat.com
+
+# Quantcast
+0.0.0.0 rules.quantcount.com
+
+# sascdn
+0.0.0.0 ced.sascdn.com
+
+# 4dex
+0.0.0.0 u.4dex.io
+
+# unknown
+0.0.0.0 usersync.gumgum.com cs.admanmedia.com
+0.0.0.0 loadm.exelator.com c.hp-ez.com adtrack.adleadevent.com
+0.0.0.0 t.cwkuki.com cm.revcontent.com sync-tm.everesttech.net
+
+# ◆◆◆ 広告/アフィリエイト
+# Google Inc.
+0.0.0.0 www.googleadservices.com partner.googleadservices.com
+0.0.0.0 tpc.googlesyndication.com pagead2.googlesyndication.com
+0.0.0.0 ad.doubleclick.net securepubads.g.doubleclick.net pubads.g.doubleclick.net
+0.0.0.0 adclick.g.doubleclick.net googleads.g.doubleclick.net static.doubleclick.net
+0.0.0.0 survey.g.doubleclick.net cm.g.doubleclick.net stats.g.doubleclick.net
+0.0.0.0 encrypted-tbn1.gstatic.com s0.2mdn.net s1.2mdn.net
+0.0.0.0 s0qa.2mdn.net s1qa.2mdn.net gcdn.2mdn.net
+0.0.0.0 fundingchoicesmessages.google.com
+
+# Google Inc. 後出し広告
+0.0.0.0 adservice.google.com adservice.google.co.jp
+
+# Amazon.com, Inc.
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 aax-fe-sin.amazon-adsystem.com dra.amazon-adsystem.com z-fe.amazon-adsystem.com
+
+0.0.0.0 unagi.amazon.co.jp unagi-fe.amazon.com fls-fe.amazon.co.jp rcm-jp.amazon.co.jp
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 z-eu.amazon-adsystem.com z-na.amazon-adsystem.com
+0.0.0.0 aax.amazon-adsystem.com aax-eu.amazon-adsystem.com
+0.0.0.0 aax-fe.amazon-adsystem.com aax-us-east.amazon-adsystem.com aax-na.amazon-adsystem.com
+0.0.0.0 fls-fe.amazon-adsystem.com fls-cn.amazon-adsystem.com fls-eu.amazon-adsystem.com
+0.0.0.0 fls-na.amazon-adsystem.com rcm-cn.amazon-adsystem.com rcm-eu.amazon-adsystem.com
+0.0.0.0 rcm-fe.amazon-adsystem.com rcm-na.amazon-adsystem.com ps-eu.amazon-adsystem.com
+0.0.0.0 ps-fe.amazon-adsystem.com ps-jp.amazon-adsystem.com ps-us.amazon-adsystem.com
+0.0.0.0 ws-fe.amazon-adsystem.com ws-cn.amazon-adsystem.com ws-eu.amazon-adsystem.com
+0.0.0.0 ws-na.amazon-adsystem.com wms-cn.amazon-adsystem.com wms-eu.amazon-adsystem.com
+0.0.0.0 wms-na.amazon-adsystem.com wms-fe.amazon-adsystem.com
+0.0.0.0 ir-jp.amazon-adsystem.com ir-cn.amazon-adsystem.com ir-na.amazon-adsystem.com
+
+# Yahoo!
+0.0.0.0 ads.yap.yahoo.com
+
+# ヤフー株式会社			Yahoo! JAPAN
+0.0.0.0 yads.c.yimg.jp yads.yahoo.co.jp yads.yjtag.yahoo.co.jp ard.yahoo.co.jp
+0.0.0.0 adserver.yahoo.co.jp rd.listing.yahoo.co.jp rd.ane.yahoo.co.jp
+0.0.0.0 b0.yahoo.co.jp b3.yahoo.co.jp b4.yahoo.co.jp b5.yahoo.co.jp
+0.0.0.0 b6.yahoo.co.jp b7.yahoo.co.jp b8.yahoo.co.jp b9.yahoo.co.jp
+0.0.0.0 b10.yahoo.co.jp b11.yahoo.co.jp b12.yahoo.co.jp b90.yahoo.co.jp
+0.0.0.0 b91.yahoo.co.jp b92.yahoo.co.jp b93.yahoo.co.jp b94.yahoo.co.jp
+0.0.0.0 b95.yahoo.co.jp b96.yahoo.co.jp b97.yahoo.co.jp im.c.yimg.jp
+0.0.0.0 feedback.promotionalads.yahoo.co.jp crmapis.shopping.yahoo.co.jp
+
+# バリューコマース株式会社
+0.0.0.0 aff.valuecommerce.ne.jp
+0.0.0.0 ad.jp.ap.valuecommerce.com aplkp.valuecommerce.com dalb.valuecommerce.com dalc.valuecommerce.com
+# 0.0.0.0 ck.jp.ap.valuecommerce.com atrrd.valuecommerce.com
+0.0.0.0 atr.valuecommerce.com aml.valuecommerce.com bfpc.valuecommerce.com
+0.0.0.0 js.omks.valuecommerce.com ad.omks.valuecommerce.com a.adimg.net
+
+# 楽天株式会社				楽天アフィリエイト	その他
+0.0.0.0 ias.r10s.jp hbb.afl.rakuten.co.jp
+0.0.0.0 static.affiliate.rakuten.co.jp xml.affiliate.rakuten.co.jp image.ias.rakuten.co.jp
+0.0.0.0 grp06.ias.rakuten.co.jp grp07.ias.rakuten.co.jp grp08.ias.rakuten.co.jp grp09.ias.rakuten.co.jp
+0.0.0.0 grp10.ias.rakuten.co.jp grp11.ias.rakuten.co.jp grp12.ias.rakuten.co.jp grp13.ias.rakuten.co.jp
+0.0.0.0 grp14.ias.rakuten.co.jp grp15.ias.rakuten.co.jp grp16.ias.rakuten.co.jp grp17.ias.rakuten.co.jp
+
+# リンクシェア・ジャパン株式会社(楽天)	LinkShare	TGアフィリエイト
+0.0.0.0 ad.trafficgate.net ad2.trafficgate.net
+
+# 株式会社ファンコミュニケーションズ	A8.net	Moba8.net	adcrops	nend	nex8
+0.0.0.0 px.a8.net rpx.a8.net px.moba8.net js1.nend.net img1.nend.net
+0.0.0.0 www10.a8.net www11.a8.net www12.a8.net www13.a8.net
+0.0.0.0 www14.a8.net www15.a8.net www16.a8.net www17.a8.net
+0.0.0.0 www18.a8.net www19.a8.net www20.a8.net www21.a8.net
+0.0.0.0 www22.a8.net www23.a8.net www24.a8.net www25.a8.net
+0.0.0.0 www26.a8.net www27.a8.net www28.a8.net www29.a8.net
+0.0.0.0 www10.moba8.net www11.moba8.net www12.moba8.net www13.moba8.net
+0.0.0.0 www14.moba8.net www15.moba8.net www16.moba8.net www17.moba8.net
+0.0.0.0 www18.moba8.net www19.moba8.net www20.moba8.net www21.moba8.net
+0.0.0.0 www22.moba8.net www23.moba8.net www24.moba8.net www25.moba8.net
+0.0.0.0 www26.moba8.net www27.moba8.net www28.moba8.net www29.moba8.net
+0.0.0.0 ad1.nend.net ad2.nend.net ad3.nend.net ad4.nend.net
+0.0.0.0 c1.nend.net output.nend.net di.nend.net lonb.nend.net
+
+# 株式会社アイモバイル		i-mobile
+0.0.0.0 imp-adedge.i-mobile.co.jp ssp-bidder.i-mobile.co.jp ssp-bidapi.i-mobile.co.jp
+0.0.0.0 spcdnpc.i-mobile.co.jp spsvcpc-tls.i-mobile.co.jp
+0.0.0.0 spcdnsp.i-mobile.co.jp spsvcsp-tls.i-mobile.co.jp
+0.0.0.0 spdeliver.i-mobile.co.jp
+0.0.0.0 cgi.i-mobile.co.jp xid.i-mobile.co.jp aff.i-mobile.co.jp spservices.i-mobile.co.jp
+0.0.0.0 spdmg.i-mobile.co.jp ssp-click.i-mobile.co.jp
+0.0.0.0 spsvc1.i-mobile.co.jp spsvc2.i-mobile.co.jp spsvc3.i-mobile.co.jp
+0.0.0.0 spsvc4.i-mobile.co.jp spsvc5.i-mobile.co.jp spsvc6.i-mobile.co.jp
+0.0.0.0 spdeliverp.i-mobile.co.jp spdmg-backend.i-mobile.co.jp spnativeapi-tls.i-mobile.co.jp
+0.0.0.0 spad.i-mobile.co.jp spnet33.i-mobile.co.jp
+
+# 株式会社マイクロアド		MicroAd
+0.0.0.0 d-cache.microad.jp aid.send.microad.jp
+0.0.0.0 send.microad.jp cache.send.microad.jp
+0.0.0.0 adf.send.microad.jp dsp.send.microad.jp
+0.0.0.0 d-track.send.microad.jp s-rtb-pb.send.microad.jp
+0.0.0.0 rmad.microad.jp
+0.0.0.0 adn.send.microad.jp ssp.send.microad.jp
+0.0.0.0 vsc.send.microad.jp s-dsp.send.microad.jp s-rtb.send.microad.jp
+0.0.0.0 vsc.microad.jp j.microad.net jgl.microad.net
+
+# Twitter, Inc				Twitter Ads
+0.0.0.0 static.ads-twitter.com
+
+# 株式会社クロスリスティング	レモーラリスティング	アネモネリスティング
+0.0.0.0 rainbow.xlisting.jp beacon.xlisting.jp pulsar.xlisting.jp rd.xlisting.jp
+
+# ログリー株式会社			logly	logly lift
+0.0.0.0 l.logly.co.jp cdn.logly.co.jp
+0.0.0.0 abc.logly.co.jp dsp.logly.co.jp
+0.0.0.0 sync.logly.co.jp vbc.logly.co.jp
+0.0.0.0 b.logly.co.jp lt.logly.co.jp
+
+# 株式会社エムエムラボ		MEDIAD2	LEAD
+0.0.0.0 img.mediad2.jp mediad2.jp art.lead-ad.jp img.lead-ad.jp
+
+# 株式会社オプト
+0.0.0.0 dex.advg.jp r.advg.jp o.advg.jp ssp.advg.jp ds.advg.jp
+
+# 株式会社ステイフリー		APPOLLO
+0.0.0.0 appollo.jp
+
+# 株式会社アドウェイズ		JANet
+0.0.0.0 click.j-a-net.jp image.j-a-net.jp
+
+# 株式会社fluct (株式会社adingo)	fluct
+0.0.0.0 i.adingo.jp sh.adingo.jp hs.adingo.jp pdn.adingo.jp
+0.0.0.0 cdn-fluct.sh.adingo.jp cs.adingo.jp ss.adingo.jp
+
+# 株式会社デクー			Adpon
+0.0.0.0 ad.adpon.jp
+0.0.0.0 img.adpon.net ru.adpon.net
+
+# UNICORN株式会社			UNICORN
+0.0.0.0 as.uncn.jp assets.ucontent.net
+
+# 株式会社もしも			もしもアフィリエイト
+0.0.0.0 i.af.moshimo.com c.af.moshimo.com i.moshimo.com
+
+# 株式会社サイバーエージェント	AdTech Studio
+0.0.0.0 ad.as.amanad.adtdp.com ad.amanad.adtdp.com
+0.0.0.0 dynalyst-mk.adtdp.com rs-ap.adtdp.com adp-pubd-static.adtdp.com
+0.0.0.0 rs-j.adtdp.com cast-js-j.adtdp.com cast-cs-j.adtdp.com
+
+# 株式会社AMoAd				AMoAd
+0.0.0.0 mk.ca-conv.amoad.com api1.amoad.com cdni.amoad.com
+0.0.0.0 j.amoad.com d.amoad.com m.amoad.com
+
+# FC2, Inc.					FC2
+0.0.0.0 assys01.fc2.com
+
+# FC2 (FC2ホームページ)
+0.0.0.0 vip.chps-api.fc2.com
+
+# 株式会社サムライファクトリー	忍者ツールズ
+0.0.0.0 sync.shinobi.jp asumi.shinobi.jp st.shinobi.jp adm.shinobi.jp
+0.0.0.0 x6.goraikou.com
+
+# 合同会社DMM.com			DMM.com
+0.0.0.0 al.dmm.co.jp ad.dmm.com
+
+# シーサー株式会社			Seesaaブログ
+0.0.0.0 sda.seesaa.jp
+
+# 株式会社フォーイット		afb
+0.0.0.0 t.afi-b.com
+0.0.0.0 track.affiliate-b.com
+
+# DTI services, Inc.
+0.0.0.0 affiliate.dtiserv.com click.dtiserv2.com
+
+# ニコニコ			niconico
+0.0.0.0 ads.nicovideo.jp res.ads.nicovideo.jp ad.nicovideo.jp
+
+# ピクシブ株式会社			pixiv
+0.0.0.0 pixon.ads-pixiv.net
+
+# 株式会社セプテーニ・クロスゲート	xmax
+0.0.0.0 imp.xmax.jp admp.xmax.jp track.xmax.jp images.xmax.jp
+
+# GMOアドパートナーズ株式会社	GMO SSP
+0.0.0.0 adn-i.sp.gmossp-sp.jp sp.gmossp-sp.jp adn-j.sp.gmossp-sp.jp adn-d.sp.gmossp-sp.jp
+
+# GMOインサイト株式会社		JWord
+0.0.0.0 cma.jword.jp download.jword.jp
+
+# BI.Garage, Inc.			BIG MINING Public
+0.0.0.0 bigmining.com cdn.bigmining.com
+0.0.0.0 dg-ads-proxy.bigmining.com dg-ads-adserver.bigmining.com cdn-dg-ads.bigmining.com
+
+# 株式会社ファーストペンギン	infotop
+0.0.0.0 www.infotop.jp
+
+# テレコムクレジット株式会社	BannerBridge
+0.0.0.0 track.bannerbridge.net image.bannerbridge.net
+
+# 株式会社サイバー・コミュニケーションズ	ADJUST
+0.0.0.0 i.ad-v.jp web-jp.ad-v.jp
+0.0.0.0 ads.adjust-net.jp aud.adjust-net.jp
+
+# 株式会社フリークアウト	FreakOut
+0.0.0.0 js.fout.jp click.fout.jp sync.fout.jp cnt.fout.jp
+0.0.0.0 ad.fout.jp dsp.fout.jp
+
+# 株式会社エムフロ			i2i.jp
+0.0.0.0 i2ad.jp
+0.0.0.0 adimg.i2i.jp sh.i2i.jp cc2.i2i.jp ch.i2i.jp
+
+# 株式会社Zucks				Zucks Ad Network
+0.0.0.0 sh.zucks.net k.zucks.net j.zoe.zucks.net
+0.0.0.0 j.zucks.net.zimg.jp static.zucks.net.zimg.jp
+
+# ユナイテッド株式会社		AdStir
+0.0.0.0 bypass.ad-stir.com tr.ad-stir.com js.ad-stir.com win.ad-stir.com
+
+# アキナジスタ株式会社		AAA	MAIST	TAP ONE
+0.0.0.0 ad.maist.jp
+0.0.0.0 cdn.ad.maist.jp bn.maist.jp
+# 							OCTOPUS POP
+0.0.0.0 ap.octopuspop.com js.octopuspop.com cdn.file.octopuspop.com
+
+# 株式会社ジーニー
+0.0.0.0 cpt.geniee.jp js.gsspcln.jp
+0.0.0.0 cs.gssprt.jp rt.gsspat.jp img.gsspat.jp
+0.0.0.0 sprout-ad.genieesspv.jp aladdin.genieesspv.jp ialaddin.genieesspv.jp
+0.0.0.0 isboost.genieesspv.jp passaro-de-fogo.genieesspv.jp smac-ssp.genieesspv.jp
+0.0.0.0 abh.genieesspv.jp adnico.genieesspv.jp
+0.0.0.0 4795.gsspcln.jp 5851.gsspcln.jp
+0.0.0.0 d.href.asia js.passaro-de-fogo.biz ox-d.geniee.co.jp
+0.0.0.0 media.gssp.asia
+0.0.0.0 log.ma-jin.jp
+
+# 株式会社BOOST				BOOST
+0.0.0.0 js.isboost.co.jp ads.isboost.co.jp
+
+# アクセルマーク株式会社	ADroute
+0.0.0.0 pc-adroute.focas.jp adroute.focas.jp
+0.0.0.0 static.adroute.focas.jp
+
+# 株式会社マルジュ			Asta
+0.0.0.0 cdn.astrsk.net
+
+# 株式会社more communication	arata
+0.0.0.0 ad.ad-arata.com ad-arata.s3.amazonaws.com
+
+# FiveAny,inc				SPEEAD.JP	moreAds
+0.0.0.0 med.speead.jp www.speead.jp speead.jp d.moras.jp i.moras.jp j.moras.jp
+
+# Supership株式会社			Ad Generation	ScaleOut
+0.0.0.0 i.socdm.com tg.socdm.com d.socdm.com
+0.0.0.0 bid.socdm.com gmo.socdm.com admax.socdm.com
+
+# 株式会社ADLINE			ADLINE	Blozoo
+0.0.0.0 js.blozoo.info cache.blozoo.info parts.blozoo.com
+
+# ダイレクト出版株式会社	DirectResponseManager
+0.0.0.0 directlink.jp
+
+# 株式会社nexus				ad-nex
+0.0.0.0 ad-nex.com img.ad-nex.com
+
+# 株式会社エール			SMAC-AD
+0.0.0.0 js.smac-ssp.com
+
+# 株式会社ユナイテッドブレイズ	A-list
+0.0.0.0 cdn.alistcloud.com
+
+# 株式会社フィング			fam8
+0.0.0.0 fam-8.net fam-ad.com img.fam-ad.com
+
+# 株式会社Speee				Speee
+0.0.0.0 speee-ad.akamaized.net click.speee-ad.jp
+
+# impAct
+0.0.0.0 y.one.impact-ad.jp a.one.impact-ad.jp penta.a.one.impact-ad.jp
+0.0.0.0 img.ak.impact-ad.jp m.one.impact-ad.jp y.one.impact-ad.jp
+0.0.0.0 as.ik.impact-ad.jp as.mv.impact-ad.jp as.se.impact-ad.jp as.sr.impact-ad.jp as.xa.impact-ad.jp
+
+# 株式会社リーフワークス	アドクロック
+0.0.0.0 reajyu.net
+
+# 株式会社アドニコ			アドニコ
+0.0.0.0 js.adnico.jp adnico.genieesspv.jp
+
+# aaddcount				
+0.0.0.0 js.aaddcount.com js-ssl.aaddcount.com image.aaddcount.com
+
+# ad999.biz					※検:orufemorufenz.com
+0.0.0.0 ad999.biz
+
+# ads-connect.com			※検:nizigami.com
+0.0.0.0 pc.ads-connect.com
+
+# lycos.com					※検:tripod
+0.0.0.0 scripts.lycos.com
+
+# Roy Union Ltd.			ロイユニオンアフィリエイト
+0.0.0.0 www.roy-union.com
+
+# 百度公司
+0.0.0.0 548728.baiducdn.org 399980.baiducdn.org baiducdn.asia
+
+# Tomksoft S.A.				PopAds.net
+0.0.0.0 www.popads.net c1.popads.net c2.popads.net serve.popads.net
+
+# BuySellAds				Carbon Ads
+0.0.0.0 cdn.carbonads.com srv.carbonads.net cdn4.buysellads.net
+
+# Cxense Inc.				Cxense
+0.0.0.0 cdn.cxpublic.com cdn-content-production.cxpublic.com adserver.cxad.cxense.com
+
+# RTB House S.A.			RTB House
+0.0.0.0 sin.creativecdn.com ams.creativecdn.com statics.creativecdn.com
+
+# Vizury Interactive Solutions Pvt. Ltd.	Vizury
+0.0.0.0 www.vizury.com cdn.vizury.com pivot.vizury.com
+0.0.0.0 cdn3.vizury.com cdn4.vizury.com cdn5.vizury.com cdn6.vizury.com
+0.0.0.0 cdn8.vizury.com cdn9.vizury.com cdn12.vizury.com cdn18.vizury.com
+0.0.0.0 serv1.vizury.com serv2.vizury.com serv3.vizury.com serv4.vizury.com
+
+# criteo
+0.0.0.0 static.criteo.net pix.as.criteo.net csm.as.criteo.net
+0.0.0.0 bidder.criteo.com ssp-sync.criteo.com
+0.0.0.0 cas.criteo.com dis.criteo.com vix.eu.criteo.com pix.as.criteo.com
+0.0.0.0 cas.hk.as.criteo.com cas.jp.as.criteo.com cat.hk.as.criteo.com cat.jp.as.criteo.com
+0.0.0.0 gum.criteo.com rtax.criteo.com ads.as.criteo.com
+
+# OpenX
+0.0.0.0 u.openx.net
+0.0.0.0 hatena-d.openx.net togetter-d.openx.net
+0.0.0.0 us-u.openx.net eu-u.openx.net jp-u.openx.net sea-u.openx.net
+0.0.0.0 us-ads.openx.net uk-ads.openx.net
+0.0.0.0 r.openx.net ebay-u.openx.net yieldlove-d.openx.net
+
+# SpotX
+0.0.0.0 search.spotxchange.com sync.search.spotxchange.com
+
+# The Moneytizer
+0.0.0.0 ads.themoneytizer.com c.tmyzer.com
+
+# Adtelligent Inc.
+0.0.0.0 s.adtelligent.com
+
+# AdRoll
+0.0.0.0 d.adroll.com s.adroll.com
+
+# Adk2
+0.0.0.0 speednetwork14.adk2x.com adplexmedia.adk2x.com imedia.adk2x.com admtpmp127.adk2x.com
+0.0.0.0 adservmedia.adk2x.com dplexmedia.adk2x.com speednetwork1.adk2x.com
+
+# PrivacyProtect.org	cdn-image.com
+0.0.0.0 ai1.cdn-image.com i2.cdn-image.com i3.cdn-image.com i4.cdn-image.com
+0.0.0.0 i5.cdn-image.com i6.cdn-image.com i7.cdn-image.com i8.cdn-image.com
+0.0.0.0 i9.cdn-image.com i10.cdn-image.com seven.cdn-image.com
+
+# Contact Privacy Inc.	33Across
+0.0.0.0 cdn.tynt.com cdn-sic.33across.com
+0.0.0.0 ic.tynt.com id.tynt.com de.tynt.com tcr.tynt.com
+
+# IPONWEB				BidSwitch
+0.0.0.0 apac-jp-sync.bidswitch.net apac-jp.bidswitch.net
+
+# Drawbridge, Inc.		Drawbridge
+0.0.0.0 p.adsymptotic.com
+
+# 検出: https://imgur.com/
+0.0.0.0 tagan.adlightning.com prg.smartadserver.com hb.adscale.de js.adscale.de ih.adscale.de
+0.0.0.0 cdn-a.yieldlove.com htlb.casalemedia.com js-sec.indexww.com
+
+0.0.0.0 cm.adform.net adx.adform.net
+
+# District M Inc.	検出: https://imgur.com/
+0.0.0.0 dmx.districtm.io cdn.districtm.io
+
+# MG Freesites Ltd.		TrafficJunky
+0.0.0.0 ads.trafficjunky.net media.trafficjunky.net pt.trafficjunky.net
+
+# infolinks
+0.0.0.0 resources.infolinks.com router.infolinks.com
+
+# PubMatic, Inc.		PubMatic
+0.0.0.0 hbopenbid.pubmatic.com
+0.0.0.0 showads.pubmatic.com sshowads.pubmatic.com
+0.0.0.0 ads.pubmatic.com aktrack.pubmatic.com image2.pubmatic.com
+
+# Taboola
+0.0.0.0 cdn.taboola.com cds.taboola.com trc.taboola.com sync.taboola.com
+0.0.0.0 wf.taboola.com images.taboola.com opps.taboola.com
+0.0.0.0 convhkmp.taboola.com imprhkmp.taboola.com 15.taboola.com
+
+0.0.0.0 onclkds.com
+
+# Adap.tv
+0.0.0.0 sync.adap.tv redir.adap.tv
+
+# teads.tv
+0.0.0.0 a.teads.tv t.teads.tv sync.teads.tv
+0.0.0.0 cdn.teads.tv
+
+# adnxs.com
+0.0.0.0 ib.adnxs.com yj.adnxs.com acdn.adnxs.com
+0.0.0.0 secure.adnxs.com secure-sin.adnxs.com
+
+0.0.0.0 ol.jp.at.atwola.com
+
+# quantserve
+0.0.0.0 pixel.quantserve.com
+
+# Rubicon Project
+0.0.0.0 pixel.rubiconproject.com fastlane.rubiconproject.com eus.rubiconproject.com
+
+# Anonymous Ads				A-ADS
+0.0.0.0 ad.a-ads.com static.a-ads.com
+
+# trvdp				検出: Google Forms への投稿
+0.0.0.0 s.trvdp.com
+
+# advertising.com
+0.0.0.0 advertising.com
+0.0.0.0 secure.leadback.advertising.com secure.ace.advertising.com
+0.0.0.0 ads.adaptv.advertising.com sync.adaptv.advertising.com secure.bannerfarm.ace.advertising.com
+
+0.0.0.0 pixel.adsafeprotected.com cdn.adsafeprotected.com dt.adsafeprotected.com mobile.adsafeprotected.com
+0.0.0.0 ad.atdmt.com
+
+# BitTorrent, Inc.
+0.0.0.0 video.trontv.com ad.bench.utorrent.com cdn.bitmedianetwork.com
+
+# Moat Inc.
+0.0.0.0 z.moatads.com apx.moatads.com
+
+# rta247.com
+0.0.0.0 rta247.com cdn.rta247.com js.rta247.com q.rta247.com
+
+# PIXALATE, INC. ???
+0.0.0.0 adrta.com cdn.adrta.com q.adrta.com js.adrta.com
+
+# RevenueHits
+0.0.0.0 inclk.com
+
+# servedbyadbutler.com
+0.0.0.0 servedbyadbutler.com
+
+# N.A.S Marketing
+0.0.0.0 nasmarketing.com
+
+# ad-score.com
+0.0.0.0 js.ad-score.com data.ad-score.com
+
+# ExoClick
+0.0.0.0 static.exoclick.com main.exoclick.com ads.exoclick.com syndication.exoclick.com
+
+# MediaMath
+0.0.0.0 pixel.mathtag.com
+
+# solty.biz
+0.0.0.0 solty.biz
+
+# 検出: https://nizigami.com.atlaq.com/
+0.0.0.0 ad.admitad.com r.remarketingpixel.com clicks.pipaffiliates.com tabloidsuggest.com
+0.0.0.0 suburbglaze.com serconmp.com allmygoodlife.com pushsar.com
+
+# 139.45.197.65 muvimtim.com
+# 139.45.197.85 glookroz.net
+# 139.45.197.89 zeegreen.net
+# 139.45.197.102 grubsoan.com
+# 139.45.197.104 petchesa.net
+
+# china site 01
+0.0.0.0 cdn.aralego.com sync.aralego.com
+0.0.0.0 img.scupio.com rec.scupio.com bw.scupio.com
+0.0.0.0 ad.adondemand.com ad-specs.guoshipartners.com onead.onevision.com.tw
+
+0.0.0.0 adgm.mainichi.jp imp.asahi.com adpriv.nikkei.com
+0.0.0.0 adcdn.goo.ne.jp ads.ookla.com
+
+0.0.0.0 mbaf.jp c.mbaf.jp img.adplan-ds.com
+
+0.0.0.0 click.smart-c.jp image.smart-c.jp wu.smart-c.jp rtag.smart-c.jp
+0.0.0.0 click.dtiserv2.com adserver.adtechjp.com
+0.0.0.0 adsp.i2idata.com ac.i2idata.com ad.i2idata.com
+0.0.0.0 app.airtrack.jp api.mb-click.jp ad_rta.sp.mbga.jp
+0.0.0.0 x.primead.jp adcontents.primead.jp bc.x-lift.jp www.ads-tool.jp
+0.0.0.0 servedby.openxmarket.jp servedby.openxmarket.jp
+0.0.0.0 ad.adresult.jp j.bg.adresult-sp.jp app-adforce.jp
+
+0.0.0.0 d.turn.com r.turn.com
+0.0.0.0 www.adcash.com adcash.com
+0.0.0.0 cdn.movi11.com d.movi11.com
+0.0.0.0 switch-app.net ad.switch-app.net
+0.0.0.0 cdn11.contentabc.com ads2.contentabc.com
+0.0.0.0 a.image.accesstrade.net
+0.0.0.0 cdn.wwwpromoter.com creative.wwwpromoter.com
+0.0.0.0 aa.i-stream.pl aa2.i-stream.pl cdn-a2.i-stream.pl
+0.0.0.0 cdn11.i-stream.pl media.i-stream.pl ss.i-stream.pl
+0.0.0.0 servingmillions.com img.addeluxe.jp
+0.0.0.0 server.cpmstar.com cdn.cpmstar.com cdn2.cpmstar.com cdn3.cpmstar.com
+0.0.0.0 jp-tags.mediaforge.com jp-ads.mediaforge.com jp-amp.mediaforge.com stats.mediaforge.com
+
+0.0.0.0 www.traktrafficflow.com www.liveadexchanger.com www.tui1999.com
+0.0.0.0 www.adnetworkperformance.com www.vizoom.tv www.terraclicks.com
+0.0.0.0 www.tradeadexchange.com
+
+0.0.0.0 imgad.net quickdomainfwd.com easyxdm.net n162adserv.com
+0.0.0.0 clksite.com onclickads.net versionwin.work clcount.com
+0.0.0.0 bestadbid.com cackle.me free-today.com gomediaz.com
+0.0.0.0 adadvisor.net mediab.uy mobutrafsrcms.com
+0.0.0.0 eclkmpsa.com rm-tracker.com review78.com
+
+0.0.0.0 parkingcrew.net xousg454xousg.xyz ap.lijit.com
+
+0.0.0.0 na.mmnneo.com ads.rubiconproject.com c.dxfqs.com ps.eyeota.net
+0.0.0.0 t.jjack56.com vda.a135.net intl.6138786.com
+0.0.0.0 c.iogous.com t.dtscout.com 55uij.perfectsafeadz.com whos.amung.us
+0.0.0.0 amazoo.longseller.org go.trafficshop.com
+0.0.0.0 bs.serving-sys.com cl.ncclick.co.kr p.net-public.com
+0.0.0.0 ad.linksynergy.com linksynergy.jrs5.com rs.adapf.com api.unthem.com
+
+0.0.0.0 iqt.soundharborredirect.com oc.flowlz.com worker01.wwwpromoter.com
+0.0.0.0 search.funmediatabsearch.com go.onclasrv.com ocio.leadzu.com
+0.0.0.0 hzszz.exclusiverewards.qcqco.com set56.7pud.com zt1.november-lax.com
+0.0.0.0 global.msmtrakk10a.com um.simpli.fi in.appninja.rocks
+
+0.0.0.0 track.mmobileoffers.com track.funshopfun.com click.mobclusive.com
+0.0.0.0 cdn.wilderosdating.com cdn.castplatform.com sync.intentiq.com
+
+0.0.0.0 lp.bigfarm.goodgamestudios.com scontent.lrcdn.net
+0.0.0.0 img.bbchat.tv banner.dspcdn.com rutpunishsnitch.com
+0.0.0.0 js.smac-ad.com js.juicyads.com s10.histats.com
+0.0.0.0 cs.boost-next.co.jp js.boost-next.co.jp
+0.0.0.0 affiliate.konibet.com tracker-pm2.konibet.com
+
+# ◆◆◆ その他のサイト
+0.0.0.0 bam.nr-data.net match.adsrvr.org p.adsymptotic.com
+
+0.0.0.0 app.appsflyer.com
+0.0.0.0 postback.unityads.unity3d.com
+0.0.0.0 antiadblocksystems.com
+
+# Marketo, Inc.				Marketo
+0.0.0.0 sjrtp3.marketo.com
