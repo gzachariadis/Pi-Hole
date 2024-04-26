@@ -52,7 +52,17 @@ bittube.tv
 odysee.com
 lbry.tv
 keybase.io
+f-droid.org
 vscode.dev
+```  
+
+<br>
+
+## Application Programming Interface (API) - Search
+
+
+```html
+ajax.googleapis.com
 ```  
 
 <br>

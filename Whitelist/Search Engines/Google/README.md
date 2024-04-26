@@ -8,7 +8,6 @@
 
 
 ```html
-connectivitycheck.gstatic.com
 www.google.com
 ```  
 
@@ -18,22 +17,8 @@ www.google.com
 
 
 ```html
-alt4-mtalk.google.com
-alt3-mtalk.google.com
-mtalk.google.com
-alt7-mtalk.google.com
 notifications-pa.googleapis.com
-mtalk4.google.com
 signaler-pa.googleapis.com
-```  
-
-<br>
-
-## Application Programming Interface (API) - Search
-
-
-```html
-ajax.googleapis.com
 ```  
 
 <br>
@@ -61,6 +46,15 @@ www.googleapis.com
 
 ```html
 clientservices.googleapis.com
+```  
+
+<br>
+
+## Application Programming Interface (API) - Search
+
+
+```html
+ajax.googleapis.com
 ```  
 
 <br>
