@@ -1,5 +1,166 @@
 <h1 align="center">Sources</h1>
 
+- [StevenBlack](#stevenblack)
+- [Hazegi](#hazegi)
+- [1Hosts](#1hosts)
+- [NickOppen - VPN Providers \& Social Media](#nickoppen---vpn-providers--social-media)
+- [Gieljnssns - Social Media](#gieljnssns---social-media)
+- [Crpietschmann's - Social Media](#crpietschmanns---social-media)
+- [AnudeepND](#anudeepnd)
+- [The Block List Project](#the-block-list-project)
+- [EasyList](#easylist)
+- [The Firebog](#the-firebog)
+- [Developer Dan's - LightSwitch05](#developer-dans---lightswitch05)
+- [No Tracking](#no-tracking)
+- [Just Domains](#just-domains)
+- [Combined Privacy](#combined-privacy)
+- [Mobile Trackers](#mobile-trackers)
+- [BlockConvert](#blockconvert)
+- [Sefinek](#sefinek)
+- [Shadow Whisperer](#shadow-whisperer)
+- [Black Mirror](#black-mirror)
+- [The Ultimate Hosts](#the-ultimate-hosts)
+- [hBlock](#hblock)
+- [Spam404](#spam404)
+- [Phishing Army](#phishing-army)
+- [Hl2Guide](#hl2guide)
+- [Energized Protection](#energized-protection)
+- [No Google](#no-google)
+- [Porn Domains](#porn-domains)
+- [Xiaomi](#xiaomi)
+- [Yet another Pi-hole list](#yet-another-pi-hole-list)
+- [CNAME Cloacking](#cname-cloacking)
+- [The Big List of Hacked Malware Web Sites](#the-big-list-of-hacked-malware-web-sites)
+- [Scamblock](#scamblock)
+- [Urlhaus-Filter](#urlhaus-filter)
+- [KADHosts](#kadhosts)
+- [NoCoin Adblock](#nocoin-adblock)
+- [Piracy Blocklists](#piracy-blocklists)
+- [Fabrioziosalmi](#fabrioziosalmi)
+- [The Great Wall](#the-great-wall)
+- [Block Tik-Tok](#block-tik-tok)
+- [Twitter](#twitter)
+- [Mhhakim](#mhhakim)
+- [Anti-Telemetry](#anti-telemetry)
+- [Apple Telemetry](#apple-telemetry)
+- [Adobe](#adobe)
+- [Emerging Threads](#emerging-threads)
+- [PeterDaveHello](#peterdavehello)
+- [Antifa-N](#antifa-n)
+- [KitsapCreator](#kitsapcreator)
+- [No-QAnon](#no-qanon)
+- [DonutDNS](#donutdns)
+- [Zangado Projets](#zangado-projets)
+- [Blocklist](#blocklist)
+- [ph00lt0](#ph00lt0)
+- [Perflyst](#perflyst)
+- [MullVad DNS](#mullvad-dns)
+- [jmDugan](#jmdugan)
+- [Filterlists - Advertisments](#filterlists---advertisments)
+- [Filterlists - Privacy](#filterlists---privacy)
+- [Filterlists - Malware](#filterlists---malware)
+- [Filterlists - Phishing](#filterlists---phishing)
+- [Filterlists - Socials](#filterlists---socials)
+- [NeoDevHosts](#neodevhosts)
+- [Discord \& Stream - Phishing](#discord--stream---phishing)
+- [Bmyjacks - Ads ](#bmyjacks---ads-)
+- [ColumnDeeply - Porn](#columndeeply---porn)
+- [SweetSophia - Xiaomi](#sweetsophia---xiaomi)
+- [Better Blocklist](#better-blocklist)
+- [Emerging Malicious Domains Blocklist](#emerging-malicious-domains-blocklist)
+- [Cookie Consent](#cookie-consent)
+- [Spootle](#spootle)
+- [Aetherinox](#aetherinox)
+- [Filter Ads](#filter-ads)
+- [Jake Jarvis](#jake-jarvis)
+- [Dmachard](#dmachard)
+- [Blocklist Collection](#blocklist-collection)
+- [Adobe-is-Dumb](#adobe-is-dumb)
+- [The Fucking List](#the-fucking-list)
+- [Youtbe Spam Host](#youtbe-spam-host)
+- [Arstech](#arstech)
+- [Obutterbach](#obutterbach)
+- [Beginner's Guide to Pi-Hole](#beginners-guide-to-pi-hole)
+- [Fuzz the Pi-Hole ](#fuzz-the-pi-hole-)
+- [Big block-lists for Pi-Hole](#big-block-lists-for-pi-hole)
+- [Jussiroine](#jussiroine)
+- [Esox Lucius](#esox-lucius)
+- [Additional Undesired Hosts](#additional-undesired-hosts)
+- [Privacy Protection Tools - Anti-AD](#privacy-protection-tools---anti-ad)
+- [Anti Axel Springer hosts](#anti-axel-springer-hosts)
+- [Anti-Porn HOSTS Files](#anti-porn-hosts-files)
+- [AntiPopAds: Re](#antipopads-re)
+- [AntiSocial - Blockist-UK-Community](#antisocial---blockist-uk-community)
+- [Antispam-IT](#antispam-it)
+- [MailTrail](#mailtrail)
+- [BjornStar](#bjornstar)
+- [ChrisJudk](#chrisjudk)
+- [CNAME Trackers - AdguardTeam](#cname-trackers---adguardteam)
+- [D3Ward - Toolz](#d3ward---toolz)
+- [Damengzhu - Banad](#damengzhu---banad)
+- [Someone who Cares](#someone-who-cares)
+- [DigitalSide Threat-Intel](#digitalside-threat-intel)
+- [Disconnect Tracking Protection](#disconnect-tracking-protection)
+- [Discord Phishing Links](#discord-phishing-links)
+- [Discord Phishing URLS](#discord-phishing-urls)
+- [Durable Napkin](#durable-napkin)
+- [Scam Blocklist](#scam-blocklist)
+- [Energized Protection - unblock (Whitelist)](#energized-protection---unblock-whitelist)
+- [Frellwits Filter Lists](#frellwits-filter-lists)
+- [Low Tech Filter](#low-tech-filter)
+- [Frogeye Trackers](#frogeye-trackers)
+- [NoAds X Files](#noads-x-files)
+- [GoodbyeAds](#goodbyeads)
+- [Herrbischoff Trackers](#herrbischoff-trackers)
+- [HostsVN](#hostsvn)
+- [HP Threat Research - IOCs](#hp-threat-research---iocs)
+- [Infinitytec - BLocklists](#infinitytec---blocklists)
+- [iOS Tracker Blocklist](#ios-tracker-blocklist)
+- [Jarellama's Scam Blocklist](#jarellamas-scam-blocklist)
+- [Subdomain Blocklist - Jawz101](#subdomain-blocklist---jawz101)
+- [PfSense Hosts](#pfsense-hosts)
+- [Adaway Hosts](#adaway-hosts)
+- [Lukes - Lwojcik](#lukes---lwojcik)
+- [Marktron](#marktron)
+- [Referrer Spam](#referrer-spam)
+- [MetalHead](#metalhead)
+- [Eth Phishing Detect](#eth-phishing-detect)
+- [Minecraft Hosts](#minecraft-hosts)
+- [DNS Blocklist](#dns-blocklist)
+- [Mobile Trackers](#mobile-trackers-1)
+- [Neo23x0 - Signature Base](#neo23x0---signature-base)
+- [Cname Cloacking Blocklist](#cname-cloacking-blocklist)
+- [NextDNS - No SafeSearch](#nextdns---no-safesearch)
+- [Native Tracking Domains](#native-tracking-domains)
+- [Hosts Blocklist Scripts](#hosts-blocklist-scripts)
+- [OpenPhish](#openphish)
+- [Orthrus Blocklist](#orthrus-blocklist)
+- [Phishing](#phishing)
+- [AbpVN](#abpvn)
+- [D3cim Block](#d3cim-block)
+- [Red Flag Domains](#red-flag-domains)
+- [Rescure](#rescure)
+- [RooneyMcNibNug Pihole Stuff](#rooneymcnibnug-pihole-stuff)
+- [No CMYK - Search Engine Spam Blocklist](#no-cmyk---search-engine-spam-blocklist)
+- [Sinfonietta - HostFiles](#sinfonietta---hostfiles)
+- [Snota418 - Youtube Spam Host List](#snota418---youtube-spam-host-list)
+- [Souteria-Nou - Domainlist](#souteria-nou---domainlist)
+- [Stalkerware Indicators of Compromise](#stalkerware-indicators-of-compromise)
+- [Stonecrusher - Filterlists](#stonecrusher---filterlists)
+- [Stop Forum Spam](#stop-forum-spam)
+- [TGC Cloud](#tgc-cloud)
+- [TTC CERT Blocklist](#ttc-cert-blocklist)
+- [ThreatView](#threatview)
+- [ThioJoe YT-Spam-Lists](#thiojoe-yt-spam-lists)
+- [Tiuxo - Hosts](#tiuxo---hosts)
+- [Global Anti Scam Org - Blocklist](#global-anti-scam-org---blocklist)
+- [Inversion DNSBL Blocklists](#inversion-dnsbl-blocklists)
+- [XIU2 Trackers List Collection](#xiu2-trackers-list-collection)
+- [The QUantum Alpha](#the-quantum-alpha)
+- [Zoso.ro](#zosoro)
+- [Coin Blocker List](#coin-blocker-list)
+- [Government Malware Domains](#government-malware-domains)
+
 ## [StevenBlack](https://github.com/StevenBlack/hosts)
 
 ```
@@ -978,6 +1139,7 @@ https://raw.githubusercontent.com/rimu/no-qanon/master/etc_hosts.txt
 https://raw.githubusercontent.com/rimu/no-qanon/master/domains.txt
 https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt
 https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt
+
 ```
 
 ## [DonutDNS](https://github.com/shoenig/donutdns)
@@ -1331,6 +1493,7 @@ https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribabl
 https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Dshield-Suspicious-Low.txt
 https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Dshield-Suspicious-Medium.txt
 https://raw.githubusercontent.com/hell-sh/Evil-Domains/master/evil-domains.txt
+https://winhelp2002.mvps.org/hosts.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/tif.txt
 https://raw.githubusercontent.com/michaeltrimm/hosts-blocking/master/_hosts.txt
@@ -1884,103 +2047,866 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 
 ```
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
-
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
+https://winhelp2002.mvps.org/hosts.txt
+https://v.firebog.net/hosts/static/w3kbl.txt
+https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
+https://v.firebog.net/hosts/AdguardDNS.txt
+https://v.firebog.net/hosts/Admiral.txt
+https://someonewhocares.org/hosts/zero/hosts
+https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
+https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt
+https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
+https://adaway.org/hosts.txt
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+https://v.firebog.net/hosts/Easylist.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt
+https://v.firebog.net/hosts/Prigent-Adult.txt
+https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
+https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+https://v.firebog.net/hosts/Prigent-Malware.txt
+https://urlhaus.abuse.ch/downloads/hostfile/
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate versions Anti-Malware List/AntiMalwareHosts.txt
+https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+https://v.firebog.net/hosts/Prigent-Crypto.txt
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
+https://phishing.army/download/phishing_army_blocklist_extended.txt
+https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+https://v.firebog.net/hosts/RPiList-Malware.txt
+https://v.firebog.net/hosts/RPiList-Phishing.txt
+https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
+https://v.firebog.net/hosts/Easyprivacy.txt
+https://v.firebog.net/hosts/Prigent-Ads.txt
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
+https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
+https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+https://v.firebog.net/hosts/neohostsbasic.txt
+```
 
+## [Esox Lucius](https://github.com/Esox-Lucius/PiHoleblocklists)
+
+```
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/APPLE%20Malware%2C%20Exploits%2C%20Hacks%20IOCs
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/AZORult%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/AgentTesla%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Amadey%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Andromeda%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Arkei%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/AsyncRAT%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Ave.Maria%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Bahamut%20IOCs%20-%20Domains%20%26%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/CobaltStrike%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Covid-19%20Related%20Domains%20(SPAM)
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Cryptowall%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/DGA%20-%20Unknown%20Use
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/DarkComet%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Dridex%20IOCs%20-%20Domains%20%26%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Dunihi%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Emotet%20IOCs%20-%20Domains%20%26%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/FakeSpy%20(JapanPost)%20-%20Domains%20%26%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/FormBook%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Generic.Trojan%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/HTTP%20headers%20aiding%20exploitation
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Hancitor%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/IcedID%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Kryptik%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Locky%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/LokiBot%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/MalDoc%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Crypto%20Mining%20Pool%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Malware%20Domain%20Feed%20V2%20-%20February%2010%202020
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Malware%20Domain%20Feed%20V2%20-%20November%2003%202020
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Multiple%20RAT%20Threats%20-%20Domains%20%26%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Phishing%2C%20Fraud%2C%20Spam%20%26%20Unknown%20Use%20-%20Part%201
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Phishing%2C%20Fraud%2C%20Spam%20%26%20Unknown%20Use%20-%20Part%202
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Phishing%2C%20Fraud%2C%20Spam%20%26%20Unknown%20Use%20-%20Part%203
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Ransomware%20Sodinokibi
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Win32
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Nanocore%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Netwire%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Nivdort%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/NjRat%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Personal%20Cookie%20list%20-%20Ads
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Phorpiex%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Pony%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Predator%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/PredatorTheThief%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Ramnit%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/RedLine%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Remcos%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Ryuk%20Ransomware%20and%20Associated%20Threat%20Activity
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Spelevo.EK%20IOCs%20-%20Domains%20%26%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/TA2552%20IOCs%20-%20Domains%20%26%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/TA505%20IOCs%20-%20Domains%20%26%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/TA551%20IOCs%20-%20Domains%20%26%20Hosts
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Upatre%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Ursnif%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/W32.Bayrob%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Zbot%20-%20Malware%20Domain%20Feed%20V2
+https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Zeus%20-%20Malware%20Domain%20Feed%20V2
+```
+
+## [Additional Undesired Hosts](https://github.com/DRSDavidSoft/additional-hosts)
+
+```
+https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/adservers-and-trackers.txt
+https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/activation.txt
+https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/fake-domains.txt
+https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/search-blacklist.txt
+https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/unwanted-iranian.txt
+https://adaway.org/hosts.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+https://someonewhocares.org/hosts/hosts
+https://winhelp2002.mvps.org/hosts.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+https://v.firebog.net/hosts/AdguardDNS.txt
+https://v.firebog.net/hosts/static/w3kbl.txt
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+https://v.firebog.net/hosts/Easylist.txt
+https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
+```
+
+## [Privacy Protection Tools - Anti-AD](https://github.com/privacy-protection-tools/anti-AD)
+
+```
+https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
+```
+
+## [Anti Axel Springer hosts](https://github.com/autinerd/anti-axelspringer-hosts)
+
+```
+https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/hostnames
+https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts
+https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/www-hostnames
+```
+
+## [Anti-Porn HOSTS Files](https://github.com/4skinSkywalker/Anti-Porn-HOSTS-File)
+
+```
+https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt
+```
+
+## [AntiPopAds: Re](https://github.com/AdroitAdorKhan/antipopads-re)
+
+```
+https://raw.githubusercontent.com/AdroitAdorKhan/antipopads-re/master/formats/domains.txt
+https://raw.githubusercontent.com/AdroitAdorKhan/antipopads-re/master/formats/hosts.txt
+https://raw.githubusercontent.com/AdroitAdorKhan/antipopads-re/master/formats/hosts-ipv6.txt
+https://antipopads-re.energized.pro/formats/hosts.txt
+https://antipopads-re.energized.pro/formats/domains.txt
+```
+
+## [AntiSocial - Blockist-UK-Community](https://github.com/TheAntiSocialEngineer/AntiSocial-BlockList-UK-Community)
+
+```
+https://raw.githubusercontent.com/TheAntiSocialEngineer/AntiSocial-BlockList-UK-Community/main/UK-Community.txt
+```
+
+## [Antispam-IT](https://github.com/marco-acorte/antispam-it/)
+
+```
+https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-domains.txt
+https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-it.txt
+https://raw.githubusercontent.com/marco-acorte/antispam-it/main/outlook-blocklist.txt
+```
+
+## [MailTrail]()
+
+```
+https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/azorult.txt
+```
+
+## [BjornStar](https://github.com/bjornstar/hosts)
+
+```
+https://raw.githubusercontent.com/bjornstar/hosts/master/hosts
+```
+
+## [ChrisJudk](https://github.com/chrisjudk/hosts)
+
+```
+https://raw.githubusercontent.com/chrisjudk/hosts/master/whitelist
+https://raw.githubusercontent.com/chrisjudk/hosts/master/hosts
+```
+
+## [CNAME Trackers - AdguardTeam](https://github.com/AdguardTeam/cname-trackers)
+
+```
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_clickthroughs_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_mail_trackers_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_microsites_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/adspyglass_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/ahacdn_me_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/heleric_com_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/namesilo_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/popcash_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/webair_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/clickthroughs/branch_io_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/clickthroughs/clickaine_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/clickthroughs/pardot_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/mail_trackers/cordial_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/mail_trackers/customer_io_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/mail_trackers/mailgun_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/mail_trackers/sailthru_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/microsites/extole_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/microsites/logly_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/microsites/nativo_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/microsites/oracle-eloqua_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/microsites/tracedock_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/2cnt_net_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/a8_net_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/act-on_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/actionlink_jp_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/adobe-experience-cloud-(formerly-omniture)_justdomains.txthttps://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/at-internet-(formerly-xiti)_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/criteo_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/dataunlocker_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/ensighten_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/eulerian_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/fathom_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/infonline_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/ingenious-technologies_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/keyade_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/lead-forensics_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/lexisnexis-risk-solutions_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/plausible-analytics_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/webtrekk_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/redtrack_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/trackers/wizaly_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_clickthroughs_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_mail_trackers_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_microsites_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt
+```
+
+## [D3Ward - Toolz](https://github.com/d3ward/toolz)
+
+```
+https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.tx
+```
+
+## [Damengzhu - Banad](https://github.com/damengzhu/banad)
+
+```
+https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt
+```
+
+## [Someone who Cares](https://someonewhocares.org/)
+
+```
+https://someonewhocares.org/hosts/
+```
+
+## [DigitalSide Threat-Intel](https://github.com/davidonzo/Threat-Intel)
+
+```
+https://raw.githubusercontent.com/davidonzo/Threat-Intel/master/lists/latestdomains.piHole.txt
+https://raw.githubusercontent.com/davidonzo/Threat-Intel/master/lists/latestdomains.txt
+```
+
+## [Disconnect Tracking Protection](https://github.com/disconnectme/disconnect-tracking-protection)
+
+```
+
+```
+
+## [Discord Phishing Links](https://github.com/nikolaischunk/discord-phishing-links)
+
+```
+https://raw.githubusercontent.com/nikolaischunk/discord-phishing-links/main/txt/domain-list.txt
+https://raw.githubusercontent.com/nikolaischunk/discord-phishing-links/main/txt/suspicious-list.txt
+```
+
+## [Discord Phishing URLS](https://github.com/Dogino/Discord-Phishing-URLs/)
+
+```
+https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt
+https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
+```
+
+## [Durable Napkin](https://github.com/durablenapkin/block)
+
+```
+https://raw.githubusercontent.com/durablenapkin/block/master/avast.txt
+https://raw.githubusercontent.com/durablenapkin/block/master/home-heavy.txt
+https://raw.githubusercontent.com/durablenapkin/block/master/home-lite.txt
+https://raw.githubusercontent.com/durablenapkin/block/master/home-medium.txt
+https://raw.githubusercontent.com/durablenapkin/block/master/home-obese.txt
+https://raw.githubusercontent.com/durablenapkin/block/master/luminati.txt
+https://raw.githubusercontent.com/durablenapkin/block/master/streaming.txt
+https://raw.githubusercontent.com/durablenapkin/block/master/tvstream.txt
+```
+
+## [Scam Blocklist](https://github.com/durablenapkin/scamblocklist)
+
+```
+https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
+https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/raw.txt
+```
+
+## [Energized Protection - unblock (Whitelist)](https://github.com/EnergizedProtection/unblock#energized-protection---unblock-=)
+
+```
+https://raw.githubusercontent.com/EnergizedProtection/unblock/master/basic/formats/domains.txt
+```
+
+## [Frellwits Filter Lists](https://github.com/lassekongo83/Frellwits-filter-lists/tree/master)
+
+```
+https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt
+```
+
+## [Low Tech Filter](https://github.com/FutaGuard/LowTechFilter/tree/master)
+
+```
+https://raw.githubusercontent.com/FutaGuard/LowTechFilter/master/nofarm.txt
+https://raw.githubusercontent.com/FutaGuard/LowTechFilter/master/TW165.txt
+https://filter.futa.gg/hosts.txt
+https://filter.futa.gg/TW165_hosts.txt
+https://filter.futa.gg/TWNIC-RPZ_hosts.txt
+https://filter.futa.gg/nofarm_hosts.txt
+https://filter.futa.gg/nrd/past-01day_hosts.txt
+```
+
+## [Frogeye Trackers]()
+
+```
+https://hostfiles.frogeye.fr/firstparty-only-trackers-hosts.txt
+https://hostfiles.frogeye.fr/firstparty-only-trackers.txt
+https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
+https://hostfiles.frogeye.fr/multiparty-trackers.txt
+https://hostfiles.frogeye.fr/multiparty-only-trackers-hosts.txt
+https://hostfiles.frogeye.fr/multiparty-only-trackers.txt
+```
+
+## [NoAds X Files](https://github.com/gioxx/xfiles)
+
+```
+https://raw.githubusercontent.com/gioxx/xfiles/master/domains/upd_domains.txt
+```
+
+## [GoodbyeAds](https://github.com/jerryn70/GoodbyeAds#goodbyeads---wrld-of-ads-free-internet)
+
+```
+https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Hosts/GoodbyeAds.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
+https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Extension/GoodbyeAds-Xiaomi-Extension.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt
+https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Extension/GoodbyeAds-Samsung-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt
+https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Extension/GoodbyeAds-Spotify-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
+https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Extension/GoodbyeAds-YouTube-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds-Ultra.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Apple-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Huawei-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
+```
+
+## [Herrbischoff Trackers](https://git.herrbischoff.com/trackers)
+
+```
+https://git.herrbischoff.com/trackers/plain/trackers.txt
+https://git.herrbischoff.com/trackers/plain/domains.txt
+https://git.herrbischoff.com/trackers/plain/telemetry.txt
+https://git.herrbischoff.com/trackers/plain/crap.txt
+https://git.herrbischoff.com/trackers/plain/cookie.txt
+https://git.herrbischoff.com/trackers/plain/reject.txt
+https://git.herrbischoff.com/trackers/plain/spam.txt
+https://git.herrbischoff.com/trackers/plain/spam.netset
+https://git.herrbischoff.com/trackers/plain/urls.txt
+https://git.herrbischoff.com/trackers/plain/advertising.txt
+```
+
+## [HostsVN](https://github.com/bigdargon/hostsVN/tree/master)
+
+```
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain-VN.txt
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain.txt
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-iOS
+```
+
+## [HP Threat Research - IOCs](https://github.com/hpthreatresearch/iocs)
+
+```
+https://raw.githubusercontent.com/hpthreatresearch/iocs/main/raspberryrobin/domains.txt
+https://raw.githubusercontent.com/hpthreatresearch/iocs/main/TA551/domains.txt
+https://raw.githubusercontent.com/hpthreatresearch/iocs/main/TA505/domains.txt
+https://raw.githubusercontent.com/hpthreatresearch/iocs/main/IcedID/domains.txt
+https://raw.githubusercontent.com/hpthreatresearch/iocs/main/CryptBot/domains.txt
+```
+
+## [Infinitytec - BLocklists](https://github.com/infinitytec/blocklists)
+
+```
+https://raw.githubusercontent.com/infinitytec/blocklists/master/ads-and-trackers.txt
+https://raw.githubusercontent.com/infinitytec/blocklists/master/scams-and-phishing.txt
+https://raw.githubusercontent.com/infinitytec/blocklists/master/medicalpseudoscience.txt
+https://raw.githubusercontent.com/infinitytec/blocklists/master/mlm.txt
+https://raw.githubusercontent.com/infinitytec/blocklists/master/clickbait.txt
+https://raw.githubusercontent.com/infinitytec/blocklists/master/possibilities.txt
+```
+
+## [iOS Tracker Blocklist](https://github.com/jakejarvis/ios-trackers#ios-tracker-blocklist=)
+
+```
+https://raw.githubusercontent.com/jakejarvis/ios-trackers/master/adguard-disconnect-malvertising.txt
+https://raw.githubusercontent.com/jakejarvis/ios-trackers/master/adguard-disconnect-ad.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers_firstparty.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt
+https://raw.githubusercontent.com/jakejarvis/ios-trackers/master/blocklist.txt
+```
+
+## [Jarellama's Scam Blocklist](https://github.com/jarelllama/Scam-Blocklist/tree/main)
+
+```
+https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt
+https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams_light.txt
+https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/data/dead_domains.txt
+https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/data/parked_domains.txt
+https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/data/raw.txt
+https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/data/raw_light.txt
+https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/data/root_domains.txt
+https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/data/subdomains.txt
+```
+
+## [Subdomain Blocklist - Jawz101](https://github.com/jawz101/subdomain_blocklists)
+
+```
+https://raw.githubusercontent.com/jawz101/subdomain_blocklists/main/hosts.txt
+```
+
+## [PfSense Hosts](https://github.com/LittleCordines/pfsense-hosts-file/tree/master)
+
+```
+https://raw.githubusercontent.com/LittleCordines/pfsense-hosts-file/master/isd.blocklist
+https://raw.githubusercontent.com/LittleCordines/pfsense-hosts-file/master/TorrentBlocklists
+https://raw.githubusercontent.com/LittleCordines/pfsense-hosts-file/master/MicrosoftUpdateBlocklists
+https://raw.githubusercontent.com/LittleCordines/pfsense-hosts-file/master/MangaComics
+https://raw.githubusercontent.com/LittleCordines/pfsense-hosts-file/master/LiveStreaming
+https://raw.githubusercontent.com/LittleCordines/pfsense-hosts-file/master/GeneralBlocklists
+```
+
+## [Adaway Hosts](https://github.com/logroid/adaway-hosts#readme)
+
+```
+https://raw.githubusercontent.com/logroid/adaway-hosts/master/hosts.txt
+```
+
+## [Lukes - Lwojcik](https://github.com/lwojcik/lukes-pihole-blocklist)
+
+```
+https://raw.githubusercontent.com/lwojcik/lukes-pihole-blocklist/master/hosts.txt
+```
+
+## [Marktron](https://github.com/marktron/fakenews#readme)
+
+```
+https://raw.githubusercontent.com/marktron/fakenews/master/fakenews
+```
+
+## [Referrer Spam](https://github.com/matomo-org/referrer-spam-list#readme)
+
+```
+https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
+```
+
+## [MetalHead](https://github.com/T145/metalhead/tree/master)
+
+```
+https://raw.githubusercontent.com/T145/metalhead/master/dist/black_nxdomain.txt
+```
+
+## [Eth Phishing Detect](https://github.com/MetaMask/eth-phishing-detect)
+
+```
+https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/main/src/hosts.txt
+```
+
+## [Minecraft Hosts](https://github.com/jamiemansfield/minecraft-hosts/tree/master)
+
+```
+https://raw.githubusercontent.com/jamiemansfield/minecraft-hosts/master/lists/tracking.txt
+```
+
+## [DNS Blocklist](https://github.com/miriquidi/dns-block-lists)
+
+```
+https://raw.githubusercontent.com/miriquidi/dns-block-lists/main/social.txt
+https://raw.githubusercontent.com/miriquidi/dns-block-lists/main/fb-block.txt
+https://raw.githubusercontent.com/miriquidi/dns-block-lists/main/block.txt
+```
+
+## [Mobile Trackers](https://github.com/craiu/mobiletrackers#readme)
+
+```
+https://raw.githubusercontent.com/craiu/mobiletrackers/master/windowslist.txt
+https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt
+```
+
+## [Neo23x0 - Signature Base](https://github.com/Neo23x0/signature-base)
+
+```
+https://raw.githubusercontent.com/Neo23x0/signature-base/master/iocs/c2-iocs.txt
+```
+
+## [Cname Cloacking Blocklist](https://github.com/nextdns/cname-cloaking-blocklist)
+
+```
+https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+```
+
+## [NextDNS - No SafeSearch](https://github.com/nextdns/no-safesearch)
+
+```
+https://raw.githubusercontent.com/nextdns/no-safesearch/main/domains
+```
+
+## [Native Tracking Domains](https://github.com/nextdns/native-tracking-domains/tree/main)
+
+```
+https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa
+https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple
+https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei
+https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku
+https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/samsung
+https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos
+https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows
+https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi
+```
+
+## [Hosts Blocklist Scripts](https://github.com/notracking/hosts-blocklists-scripts)
+
+```
+https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/domains.dead.txt
+https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.dead.txt
+https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
+http://npc.0am.jp/hosts.php
+```
+
+## [OpenPhish](https://openphish.com/index.html)
+
+```
+https://openphish.com/feed.txt
+```
+
+## [Orthrus Blocklist](https://github.com/marcusminus/Orthrus-BlockList#readme)
+
+```
+https://raw.githubusercontent.com/marcusminus/Orthrus-BlockList/master/domains.txt
+```
+
+## [Phishing](https://github.com/mitchellkrogza/phishing#readme)
+
+```
+https://raw.githubusercontent.com/mitchellkrogza/phishing/main/add-domain
+https://raw.githubusercontent.com/mitchellkrogza/phishing/main/add-wildcard-domain
+https://raw.githubusercontent.com/mitchellkrogza/phishing/main/falsepositive.list
+https://raw.githubusercontent.com/mitchellkrogza/phishing/main/falsepositive_regex.list
+```
+
+## [AbpVN](https://github.com/abpvn/abpvn)
+
+```
+
+```
+
+## [D3cim Block](https://github.com/d3cim/block)
+
+```
+https://raw.githubusercontent.com/d3cim/block/master/blocked-names.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-onlydomains.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif-onlydomains.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/ultimate-onlydomains.txt
+https://raw.githubusercontent.com/d3cim/block/master/config/domains-allowlist.txt
+https://raw.githubusercontent.com/d3cim/block/master/config/domains-blocklist-local-additions.txt
+```
+
+## [Red Flag Domains](https://red.flag.domains/)
+
+```
+https://dl.red.flag.domains/red.flag.domains.txt
+https://dl.red.flag.domains/red.flag.domains_fr.txt
+https://dl.red.flag.domains/red.flag.domains_ovh.txt
+https://dl.red.flag.domains/red.flag.domains_paris.txt
+https://dl.red.flag.domains/red.flag.domains_pm.txt
+https://dl.red.flag.domains/red.flag.domains_re.txt
+https://dl.red.flag.domains/red.flag.domains_wf.txt
+https://dl.red.flag.domains/red.flag.domains_yt.txt
+https://dl.red.flag.domains/pihole/red.flag.domains.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_alsace.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_bzh.txt
+https://dl.red.flag.domains/red.flag.domains_tf.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_corsica.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_ovh.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_paris.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_pm.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_re.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_tf.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_wf.txt
+https://dl.red.flag.domains/pihole/red.flag.domains_yt.txt
+
+```
+
+## [Rescure](https://rescure.me/covid.txt)
+
+```
+https://rescure.me/covid.txt
+https://rescure.me/rescure_domain_blacklist.txt
+```
+
+## [RooneyMcNibNug Pihole Stuff](https://github.com/RooneyMcNibNug/pihole-stuff)
+
+```
+https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/AI/root_ai_urls.txt
+https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+http://sysctl.org/cameleon/hosts
+https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+https://hosts-file.net/ad_servers.txt
+https://raw.githubusercontent.com/quidsup/notrack/master/trackers.txt
+https://v.firebog.net/hosts/Easyprivacy.txt
+https://www.squidblacklist.org/downloads/dg-ads.acl
+https://v.firebog.net/hosts/static/w3kbl.txt
+https://v.firebog.net/hosts/Prigent-Ads.txt
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+https://v.firebog.net/hosts/Airelle-hrsk.txt
+https://v.firebog.net/hosts/Easylist.txt
+https://adaway.org/hosts.txt
+https://hostsfile.org/Downloads/hosts.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.2o7Net/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/data/UncheckyAds/hosts
+https://hphosts.gt500.org/hosts.txt
+https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+https://raw.githubusercontent.com/anudeepND/youtubeadsblacklist/master/domainlist.txt
+https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt
+https://block.energized.pro/spark/formats/domains.txt
+https://raw.githubusercontent.com/marcusminus/Orthrus-BlockList/master/domains.txt
+https://mirror1.malwaredomains.com/files/justdomains
+https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
+https://v.firebog.net/hosts/Shalla-mal.txt
+https://raw.githubusercontent.com/piwik/referrer-spam-blacklist/master/spammers.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
+https://v.firebog.net/hosts/Prigent-Malware.txt
+https://www.dshield.org/feeds/suspiciousdomains_High.txt
+https://mirror.cedia.org.ec/malwaredomains/immortal_domains.txt
+https://hosts-file.net/psh.txt
+https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt
+https://blocklist.cyberthreatcoalition.org/vetted/domain.txt
+https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
+https://tgc.cloud/downloads/iOSAds.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
+https://v.firebog.net/hosts/static/SamsungSmart.txt
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+https://zerodot1.gitlab.io/CoinBlockerLists/hosts
+https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/anti-bossware.txt
+https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/MSEdge_flash_block_URLS.txt
+```
+
+## [No CMYK - Search Engine Spam Blocklist](https://github.com/no-cmyk/Search-Engine-Spam-Blocklist)
+
+```
+https://raw.githubusercontent.com/no-cmyk/Search-Engine-Spam-Blocklist/master/blocklist.txt
+```
+
+## [Sinfonietta - HostFiles](https://github.com/Sinfonietta/hostfiles)
+
+```
+https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/gambling-hosts
+https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
+https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/snuff-hosts
+https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/social-hosts
+```
+
+## [Snota418 - Youtube Spam Host List](https://github.com/Snota418/Youtube-spam-host-list/)
+
+```
+https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams
+https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/General%20phishing
+```
+
+## [Souteria-Nou - Domainlist](https://github.com/soteria-nou/domain-list#readme)
+
+```
+https://raw.githubusercontent.com/soteria-nou/domain-list/master/ads.txt
+https://raw.githubusercontent.com/soteria-nou/domain-list/master/affiliate.txt
+https://raw.githubusercontent.com/soteria-nou/domain-list/master/analytics.txt
+https://raw.githubusercontent.com/soteria-nou/domain-list/master/enrichments.txt
+https://raw.githubusercontent.com/soteria-nou/domain-list/master/fake.txt
+https://raw.githubusercontent.com/soteria-nou/domain-list/master/widgets.txt
+```
+
+## [Stalkerware Indicators of Compromise](https://github.com/AssoEchap/stalkerware-indicators/tree/master)
+
+```
+https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
+https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts_full
+https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/quad9_blocklist.txt
+```
+
+## [Stonecrusher - Filterlists](https://github.com/stonecrusher/filterlists-pihole)
+
+```
+https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/fakenews-de-ph.txt
+https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/watchlist-internet-ph.txt
+https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/pseudowissenschaft-ph.txt
+https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/VScom_fakeshops-ph.txt
+https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/VScom_streaming-ph.txt
+https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/VSde_problematic_onlineshops-ph.txt
+```
+
+## [Stop Forum Spam](https://www.stopforumspam.com/downloads)
+
+```
+https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
+https://www.stopforumspam.com/downloads/toxic_usernames_partial.txt
+https://www.stopforumspam.com/downloads/toxic_domains_whole_filtered_1000.txt
+https://www.stopforumspam.com/downloads/toxic_domains_whole_filtered_10000.txt
+https://www.stopforumspam.com/downloads/toxic_domains_whole_filtered_50000.txt
+https://www.stopforumspam.com/downloads/toxic_domains_whole_filtered_100000.txt
+https://www.stopforumspam.com/downloads/toxic_domains_whole_filtered_250000.txt
+https://www.stopforumspam.com/downloads/toxic_domains_whole_filtered.txt
+```
+
+## [TGC Cloud](https://tgc.cloud/downloads/)
+
+```
+https://tgc.cloud/downloads/hosts.txt
+https://tgc.cloud/downloads/archive/hosts.alive.txt
+https://tgc.cloud/downloads/archive/hosts.dead.txt
+```
+
+## [TTC CERT Blocklist](https://github.com/ttc-cert/TTC-CERT_blocklist_recommended)
+
+```
+https://raw.githubusercontent.com/ttc-cert/TTC-CERT_blocklist_recommended/master/domain_blocklist_recommended.txt
+https://raw.githubusercontent.com/ttc-cert/TTC-CERT_blocklist_recommended/master/domain_from_android_rat_blocklist_recommended.txt
+https://raw.githubusercontent.com/ttc-cert/TTC-CERT_blocklist_recommended/master/url_blocklist_recommended.txt
+```
+
+## [ThreatView](https://threatview.io)
+
+```
+https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
+```
+
+## [ThioJoe YT-Spam-Lists](https://github.com/ThioJoe/YT-Spam-Lists/tree/main)
+
+```
+https://raw.githubusercontent.com/ThioJoe/YT-Spam-Lists/main/SpamDomainsList.txt
+
+```
+
+## [Tiuxo - Hosts](https://github.com/tiuxo/hosts)
+
+```
+
+https://raw.githubusercontent.com/tiuxo/hosts/master/social
+https://raw.githubusercontent.com/tiuxo/hosts/master/porn
+https://raw.githubusercontent.com/tiuxo/hosts/master/ads
 https://winhelp2002.mvps.org/hosts.txt
 
-https://v.firebog.net/hosts/static/w3kbl.txt
+```
 
-https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
+## [Global Anti Scam Org - Blocklist](https://github.com/elliotwutingfeng/GlobalAntiScamOrg-blocklist)
 
-https://v.firebog.net/hosts/AdguardDNS.txt
+```
 
-https://v.firebog.net/hosts/Admiral.txt
+https://raw.githubusercontent.com/elliotwutingfeng/GlobalAntiScamOrg-blocklist/main/global-anti-scam-org-scam-urls-pihole.txt
 
-https://someonewhocares.org/hosts/zero/hosts
+```
 
-https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
+## [Inversion DNSBL Blocklists](https://github.com/elliotwutingfeng/Inversion-DNSBL-Blocklists)
 
-https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt
+```
 
-https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
+https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_light.txt
+https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt
 
-https://adaway.org/hosts.txt
+```
 
-https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+## [XIU2 Trackers List Collection](https://github.com/XIU2/TrackersListCollection)
 
-https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+```
 
-https://v.firebog.net/hosts/Easylist.txt
+```
 
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+## [The QUantum Alpha](https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list)
 
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+```
 
-https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Raw/The_Quantum_Ad-List.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/For%20hosts%20file/The_Quantum_Ad-List.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Individual%20lists/The_Quantum_Youtube-Ads-List.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Individual%20lists/The_Quantum_Simply-ads-list.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Raw/The_Quantum_Ad-List.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Individual%20lists/The_Quantum_Simply-ads-list.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Individual%20lists/The_Quantum_Privacy-list.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Individual%20lists/The_Quantum_Ad-List_porn.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Individual%20lists/The_Quantum_Abuse-List.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Individual%20lists/Extreme%20lists/The_Quantum_Extreme_Youtube_Ad-List.txt?ref_type=heads
+https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/Raw/The_Quantum_Ad-List.txt?ref_type=heads
+```
 
-https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt
+## [Zoso.ro](https://zoso.ro/rolist/)
 
-https://v.firebog.net/hosts/Prigent-Adult.txt
+```
 
-https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
+https://zoso.ro/pages/rolist.txt
+https://zoso.ro/pages/rolist2.txt
 
-https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+```
 
-https://v.firebog.net/hosts/Prigent-Malware.txt
+## [Coin Blocker List](https://gitlab.com/ZeroDot1/CoinBlockerLists/-/tree/master#simple-lists-that-can-help-prevent-cryptomining-in-the-browser-or-other-applications)
 
-https://urlhaus.abuse.ch/downloads/hostfile/
+```
+https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/list.txt
+https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/list_browser.txt
+https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/hosts_optional
+https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/hosts_browser
+https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/hosts
+```
 
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate versions Anti-Malware List/AntiMalwareHosts.txt
+## [Government Malware Domains](https://gitlab.com/nitrohorse/government-malware-domains-blocklist/-/tree/master)
 
-https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
-
-https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
-
-https://v.firebog.net/hosts/Prigent-Crypto.txt
-
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
-
-https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
-
-https://phishing.army/download/phishing_army_blocklist_extended.txt
-
-https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
-
-https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
-
-https://v.firebog.net/hosts/RPiList-Malware.txt
-
-https://v.firebog.net/hosts/RPiList-Phishing.txt
-
-https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
-
-https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
-
-https://v.firebog.net/hosts/Easyprivacy.txt
-
-https://v.firebog.net/hosts/Prigent-Ads.txt
-
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
-
-https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
-
-https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
-
-https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
-
-https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
-
-https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
-
-https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
-
-https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-
-https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
-
-https://v.firebog.net/hosts/neohostsbasic.txt
-
+```
+https://gitlab.com/nitrohorse/government-malware-domains-blocklist/-/raw/master/domains.txt
 ```
