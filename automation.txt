@@ -64,4 +64,3 @@ check inside for README.md file
 
 - OCSP
     - Online Certificate Status Protocol
-    
