@@ -142,9 +142,8 @@ try:
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
 
-print(json.dumps(whitelist, sort_keys=False, indent=4))
+# print(json.dumps(whitelist, sort_keys=False, indent=4))
 
-"""
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 
@@ -162,9 +161,9 @@ def populate_structure(category, subcategories):
         pass
 
 
+"""
 for k, v in whitelist.items():
     populate_structure(k, list(whitelist[k].keys()))
-
 
 # Populate the Categories inside the README.md
 def Populate_Category(mdFile, Title, Type, data):
