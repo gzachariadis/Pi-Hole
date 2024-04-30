@@ -36,9 +36,9 @@ command = " ".join(
 )
 
 translations = {
-    "API": "Application Programming Interface (API)",
-    "CDN": "Content Delivery Networks (CDN)",
-    "CSS": "Static Assets - Cascading Style Sheets (CSS)",
+    "API": "Application Programming Interface",
+    "CDN": "Content Delivery Network",
+    "CSS": "Cascading Style Sheets - Static Assets",
     "OAuth": "Open Authorization Standard (OAuth)",
     "Hosting": "?????????????",
     "OCSP": "Online Certificate Status Protocol (OCSPs)",
