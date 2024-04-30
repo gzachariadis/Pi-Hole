@@ -47,10 +47,8 @@ translations = {
 
 def translate(abbreviation):
     if abbreviation in translations.keys():
-        print(translations[abbreviation])
         return translations[abbreviation]
     else:
-        print(abbreviation)
         return abbreviation
 
 
