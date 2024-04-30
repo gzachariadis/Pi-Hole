@@ -45,6 +45,11 @@ translations = {
 }
 
 
+def translate(abbreviation):
+    if abbreviation in translations.keys():
+        return translations[abbreviation]
+
+
 def findOccurrences(string):
     if string[:-1] == "\|":
         string = Str[: len(string) - 1]
@@ -80,7 +85,9 @@ try:
                     group: [
                         {
                             "Domain": str(domain).strip(),
-                            "Type": str(comment[0 : comment.index("-") - 1]).strip(),
+                            "Type": str(
+                                (translate((comment[0 : comment.index("-") - 1])))
+                            ).strip(),
                             "Comment": str(comment[comment.index("-") + 1 :]).strip(),
                         }
                     ]
@@ -97,7 +104,9 @@ try:
                     whitelist[category][group] = [
                         {
                             "Domain": str(domain).strip(),
-                            "Type": str(comment[0 : comment.index("-") - 1]).strip(),
+                            "Type": str(
+                                (translate((comment[0 : comment.index("-") - 1])))
+                            ).strip(),
                             "Comment": str(comment[comment.index("-") + 1 :]).strip(),
                         }
                     ]
@@ -113,7 +122,9 @@ try:
                     whitelist[category][group].append(
                         {
                             "Domain": str(domain).strip(),
-                            "Type": str(comment[0 : comment.index("-") - 1]).strip(),
+                            "Type": str(
+                                (translate((comment[0 : comment.index("-") - 1])))
+                            ).strip(),
                             "Comment": str(comment[comment.index("-") + 1 :]).strip(),
                         }
                     )
