@@ -145,7 +145,7 @@ except subprocess.CalledProcessError as cpe:
 # print(json.dumps(whitelist, sort_keys=False, indent=4))
 
 # Reset the Structure before re-creating
-shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
+# shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 
 
 # Create & Populate the Folder Structure based on Data
