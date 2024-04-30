@@ -164,7 +164,7 @@ def populate_structure(category, subcategories):
 for k, v in whitelist.items():
     populate_structure(k, list(whitelist[k].keys()))
 
-"""
+
 # Populate the Categories inside the README.md
 def Populate_Category(mdFile, Title, Type, data):
     for k, v in data.items():
@@ -231,6 +231,7 @@ for x in whitelist.keys():
             Root_Domains.clear()
             Static_Assets.clear()
 
+"""
 # Push Changes to Github
 from git import Repo
 
