@@ -37,3 +37,31 @@ check inside for README.md file
         rename folder ❌ space [it's name]
         counter_failure +1
 
+
+- Domain
+    - Root Domains
+
+- Media Delivery
+    - Videos, Pictures etc.
+
+- Software Delivery
+    - Application Updates
+    - Download Software
+
+- CSS
+    - Translation : Static Assets - Cascading Style Sheets (CSS)
+
+- Authentication 
+    - Login, Password Reset etc. etc.
+
+- CDN 
+    - Translation : Content Delivery Network (CDNs)
+    - Anything that transfers info
+
+- API
+    - Translation : Application Programming Interface (APIs)
+    - Datatabase Actions
+
+- OCSP
+    - Online Certificate Status Protocol
+    

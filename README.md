@@ -184,3 +184,6 @@ I hope this repository helped you set up the Pi-hole for a better internet brows
 Happy browsing!
 
 P.S. This is not a recommended configuration. Please, read the documentation, please...
+
+- [ ] [Pihole Guide](https://github.com/tgjohnst/pihole-guide)
+- [ ]

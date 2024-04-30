@@ -35,6 +35,15 @@ command = " ".join(
     ]
 )
 
+translations = {
+    "API": "Application Programming Interface (API)",
+    "CDN": "Content Delivery Networks (CDN)",
+    "CSS": "Static Assets - Cascading Style Sheets (CSS)",
+    "OAuth": "Open Authorization Standard (OAuth)",
+    "Hosting": "?????????????",
+    "OCSP": "Online Certificate Status Protocol (OCSPs)",
+}
+
 
 def findOccurrences(string):
     if string[:-1] == "\|":
@@ -119,6 +128,9 @@ try:
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
 
+print(json.dumps(whitelist, sort_keys=False, indent=4))
+
+"""
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 
@@ -215,3 +227,5 @@ repo.git.commit("-m", "Automated Push")
 origin = repo.remote(name="origin")
 origin.pull()
 origin.push()
+
+"""
