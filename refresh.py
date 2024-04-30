@@ -141,7 +141,7 @@ try:
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
 
-# print(json.dumps(whitelist, sort_keys=False, indent=4))
+print(json.dumps(whitelist, sort_keys=False, indent=4))
 
 """
 # Reset the Structure before re-creating
