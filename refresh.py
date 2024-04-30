@@ -48,6 +48,8 @@ translations = {
 def translate(abbreviation):
     if abbreviation in translations.keys():
         return translations[abbreviation]
+    else:
+        return abbreviation
 
 
 def findOccurrences(string):
@@ -95,7 +97,7 @@ try:
             else:
                 whitelist[category] = {
                     group: [
-                        {"Domain": str(domain).strip(), "Type": str(comment).strip()}
+                        {"Domain": str(domain).strip(), "Type": translate(str(comment))}
                     ]
                 }
         else:
@@ -114,7 +116,7 @@ try:
                     whitelist[category][group] = [
                         {
                             "Domain": str(domain).strip(),
-                            "Type": str(comment),
+                            "Type": translate(str(comment)),
                         }
                     ]
             else:
@@ -132,7 +134,7 @@ try:
                     whitelist[category][group].append(
                         {
                             "Domain": str(domain).strip(),
-                            "Type": str(comment),
+                            "Type": translate(str(comment)),
                         }
                     )
 
