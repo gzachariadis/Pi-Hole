@@ -36,15 +36,16 @@ command = " ".join(
 )
 
 translations = {
-    "API": "Application Programming Interface",
-    "CDN": "Content Delivery Network",
-    "CSS": "Cascading Style Sheets - Static Assets",
+    "API": "Application Programming Interface (API)",
+    "CDN": "Content Delivery Network (CDN)",
+    "CSS": "Cascading Style Sheets (CSS)",
     "OAuth": "Open Authorization Standard (OAuth)",
     "Hosting": "?????????????",
     "OCSP": "Online Certificate Status Protocol (OCSPs)",
 }
 
 
+# Translate the Type from Pihole's Abbreviation (CSS) to a "Presentable" Term
 def translate(abbreviation):
     if abbreviation in translations.keys():
         return translations[abbreviation]
