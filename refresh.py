@@ -211,11 +211,11 @@ for x in whitelist.keys():
                 if z["Domain"] not in Root_Domains and "Comment" not in z.keys():
                     Root_Domains.append(z["Domain"])
             # Place all unique Root Domains in a List
-            if z["Type"] == "Static Assets":
+            if z["Type"] == translate("CSS"):
                 if z["Domain"] not in Static_Assets and "Comment" not in z.keys():
                     Static_Assets.append(z["Domain"])
             # Categorize all domains under API or CDN groups
-            if z["Type"] == "API" or z["Type"] == "CDN":
+            if z["Type"] == translate("API") or z["Type"] == translate("CDN"):
                 if z["Type"] not in Database.keys():
                     Database[z["Type"]] = {z["Comment"]: [z["Domain"]]}
                 if z["Comment"] not in Database[z["Type"]].keys():
