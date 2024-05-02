@@ -165,9 +165,8 @@ translations = {
     "OCSP": "Online Certificate Status Protocol (OCSPs)",
     "NTP": "Network Time Protocol Servers (NTPs)",
     "OAuth": "Open Authorization Standard (OAuth)",
-    "DNS": "Domain Name System (DNS)",
+    "DNS": "Domain Name Systems (DNS)",
 }
-
 
 # Translate the Type from Pihole's Comment Abbreviation to a "Presentable" Term
 def translate(abbreviation):
@@ -176,16 +175,65 @@ def translate(abbreviation):
     else:
         return abbreviation
 
+# Remove Duplicates from Lists
+def remove_duplicates(l):
+    return list(set(l))
+
 # Create Files
-def create_file(Title, Roots, CSS, OCSP, NTP, OAUTH, DNS, CDN_Dict, API_Dict):
+def create_file(Title, Roots, Verified_Domains, CSS, OCSP, NTP, OAUTH, DNS, CDN_Dict, API_Dict):
     mdFile = MdUtils(file_name="README")
     mdFile.write('<h1 align="center">{}</h1>'.format(str(Title).strip()))
     mdFile.write("  \n\n")
-    mdFile.new_header(level=2, title="Root Domains", add_table_of_contents="n")
-    mdFile.insert_code(str("\n".join(Roots)).strip(), language="html")
-    mdFile.write("  \n\n")
-    mdFile.write("<br>\n")
     
+    # Root Domains
+    mdFile.new_header(level=2, title="Roots", add_table_of_contents="n")
+    mdFile.insert_code(str("\n".join(remove_duplicates(Roots))).strip(), language="html")
+    mdFile.write("  \n\n")
+    
+    if Verified_Domains:
+        
+        # Verified Domains
+        mdFile.new_header(level=2,title="Verified Domains", add_table_of_contents="n")
+        mdFile.insert_code(str("\n".join(remove_duplicates(Verified_Domains))).strip(), language="html")
+        mdFile.write("  \n\n")
+    
+    if CSS:
+    
+        # CSS Domains
+        mdFile.new_header(level=2,title="Cascading Style Sheets", add_table_of_contents="n")
+        mdFile.insert_code(str("\n".join(remove_duplicates(CSS))).strip(), language="html")
+        mdFile.write("  \n\n")
+    
+    if OCSP:
+        
+        # OCSP Domains
+        mdFile.new_header(level=2,title="Online Certificate Status Protocol", add_table_of_contents="n")
+        mdFile.insert_code(str("\n".join(remove_duplicates(OCSP))).strip(), language="html")
+        mdFile.write("  \n\n")
+    
+    if NTP:
+        
+        # NTP Domains
+        mdFile.new_header(level=2,title="Network Time Protocol Servers", add_table_of_contents="n")
+        mdFile.insert_code(str("\n".join(remove_duplicates(NTP))).strip(), language="html")
+        mdFile.write("  \n\n")
+        
+    if OAUTH:
+        
+        # OAUTH Domains
+        mdFile.new_header(level=2,title="Open Authorization Standard", add_table_of_contents="n")
+        mdFile.insert_code(str("\n".join(remove_duplicates(OAUTH))).strip(), language="html")
+        mdFile.write("  \n\n")
+    
+    if DNS:
+
+        # DNS Domains
+        mdFile.new_header(level=2,title="Domain Name Systems", add_table_of_contents="n")
+        mdFile.insert_code(str("\n".join(remove_duplicates(DNS))).strip(), language="html")
+        mdFile.write("  \n\n")
+    
+    
+    mdFile.write("<br>\n")
     Populate_Category(mdFile, "Application Programming Interface (API)", "API", API_Dict)
     Populate_Category(mdFile, "Content Delivery Networks (CDN)", "CDN", CDN_Dict)
     
@@ -200,6 +248,9 @@ CDN_Dict = {}
 
 # The home domains, the root of any domain.
 Roots = []
+
+# 
+Verified_Domains = []
 
 # CSS - Static Assets as interpreted by Pi-Hole Comments
 CSS = []
@@ -226,7 +277,12 @@ for x in whitelist.keys():
             if z["Type"] == "Domain":
                 if z["Domain"] not in Roots and "Comment" not in z.keys():
                     Roots.append(z["Domain"])
-          
+
+            # 
+            if z["Type"] == "Verified_Domain":
+                if z["Domain"] not in Verified_Domains and "Comment" not in z.keys():
+                    Verified_Domains.append(z["Domain"])
+            
             # Place all unique CSS Domains
             if z["Type"] == "CSS":
                 if z["Domain"] not in CSS and "Comment" not in z.keys():
@@ -273,7 +329,7 @@ for x in whitelist.keys():
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
-            create_file(y, Roots, CSS, OCSP, NTP, OAUTH, DNS, API_Dict, CDN_Dict)
+            create_file(y, Roots, Verified_Domains, CSS, OCSP, NTP, OAUTH, DNS, API_Dict, CDN_Dict)
        
             # Clear Dictionaries
             API_Dict.clear()
@@ -281,11 +337,13 @@ for x in whitelist.keys():
           
             # Clear Lists
             Roots.clear()
+            Verified_Domains.clear()
             CSS.clear()
             OCSP.clear()
             NTP.clear()
             OAUTH.clear()
             DNS.clear()
+
 
 """
 # Push Changes to Github
