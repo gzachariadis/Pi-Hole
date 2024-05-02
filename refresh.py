@@ -309,8 +309,8 @@ for x in whitelist.keys():
             
             if z["Type"] == "API" and "Comment" in z.keys():
                 if z["Type"] not in API_Dict.keys():
-                    print(len(z["Comment"]))
-                    print(z["Domain"])
+                    if len(z["Comment"]) == 0:
+                        print(z["Domain"])
             
             """
             # Categorize all domains under API
