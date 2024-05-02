@@ -250,7 +250,9 @@ Roots = []
 # 
 Verified_Domains = []
 
+# Catching Rogue Domains
 API = []
+CDN = []
 
 # CSS - Static Assets as interpreted by Pi-Hole Comments
 CSS = []
