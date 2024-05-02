@@ -159,7 +159,7 @@ def Populate_Category(mdFile, Title, Type, data):
 
 
 translations = {
-    "CSS_List": "Cascading Style Sheets (CSS_List)",
+    "CSS": "Cascading Style Sheets (CSS)",
     "CDN": "Content Delivery Network (CDN)",
     "API": "Application Programming Interface (API)",
     "OCSP": "Online Certificate Status Protocol (OCSPs)",
@@ -177,12 +177,12 @@ def translate(abbreviation):
         return abbreviation
 
 # Create Files
-def create_file(Title, Root_Domains, data):
+def create_file(Title, Roots, data):
     mdFile = MdUtils(file_name="README")
     mdFile.write('<h1 align="center">{}</h1>'.format(str(Title).strip()))
     mdFile.write("  \n\n")
     mdFile.new_header(level=2, title="Root Domains", add_table_of_contents="n")
-    mdFile.insert_code(str("\n".join(Root_Domains)).strip(), language="html")
+    mdFile.insert_code(str("\n".join(Roots)).strip(), language="html")
     mdFile.write("  \n\n")
     mdFile.write("<br>\n")
 
@@ -198,22 +198,22 @@ API_Dict = {}
 CDN_Dict = {}
 
 # The home domains, the root of any domain.
-Root_Domains = []
+Roots = []
 
 # CSS - Static Assets as interpreted by Pi-Hole Comments
-CSS_List = []
+CSS = []
 
 # OCSP - Online Certificate Status Protocol (OCSP)
-OCSP_List = []
+OCSP = []
 
 # NTP - Network Time Protocol Servers (NTPs)
-NTP_List = []
+NTP = []
 
 # OAuth - Open Authorization Standard (OAuth)
-OAuth_List = []
+OAUTH = []
 
 # DNS - Domain Name System (DNS)
-DNS_List = []
+DNS = []
 
 
 # For each Category in the Whitelist
@@ -223,14 +223,44 @@ for x in whitelist.keys():
           
             # Place all unique Root Domains in a List
             if z["Type"] == "Domain":
-                if z["Domain"] not in Root_Domains and "Comment" not in z.keys():
-                    Root_Domains.append(z["Domain"])
+                if z["Domain"] not in Roots and "Comment" not in z.keys():
+                    Roots.append(z["Domain"])
           
-            # Place all unique Root Domains in a List
-            if z["Type"] == "CSS_List":
-                if z["Domain"] not in CSS_List and "Comment" not in z.keys():
-                    CSS_List.append(z["Domain"])
+            # Place all unique CSS Domains
+            if z["Type"] == "CSS":
+                if z["Domain"] not in CSS and "Comment" not in z.keys():
+                    CSS.append(z["Domain"])
             
+            # Place all unique oCSP Domains
+            if z["Type"] == "OCSP":
+                if z["Domain"] not in OCSP and "Comment" not in z.keys():
+                    OCSP.append(z["Domain"])
+            
+            # Place all unique NTP Domains
+            if z["Type"] == "NTP":
+                if z["Domain"] not in NTP and "Comment" not in z.keys():
+                    NTP.append(z["Domain"])
+            
+            # Place all unique DNS Domains
+            if z["Type"] == "DNS":
+                if z["Domain"] not in DNS and "Comment" not in z.keys():
+                    DNS.append(z["Domain"])
+            
+            # Place all unique DNS Domains
+            if z["Type"] == "OAuth":
+                if z["Domain"] not in OAUTH and "Comment" not in z.keys():
+                    OAUTH.append(z["Domain"])
+            
+            
+            print(Roots)
+            print(CSS)
+            print(OCSP)
+            print(NTP)
+            print(DNS)
+            print(OAUTH)
+            
+            
+            """
             # Categorize all domains under API
             if z["Type"] == "API" and "Comment" in z.keys():
                 if z["Type"] not in API_Dict.keys():
@@ -252,17 +282,17 @@ for x in whitelist.keys():
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
-            create_file(y, Root_Domains, API_Dict)
+            create_file(y, Roots, API_Dict)
             API_Dict.clear()
             CDN_Dict.clear()
-            
-            # Clear Lists
-            Root_Domains.clear()
-            CSS_List.clear()
-            OCSP_List.clear()
-            NTP_List.clear()
-            OAuth_List.clear()
-            DNS_List.clear()
+        """    
+        # Clear Lists
+        Roots.clear()
+        CSS.clear()
+        OCSP_List.clear()
+        NTP_List.clear()
+        OAuth_List.clear()
+        DNS_List.clear()
 
 """
 # Push Changes to Github
