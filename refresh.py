@@ -230,10 +230,20 @@ def create_file(Title, Roots, Verified_Domains, CSS, OCSP, NTP, OAUTH, DNS, CDN_
         mdFile.insert_code(str("\n".join(remove_duplicates(DNS))).strip(), language="html")
         mdFile.write("  \n\n")
     
-    mdFile.write("<br>\n")
-    # Populate_Category(mdFile, "Application Programming Interface (API)", API_Dict)
-    Populate_Category(mdFile, "Content Delivery Networks (CDN)", CDN_Dict)
-    
+    if API:
+        
+        # API Domains
+        mdFile.new_header(level=2,title="Application Programming Interfaces (APIs)", add_table_of_contents="n")
+        mdFile.insert_code(str("\n".join(remove_duplicates(API))).strip(), language="html")
+        mdFile.write("  \n\n")
+        
+    if not API_Dict:
+        
+        mdFile.write("<br>\n")
+        Populate_Category(mdFile, "Application Programming Interface (API)", API_Dict)
+        # Populate_Category(mdFile, "Content Delivery Networks (CDN)", CDN_Dict)
+        
+        
     mdFile.create_md_file()
 
 
