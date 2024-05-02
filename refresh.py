@@ -271,41 +271,49 @@ for x in whitelist.keys():
     for y in whitelist[x].keys():
         for z in whitelist[x][y]:
           
-            # Place all unique Root Domains in a List
+            # Roots
             if z["Type"] == "Domain":
                 if z["Domain"] not in Roots and "Comment" not in z.keys():
                     Roots.append(z["Domain"])
 
-            # 
+            # Verified Domains
             if z["Type"] == "Verified_Domain":
                 if z["Domain"] not in Verified_Domains and "Comment" not in z.keys():
                     Verified_Domains.append(z["Domain"])
             
-            # Place all unique CSS Domains
+            # CSS Domains
             if z["Type"] == "CSS":
                 if z["Domain"] not in CSS and "Comment" not in z.keys():
                     CSS.append(z["Domain"])
             
-            # Place all unique oCSP Domains
+            # OCSP Domains
             if z["Type"] == "OCSP":
                 if z["Domain"] not in OCSP and "Comment" not in z.keys():
                     OCSP.append(z["Domain"])
             
-            # Place all unique NTP Domains
+            # NTP Domains
             if z["Type"] == "NTP":
                 if z["Domain"] not in NTP and "Comment" not in z.keys():
                     NTP.append(z["Domain"])
             
-            # Place all unique DNS Domains
+            # DNS Domains
             if z["Type"] == "DNS":
                 if z["Domain"] not in DNS and "Comment" not in z.keys():
                     DNS.append(z["Domain"])
             
-            # Place all unique DNS Domains
+            # OAUTH Domains
             if z["Type"] == "OAuth":
                 if z["Domain"] not in OAUTH and "Comment" not in z.keys():
                     OAUTH.append(z["Domain"])
             
+            
+            if z["Type"] == "API" and "Comment" in z.keys():
+                if z["Type"] not in API_Dict.keys():
+                    print(z["Type"])
+                    print(z["Comment"])
+                    print(z["Domain"])
+            
+            """
             # Categorize all domains under API
             if z["Type"] == "API" and "Comment" in z.keys():
                 if z["Type"] not in API_Dict.keys():
@@ -314,7 +322,7 @@ for x in whitelist.keys():
                     API_Dict[z["Type"]][z["Comment"]] = [z["Domain"]]
                 elif z["Domain"] not in list(API_Dict[z["Type"]][z["Comment"]]):
                     API_Dict[z["Type"]][z["Comment"]].append(z["Domain"])    
-
+                    
             # Categorize all domains under CDN
             if z["Type"] == "CDN" and "Comment" in z.keys():
                 if z["Type"] not in CDN_Dict.keys():
@@ -324,6 +332,8 @@ for x in whitelist.keys():
                 elif z["Domain"] not in list(CDN_Dict[z["Type"]][z["Comment"]]):
                     CDN_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
 
+            """
+            
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
