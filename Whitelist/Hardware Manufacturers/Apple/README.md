@@ -12,13 +12,13 @@ www.apple.com
 ```  
 
 
-## Online Certificate Status Protocol
+## Online Certificate Status Protocol (OCSPs)
 
 
 ```html
-ocsp.entrust.net
-ocsp.apple.com
 ocsp.verisign.net
+ocsp.apple.com
+ocsp.entrust.net
 ```  
 
 
@@ -30,3 +30,4 @@ ns.itunes.apple.com
 doh.dns.apple.com
 ```  
 
+<br>

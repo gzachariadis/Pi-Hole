@@ -8,16 +8,17 @@
 
 
 ```html
-www.digicert.com
 digicert.com
+www.digicert.com
 ```  
 
 
-## Online Certificate Status Protocol
+## Online Certificate Status Protocol (OCSPs)
 
 
 ```html
-cacerts.digicert.com
 ocsp.digicert.com
+cacerts.digicert.com
 ```  
 
+<br>

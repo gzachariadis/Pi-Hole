@@ -8,15 +8,15 @@
 
 
 ```html
-www.dropbox.com
 db.tt
-dropbox.com
 dropboxinsiders.com
+dropbox.com
+www.dropbox.com
 dropboxbusiness.com
 ```  
 
 
-## Cascading Style Sheets
+## Cascading Style Sheets (CSS)
 
 
 ```html
@@ -29,7 +29,8 @@ www.dropboxstatic.com
 
 
 ```html
-ns2.dropbox.com
 ns1.dropbox.com
+ns2.dropbox.com
 ```  
 
+<br>

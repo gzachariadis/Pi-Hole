@@ -13,19 +13,20 @@ reddit.com
 ```  
 
 
-## Cascading Style Sheets
+## Cascading Style Sheets (CSS)
 
 
 ```html
-www.redditstatic.com
 styles.redditmedia.com
+www.redditstatic.com
 ```  
 
 
-## Open Authorization Standard
+## Open Authorization Standard (OAuth)
 
 
 ```html
 oauth.reddit.com
 ```  
 
+<br>

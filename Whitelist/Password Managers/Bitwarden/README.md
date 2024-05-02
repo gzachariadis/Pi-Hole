@@ -8,16 +8,17 @@
 
 
 ```html
-bitwarden.com
 www.bitwarden.com
+bitwarden.com
 ```  
 
 
-## Cascading Style Sheets
+## Cascading Style Sheets (CSS)
 
 
 ```html
-icons.bitwarden.net
 vault.bitwarden.com
+icons.bitwarden.net
 ```  
 
+<br>
