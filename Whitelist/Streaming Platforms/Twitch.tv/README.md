@@ -8,13 +8,13 @@
 
 
 ```html
-ttvnw.net
-m.twitch.tv
 twitch.tv
-www.ttvnw.net
 www.twitch.tv
-www.jtvnw.net
 jtvnw.net
+www.ttvnw.net
+www.jtvnw.net
+m.twitch.tv
+ttvnw.net
 ```  
 
 
@@ -40,9 +40,9 @@ id.twitch.tv
 
 
 ```html
-api.twitch.tv
-gql.twitch.tv
 api-gql-test.twitch.tv
+gql.twitch.tv
+api.twitch.tv
 ```  
 
 <br>

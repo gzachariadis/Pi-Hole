@@ -8,9 +8,9 @@
 
 
 ```html
-www.github.com
-github.io
 github.com
+github.io
+www.github.com
 ```  
 
 
