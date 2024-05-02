@@ -236,8 +236,8 @@ for x in whitelist.keys():
             if "Comment" not in z.keys():
                 # Create Type
                 if z["Type"] not in Static_Types.keys():
-                    z["Type"] = [z["Domain"]]
-                    continue
+                    Static_Types[z["Type"]] = [z["Domain"]]
+                    continue    
                 
                 elif z["Type"] in Static_Types.keys():
                     Static_Types[z["Type"]].append(z["Domain"])
