@@ -39,28 +39,46 @@ check inside for README.md file
 
 
 - Domain
+
     - Root Domains
 
+- Verified Domains
+
+    - Domains that are Verified to belong to the entity, but have no specific purpose that matches the other categories, like sub domain pages.
+
 - Media Delivery
-    - Videos, Pictures etc.
+
+    - Multimedia (Videos, Pictures, Sound)
+    - Thumbnails
+    - Files
+    - Assets
 
 - Software Delivery
+
     - Application Updates
     - Download Software
+    - Firmware Updates
 
-- CSS
-    - Translation : Static Assets - Cascading Style Sheets (CSS)
+- CSS - Cascading Style Sheets (CSS)
+
+    - Static Assets 
 
 - Authentication 
+
     - Login, Password Reset etc. etc.
 
-- CDN 
-    - Translation : Content Delivery Network (CDNs)
+- CDN - Content Delivery Network (CDNs)
+
     - Anything that transfers info
 
-- API
-    - Translation : Application Programming Interface (APIs)
-    - Datatabase Actions
+- API - Application Programming Interface (APIs)
+    
+    - Database Actions
 
-- OCSP
-    - Online Certificate Status Protocol
+- OCSP - Online Certificate Status Protocol (OCSP)
+
+    - Certificate Issuing Services
+
+- NTP - Network Time Protocol Servers (NTPs)
+
+    - Various NTP Servers

@@ -42,6 +42,7 @@ translations = {
     "OAuth": "Open Authorization Standard (OAuth)",
     "Hosting": "?????????????",
     "OCSP": "Online Certificate Status Protocol (OCSPs)",
+    "DNS": "Domain Name System (DNS)",
 }
 
 
