@@ -8,11 +8,10 @@
 
 
 ```html
-inbox.google.com
 googlemail.com
-gmail.com
 mail.google.com
+inbox.google.com
 mobile-mail.google.com
+gmail.com
 ```  
 
-<br>

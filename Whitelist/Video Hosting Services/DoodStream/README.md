@@ -20,4 +20,3 @@ d000d.com
 static.doodcdn.co
 ```  
 
-<br>

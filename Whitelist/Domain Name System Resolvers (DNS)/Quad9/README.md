@@ -8,8 +8,7 @@
 
 
 ```html
-quad9.com
 quad9.net
+quad9.com
 ```  
 
-<br>

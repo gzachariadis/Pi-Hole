@@ -8,30 +8,30 @@
 
 
 ```html
-icloud.is
+icloud.de
 apple-icloud.cn
-icloud.ee
 icloud.lv
-icloud.org
 icloud.si
 icloud.se
+icloud.com.cn
+icloud.apple
+icloud.jp
+icloud.ro
+icloud.ee
+icloud.ch
+icloud.org
+icloud.fr
 icloud.pt
+icloud.vn
 icloud.ie
 www.icloud.com
-icloud.jp
-icloud.de
-icloud.apple
-icloud.fi
-icloud.fr
-icloud.hu
-icloud.com.cn
-icloud.ch
 icloud.sk
-icloud.vn
+icloud.om
+icloud.is
+icloud.fi
 icloud.net.cn
 icloud.com
-icloud.om
-icloud.ro
+icloud.hu
 ```  
 
 
@@ -42,4 +42,3 @@ icloud.ro
 gateway.fe.apple-dns.net
 ```  
 
-<br>

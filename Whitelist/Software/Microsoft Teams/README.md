@@ -13,4 +13,3 @@ teams.microsoft.us
 teams.skype.com
 ```  
 
-<br>

@@ -8,9 +8,9 @@
 
 
 ```html
-www.github.com
 github.com
 github.io
+www.github.com
 ```  
 
 
@@ -21,4 +21,3 @@ github.io
 github.githubassets.com
 ```  
 
-<br>
