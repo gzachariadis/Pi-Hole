@@ -11,7 +11,7 @@ import subprocess
 root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
 whitelist = {}
 
-# Command to Fetch Whitelist from Database
+# Command to Fetch Whitelist from API_Dict
 command = " ".join(
     [
         "sqlite3",
@@ -36,7 +36,7 @@ command = " ".join(
 )
 
 translations = {
-    "CSS": "Cascading Style Sheets (CSS)",
+    "CSS_List": "Cascading Style Sheets (CSS_List)",
     "CDN": "Content Delivery Network (CDN)",
     "API": "Application Programming Interface (API)",
     "OCSP": "Online Certificate Status Protocol (OCSPs)",
@@ -195,43 +195,78 @@ def create_file(Title, Root_Domains, data):
     mdFile.create_md_file()
 
 
-# The core of the data, regarding each domain, it's Type (CDN or API)  etc.
-Database = {}
+# API - Application Programming Interface (APIs)
+API_Dict = {}
+
+# CDN - Content Delivery Network (CDNs)
+CDN_Dict = {}
 
 # The home domains, the root of any domain.
 Root_Domains = []
 
-# Static Assets = icons, thumbnails, buttons etc. that are rendered from different domains (eg. icons.bitwarden.com) - so anything CSS.
-Static_Assets = []
+# CSS - Static Assets as interpreted by Pi-Hole Comments
+CSS_List = []
+
+# OCSP - Online Certificate Status Protocol (OCSP)
+OCSP_List = []
+
+# NTP - Network Time Protocol Servers (NTPs)
+NTP_List = []
+
+# OAuth - Open Authorization Standard (OAuth)
+OAuth_List = []
+
+# DNS - Domain Name System (DNS)
+DNS_List = []
+
 
 # For each Category in the Whitelist
 for x in whitelist.keys():
     for y in whitelist[x].keys():
         for z in whitelist[x][y]:
+          
             # Place all unique Root Domains in a List
             if z["Type"] == "Domain":
                 if z["Domain"] not in Root_Domains and "Comment" not in z.keys():
                     Root_Domains.append(z["Domain"])
+          
             # Place all unique Root Domains in a List
-            if z["Type"] == translate("CSS"):
-                if z["Domain"] not in Static_Assets and "Comment" not in z.keys():
-                    Static_Assets.append(z["Domain"])
-            # Categorize all domains under API or CDN groups
-            if z["Type"] == translate("API") or z["Type"] == translate("CDN"):
-                if z["Type"] not in Database.keys():
-                    Database[z["Type"]] = {z["Comment"]: [z["Domain"]]}
-                if z["Comment"] not in Database[z["Type"]].keys():
-                    Database[z["Type"]][z["Comment"]] = [z["Domain"]]
-                elif z["Domain"] not in list(Database[z["Type"]][z["Comment"]]):
-                    Database[z["Type"]][z["Comment"]].append(z["Domain"])
+            if z["Type"] == translate("CSS_List"):
+                if z["Domain"] not in CSS_List and "Comment" not in z.keys():
+                    CSS_List.append(z["Domain"])
+            
+            # Categorize all domains under API
+            if z["Type"] == translate("API"):
+                if z["Type"] not in API_Dict.keys():
+                    API_Dict[z["Type"]] = {z["Comment"]: [z["Domain"]]}
+                if z["Comment"] not in API_Dict[z["Type"]].keys():
+                    API_Dict[z["Type"]][z["Comment"]] = [z["Domain"]]
+                elif z["Domain"] not in list(API_Dict[z["Type"]][z["Comment"]]):
+                    API_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
+            
+            # Categorize all domains under CDN
+            if z["Type"] == translate("CDN"):
+                if z["Type"] not in CDN_Dict.keys():
+                    CDN_Dict[z["Type"]] = {z["Comment"]: [z["Domain"]]}
+                if z["Comment"] not in API_Dict[z["Type"]].keys():
+                    CDN_Dict[z["Type"]][z["Comment"]] = [z["Domain"]]
+                elif z["Domain"] not in list(CDN_Dict[z["Type"]][z["Comment"]]):
+                    CDN_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
 
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
-            create_file(y, Root_Domains, Database)
-            Database.clear()
+            create_file(y, Root_Domains, API_Dict)
+            API_Dict.clear()
+            CDN_Dict.clear()
+            
+            # Clear Lists
             Root_Domains.clear()
-            Static_Assets.clear()
+            CSS_List.clear()
+            OCSP_List.clear()
+            NTP_List.clear()
+            OAuth_List.clear()
+            DNS_List.clear()
 
 """
 # Push Changes to Github

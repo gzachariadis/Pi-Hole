@@ -51,7 +51,7 @@ check inside for README.md file
     - Multimedia (Videos, Pictures, Sound)
     - Thumbnails
     - Files
-    - Assets
+    - Assets (icons)
 
 - Software Delivery
 
