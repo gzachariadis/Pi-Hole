@@ -4,12 +4,20 @@
 <h1 align="center">Steam</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
-steamcommunity.com
 steampowered.com
+steamcommunity.com
+```  
+
+
+## Cascading Style Sheets
+
+
+```html
+steamstatic.com
 ```  
 
 <br>

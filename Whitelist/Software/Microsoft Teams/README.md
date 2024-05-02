@@ -4,7 +4,7 @@
 <h1 align="center">Microsoft Teams</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html

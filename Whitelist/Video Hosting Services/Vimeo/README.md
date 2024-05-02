@@ -4,7 +4,7 @@
 <h1 align="center">Vimeo</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html

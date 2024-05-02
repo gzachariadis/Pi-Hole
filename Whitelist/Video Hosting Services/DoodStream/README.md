@@ -4,12 +4,20 @@
 <h1 align="center">DoodStream</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
-d000d.com
 doodstream.com
+d000d.com
+```  
+
+
+## Cascading Style Sheets
+
+
+```html
+static.doodcdn.co
 ```  
 
 <br>

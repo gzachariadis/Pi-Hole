@@ -4,14 +4,14 @@
 <h1 align="center">Amazon Video</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
+www.amazonvideo.com
 amazonvideo.com
 primevideo.com
 www.primevideo.com
-www.amazonvideo.com
 ```  
 
 <br>

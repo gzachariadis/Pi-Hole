@@ -4,13 +4,13 @@
 <h1 align="center">Discord</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
-discord.com
 discord.gg
 discordapp.com
+discord.com
 ```  
 
 <br>

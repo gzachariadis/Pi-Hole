@@ -4,34 +4,42 @@
 <h1 align="center">Apple iCloud</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
 icloud.is
-icloud.jp
-icloud.lv
-icloud.om
-icloud.org
-icloud.pt
-icloud.ro
-icloud.se
-icloud.si
-icloud.ie
-icloud.hu
-icloud.fr
-icloud.fi
+apple-icloud.cn
 icloud.ee
+icloud.lv
+icloud.org
+icloud.si
+icloud.se
+icloud.pt
+icloud.ie
+www.icloud.com
+icloud.jp
 icloud.de
+icloud.apple
+icloud.fi
+icloud.fr
+icloud.hu
+icloud.com.cn
 icloud.ch
 icloud.sk
 icloud.vn
-icloud.apple
-icloud.com
-icloud.com.cn
-www.icloud.com
-apple-icloud.cn
 icloud.net.cn
+icloud.com
+icloud.om
+icloud.ro
+```  
+
+
+## Domain Name Systems
+
+
+```html
+gateway.fe.apple-dns.net
 ```  
 
 <br>

@@ -4,12 +4,21 @@
 <h1 align="center">Bitwarden</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
-www.bitwarden.com
 bitwarden.com
+www.bitwarden.com
+```  
+
+
+## Cascading Style Sheets
+
+
+```html
+icons.bitwarden.net
+vault.bitwarden.com
 ```  
 
 <br>
