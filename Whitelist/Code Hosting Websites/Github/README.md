@@ -4,13 +4,37 @@
 <h1 align="center">Github</h1>  
 
 
+## API
+
+
+```html
+api.github.com
+```  
+
+
+## CDN
+
+
+```html
+cdnjs.cloudflare.com
+```  
+
+
+## CSS
+
+
+```html
+github.githubassets.com
+```  
+
+
 ## Domain
 
 
 ```html
+github.io
 www.github.com
 github.com
-github.io
 ```  
 
 
@@ -30,45 +54,21 @@ gitter.im
 ```  
 
 
-## API
-
-
-```html
-api.github.com
-```  
-
-
-## CSS
-
-
-```html
-github.githubassets.com
-```  
-
-
-## CDN
-
-
-```html
-cdnjs.cloudflare.com
-```  
-
-
 ## Media Delivery
 
 
 ```html
-githubassets.com
-camo.githubusercontent.com
-gist.githubusercontent.com
-avatars.githubusercontent.com
 raw.githubusercontent.com
-gist.github.com
+githubassets.com
 githubusercontent.com
+camo.githubusercontent.com
+gist.github.com
+avatars.githubusercontent.com
+gist.githubusercontent.com
 ```  
 
 
-## Verified Domain
+## Verified Domains
 
 
 ```html
