@@ -290,7 +290,11 @@ def Check(Type,Expected_Value,domain,lst,data):
 for x in whitelist.keys():
     for y in whitelist[x].keys():
         for z in whitelist[x][y]:
-          
+            
+            print(x)
+            print(y)
+            print(z)
+            
             # Roots
             if Check(z["Type"],"Domain",z["Domain"],Roots,z.keys()):
                 Roots.append(z["Domain"])
