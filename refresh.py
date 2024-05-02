@@ -122,8 +122,8 @@ try:
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
 
-# print(json.dumps(whitelist, sort_keys=False, indent=4))
-
+print(json.dumps(whitelist["Hardware Manufacturers"]["Apple"], sort_keys=False, indent=4))
+sys.exit()
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 
@@ -272,7 +272,7 @@ for x in whitelist.keys():
                                 continue
                 """
         
-        print(json.dumps(Static_Types, sort_keys=False, indent=4))
+        # print(json.dumps(Static_Types, sort_keys=False, indent=4))
                                 
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
