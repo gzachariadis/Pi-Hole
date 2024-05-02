@@ -4,16 +4,16 @@
 <h1 align="center">Apple Music</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-www.music.apple.com
 music.apple.com
+www.music.apple.com
 ```  
 
 
-## Cascading Style Sheets (CSS)
+## CSS
 
 
 ```html

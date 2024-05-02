@@ -4,11 +4,11 @@
 <h1 align="center">Stack Overflow</h1>  
 
 
-## Roots
+## CDN
 
 
 ```html
-
+cdn.sstatic.net
 ```  
 
 <br>

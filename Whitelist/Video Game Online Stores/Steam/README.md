@@ -4,7 +4,7 @@
 <h1 align="center">Steam</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
@@ -13,11 +13,35 @@ steampowered.com
 ```  
 
 
-## Cascading Style Sheets (CSS)
+## CSS
 
 
 ```html
 steamstatic.com
+```  
+
+
+## CDN
+
+
+```html
+steamcontent.com
+```  
+
+
+## Media Delivery
+
+
+```html
+steamusercontent.com
+```  
+
+
+## Software Delivery
+
+
+```html
+valvesoftware.com
 ```  
 
 <br>

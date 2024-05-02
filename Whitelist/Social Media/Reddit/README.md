@@ -4,7 +4,7 @@
 <h1 align="center">Reddit</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
@@ -13,16 +13,25 @@ reddit.com
 ```  
 
 
-## Cascading Style Sheets (CSS)
+## API
 
 
 ```html
-styles.redditmedia.com
-www.redditstatic.com
+gql.reddit.com
+gql-fed.reddit.com
 ```  
 
 
-## Open Authorization Standard (OAuth)
+## CSS
+
+
+```html
+www.redditstatic.com
+styles.redditmedia.com
+```  
+
+
+## OAuth
 
 
 ```html
@@ -30,12 +39,15 @@ oauth.reddit.com
 ```  
 
 
-## Application Programming Interfaces (APIs)
+## Media Delivery
 
 
 ```html
-gql.reddit.com
-gql-fed.reddit.com
+www.redditmedia.com
+v.redd.it
+preview.redd.it
+i.redd.it
+packaged-media.redd.it
 ```  
 
 <br>

@@ -4,42 +4,79 @@
 <h1 align="center">Dropbox</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
 dropbox.com
-www.dropbox.com
-db.tt
 dropboxinsiders.com
+db.tt
+www.dropbox.com
 dropboxbusiness.com
 ```  
 
 
-## Cascading Style Sheets (CSS)
-
-
-```html
-dropboxstatic.com
-www.dropboxstatic.com
-```  
-
-
-## Domain Name Systems
-
-
-```html
-ns1.dropbox.com
-ns2.dropbox.com
-```  
-
-
-## Application Programming Interfaces (APIs)
+## API
 
 
 ```html
 www.dropboxapi.com
 dropboxapi.com
+```  
+
+
+## CSS
+
+
+```html
+www.dropboxstatic.com
+dropboxstatic.com
+```  
+
+
+## Software Delivery
+
+
+```html
+dl.dropbox.com
+dl.dropboxusercontent.com
+getdropbox.com
+www.getdropbox.com
+```  
+
+
+## Media Delivery
+
+
+```html
+dropboxusercontent.com
+```  
+
+
+## Payment Processing
+
+
+```html
+dropboxpayments.com
+```  
+
+
+## DNS
+
+
+```html
+ns2.dropbox.com
+ns1.dropbox.com
+```  
+
+
+## Verified Domain
+
+
+```html
+dropboxpartners.com
+dropbox.tech
+dropboxteam.com
 ```  
 
 <br>

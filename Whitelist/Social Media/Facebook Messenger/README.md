@@ -4,17 +4,37 @@
 <h1 align="center">Facebook Messenger</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-m.facebook.com
-www.facebook.com
 facebook.com
+www.facebook.com
+m.facebook.com
 ```  
 
 
-## Application Programming Interfaces (APIs)
+## Direct Messages (DMs)
+
+
+```html
+l.facebook.com
+chat-e2ee-mini.facebook.com
+cdn.fbsbx.com
+scontent.xx.fbcdn.net
+```  
+
+
+## Authentication
+
+
+```html
+connect.facebook.net
+gateway.facebook.com
+```  
+
+
+## API
 
 
 ```html

@@ -4,17 +4,34 @@
 <h1 align="center">Facebook</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-m.facebook.com
-www.facebook.com
 facebook.com
+www.facebook.com
+m.facebook.com
 ```  
 
 
-## Application Programming Interfaces (APIs)
+## Authentication
+
+
+```html
+connect.facebook.net
+gateway.facebook.com
+```  
+
+
+## Direct Messages (DMs)
+
+
+```html
+l.facebook.com
+```  
+
+
+## API
 
 
 ```html

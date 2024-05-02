@@ -4,7 +4,15 @@
 <h1 align="center">Google Play Store</h1>  
 
 
-## Roots
+## Google Play Store
+
+
+```html
+appspot-preview.l.google.com
+```  
+
+
+## Domain
 
 
 ```html
@@ -12,14 +20,22 @@ play.google.com
 ```  
 
 
-## Application Programming Interfaces (APIs)
+## API
 
 
 ```html
-android.googleapis.com
 play-fe.googleapis.com
+android.googleapis.com
 play.googleapis.com
 android.apis.google.com
+```  
+
+
+## CDN
+
+
+```html
+play-lh.googleusercontent.com
 ```  
 
 <br>

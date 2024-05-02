@@ -4,16 +4,16 @@
 <h1 align="center">FMovies</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-www.fmoviesz.to
 fmoviesz.to
+www.fmoviesz.to
 ```  
 
 
-## Cascading Style Sheets (CSS)
+## CSS
 
 
 ```html

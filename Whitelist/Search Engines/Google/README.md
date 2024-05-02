@@ -4,7 +4,7 @@
 <h1 align="center">Google</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
@@ -12,7 +12,15 @@ www.google.com
 ```  
 
 
-## Cascading Style Sheets (CSS)
+## Authentication
+
+
+```html
+accounts.google.com
+```  
+
+
+## CSS
 
 
 ```html
@@ -21,7 +29,15 @@ ssl.gstatic.com
 ```  
 
 
-## Application Programming Interfaces (APIs)
+## Software Delivery
+
+
+```html
+geller-pa.googleapis.com
+```  
+
+
+## API
 
 
 ```html

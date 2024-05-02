@@ -4,12 +4,20 @@
 <h1 align="center">StreamTape</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-streamtape.com
 streamvid.net
+streamtape.com
+```  
+
+
+## Media Delivery
+
+
+```html
+b1.trafficdeposit.com
 ```  
 
 <br>

@@ -4,38 +4,72 @@
 <h1 align="center">Apple iCloud</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
 icloud.ie
-www.icloud.com
 icloud.hu
-icloud.de
-icloud.is
-icloud.pt
-icloud.se
-icloud.ro
-icloud.apple
-icloud.com.cn
-icloud.lv
-icloud.sk
-icloud.org
-icloud.si
 icloud.jp
 icloud.fi
-icloud.com
-apple-icloud.cn
-icloud.om
-icloud.fr
-icloud.net.cn
-icloud.vn
-icloud.ee
+icloud.pt
 icloud.ch
+icloud.ro
+icloud.com.cn
+icloud.si
+icloud.lv
+icloud.is
+icloud.se
+icloud.vn
+icloud.com
+icloud.org
+www.icloud.com
+icloud.net.cn
+icloud.fr
+icloud.om
+apple-icloud.cn
+icloud.de
+icloud.sk
+icloud.ee
 ```  
 
 
-## Domain Name Systems
+## CDN
+
+
+```html
+www-cdn.icloud.com.akadns.net
+icloud-content.com
+```  
+
+
+## API
+
+
+```html
+api-edge.apps.apple.com
+api.apps.apple.com
+```  
+
+
+## Verified Domains
+
+
+```html
+support.apple.com
+km.support.apple.com
+```  
+
+
+## Media Delivery
+
+
+```html
+www.icloud-content.com
+```  
+
+
+## DNS
 
 
 ```html
@@ -43,12 +77,11 @@ gateway.fe.apple-dns.net
 ```  
 
 
-## Application Programming Interfaces (APIs)
+## Verified Domain
 
 
 ```html
-api.apps.apple.com
-api-edge.apps.apple.com
+invitation.ess.apple.com
 ```  
 
 <br>

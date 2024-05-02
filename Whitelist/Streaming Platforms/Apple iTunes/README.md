@@ -4,12 +4,12 @@
 <h1 align="center">Apple iTunes</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-www.itunes.com
 itunes.apple.com
+www.itunes.com
 itunes.com
 ```  
 

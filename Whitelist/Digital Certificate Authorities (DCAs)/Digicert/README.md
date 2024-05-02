@@ -4,7 +4,7 @@
 <h1 align="center">Digicert</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
@@ -13,12 +13,12 @@ digicert.com
 ```  
 
 
-## Online Certificate Status Protocol (OCSPs)
+## OCSP
 
 
 ```html
-cacerts.digicert.com
 ocsp.digicert.com
+cacerts.digicert.com
 ```  
 
 <br>

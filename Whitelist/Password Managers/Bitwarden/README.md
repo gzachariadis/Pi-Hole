@@ -4,16 +4,16 @@
 <h1 align="center">Bitwarden</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-bitwarden.com
 www.bitwarden.com
+bitwarden.com
 ```  
 
 
-## Cascading Style Sheets (CSS)
+## CSS
 
 
 ```html
