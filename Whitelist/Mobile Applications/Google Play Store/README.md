@@ -16,10 +16,10 @@ play.google.com
 
 
 ```html
-play-fe.googleapis.com
-android.apis.google.com
 android.googleapis.com
+play-fe.googleapis.com
 play.googleapis.com
+android.apis.google.com
 ```  
 
 <br>

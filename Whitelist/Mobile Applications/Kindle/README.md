@@ -8,10 +8,10 @@
 
 
 ```html
-www.amazon.co.uk
-www.amazon.com
 amazon.com
 amazon.co.uk
+www.amazon.com
+www.amazon.co.uk
 ```  
 
 
@@ -19,9 +19,9 @@ amazon.co.uk
 
 
 ```html
+api.audible.co.uk
 api.amazon.co.uk
 api.amazon.com
-api.audible.co.uk
 ```  
 
 <br>

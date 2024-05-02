@@ -16,9 +16,9 @@ www.apple.com
 
 
 ```html
-ocsp.entrust.net
-ocsp.verisign.net
 ocsp.apple.com
+ocsp.verisign.net
+ocsp.entrust.net
 ```  
 
 

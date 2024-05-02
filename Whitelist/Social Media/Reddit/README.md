@@ -8,8 +8,8 @@
 
 
 ```html
-reddit.com
 www.reddit.com
+reddit.com
 ```  
 
 
@@ -17,8 +17,8 @@ www.reddit.com
 
 
 ```html
-www.redditstatic.com
 styles.redditmedia.com
+www.redditstatic.com
 ```  
 
 
@@ -34,8 +34,8 @@ oauth.reddit.com
 
 
 ```html
-gql-fed.reddit.com
 gql.reddit.com
+gql-fed.reddit.com
 ```  
 
 <br>

@@ -8,9 +8,9 @@
 
 
 ```html
-duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion
-www.duckduckgo.com
 duckduckgo.com
+www.duckduckgo.com
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion
 ```  
 
 <br>

@@ -8,8 +8,8 @@
 
 
 ```html
-discord.com
 discordapp.com
+discord.com
 discord.gg
 ```  
 
