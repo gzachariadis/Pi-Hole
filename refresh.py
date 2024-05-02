@@ -184,164 +184,78 @@ def create_file(Title, Roots, Verified_Domains, CSS, OCSP, NTP, OAUTH, DNS, CDN_
     mdFile.write("  \n\n")
     
     # Root Domains
-    mdFile.new_header(level=2, title="Roots", add_table_of_contents="n")
+    mdFile.new_header(level=2, title="Root Domains", add_table_of_contents="n")
     mdFile.insert_code(str("\n".join(remove_duplicates(Roots))).strip(), language="html")
     mdFile.write("  \n\n")
-    
-    if Verified_Domains:
-    
-        # Verified Domains
-        mdFile.new_header(level=2,title="Verified Domains", add_table_of_contents="n")
-        mdFile.insert_code(str("\n".join(remove_duplicates(Verified_Domains))).strip(), language="html")
-        mdFile.write("  \n\n")
-    
-    if CSS:
-    
-        # CSS Domains
-        mdFile.new_header(level=2,title="Cascading Style Sheets (CSS)", add_table_of_contents="n")
-        mdFile.insert_code(str("\n".join(remove_duplicates(CSS))).strip(), language="html")
-        mdFile.write("  \n\n")
-    
-    if OCSP:
-        
-        # OCSP Domains
-        mdFile.new_header(level=2,title="Online Certificate Status Protocol (OCSPs)", add_table_of_contents="n")
-        mdFile.insert_code(str("\n".join(remove_duplicates(OCSP))).strip(), language="html")
-        mdFile.write("  \n\n")
-    
-    if NTP:
-        
-        # NTP Domains
-        mdFile.new_header(level=2,title="Network Time Protocol Servers (NTPs)", add_table_of_contents="n")
-        mdFile.insert_code(str("\n".join(remove_duplicates(NTP))).strip(), language="html")
-        mdFile.write("  \n\n")
-        
-    if OAUTH:
-        
-        # OAUTH Domains
-        mdFile.new_header(level=2,title="Open Authorization Standard (OAuth)", add_table_of_contents="n")
-        mdFile.insert_code(str("\n".join(remove_duplicates(OAUTH))).strip(), language="html")
-        mdFile.write("  \n\n")
-    
-    if DNS:
-        
-        # DNS Domains
-        mdFile.new_header(level=2,title="Domain Name Systems", add_table_of_contents="n")
-        mdFile.insert_code(str("\n".join(remove_duplicates(DNS))).strip(), language="html")
-        mdFile.write("  \n\n")
-    
-    if API:
-        
-        # API Domains
-        mdFile.new_header(level=2,title="Application Programming Interfaces (APIs)", add_table_of_contents="n")
-        mdFile.insert_code(str("\n".join(remove_duplicates(API))).strip(), language="html")
-        mdFile.write("  \n\n")
-        
+
     if not API_Dict:
         
         mdFile.write("<br>\n")
         Populate_Category(mdFile, "Application Programming Interface (API)", API_Dict)
         # Populate_Category(mdFile, "Content Delivery Networks (CDN)", CDN_Dict)
-        
-        
+             
     mdFile.create_md_file()
 
 
 # API - Application Programming Interface (APIs)
+# Specialized APIs that cover a purpose
 API_Dict = {}
+
+# Core APIs - Application Programming Interface (APIs)
+# Any API that is essential for the core program/website/application and not have a specific purpose that I can find.
+API = []
 
 # CDN - Content Delivery Network (CDNs)
 CDN_Dict = {}
 
-# The home domains, the root of any domain.
-Roots = []
-
-# 
-Verified_Domains = []
-
-# Catching Rogue Domains
-API = []
+# CDNs
 CDN = []
 
-# CSS - Static Assets as interpreted by Pi-Hole Comments
-CSS = []
-
-# OCSP - Online Certificate Status Protocol (OCSP)
-OCSP = []
-
-# NTP - Network Time Protocol Servers (NTPs)
-NTP = []
-
-# OAuth - Open Authorization Standard (OAuth)
-OAUTH = []
-
-# DNS - Domain Name System (DNS)
-DNS = []
 
 
-def Check(Type,Expected_Value,domain,lst,data):
-    if Type == Expected_Value:
-        if domain not in lst and "Comment" not in data:
-            return True
-    return False
+# Static Types
+Static_Types = {}
+# 1. Root Domains - The home domains, the root of any domain.
+# 2. Verified Domains - Domains that belong to the Application/Website/Program that might have a specific purpose or be subpages. (eg. support.apple.com)
+# These are by majority static pages and urls rather than dynamic that serve some type of content or purpose.
+# 3. CSS - Static Assets as interpreted by Pi-Hole Comments
+# 4. Media Delivery - Anything that serves content - Videos, Pictures, Sound, Thumbnails, Files, Assets etc.
+# 5. Software Delivery - Application Updates, Download Software, Firmware Updates
+# 6. Authentication
 
-
-# For each Category in the Whitelist
+# Category
 for x in whitelist.keys():
+    # Group 
     for y in whitelist[x].keys():
+        # Domain
         for z in whitelist[x][y]:
             
-            print(x)
-            print(y)
-            print(z)
+            # Static Types (No Comment just type)
             
-            # Roots
-            if Check(z["Type"],"Domain",z["Domain"],Roots,z.keys()):
-                Roots.append(z["Domain"])
+            # Must have no Comment (so no additional specific purpose)
+            if "Comment" not in z.keys():
+                # Create Type
+                if z["Type"] not in Static_Types.keys():
+                    z["Type"] = [z["Domain"]]
+                    continue
                 
-            
-            # Verified Domains
-            if Check(z["Type"],"Verified Domain",z["Domain"],Verified_Domains,z.keys()):
-                Verified_Domains.append(z["Domain"])
-                
-            
-            # CSS
-            if Check(z["Type"],"CSS",z["Domain"],CSS,z.keys()):
-                CSS.append(z["Domain"])
-                
-            
-            if Check(z["Type"],"OCSP",z["Domain"],OCSP,z.keys()):
-                OCSP.append(z["Domain"])
-                
-            
-            # NTP Domains
-            if Check(z["Type"],"NTP",z["Domain"],NTP,z.keys()):
-                NTP.append(z["Domain"])
-                
-            
-            # DNS Domains
-            if Check(z["Type"],"DNS",z["Domain"],DNS,z.keys()):
-                DNS.append(z["Domain"])
-                
-                
-            # OAUTH Domains
-            if Check(z["Type"],"OAuth",z["Domain"],OAUTH,z.keys()):
-                OAUTH.append(z["Domain"])
-                
-            
+                elif z["Type"] in Static_Types.keys():
+                    Static_Types[z["Type"]].append(z["Domain"])
+                    continue
+            """
             # Core API Domains
             if z["Type"] == "API":
                 # Rogue Domains (eg. API - ) - These shouldn't exist, but catch them if they do 
                 if "Comment" in z.keys() and len(z["Comment"]) == 0:
                     if z["Domain"] not in API:
                         API.append(z["Domain"])             
-                        
+                        continue
                     
                 # Core API (Comment - API)
                 elif "Comment" not in z.keys():
                     if z["Domain"] not in API:
                         API.append(z["Domain"])
-                        
+                        continue
                     
                 # Categorized APIs
                 else:
@@ -349,46 +263,28 @@ for x in whitelist.keys():
                         # Create Category with Key as Comment
                         if z["Comment"] not in API_Dict.keys() and len(z["Comment"]) > 0:
                             API_Dict[z["Comment"]] = [z["Domain"]]
-                            
+                            continue
                         
                         # Append to Category
                         elif z["Comment"] in API_Dict.keys() and len(z["Comment"]) > 0:
                             if z["Domain"] not in API_Dict[z["Comment"]]:
                                 API_Dict[z["Comment"]].append(z["Domain"])    
+                                continue
+                """
+        
+        print(json.dumps(Static_Types, sort_keys=False, indent=4))
                                 
-            
-            # -------------------------------------------------------------
-            
-            """
-            # Categorize all domains under CDN
-            if z["Type"] == "CDN" and "Comment" in z.keys():
-                if z["Type"] not in CDN_Dict.keys() and len(z["Comment"]) > 0:
-                    CDN_Dict[z["Type"]] = {z["Comment"]: [z["Domain"]]}
-                if z["Comment"] not in CDN_Dict[z["Type"]].keys():
-                    CDN_Dict[z["Type"]][z["Comment"]] = [z["Domain"]]
-                elif z["Domain"] not in list(CDN_Dict[z["Type"]][z["Comment"]]):
-                    CDN_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
-
-            """
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
-            os.chdir(Fpath)
-            create_file(y, Roots, Verified_Domains, CSS, OCSP, NTP, OAUTH, DNS, API_Dict, CDN_Dict)
+            # os.chdir(Fpath)
+            # create_file(y,Static_Types)
        
+       
+
             # Clear Dictionaries
             API_Dict.clear()
             CDN_Dict.clear()
-          
-            # Clear Lists
-            Roots.clear()
-            Verified_Domains.clear()
-            API.clear()
-            CDN.clear()
-            CSS.clear()
-            OCSP.clear()
-            NTP.clear()
-            OAUTH.clear()
-            DNS.clear()
+            Static_Types.clear()
             
 """
 # Push Changes to Github
