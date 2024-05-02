@@ -8,8 +8,8 @@
 
 
 ```html
-www.reddit.com
 reddit.com
+www.reddit.com
 ```  
 
 
@@ -27,6 +27,18 @@ styles.redditmedia.com
 
 ```html
 oauth.reddit.com
+```  
+
+
+## Application Programming Interfaces (APIs)
+
+
+```html
+youtubei.googleapis.com
+youtube.googleapis.com
+api.github.com
+gql-fed.reddit.com
+gql.reddit.com
 ```  
 
 <br>

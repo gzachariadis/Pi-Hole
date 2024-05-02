@@ -8,9 +8,17 @@
 
 
 ```html
-github.com
 github.io
 www.github.com
+github.com
+```  
+
+
+## Verified Domains
+
+
+```html
+githubapp.com
 ```  
 
 
@@ -19,6 +27,14 @@ www.github.com
 
 ```html
 github.githubassets.com
+```  
+
+
+## Application Programming Interfaces (APIs)
+
+
+```html
+api.github.com
 ```  
 
 <br>
