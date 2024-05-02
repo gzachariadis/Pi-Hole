@@ -8,17 +8,9 @@
 
 
 ```html
-gitlab.com
-a.nel.cloudflare.com
 challenges.cloudflare.com
-```  
-
-
-## Application Programming Interfaces (APIs)
-
-
-```html
-api.github.com
+a.nel.cloudflare.com
+gitlab.com
 ```  
 
 <br>

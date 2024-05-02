@@ -34,9 +34,6 @@ oauth.reddit.com
 
 
 ```html
-youtubei.googleapis.com
-youtube.googleapis.com
-api.github.com
 gql-fed.reddit.com
 gql.reddit.com
 ```  
