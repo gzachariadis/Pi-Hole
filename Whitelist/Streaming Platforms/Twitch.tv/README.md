@@ -8,12 +8,12 @@
 
 
 ```html
-www.ttvnw.net
+twitch.tv
 www.jtvnw.net
-jtvnw.net
+www.ttvnw.net
 ttvnw.net
 www.twitch.tv
-twitch.tv
+jtvnw.net
 m.twitch.tv
 ```  
 
@@ -22,8 +22,8 @@ m.twitch.tv
 
 
 ```html
-static.twitchcdn.net
 static-cdn.jtvnw.net
+static.twitchcdn.net
 ```  
 
 
@@ -31,8 +31,8 @@ static-cdn.jtvnw.net
 
 
 ```html
-id.twitch.tv
 id-cdn.twitch.tv
+id.twitch.tv
 ```  
 
 <br>

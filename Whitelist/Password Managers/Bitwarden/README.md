@@ -8,8 +8,8 @@
 
 
 ```html
-www.bitwarden.com
 bitwarden.com
+www.bitwarden.com
 ```  
 
 

@@ -8,9 +8,9 @@
 
 
 ```html
-instagram.com
 www.instagram.com
 web.facebook.com
+instagram.com
 ```  
 
 <br>
