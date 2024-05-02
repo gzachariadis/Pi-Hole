@@ -177,7 +177,7 @@ def translate(abbreviation):
         return abbreviation
 
 # Create Files
-def create_file(Title, Roots, data):
+def create_file(Title, Roots, CSS, OCSP, NTP, OAUTH, DNS, data):
     mdFile = MdUtils(file_name="README")
     mdFile.write('<h1 align="center">{}</h1>'.format(str(Title).strip()))
     mdFile.write("  \n\n")
@@ -185,9 +185,10 @@ def create_file(Title, Roots, data):
     mdFile.insert_code(str("\n".join(Roots)).strip(), language="html")
     mdFile.write("  \n\n")
     mdFile.write("<br>\n")
-
+    
     Populate_Category(mdFile, "Application Programming Interface (API)", "API", data)
     Populate_Category(mdFile, "Content Delivery Networks (CDN)", "CDN", data)
+    
     mdFile.create_md_file()
 
 
@@ -251,16 +252,6 @@ for x in whitelist.keys():
                 if z["Domain"] not in OAUTH and "Comment" not in z.keys():
                     OAUTH.append(z["Domain"])
             
-            
-            print(Roots)
-            print(CSS)
-            print(OCSP)
-            print(NTP)
-            print(DNS)
-            print(OAUTH)
-            
-            
-            """
             # Categorize all domains under API
             if z["Type"] == "API" and "Comment" in z.keys():
                 if z["Type"] not in API_Dict.keys():
@@ -269,7 +260,10 @@ for x in whitelist.keys():
                     API_Dict[z["Type"]][z["Comment"]] = [z["Domain"]]
                 elif z["Domain"] not in list(API_Dict[z["Type"]][z["Comment"]]):
                     API_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
-            
+                        
+            print(API_Dict)        
+                    
+            """
             # Categorize all domains under CDN
             if z["Type"] == "CDN":
                 if z["Type"] not in CDN_Dict.keys():
