@@ -261,7 +261,7 @@ for x in whitelist.keys():
                 elif z["Domain"] not in list(API_Dict[z["Type"]][z["Comment"]]):
                     API_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
                         
-            print(API_Dict)        
+            print(json.dumps(API_Dict, sort_keys=False, indent=4))        
                     
             """
             # Categorize all domains under CDN
