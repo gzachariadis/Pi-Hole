@@ -250,6 +250,8 @@ Roots = []
 # 
 Verified_Domains = []
 
+API = []
+
 # CSS - Static Assets as interpreted by Pi-Hole Comments
 CSS = []
 
@@ -275,47 +277,61 @@ for x in whitelist.keys():
             if z["Type"] == "Domain":
                 if z["Domain"] not in Roots and "Comment" not in z.keys():
                     Roots.append(z["Domain"])
+                    continue
 
             # Verified Domains
             if z["Type"] == "Verified_Domain":
                 if z["Domain"] not in Verified_Domains and "Comment" not in z.keys():
                     Verified_Domains.append(z["Domain"])
+                    continue
             
             # CSS Domains
             if z["Type"] == "CSS":
                 if z["Domain"] not in CSS and "Comment" not in z.keys():
                     CSS.append(z["Domain"])
+                    continue
             
             # OCSP Domains
             if z["Type"] == "OCSP":
                 if z["Domain"] not in OCSP and "Comment" not in z.keys():
                     OCSP.append(z["Domain"])
+                    continue
             
             # NTP Domains
             if z["Type"] == "NTP":
                 if z["Domain"] not in NTP and "Comment" not in z.keys():
                     NTP.append(z["Domain"])
+                    continue
             
             # DNS Domains
             if z["Type"] == "DNS":
                 if z["Domain"] not in DNS and "Comment" not in z.keys():
                     DNS.append(z["Domain"])
-            
+                    continue
+                
             # OAUTH Domains
             if z["Type"] == "OAuth":
                 if z["Domain"] not in OAUTH and "Comment" not in z.keys():
                     OAUTH.append(z["Domain"])
+                    continue
             
+            # These shouldn't exist, but catch them if they do 
             
+            # Core API Domains
             if z["Type"] == "API" and "Comment" in z.keys():
-                if z["Type"] not in API_Dict.keys():
-                    if len(z["Comment"]) == 0:
-                        print(z["Domain"])
+                if z["Domain"] not in API and len(z["Comment"]) == 0:
+                    API.append(z["Domain"])             
+                    continue
             
-            """
+            # Core CDN Domains
+            if z["Type"] == "CDN" and "Comment" in z.keys():
+                if z["Domain"] not in CDN and len(z["Comment"]) == 0:
+                    CDN.append(z["Domain"])             
+                    continue
+            
             # Categorize all domains under API
             if z["Type"] == "API" and "Comment" in z.keys():
-                if z["Type"] not in API_Dict.keys():
+                if z["Type"] not in API_Dict.keys() and len(z["Comment"]) > 0:
                     API_Dict[z["Type"]] = {z["Comment"]: [z["Domain"]]}
                 if z["Comment"] not in API_Dict[z["Type"]].keys():
                     API_Dict[z["Type"]][z["Comment"]] = [z["Domain"]]
@@ -324,7 +340,7 @@ for x in whitelist.keys():
                     
             # Categorize all domains under CDN
             if z["Type"] == "CDN" and "Comment" in z.keys():
-                if z["Type"] not in CDN_Dict.keys():
+                if z["Type"] not in CDN_Dict.keys() and len(z["Comment"]) > 0:
                     CDN_Dict[z["Type"]] = {z["Comment"]: [z["Domain"]]}
                 if z["Comment"] not in CDN_Dict[z["Type"]].keys():
                     CDN_Dict[z["Type"]][z["Comment"]] = [z["Domain"]]
