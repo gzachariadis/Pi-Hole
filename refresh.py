@@ -122,8 +122,9 @@ try:
 except subprocess.CalledProcessError as cpe:
     result = cpe.output
 
-print(json.dumps(whitelist["Hardware Manufacturers"]["Apple"], sort_keys=False, indent=4))
-sys.exit()
+# print(json.dumps(whitelist["Hardware Manufacturers"]["Apple"], sort_keys=False, indent=4))
+# sys.exit()
+
 # Reset the Structure before re-creating
 shutil.rmtree(os.path.join(root_directory, "Whitelist"), ignore_errors=True)
 
@@ -235,13 +236,14 @@ for x in whitelist.keys():
             # Must have no Comment (so no additional specific purpose)
             if "Comment" not in z.keys():
                 # Create Type
-                if z["Type"] not in Static_Types.keys():
+                if z["Type"] not in Static_Types.keys() and len(z["Type"]) > 0:
                     Static_Types[z["Type"]] = [z["Domain"]]
                     continue    
                 
                 elif z["Type"] in Static_Types.keys():
                     Static_Types[z["Type"]].append(z["Domain"])
                     continue
+            
             """
             # Core API Domains
             if z["Type"] == "API":
@@ -272,7 +274,7 @@ for x in whitelist.keys():
                                 continue
                 """
         
-        # print(json.dumps(Static_Types, sort_keys=False, indent=4))
+        print(json.dumps(Static_Types, sort_keys=False, indent=4))
                                 
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
