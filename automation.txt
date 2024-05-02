@@ -59,7 +59,7 @@ check inside for README.md file
     - Download Software
     - Firmware Updates
 
-- CSS - Cascading Style Sheets (CSS)
+- CSS - Cascading Style Sheets (CSS) ✔️
 
     - Static Assets 
 
@@ -67,18 +67,25 @@ check inside for README.md file
 
     - Login, Password Reset etc. etc.
 
-- CDN - Content Delivery Network (CDNs)
+- CDN - Content Delivery Network (CDNs) ✔️
 
     - Anything that transfers info
 
-- API - Application Programming Interface (APIs)
+- API - Application Programming Interface (APIs) ✔️
     
     - Database Actions
 
-- OCSP - Online Certificate Status Protocol (OCSP)
+- OCSP - Online Certificate Status Protocol (OCSP) ✔️
 
     - Certificate Issuing Services
 
-- NTP - Network Time Protocol Servers (NTPs)
+- NTP - Network Time Protocol Servers (NTPs) ✔️
 
     - Various NTP Servers
+
+- OAuth - Open Authorization Standard (OAuth) ✔️
+
+    - Authorization Protocols
+
+- DNS - Domain Name System (DNS) ✔️
+

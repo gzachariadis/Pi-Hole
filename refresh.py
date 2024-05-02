@@ -36,17 +36,17 @@ command = " ".join(
 )
 
 translations = {
-    "API": "Application Programming Interface (API)",
-    "CDN": "Content Delivery Network (CDN)",
     "CSS": "Cascading Style Sheets (CSS)",
-    "OAuth": "Open Authorization Standard (OAuth)",
-    "Hosting": "?????????????",
+    "CDN": "Content Delivery Network (CDN)",
+    "API": "Application Programming Interface (API)",
     "OCSP": "Online Certificate Status Protocol (OCSPs)",
+    "NTP": "Network Time Protocol Servers (NTPs)",
+    "OAuth": "Open Authorization Standard (OAuth)",
     "DNS": "Domain Name System (DNS)",
 }
 
 
-# Translate the Type from Pihole's Abbreviation (CSS) to a "Presentable" Term
+# Translate the Type from Pihole's Comment Abbreviation to a "Presentable" Term
 def translate(abbreviation):
     if abbreviation in translations.keys():
         return translations[abbreviation]
@@ -82,6 +82,13 @@ try:
         group = str(line[pairs[1][0] + 1 : pairs[1][1]]).strip()
         category = str(line[pairs[2][0] + 1 : pairs[2][1]]).strip()
         domain = str(line[0 : pairs[0][0]]).strip()
+        
+        print(comment)
+        print(group)
+        print(category)
+        print(domain)
+        
+        sys.exit()
         # Create a Dictionary
         if category not in whitelist.keys():
             if comment.find("-") != -1:
