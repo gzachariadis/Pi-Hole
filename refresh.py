@@ -179,27 +179,22 @@ def remove_duplicates(l):
     return list(set(l))
 
 # Create Files
-def create_file(Title, Static_Types):
+def create_file(Title, Static_Types, Non_Types):
     mdFile = MdUtils(file_name="README")
     mdFile.write('<h1 align="center">{}</h1>'.format(str(Title).strip()))
     mdFile.write("  \n\n")
     
-    """
-    # Root Domains
-    mdFile.new_header(level=2, title="Root Domains", add_table_of_contents="n")
-    mdFile.insert_code(str("\n".join(remove_duplicates(Roots))).strip(), language="html")
-    mdFile.write("  \n\n")
-    """
-    
-    for typ3 in Static_Types.keys():
+    # Static Types
+    for typ3 in sorted(Static_Types.keys()):
         mdFile.new_header(level=2, title=str(typ3), add_table_of_contents="n")
         mdFile.insert_code(str("\n".join(remove_duplicates(Static_Types[typ3]))).strip(), language="html")
         mdFile.write("  \n\n")
     
-    if not API_Dict:
-        
+    # Non Static Types
+    if not Non_Types:
         mdFile.write("<br>\n")
-        Populate_Category(mdFile, "Application Programming Interface (API)", API_Dict)
+        for k,v in Non_Types.keys():
+            Populate_Category(mdFile, translate(k), v)
         # Populate_Category(mdFile, "Content Delivery Networks (CDN)", CDN_Dict)
              
     mdFile.create_md_file()
@@ -231,6 +226,10 @@ Static_Types = {}
 # 5. Software Delivery - Application Updates, Download Software, Firmware Updates
 # 6. Authentication
 
+
+
+Non_Types = {}
+
 # Category
 for x in whitelist.keys():
     # Group 
@@ -251,44 +250,30 @@ for x in whitelist.keys():
                     Static_Types[z["Type"]].append(z["Domain"])
                     continue
             
-            """
-            # Core API Domains
-            if z["Type"] == "API":
-                # Rogue Domains (eg. API - ) - These shouldn't exist, but catch them if they do 
-                if "Comment" in z.keys() and len(z["Comment"]) == 0:
-                    if z["Domain"] not in API:
-                        API.append(z["Domain"])             
-                        continue
-                    
-                # Core API (Comment - API)
-                elif "Comment" not in z.keys():
-                    if z["Domain"] not in API:
-                        API.append(z["Domain"])
-                        continue
-                    
-                # Categorized APIs
+            else:
+                
+                # Non-Static Types
+                if z["Type"] not in Non_Types.keys():
+                    # If type doesn't exist
+                    Non_Types[z["Type"]] = {[z["Comment"]] : [z["Domain"]]}
+                    continue
+                elif z["Type"] in Non_Types.keys():
+                    if z["Comment"] not in Non_Types[z["Type"]].keys() and len(z["Comment"]) > 0:
+                        # if SubType (Comment) doesn't exist
+                        Non_Types[z["Type"]][z["Comment"]] = [z["Domain"]]
+                        continue    
                 else:
-                    if "Comment" in z.keys():
-                        # Create Category with Key as Comment
-                        if z["Comment"] not in API_Dict.keys() and len(z["Comment"]) > 0:
-                            API_Dict[z["Comment"]] = [z["Domain"]]
-                            continue
-                        
-                        # Append to Category
-                        elif z["Comment"] in API_Dict.keys() and len(z["Comment"]) > 0:
-                            if z["Domain"] not in API_Dict[z["Comment"]]:
-                                API_Dict[z["Comment"]].append(z["Domain"])    
-                                continue
-                """
-                              
+                    # if exists just append
+                    Non_Types[z["Type"]][z["Comment"]].append(z["Domain"])
+                    continue
+               
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
-            create_file(y,Static_Types)
+            create_file(y,Static_Types,Non_Types)
             # Clear Dictionaries
-            API_Dict.clear()
-            CDN_Dict.clear()
             Static_Types.clear()
+            Non_Types.clear()
             
 """
 # Push Changes to Github
