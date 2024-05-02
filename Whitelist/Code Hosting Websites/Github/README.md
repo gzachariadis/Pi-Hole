@@ -32,8 +32,8 @@ github.githubassets.com
 
 
 ```html
-github.io
 www.github.com
+github.io
 github.com
 ```  
 
@@ -58,13 +58,13 @@ gitter.im
 
 
 ```html
-raw.githubusercontent.com
 githubassets.com
+raw.githubusercontent.com
+avatars.githubusercontent.com
+gist.github.com
+gist.githubusercontent.com
 githubusercontent.com
 camo.githubusercontent.com
-gist.github.com
-avatars.githubusercontent.com
-gist.githubusercontent.com
 ```  
 
 
