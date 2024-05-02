@@ -8,8 +8,8 @@
 
 
 ```html
-itunes.com
 itunes.apple.com
+itunes.com
 www.itunes.com
 ```  
 

@@ -17,8 +17,8 @@ reddit.com
 
 
 ```html
-styles.redditmedia.com
 www.redditstatic.com
+styles.redditmedia.com
 ```  
 
 

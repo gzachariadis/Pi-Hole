@@ -8,10 +8,10 @@
 
 
 ```html
-amazonvideo.com
+primevideo.com
 www.amazonvideo.com
 www.primevideo.com
-primevideo.com
+amazonvideo.com
 ```  
 
 <br>

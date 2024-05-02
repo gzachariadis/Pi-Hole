@@ -8,8 +8,8 @@
 
 
 ```html
-www.vidstream.to
 vidstream.to
+www.vidstream.to
 ```  
 
 <br>

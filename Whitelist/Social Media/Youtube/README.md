@@ -8,12 +8,12 @@
 
 
 ```html
-youtube.com
 yt.be
-youtu.be
-m.youtube.com
 www.youtube.com
 s.youtube.com
+m.youtube.com
+youtu.be
+youtube.com
 ```  
 
 <br>

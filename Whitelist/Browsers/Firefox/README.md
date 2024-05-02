@@ -8,8 +8,8 @@
 
 
 ```html
-addons.mozilla.org
 wiki.mozilla.org
+addons.mozilla.org
 ```  
 
 <br>
