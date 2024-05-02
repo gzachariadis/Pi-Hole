@@ -4,25 +4,41 @@
 <h1 align="center">Github</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
+www.github.com
 github.com
 github.io
-www.github.com
 ```  
 
 
-## Verified Domains
+## GitHub Container Registry (GCR)
 
 
 ```html
-githubapp.com
+ghcr.io
 ```  
 
 
-## Cascading Style Sheets (CSS)
+## Instant Messaging Forum
+
+
+```html
+gitter.im
+```  
+
+
+## API
+
+
+```html
+api.github.com
+```  
+
+
+## CSS
 
 
 ```html
@@ -30,11 +46,33 @@ github.githubassets.com
 ```  
 
 
-## Application Programming Interfaces (APIs)
+## CDN
 
 
 ```html
-api.github.com
+cdnjs.cloudflare.com
+```  
+
+
+## Media Delivery
+
+
+```html
+githubassets.com
+camo.githubusercontent.com
+gist.githubusercontent.com
+avatars.githubusercontent.com
+raw.githubusercontent.com
+gist.github.com
+githubusercontent.com
+```  
+
+
+## Verified Domain
+
+
+```html
+githubapp.com
 ```  
 
 <br>

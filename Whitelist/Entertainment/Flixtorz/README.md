@@ -4,7 +4,7 @@
 <h1 align="center">Flixtorz</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
@@ -12,7 +12,7 @@ flixtorz.to
 ```  
 
 
-## Cascading Style Sheets (CSS)
+## CSS
 
 
 ```html

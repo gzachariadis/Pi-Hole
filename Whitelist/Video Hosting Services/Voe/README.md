@@ -4,11 +4,19 @@
 <h1 align="center">Voe</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
 voe.sx
+```  
+
+
+## Media Delivery
+
+
+```html
+i.voe.sx
 ```  
 
 <br>

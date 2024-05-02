@@ -4,12 +4,12 @@
 <h1 align="center">Apple Mail</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-me.com
 mail.icloud.com
+me.com
 ```  
 
 <br>

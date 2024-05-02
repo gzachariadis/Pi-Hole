@@ -4,12 +4,21 @@
 <h1 align="center">SoundCloud</h1>  
 
 
-## Roots
+## CDN
 
 
 ```html
-www.soundcloud.com
+sndcdn.com
+www.sndcdn.com
+```  
+
+
+## Domain
+
+
+```html
 soundcloud.com
+www.soundcloud.com
 ```  
 
 <br>

@@ -4,13 +4,13 @@
 <h1 align="center">DuckDuckGo</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-duckduckgo.com
 www.duckduckgo.com
 duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion
+duckduckgo.com
 ```  
 
 <br>

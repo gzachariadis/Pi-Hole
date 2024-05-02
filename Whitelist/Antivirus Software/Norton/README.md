@@ -4,11 +4,19 @@
 <h1 align="center">Norton</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
 norton.com
+```  
+
+
+## CDN
+
+
+```html
+nortoncdn.com
 ```  
 
 <br>

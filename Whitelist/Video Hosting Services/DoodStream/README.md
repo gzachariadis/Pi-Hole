@@ -4,7 +4,7 @@
 <h1 align="center">DoodStream</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
@@ -13,11 +13,20 @@ doodstream.com
 ```  
 
 
-## Cascading Style Sheets (CSS)
+## CSS
 
 
 ```html
 static.doodcdn.co
+```  
+
+
+## Media Delivery
+
+
+```html
+img.doodcdn.co
+i.doodcdn.co
 ```  
 
 <br>

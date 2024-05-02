@@ -4,25 +4,55 @@
 <h1 align="center">Apple</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
+www.appleiphonecell.com
 www.apple.com
 ```  
 
 
-## Online Certificate Status Protocol (OCSPs)
+## API
 
 
 ```html
-ocsp.apple.com
+bpapi.apple.com
+```  
+
+
+## OCSP
+
+
+```html
 ocsp.verisign.net
+ocsp.apple.com
 ocsp.entrust.net
 ```  
 
 
-## Domain Name Systems
+## CDN
+
+
+```html
+updates-http.cdn-apple.com
+oscdn.apple.com
+updates.cdn-apple.com
+```  
+
+
+## Software Delivery
+
+
+```html
+gdmf.v.aaplimg.com
+gs.apple.com.v.aaplimg.com
+gg.apple.com.v.aaplimg.com
+ig.apple.com.v.aaplimg.com
+```  
+
+
+## DNS
 
 
 ```html
@@ -31,11 +61,11 @@ ns.itunes.apple.com
 ```  
 
 
-## Application Programming Interfaces (APIs)
+## [Software Delivery](https://discussions.apple.com/thread/5538139?sortBy=best)
 
 
 ```html
-bpapi.apple.com
+appldnld.apple.com
 ```  
 
 <br>

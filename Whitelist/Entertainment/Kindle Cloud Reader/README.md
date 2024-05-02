@@ -4,12 +4,62 @@
 <h1 align="center">Kindle Cloud Reader</h1>  
 
 
-## Roots
+## Domain
 
 
 ```html
-amazon.com
 read.amazon.com
+amazon.com
+```  
+
+
+## Bookmarks
+
+
+```html
+smyl-ebook-index.s3.amazonaws.com
+```  
+
+
+## Contents
+
+
+```html
+k4wyjmetadata.s3.amazonaws.com
+```  
+
+
+## Covers
+
+
+```html
+m.media-amazon.com
+```  
+
+
+## Library
+
+
+```html
+unagi-na.amazon.com
+unagi.amazon.com
+```  
+
+
+## Highlights
+
+
+```html
+fls-eu.amazon.co.uk
+fls-na.amazon.com
+```  
+
+
+## Media Delivery
+
+
+```html
+images-na.ssl-images-amazon.com
 ```  
 
 <br>
