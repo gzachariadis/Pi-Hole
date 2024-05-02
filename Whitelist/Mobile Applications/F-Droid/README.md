@@ -11,4 +11,3 @@
 f-droid.org
 ```  
 
-<br>

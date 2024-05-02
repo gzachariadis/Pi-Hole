@@ -8,8 +8,8 @@
 
 
 ```html
-music.apple.com
 www.music.apple.com
+music.apple.com
 ```  
 
 
@@ -20,4 +20,3 @@ www.music.apple.com
 s.mzstatic.com
 ```  
 
-<br>

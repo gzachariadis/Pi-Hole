@@ -8,8 +8,8 @@
 
 
 ```html
-reddit.com
 www.reddit.com
+reddit.com
 ```  
 
 
@@ -17,8 +17,8 @@ www.reddit.com
 
 
 ```html
-styles.redditmedia.com
 www.redditstatic.com
+styles.redditmedia.com
 ```  
 
 
@@ -29,4 +29,3 @@ www.redditstatic.com
 oauth.reddit.com
 ```  
 
-<br>

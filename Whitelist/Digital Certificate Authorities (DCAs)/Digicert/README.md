@@ -8,8 +8,8 @@
 
 
 ```html
-digicert.com
 www.digicert.com
+digicert.com
 ```  
 
 
@@ -17,8 +17,7 @@ www.digicert.com
 
 
 ```html
-ocsp.digicert.com
 cacerts.digicert.com
+ocsp.digicert.com
 ```  
 
-<br>

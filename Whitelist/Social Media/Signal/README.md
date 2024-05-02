@@ -8,9 +8,8 @@
 
 
 ```html
+signal.org
 whispersystems.org
 www.signal.org
-signal.org
 ```  
 
-<br>

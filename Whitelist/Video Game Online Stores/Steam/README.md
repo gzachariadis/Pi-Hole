@@ -20,4 +20,3 @@ steamcommunity.com
 steamstatic.com
 ```  
 
-<br>

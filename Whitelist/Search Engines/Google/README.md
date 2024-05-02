@@ -16,8 +16,7 @@ www.google.com
 
 
 ```html
-ssl.gstatic.com
 www.gstatic.com
+ssl.gstatic.com
 ```  
 
-<br>

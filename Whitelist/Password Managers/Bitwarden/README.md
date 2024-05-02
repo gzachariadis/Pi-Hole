@@ -21,4 +21,3 @@ icons.bitwarden.net
 vault.bitwarden.com
 ```  
 
-<br>

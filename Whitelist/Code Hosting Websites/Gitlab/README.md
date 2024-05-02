@@ -8,9 +8,8 @@
 
 
 ```html
-challenges.cloudflare.com
-a.nel.cloudflare.com
 gitlab.com
+a.nel.cloudflare.com
+challenges.cloudflare.com
 ```  
 
-<br>
