@@ -259,20 +259,18 @@ for x in whitelist.keys():
                 if z["Comment"] not in API_Dict[z["Type"]].keys():
                     API_Dict[z["Type"]][z["Comment"]] = [z["Domain"]]
                 elif z["Domain"] not in list(API_Dict[z["Type"]][z["Comment"]]):
-                    API_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
-                        
-            print(json.dumps(API_Dict, sort_keys=False, indent=4))        
-                    
-            """
+                    API_Dict[z["Type"]][z["Comment"]].append(z["Domain"])    
+
             # Categorize all domains under CDN
-            if z["Type"] == "CDN":
+            if z["Type"] == "CDN" and "Comment" in z.keys():
                 if z["Type"] not in CDN_Dict.keys():
                     CDN_Dict[z["Type"]] = {z["Comment"]: [z["Domain"]]}
-                if z["Comment"] not in API_Dict[z["Type"]].keys():
+                if z["Comment"] not in CDN_Dict[z["Type"]].keys():
                     CDN_Dict[z["Type"]][z["Comment"]] = [z["Domain"]]
                 elif z["Domain"] not in list(CDN_Dict[z["Type"]][z["Comment"]]):
                     CDN_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
 
+        """
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
@@ -280,7 +278,9 @@ for x in whitelist.keys():
             API_Dict.clear()
             CDN_Dict.clear()
         """
-          
+        
+        print(json.dumps(CDN_Dict, sort_keys=False, indent=4))        
+                
         # Clear Lists
         Roots.clear()
         CSS.clear()
