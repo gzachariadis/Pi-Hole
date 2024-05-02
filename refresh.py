@@ -83,12 +83,6 @@ try:
         category = str(line[pairs[2][0] + 1 : pairs[2][1]]).strip()
         domain = str(line[0 : pairs[0][0]]).strip()
         
-        print(comment)
-        print(group)
-        print(category)
-        print(domain)
-        
-        sys.exit()
         # Create a Dictionary
         if category not in whitelist.keys():
             if comment.find("-") != -1:
