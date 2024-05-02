@@ -270,24 +270,22 @@ for x in whitelist.keys():
                 elif z["Domain"] not in list(CDN_Dict[z["Type"]][z["Comment"]]):
                     CDN_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
 
-        """
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
             create_file(y, Roots, API_Dict)
+            
+            # Clear Dictionaries
             API_Dict.clear()
             CDN_Dict.clear()
-        """
-        
-        print(json.dumps(CDN_Dict, sort_keys=False, indent=4))        
-                
-        # Clear Lists
-        Roots.clear()
-        CSS.clear()
-        OCSP.clear()
-        NTP.clear()
-        OAUTH.clear()
-        DNS.clear()
+          
+            # Clear Lists
+            Roots.clear()
+            CSS.clear()
+            OCSP.clear()
+            NTP.clear()
+            OAUTH.clear()
+            DNS.clear()
 
 """
 # Push Changes to Github
