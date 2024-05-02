@@ -179,7 +179,7 @@ def remove_duplicates(l):
     return list(set(l))
 
 # Create Files
-def create_file(Title, Roots, Verified_Domains, CSS, OCSP, NTP, OAUTH, DNS, CDN_Dict, API_Dict):
+def create_file(Title, Static_Types):
     mdFile = MdUtils(file_name="README")
     mdFile.write('<h1 align="center">{}</h1>'.format(str(Title).strip()))
     mdFile.write("  \n\n")
@@ -189,6 +189,11 @@ def create_file(Title, Roots, Verified_Domains, CSS, OCSP, NTP, OAUTH, DNS, CDN_
     mdFile.insert_code(str("\n".join(remove_duplicates(Roots))).strip(), language="html")
     mdFile.write("  \n\n")
 
+    for typ3 in Static_Types.keys():
+        mdFile.new_header(level=2, title=str(typ3), add_table_of_contents="n")
+        mdFile.insert_code(str("\n".join(remove_duplicates(Static_Types[typ3]))).strip(), language="html")
+        mdFile.write("  \n\n")
+    
     if not API_Dict:
         
         mdFile.write("<br>\n")
@@ -273,16 +278,11 @@ for x in whitelist.keys():
                                 API_Dict[z["Comment"]].append(z["Domain"])    
                                 continue
                 """
-        
-        print(json.dumps(Static_Types, sort_keys=False, indent=4))
-                                
+                              
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
-            # os.chdir(Fpath)
-            # create_file(y,Static_Types)
-       
-       
-
+            os.chdir(Fpath)
+            create_file(y,Static_Types)
             # Clear Dictionaries
             API_Dict.clear()
             CDN_Dict.clear()
