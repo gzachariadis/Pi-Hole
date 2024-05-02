@@ -378,6 +378,8 @@ for x in whitelist.keys():
             # Clear Lists
             Roots.clear()
             Verified_Domains.clear()
+            API.clear()
+            CDN.clear()
             CSS.clear()
             OCSP.clear()
             NTP.clear()
