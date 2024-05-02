@@ -255,7 +255,7 @@ for x in whitelist.keys():
                 # Non-Static Types
                 if z["Type"] not in Non_Types.keys():
                     # If type doesn't exist
-                    Non_Types[z["Type"]] = {[z["Comment"]] : [z["Domain"]]}
+                    Non_Types[z["Type"]] = {z["Comment"] : [[z["Domain"]]]}
                     continue
                 elif z["Type"] in Non_Types.keys():
                     if z["Comment"] not in Non_Types[z["Type"]].keys() and len(z["Comment"]) > 0:
