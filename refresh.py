@@ -144,18 +144,17 @@ def populate_structure(category, subcategories):
 for k, v in whitelist.items():
     populate_structure(k, list(whitelist[k].keys()))
 
-
 # Populate the Categories inside the README.md
-def Populate_Category(mdFile, Title, Type, data):
+def Populate_Category(mdFile, Title, data):
     for k, v in data.items():
-        if k == Type:
-            for x in v.keys():
-                mdFile.new_header(
-                    level=2, title=f"{Title} - {x}", add_table_of_contents="n"
-                )
-                mdFile.insert_code(str("\n".join(v[x])).strip(), language="html")
-                mdFile.write("  \n\n")
-                mdFile.write("<br>\n")
+        print(k,v)
+        for x in v.keys():
+            mdFile.new_header(
+                level=2, title=f"{Title} - {x}", add_table_of_contents="n"
+            )
+            mdFile.insert_code(str("\n".join(v[x])).strip(), language="html")
+            mdFile.write("  \n\n")
+            mdFile.write("<br>\n")
 
 
 translations = {
@@ -192,7 +191,6 @@ def create_file(Title, Roots, Verified_Domains, CSS, OCSP, NTP, OAUTH, DNS, CDN_
     
     if Verified_Domains:
     
-        print(Verified_Domains)
         # Verified Domains
         mdFile.new_header(level=2,title="Verified Domains", add_table_of_contents="n")
         mdFile.insert_code(str("\n".join(remove_duplicates(Verified_Domains))).strip(), language="html")
@@ -200,49 +198,42 @@ def create_file(Title, Roots, Verified_Domains, CSS, OCSP, NTP, OAUTH, DNS, CDN_
     
     if CSS:
     
-        print(CSS)
         # CSS Domains
-        mdFile.new_header(level=2,title="Cascading Style Sheets", add_table_of_contents="n")
+        mdFile.new_header(level=2,title="Cascading Style Sheets (CSS)", add_table_of_contents="n")
         mdFile.insert_code(str("\n".join(remove_duplicates(CSS))).strip(), language="html")
         mdFile.write("  \n\n")
     
     if OCSP:
         
-        print(OCSP)
         # OCSP Domains
-        mdFile.new_header(level=2,title="Online Certificate Status Protocol", add_table_of_contents="n")
+        mdFile.new_header(level=2,title="Online Certificate Status Protocol (OCSPs)", add_table_of_contents="n")
         mdFile.insert_code(str("\n".join(remove_duplicates(OCSP))).strip(), language="html")
         mdFile.write("  \n\n")
     
     if NTP:
         
-        print(NTP)
         # NTP Domains
-        mdFile.new_header(level=2,title="Network Time Protocol Servers", add_table_of_contents="n")
+        mdFile.new_header(level=2,title="Network Time Protocol Servers (NTPs)", add_table_of_contents="n")
         mdFile.insert_code(str("\n".join(remove_duplicates(NTP))).strip(), language="html")
         mdFile.write("  \n\n")
         
     if OAUTH:
         
-        print(OAUTH)
         # OAUTH Domains
-        mdFile.new_header(level=2,title="Open Authorization Standard", add_table_of_contents="n")
+        mdFile.new_header(level=2,title="Open Authorization Standard (OAuth)", add_table_of_contents="n")
         mdFile.insert_code(str("\n".join(remove_duplicates(OAUTH))).strip(), language="html")
         mdFile.write("  \n\n")
     
     if DNS:
         
-        print(DNS)
         # DNS Domains
         mdFile.new_header(level=2,title="Domain Name Systems", add_table_of_contents="n")
         mdFile.insert_code(str("\n".join(remove_duplicates(DNS))).strip(), language="html")
         mdFile.write("  \n\n")
     
-    """
     mdFile.write("<br>\n")
-    Populate_Category(mdFile, "Application Programming Interface (API)", "API", API_Dict)
-    Populate_Category(mdFile, "Content Delivery Networks (CDN)", "CDN", CDN_Dict)
-    """
+    Populate_Category(mdFile, "Application Programming Interface (API)", API_Dict)
+    Populate_Category(mdFile, "Content Delivery Networks (CDN)", CDN_Dict)
     
     mdFile.create_md_file()
 
