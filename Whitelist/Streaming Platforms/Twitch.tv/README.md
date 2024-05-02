@@ -8,17 +8,17 @@
 
 
 ```html
-jtvnw.net
-twitch.tv
-www.jtvnw.net
-ttvnw.net
 m.twitch.tv
 www.twitch.tv
 www.ttvnw.net
+www.jtvnw.net
+jtvnw.net
+twitch.tv
+ttvnw.net
 ```  
 
 
-## Cascading Style Sheets
+## Cascading Style Sheets (CSS)
 
 
 ```html
@@ -27,11 +27,12 @@ static-cdn.jtvnw.net
 ```  
 
 
-## Open Authorization Standard
+## Open Authorization Standard (OAuth)
 
 
 ```html
-id-cdn.twitch.tv
 id.twitch.tv
+id-cdn.twitch.tv
 ```  
 
+<br>

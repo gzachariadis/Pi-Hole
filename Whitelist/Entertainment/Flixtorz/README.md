@@ -12,10 +12,11 @@ flixtorz.to
 ```  
 
 
-## Cascading Style Sheets
+## Cascading Style Sheets (CSS)
 
 
 ```html
 static.flixtorz.to
 ```  
 
+<br>

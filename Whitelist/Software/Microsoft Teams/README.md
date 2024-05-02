@@ -8,8 +8,9 @@
 
 
 ```html
+teams.skype.com
 teams.microsoft.com
 teams.microsoft.us
-teams.skype.com
 ```  
 
+<br>
