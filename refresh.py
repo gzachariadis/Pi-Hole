@@ -294,36 +294,36 @@ for x in whitelist.keys():
             # Roots
             if Check(z["Type"],"Domain",z["Domain"],Roots,z.keys()):
                 Roots.append(z["Domain"])
-                continue
+                
             
             # Verified Domains
             if Check(z["Type"],"Verified Domain",z["Domain"],Verified_Domains,z.keys()):
                 Verified_Domains.append(z["Domain"])
-                continue
+                
             
             # CSS
             if Check(z["Type"],"CSS",z["Domain"],CSS,z.keys()):
                 CSS.append(z["Domain"])
-                continue
+                
             
             if Check(z["Type"],"OCSP",z["Domain"],OCSP,z.keys()):
                 OCSP.append(z["Domain"])
-                continue
+                
             
             # NTP Domains
             if Check(z["Type"],"NTP",z["Domain"],NTP,z.keys()):
                 NTP.append(z["Domain"])
-                continue
+                
             
             # DNS Domains
             if Check(z["Type"],"DNS",z["Domain"],DNS,z.keys()):
                 DNS.append(z["Domain"])
-                continue
+                
                 
             # OAUTH Domains
             if Check(z["Type"],"OAuth",z["Domain"],OAUTH,z.keys()):
                 OAUTH.append(z["Domain"])
-                continue
+                
             
             # Core API Domains
             if z["Type"] == "API":
@@ -331,13 +331,13 @@ for x in whitelist.keys():
                 if "Comment" in z.keys() and len(z["Comment"]) == 0:
                     if z["Domain"] not in API:
                         API.append(z["Domain"])             
-                        continue
+                        
                     
                 # Core API (Comment - API)
                 elif "Comment" not in z.keys():
                     if z["Domain"] not in API:
                         API.append(z["Domain"])
-                        continue
+                        
                     
                 # Categorized APIs
                 else:
@@ -345,13 +345,13 @@ for x in whitelist.keys():
                         # Create Category with Key as Comment
                         if z["Comment"] not in API_Dict.keys() and len(z["Comment"]) > 0:
                             API_Dict[z["Comment"]] = [z["Domain"]]
-                            continue
+                            
                         
                         # Append to Category
                         elif z["Comment"] in API_Dict.keys() and len(z["Comment"]) > 0:
                             if z["Domain"] not in API_Dict[z["Comment"]]:
                                 API_Dict[z["Comment"]].append(z["Domain"])    
-                                continue
+                                
             
             # -------------------------------------------------------------
             
