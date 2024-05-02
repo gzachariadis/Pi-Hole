@@ -31,6 +31,7 @@ icloud.com
 icloud.com.cn
 www.icloud.com
 apple-icloud.cn
+icloud.net.cn
 ```  
 
 <br>
