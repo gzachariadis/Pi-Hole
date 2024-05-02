@@ -4,13 +4,13 @@
 <h1 align="center">Microsoft Outlook</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
-hotmail.com
-outlook.cn
 outlook.com
+outlook.cn
+hotmail.com
 ```  
 
 <br>

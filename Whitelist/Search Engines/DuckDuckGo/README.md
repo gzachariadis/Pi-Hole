@@ -4,7 +4,7 @@
 <h1 align="center">DuckDuckGo</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html

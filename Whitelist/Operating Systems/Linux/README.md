@@ -4,27 +4,27 @@
 <h1 align="center">Linux</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
 snapcraft.io
-softwarecollections.org
+jboss.org
+redhat.com
+launchpad.net
+ubuntu.com
 debian.org
 fedorapeople.org
-fedoraproject.org
-freebsd.org
-getfedora.org
-jboss.org
-launchpad.net
 linuxmint.com
-opensuse.org
+getfedora.org
 canonical.com
-archlinux.org
-redhat.com
+freebsd.org
 redhat.io
-ubuntu.com
+opensuse.org
+archlinux.org
 susecloud.net
+fedoraproject.org
+softwarecollections.org
 ```  
 
 <br>

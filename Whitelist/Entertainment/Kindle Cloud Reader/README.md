@@ -4,7 +4,7 @@
 <h1 align="center">Kindle Cloud Reader</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html

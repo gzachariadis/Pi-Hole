@@ -4,16 +4,16 @@
 <h1 align="center">Youtube</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
 www.youtube.com
+yt.be
+youtu.be
 youtube.com
 m.youtube.com
 s.youtube.com
-youtu.be
-yt.be
 ```  
 
 <br>

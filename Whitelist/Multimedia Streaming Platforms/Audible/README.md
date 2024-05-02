@@ -4,14 +4,14 @@
 <h1 align="center">Audible</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
-audible.com
-www.audible.ca
 www.audible.com
+www.audible.ca
 audible.co.uk
+audible.com
 ```  
 
 <br>

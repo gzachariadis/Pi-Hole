@@ -4,13 +4,13 @@
 <h1 align="center">Signal</h1>  
 
 
-## Root Domains
+## Roots
 
 
 ```html
-signal.org
 whispersystems.org
 www.signal.org
+signal.org
 ```  
 
 <br>
