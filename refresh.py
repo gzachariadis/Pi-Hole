@@ -35,25 +35,6 @@ command = " ".join(
     ]
 )
 
-translations = {
-    "CSS_List": "Cascading Style Sheets (CSS_List)",
-    "CDN": "Content Delivery Network (CDN)",
-    "API": "Application Programming Interface (API)",
-    "OCSP": "Online Certificate Status Protocol (OCSPs)",
-    "NTP": "Network Time Protocol Servers (NTPs)",
-    "OAuth": "Open Authorization Standard (OAuth)",
-    "DNS": "Domain Name System (DNS)",
-}
-
-
-# Translate the Type from Pihole's Comment Abbreviation to a "Presentable" Term
-def translate(abbreviation):
-    if abbreviation in translations.keys():
-        return translations[abbreviation]
-    else:
-        return abbreviation
-
-
 def findOccurrences(string):
     if string[:-1] == "\|":
         string = Str[: len(string) - 1]
@@ -66,7 +47,7 @@ def pairwise(l):
     return [(x, y) for x, y in zip(l[:-1], l[1:])]
 
 
-# Run Command to Dabase, Decoding every line
+# Run Command to Database, Decoding every line
 try:
     result = subprocess.check_output(
         command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
@@ -91,8 +72,7 @@ try:
                         {
                             "Domain": str(domain).strip(),
                             "Type": str(
-                                (translate((comment[0 : comment.index("-") - 1])))
-                            ).strip(),
+                                (comment[0 : comment.index("-") - 1])).strip(),
                             "Comment": str(comment[comment.index("-") + 1 :]).strip(),
                         }
                     ]
@@ -100,7 +80,7 @@ try:
             else:
                 whitelist[category] = {
                     group: [
-                        {"Domain": str(domain).strip(), "Type": translate(str(comment))}
+                        {"Domain": str(domain).strip(), "Type": str(comment)}
                     ]
                 }
         else:
@@ -110,8 +90,7 @@ try:
                         {
                             "Domain": str(domain).strip(),
                             "Type": str(
-                                (translate((comment[0 : comment.index("-") - 1])))
-                            ).strip(),
+                                (comment[0 : comment.index("-") - 1])).strip(),
                             "Comment": str(comment[comment.index("-") + 1 :]).strip(),
                         }
                     ]
@@ -119,7 +98,7 @@ try:
                     whitelist[category][group] = [
                         {
                             "Domain": str(domain).strip(),
-                            "Type": translate(str(comment)),
+                            "Type": str(comment),
                         }
                     ]
             else:
@@ -128,8 +107,7 @@ try:
                         {
                             "Domain": str(domain).strip(),
                             "Type": str(
-                                (translate((comment[0 : comment.index("-") - 1])))
-                            ).strip(),
+                                ((comment[0 : comment.index("-") - 1]))).strip(),
                             "Comment": str(comment[comment.index("-") + 1 :]).strip(),
                         }
                     )
@@ -137,7 +115,7 @@ try:
                     whitelist[category][group].append(
                         {
                             "Domain": str(domain).strip(),
-                            "Type": translate(str(comment)),
+                            "Type": str(comment),
                         }
                     )
 
@@ -179,6 +157,24 @@ def Populate_Category(mdFile, Title, Type, data):
                 mdFile.write("  \n\n")
                 mdFile.write("<br>\n")
 
+
+translations = {
+    "CSS_List": "Cascading Style Sheets (CSS_List)",
+    "CDN": "Content Delivery Network (CDN)",
+    "API": "Application Programming Interface (API)",
+    "OCSP": "Online Certificate Status Protocol (OCSPs)",
+    "NTP": "Network Time Protocol Servers (NTPs)",
+    "OAuth": "Open Authorization Standard (OAuth)",
+    "DNS": "Domain Name System (DNS)",
+}
+
+
+# Translate the Type from Pihole's Comment Abbreviation to a "Presentable" Term
+def translate(abbreviation):
+    if abbreviation in translations.keys():
+        return translations[abbreviation]
+    else:
+        return abbreviation
 
 # Create Files
 def create_file(Title, Root_Domains, data):
@@ -231,12 +227,12 @@ for x in whitelist.keys():
                     Root_Domains.append(z["Domain"])
           
             # Place all unique Root Domains in a List
-            if z["Type"] == translate("CSS_List"):
+            if z["Type"] == "CSS_List":
                 if z["Domain"] not in CSS_List and "Comment" not in z.keys():
                     CSS_List.append(z["Domain"])
             
             # Categorize all domains under API
-            if z["Type"] == translate("API"):
+            if z["Type"] == "API" and "Comment" in z.keys():
                 if z["Type"] not in API_Dict.keys():
                     API_Dict[z["Type"]] = {z["Comment"]: [z["Domain"]]}
                 if z["Comment"] not in API_Dict[z["Type"]].keys():
@@ -245,7 +241,7 @@ for x in whitelist.keys():
                     API_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
             
             # Categorize all domains under CDN
-            if z["Type"] == translate("CDN"):
+            if z["Type"] == "CDN":
                 if z["Type"] not in CDN_Dict.keys():
                     CDN_Dict[z["Type"]] = {z["Comment"]: [z["Domain"]]}
                 if z["Comment"] not in API_Dict[z["Type"]].keys():
