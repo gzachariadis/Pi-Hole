@@ -177,7 +177,7 @@ def translate(abbreviation):
         return abbreviation
 
 # Create Files
-def create_file(Title, Roots, CSS, OCSP, NTP, OAUTH, DNS, data):
+def create_file(Title, Roots, CSS, OCSP, NTP, OAUTH, DNS, CDN_Dict, API_Dict):
     mdFile = MdUtils(file_name="README")
     mdFile.write('<h1 align="center">{}</h1>'.format(str(Title).strip()))
     mdFile.write("  \n\n")
@@ -186,8 +186,8 @@ def create_file(Title, Roots, CSS, OCSP, NTP, OAUTH, DNS, data):
     mdFile.write("  \n\n")
     mdFile.write("<br>\n")
     
-    Populate_Category(mdFile, "Application Programming Interface (API)", "API", data)
-    Populate_Category(mdFile, "Content Delivery Networks (CDN)", "CDN", data)
+    Populate_Category(mdFile, "Application Programming Interface (API)", "API", API_Dict)
+    Populate_Category(mdFile, "Content Delivery Networks (CDN)", "CDN", CDN_Dict)
     
     mdFile.create_md_file()
 
@@ -273,8 +273,8 @@ for x in whitelist.keys():
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
-            create_file(y, Roots, API_Dict)
-            
+            create_file(y, Roots, CSS, OCSP, NTP, OAUTH, DNS, API_Dict, CDN_Dict)
+       
             # Clear Dictionaries
             API_Dict.clear()
             CDN_Dict.clear()
