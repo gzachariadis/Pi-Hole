@@ -8,8 +8,8 @@
 
 
 ```html
-fmoviesz.to
 www.fmoviesz.to
+fmoviesz.to
 ```  
 
 

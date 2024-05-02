@@ -12,3 +12,13 @@
 ```  
 
 <br>
+
+## Content Delivery Networks (CDN) - Account Management
+
+
+```html
+api.account.xiaomi.com
+account.xiaomi.com
+```  
+
+<br>

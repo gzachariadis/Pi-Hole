@@ -8,8 +8,8 @@
 
 
 ```html
-steampowered.com
 steamcommunity.com
+steampowered.com
 ```  
 
 
