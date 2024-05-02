@@ -146,8 +146,8 @@ for k, v in whitelist.items():
 
 # Populate the Categories inside the README.md
 def Populate_Category(mdFile, Title, data):
+    print(json.dumps(data, sort_keys=False, indent=4))
     for k, v in data.items():
-        print(k,v)
         for x in v.keys():
             mdFile.new_header(
                 level=2, title=f"{Title} - {x}", add_table_of_contents="n"
