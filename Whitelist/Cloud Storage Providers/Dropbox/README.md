@@ -8,11 +8,11 @@
 
 
 ```html
-www.dropbox.com
+dropboxinsiders.com
 dropboxbusiness.com
 dropbox.com
-dropboxinsiders.com
 db.tt
+www.dropbox.com
 ```  
 
 
@@ -20,8 +20,8 @@ db.tt
 
 
 ```html
-dropboxstatic.com
 www.dropboxstatic.com
+dropboxstatic.com
 ```  
 
 

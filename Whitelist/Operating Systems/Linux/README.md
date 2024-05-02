@@ -8,23 +8,23 @@
 
 
 ```html
-snapcraft.io
-softwarecollections.org
-fedoraproject.org
-fedorapeople.org
-freebsd.org
+getfedora.org
+linuxmint.com
+redhat.io
 launchpad.net
 archlinux.org
-redhat.com
-canonical.com
-redhat.io
+freebsd.org
+snapcraft.io
 susecloud.net
-jboss.org
-getfedora.org
-debian.org
-linuxmint.com
 ubuntu.com
 opensuse.org
+debian.org
+fedorapeople.org
+redhat.com
+canonical.com
+jboss.org
+fedoraproject.org
+softwarecollections.org
 ```  
 
 <br>

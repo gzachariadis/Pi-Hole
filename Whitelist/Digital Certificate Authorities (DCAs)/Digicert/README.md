@@ -8,8 +8,8 @@
 
 
 ```html
-digicert.com
 www.digicert.com
+digicert.com
 ```  
 
 

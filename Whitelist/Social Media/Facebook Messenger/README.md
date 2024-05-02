@@ -9,8 +9,8 @@
 
 ```html
 m.facebook.com
-www.facebook.com
 facebook.com
+www.facebook.com
 ```  
 
 <br>
