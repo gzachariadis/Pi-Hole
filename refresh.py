@@ -184,11 +184,13 @@ def create_file(Title, Static_Types):
     mdFile.write('<h1 align="center">{}</h1>'.format(str(Title).strip()))
     mdFile.write("  \n\n")
     
+    """
     # Root Domains
     mdFile.new_header(level=2, title="Root Domains", add_table_of_contents="n")
     mdFile.insert_code(str("\n".join(remove_duplicates(Roots))).strip(), language="html")
     mdFile.write("  \n\n")
-
+    """
+    
     for typ3 in Static_Types.keys():
         mdFile.new_header(level=2, title=str(typ3), add_table_of_contents="n")
         mdFile.insert_code(str("\n".join(remove_duplicates(Static_Types[typ3]))).strip(), language="html")
