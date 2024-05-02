@@ -16,8 +16,8 @@ www.google.com
 
 
 ```html
-ssl.gstatic.com
 www.gstatic.com
+ssl.gstatic.com
 ```  
 
 <br>
@@ -49,7 +49,7 @@ www.googleapis.com
 
 <br>
 
-## Content Delivery Networks (CDN) - Android Notifications - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)
+## Content Delivery Networks (CDN) - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)
 
 
 ```html

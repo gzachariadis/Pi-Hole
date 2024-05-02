@@ -8,10 +8,10 @@
 
 
 ```html
-audible.co.uk
 www.audible.ca
-audible.com
 www.audible.com
+audible.com
+audible.co.uk
 ```  
 
 <br>

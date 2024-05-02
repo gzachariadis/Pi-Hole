@@ -8,8 +8,8 @@
 
 
 ```html
-snapchat.com
 app.snapchat.com
+snapchat.com
 www.snapchat.com
 ```  
 

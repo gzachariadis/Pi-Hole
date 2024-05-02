@@ -8,8 +8,8 @@
 
 
 ```html
-read.amazon.com
 amazon.com
+read.amazon.com
 ```  
 
 <br>

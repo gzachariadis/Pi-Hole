@@ -8,8 +8,8 @@
 
 
 ```html
-soundcloud.com
 www.soundcloud.com
+soundcloud.com
 ```  
 
 <br>

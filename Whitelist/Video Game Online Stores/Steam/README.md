@@ -21,12 +21,3 @@ steamstatic.com
 ```  
 
 <br>
-
-## Application Programming Interface (API) - Static Assets
-
-
-```html
-cdn.akamai.steamstatic.com
-```  
-
-<br>

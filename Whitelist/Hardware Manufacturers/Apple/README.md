@@ -16,9 +16,9 @@ www.apple.com
 
 
 ```html
+ocsp.entrust.net
 ocsp.verisign.net
 ocsp.apple.com
-ocsp.entrust.net
 ```  
 
 
@@ -26,8 +26,8 @@ ocsp.entrust.net
 
 
 ```html
-ns.itunes.apple.com
 doh.dns.apple.com
+ns.itunes.apple.com
 ```  
 
 <br>

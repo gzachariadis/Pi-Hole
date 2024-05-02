@@ -12,12 +12,3 @@ play.google.com
 ```  
 
 <br>
-
-## Application Programming Interface (API) - Application Licensing
-
-
-```html
-digitalassetlinks.googleapis.com
-```  
-
-<br>
