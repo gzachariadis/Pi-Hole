@@ -8,9 +8,9 @@
 
 
 ```html
-a.nel.cloudflare.com
 gitlab.com
 challenges.cloudflare.com
+a.nel.cloudflare.com
 ```  
 
 <br>

@@ -9,9 +9,9 @@
 
 ```html
 www.audible.ca
-www.audible.com
-audible.com
 audible.co.uk
+audible.com
+www.audible.com
 ```  
 
 <br>

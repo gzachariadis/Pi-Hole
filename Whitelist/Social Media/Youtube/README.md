@@ -9,11 +9,11 @@
 
 ```html
 yt.be
-www.youtube.com
-s.youtube.com
-m.youtube.com
 youtu.be
 youtube.com
+s.youtube.com
+m.youtube.com
+www.youtube.com
 ```  
 
 <br>

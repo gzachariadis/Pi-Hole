@@ -9,8 +9,8 @@
 
 ```html
 discord.gg
-discord.com
 discordapp.com
+discord.com
 ```  
 
 <br>

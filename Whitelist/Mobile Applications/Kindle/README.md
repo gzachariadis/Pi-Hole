@@ -9,8 +9,8 @@
 
 ```html
 www.amazon.com
-amazon.co.uk
 amazon.com
+amazon.co.uk
 www.amazon.co.uk
 ```  
 
