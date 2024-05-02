@@ -329,6 +329,8 @@ for x in whitelist.keys():
                     CDN.append(z["Domain"])             
                     continue
             
+            # -------------------------------------------------------------
+            
             # Categorize all domains under API
             if z["Type"] == "API" and "Comment" in z.keys():
                 if z["Type"] not in API_Dict.keys() and len(z["Comment"]) > 0:
@@ -347,8 +349,7 @@ for x in whitelist.keys():
                 elif z["Domain"] not in list(CDN_Dict[z["Type"]][z["Comment"]]):
                     CDN_Dict[z["Type"]][z["Comment"]].append(z["Domain"])
 
-            """
-            
+  
         Fpath = os.path.join(root_directory, "Whitelist", str(x), str(y))
         if os.path.exists(Fpath):
             os.chdir(Fpath)
@@ -366,8 +367,7 @@ for x in whitelist.keys():
             NTP.clear()
             OAUTH.clear()
             DNS.clear()
-
-
+            
 """
 # Push Changes to Github
 from git import Repo
