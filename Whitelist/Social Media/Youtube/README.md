@@ -8,12 +8,22 @@
 
 
 ```html
-m.youtube.com
-s.youtube.com
 yt.be
-youtube.com
-www.youtube.com
+m.youtube.com
 youtu.be
+s.youtube.com
+www.youtube.com
+youtube.com
+```  
+
+
+## Application Programming Interfaces (APIs)
+
+
+```html
+api.github.com
+youtube.googleapis.com
+youtubei.googleapis.com
 ```  
 
 <br>

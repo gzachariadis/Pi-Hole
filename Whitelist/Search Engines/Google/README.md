@@ -20,41 +20,30 @@ ssl.gstatic.com
 www.gstatic.com
 ```  
 
-<br>
 
-## Content Delivery Networks (CDN) - Google Search
-
-
-```html
-ajax.googleapis.com
-```  
-
-<br>
-
-## Content Delivery Networks (CDN) - Google Cloud
+## Application Programming Interfaces (APIs)
 
 
 ```html
-clientservices.googleapis.com
-```  
-
-<br>
-
-## Content Delivery Networks (CDN) - Libraries for Google Apps
-
-
-```html
-www.googleapis.com
-```  
-
-<br>
-
-## Content Delivery Networks (CDN) - [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)
-
-
-```html
-signaler-pa.googleapis.com
-notifications-pa.googleapis.com
+usc1-gcp-v61.api.snapchat.com
+lamssettings-pa.googleapis.com
+youtubei.googleapis.com
+storage.signal.org
+aws.api.snapchat.com
+api.facebook.com
+europe-west1-gcp.api.snapchat.com
+api.directory.signal.org
+api.github.com
+b-api.facebook.com
+us-central1-gcp.api.snapchat.com
+gql.reddit.com
+usc1-gcp-v62.api.snapchat.com
+gcp.api.snapchat.com
+youtube.googleapis.com
+aws-proxy-gcp.api.snapchat.com
+gql-fed.reddit.com
+us-east1-aws.api.snapchat.com
+us-east4-gcp.api.snapchat.com
 ```  
 
 <br>
