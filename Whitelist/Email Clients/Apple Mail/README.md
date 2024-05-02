@@ -9,6 +9,7 @@
 
 ```html
 me.com
+mail.icloud.com
 ```  
 
 <br>
