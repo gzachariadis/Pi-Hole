@@ -8,11 +8,11 @@
 
 
 ```html
+youtu.be
 yt.be
 m.youtube.com
-youtu.be
-s.youtube.com
 www.youtube.com
+s.youtube.com
 youtube.com
 ```  
 
@@ -21,9 +21,8 @@ youtube.com
 
 
 ```html
-api.github.com
-youtube.googleapis.com
 youtubei.googleapis.com
+youtube.googleapis.com
 ```  
 
 <br>
