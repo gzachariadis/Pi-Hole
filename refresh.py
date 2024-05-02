@@ -285,14 +285,15 @@ for x in whitelist.keys():
             create_file(y, Roots, API_Dict)
             API_Dict.clear()
             CDN_Dict.clear()
-        """    
+        """
+          
         # Clear Lists
         Roots.clear()
         CSS.clear()
-        OCSP_List.clear()
-        NTP_List.clear()
-        OAuth_List.clear()
-        DNS_List.clear()
+        OCSP.clear()
+        NTP.clear()
+        OAUTH.clear()
+        DNS.clear()
 
 """
 # Push Changes to Github
