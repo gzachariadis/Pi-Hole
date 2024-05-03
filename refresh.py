@@ -230,9 +230,15 @@ def create_file(Title, Static_Types, Non_Types):
     mdFile.write("  \n\n")
     
     # Static Types
-    
+    existence = []
     for typ3 in Static_Types.keys():
-        print(translations[typ3]["Priority"])
+        if typ3 in translations.keys():
+            if translations[typ3]["Priority"] not in existence:
+                existence.append(int(translations[typ3]["Priority"]))
+    
+    for num in sorted(existence):
+        print(num)
+        
     
     """
     for typ3 in sorted(Static_Types.keys()):
