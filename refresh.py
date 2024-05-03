@@ -238,7 +238,7 @@ def create_file(Title, Static_Types, Non_Types):
     
     for num in sorted(existence):
         print((translations.keys()[translations.values().index(num)])
-        
+
         mdFile.new_header(level=2, title=str(translations.keys()[translations.values().index(num)]), add_table_of_contents="n")
         mdFile.insert_code(str("\n".join([1,2,3])).strip(), language="html")
         mdFile.write("  \n\n")
@@ -251,7 +251,7 @@ def create_file(Title, Static_Types, Non_Types):
         # Populate_Category(mdFile, "Content Delivery Networks (CDN)", CDN_Dict)
              
     mdFile.create_md_file()
-
+    """
 
 # API - Application Programming Interface (APIs)
 # Specialized APIs that cover a purpose
