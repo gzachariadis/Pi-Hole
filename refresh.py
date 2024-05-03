@@ -231,8 +231,8 @@ def create_file(Title, Static_Types, Non_Types):
     
     # Static Types
     
-    for typ3 in dict(sorted(Static_Types.items(), key=lambda item: item["Priority"])):
-        print(typ3)
+    for typ3 in Static_Types.items():
+        print(typ3["Priority"])
 
     sys.exit()
 
