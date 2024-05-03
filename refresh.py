@@ -234,8 +234,6 @@ def create_file(Title, Static_Types, Non_Types):
     for typ3 in Static_Types.items():
         print(typ3)
 
-    sys.exit()
-
     """
     for typ3 in sorted(Static_Types.keys()):
         mdFile.new_header(level=2, title=str(typ3), add_table_of_contents="n")
