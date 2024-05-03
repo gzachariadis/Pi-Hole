@@ -236,8 +236,9 @@ def create_file(Title, Static_Types, Non_Types):
             if translations[typ3]["Priority"] not in existence:
                 existence.append(int(translations[typ3]["Priority"]))
     
+    print(sorted(existence))
     for num in sorted(existence):
-        print(num)
+        pass
         
     
     """
