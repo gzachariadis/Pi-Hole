@@ -232,7 +232,7 @@ def create_file(Title, Static_Types, Non_Types):
     # Static Types
     
     for typ3 in Static_Types.items():
-        print(typ3["Priority"])
+        print(typ3)
 
     sys.exit()
 
