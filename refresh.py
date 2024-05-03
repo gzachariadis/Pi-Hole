@@ -232,7 +232,7 @@ def create_file(Title, Static_Types, Non_Types):
     # Static Types
     
     for typ3 in Static_Types.keys():
-        print(Static_Types[typ3]["Priority"])
+        print(translations[translate(typ3)]["Priority"])
     
     """
     for typ3 in sorted(Static_Types.keys()):
