@@ -158,19 +158,64 @@ def Populate_Category(mdFile, Title, data):
 
 
 translations = {
-    "CSS": "Cascading Style Sheets (CSS)",
-    "CDN": "Content Delivery Network (CDN)",
-    "API": "Application Programming Interface (API)",
-    "OCSP": "Online Certificate Status Protocol (OCSPs)",
-    "NTP": "Network Time Protocol Servers (NTPs)",
-    "OAuth": "Open Authorization Standard (OAuth)",
-    "DNS": "Domain Name Systems (DNS)",
+    "Root Domains": {
+        "Priority" : 1,
+        "Translation": "Root Domains"
+    },
+    "Domain": {
+        "Priority": 2,
+        "Translation": "Domain"
+    },
+    "Verified Domains": {
+        "Priority" : 3,
+        "Translation": "Verified Domains"
+    },
+    "Media Delivery": {
+        "Priority": 4,
+        "Translation": "Media Delivery"
+    },
+    "Software Delivery": {
+        "Priority": 5,
+        "Translation": "Software Delivery"
+    },
+    "Authentication": {
+        "Priority": 6,
+        "Translation": "Authentication"  
+    },
+    "CSS": {
+        "Priority" : 7, 
+        "Translation" : "Cascading Style Sheets (CSS)"
+    },
+    "API": {
+        "Priority" : 8, 
+        "Translation" : "Application Programming Interface (API)"
+    },
+    "CDN": {
+        "Priority" : 9, 
+        "Translation" : "Content Delivery Network (CDN)"
+    },
+    "OCSP": {
+        "Priority" : 10, 
+        "Translation" : "Online Certificate Status Protocol (OCSPs)"
+    },
+    "NTP": {
+        "Priority" : 11, 
+        "Translation" : "Network Time Protocol Servers (NTPs)"
+    },
+    "OAuth": {
+        "Priority" : 12, 
+        "Translation" : "Open Authorization Standard (OAuth)"
+    },
+    "DNS": {
+        "Priority" : 13, 
+        "Translation" : "Domain Name Systems (DNS)"
+    },
 }
 
 # Translate the Type from Pihole's Comment Abbreviation to a "Presentable" Term
 def translate(abbreviation):
     if abbreviation in translations.keys():
-        return translations[abbreviation]
+        return translations[abbreviation]["Translation"]
     else:
         return abbreviation
 
@@ -185,11 +230,18 @@ def create_file(Title, Static_Types, Non_Types):
     mdFile.write("  \n\n")
     
     # Static Types
+    
+    for typ3 in dict(sorted(Static_Types.items(), key=lambda item: item["Priority"])):
+        print(typ3)
+
+    sys.exit()
+
+    """
     for typ3 in sorted(Static_Types.keys()):
         mdFile.new_header(level=2, title=str(typ3), add_table_of_contents="n")
         mdFile.insert_code(str("\n".join(remove_duplicates(Static_Types[typ3]))).strip(), language="html")
         mdFile.write("  \n\n")
-    
+    """
     # Non Static Types
     if not Non_Types:
         mdFile.write("<br>\n")
@@ -214,18 +266,16 @@ CDN_Dict = {}
 # CDNs
 CDN = []
 
-
-
 # Static Types
 Static_Types = {}
 # 1. Root Domains - The home domains, the root of any domain.
-# 2. Verified Domains - Domains that belong to the Application/Website/Program that might have a specific purpose or be subpages. (eg. support.apple.com)
+# 2. Verified Domains - Domains that belong to the Application/Website/Program that might have a specific purpose or be subpages.
 # These are by majority static pages and urls rather than dynamic that serve some type of content or purpose.
+
 # 3. CSS - Static Assets as interpreted by Pi-Hole Comments
 # 4. Media Delivery - Anything that serves content - Videos, Pictures, Sound, Thumbnails, Files, Assets etc.
 # 5. Software Delivery - Application Updates, Download Software, Firmware Updates
 # 6. Authentication
-
 
 
 Non_Types = {}
