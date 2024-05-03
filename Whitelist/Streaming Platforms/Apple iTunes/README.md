@@ -8,9 +8,9 @@
 
 
 ```html
-itunes.com
 www.itunes.com
 itunes.apple.com
+itunes.com
 ```  
 
 <br>

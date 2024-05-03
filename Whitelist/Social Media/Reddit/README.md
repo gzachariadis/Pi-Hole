@@ -4,15 +4,6 @@
 <h1 align="center">Reddit</h1>  
 
 
-## API
-
-
-```html
-gql-fed.reddit.com
-gql.reddit.com
-```  
-
-
 ## CSS
 
 
@@ -22,24 +13,15 @@ www.redditstatic.com
 ```  
 
 
-## Domain
-
-
-```html
-www.reddit.com
-reddit.com
-```  
-
-
 ## Media Delivery
 
 
 ```html
-preview.redd.it
+v.redd.it
 www.redditmedia.com
 i.redd.it
+preview.redd.it
 packaged-media.redd.it
-v.redd.it
 ```  
 
 
@@ -50,4 +32,12 @@ v.redd.it
 oauth.reddit.com
 ```  
 
-<br>
+
+## Root Domains
+
+
+```html
+www.reddit.com
+reddit.com
+```  
+

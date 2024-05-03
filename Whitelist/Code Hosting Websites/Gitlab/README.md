@@ -4,11 +4,11 @@
 <h1 align="center">Gitlab</h1>  
 
 
-## Domain
+## Root Domains
 
 
 ```html
-gitlab.com
 a.nel.cloudflare.com
+gitlab.com
 ```  
 

@@ -4,12 +4,12 @@
 <h1 align="center">Digicert</h1>  
 
 
-## Domain
+## CDN
 
 
 ```html
-digicert.com
-www.digicert.com
+crl3.digicert.com
+crl4.digicert.com
 ```  
 
 
@@ -17,8 +17,17 @@ www.digicert.com
 
 
 ```html
-cacerts.digicert.com
 ocsp.digicert.com
+cacerts.digicert.com
+```  
+
+
+## Root Domains
+
+
+```html
+digicert.com
+www.digicert.com
 ```  
 
 <br>

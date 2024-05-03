@@ -4,12 +4,12 @@
 <h1 align="center">Firefox</h1>  
 
 
-## Domain
+## Root Domains
 
 
 ```html
-addons.mozilla.org
 wiki.mozilla.org
+addons.mozilla.org
 ```  
 
 <br>

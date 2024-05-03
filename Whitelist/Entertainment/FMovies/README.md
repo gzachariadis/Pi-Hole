@@ -12,12 +12,12 @@ static.fmoviesz.to
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html
-fmoviesz.to
 www.fmoviesz.to
+fmoviesz.to
 ```  
 
 <br>

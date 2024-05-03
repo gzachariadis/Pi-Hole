@@ -30,7 +30,17 @@ cdn.discordapp.com
 ```  
 
 
-## Domain
+## Media Delivery
+
+
+```html
+images-ext-1.discordapp.net
+discord.media
+media.discordapp.net
+```  
+
+
+## Root Domains
 
 
 ```html
@@ -40,23 +50,13 @@ discord.com
 ```  
 
 
-## Media Delivery
-
-
-```html
-discord.media
-images-ext-1.discordapp.net
-media.discordapp.net
-```  
-
-
 ## Software Delivery
 
 
 ```html
 updates.discord.com
-dl.discordapp.net
 discordapp.net
+dl.discordapp.net
 ```  
 
 <br>

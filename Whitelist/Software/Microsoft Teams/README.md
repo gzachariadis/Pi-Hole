@@ -9,7 +9,6 @@
 
 ```html
 api.teams.skype.com
-teams.trafficmanager.net
 ```  
 
 
@@ -17,8 +16,8 @@ teams.trafficmanager.net
 
 
 ```html
-teams.events.data.microsoft.com
 teams.cdn.office.net
+teams.events.data.microsoft.com
 ```  
 
 
@@ -34,9 +33,9 @@ img.teams.skype.com
 
 
 ```html
-teams.microsoft.us
 teams.skype.com
 teams.microsoft.com
+teams.microsoft.us
 ```  
 
 <br>

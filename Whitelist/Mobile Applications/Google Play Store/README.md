@@ -8,9 +8,8 @@
 
 
 ```html
-play.googleapis.com
-android.googleapis.com
 play-fe.googleapis.com
+android.googleapis.com
 android.apis.google.com
 ```  
 
@@ -23,18 +22,20 @@ play-lh.googleusercontent.com
 ```  
 
 
-## Google Play Store
-
-
-```html
-appspot-preview.l.google.com
-```  
-
-
 ## Root Domains
 
 
 ```html
 play.google.com
+```  
+
+
+## Software Delivery
+
+
+```html
+appspot-preview.l.google.com
+play.googleapis.com
+android.clients.google.com
 ```  
 

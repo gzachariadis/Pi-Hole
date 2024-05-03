@@ -30,13 +30,13 @@ l.facebook.com
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html
-facebook.com
 m.facebook.com
 www.facebook.com
+facebook.com
 ```  
 
 <br>

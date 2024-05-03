@@ -12,7 +12,7 @@ nortoncdn.com
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html

@@ -12,21 +12,21 @@ static.doodcdn.co
 ```  
 
 
-## Domain
+## Media Delivery
+
+
+```html
+img.doodcdn.co
+i.doodcdn.co
+```  
+
+
+## Root Domains
 
 
 ```html
 d000d.com
 doodstream.com
-```  
-
-
-## Media Delivery
-
-
-```html
-i.doodcdn.co
-img.doodcdn.co
 ```  
 
 <br>

@@ -12,12 +12,12 @@ rapidcdn.cc
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html
-c8365730d4.nl
 www.c8365730d4.nl
+c8365730d4.nl
 mcloud.bz
 ```  
 

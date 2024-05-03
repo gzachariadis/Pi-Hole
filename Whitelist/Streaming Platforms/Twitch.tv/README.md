@@ -10,15 +10,6 @@
 ```html
 api.twitch.tv
 api-gql-test.twitch.tv
-gql.twitch.tv
-```  
-
-
-## Application
-
-
-```html
-app.twitch.tv
 ```  
 
 
@@ -30,19 +21,10 @@ passport.twitch.tv
 ```  
 
 
-## Blog
-
-
-```html
-blog.twitch.tv
-```  
-
-
 ## CDN
 
 
 ```html
-twitch.map.fastly.net
 twitchcdn.net
 www.twitchcdn.net
 ```  
@@ -52,67 +34,16 @@ www.twitchcdn.net
 
 
 ```html
-static-cdn.jtvnw.net
 static.twitchcdn.net
+static-cdn.jtvnw.net
 ```  
 
 
-## DMCA Direct Access Portal (DAP)
+## Hosting
 
 
 ```html
-dmca.twitch.tv
-```  
-
-
-## Developer Portal
-
-
-```html
-dev.twitch.tv
-```  
-
-
-## Domain
-
-
-```html
-www.ttvnw.net
-www.jtvnw.net
-ttvnw.net
-jtvnw.net
-twitch.tv
-www.twitch.tv
-m.twitch.tv
-```  
-
-
-## Extensions
-
-
-```html
-supervisor.ext-twitch.tv
-www.ext-twitch.tv
-ext-twitch.tv
-```  
-
-
-## IRC (External Applications)
-
-
-```html
-irc.chat.twitch.tv
-```  
-
-
-## Internet Relay Chat (IRC)
-
-
-```html
-pubsub-edge.twitch.tv
-irc-ws-r.chat.twitch.tv
-irc-ws.chat.twitch.tv
-chatdepot.twitch.tv
+app.twitch.tv
 ```  
 
 
@@ -120,18 +51,8 @@ chatdepot.twitch.tv
 
 
 ```html
-clips-media-assets2.twitch.tv
-production.assets.clips.twitchcdn.net
-badges.twitch.tv
 clips.twitch.tv
-```  
-
-
-## Media Player
-
-
-```html
-usher.ttvnw.net
+production.assets.clips.twitchcdn.net
 ```  
 
 
@@ -144,34 +65,16 @@ id-cdn.twitch.tv
 ```  
 
 
-## Payment Processing
+## Root Domains
 
 
 ```html
-bits.twitch.tv
+m.twitch.tv
+www.twitch.tv
+www.ttvnw.net
+ttvnw.net
+jtvnw.net
+twitch.tv
+www.jtvnw.net
 ```  
 
-
-## Player (External Applications)
-
-
-```html
-player.twitch.tv
-```  
-
-
-## Video on Demand (VODs)
-
-
-```html
-d2e2de1etea730.cloudfront.net
-global.poe.live-video.net
-live-video.net
-vod-metro.twitch.tv
-d2nvs31859zcd8.cloudfront.net
-dqrpb9wgowsf5.cloudfront.net
-ds0h3roq6wcgc.cloudfront.net
-vod-secure.twitch.tv
-```  
-
-<br>

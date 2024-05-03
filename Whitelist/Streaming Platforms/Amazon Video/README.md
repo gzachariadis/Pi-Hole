@@ -14,17 +14,6 @@ aiv-cdn.net.c.footprint.net
 ```  
 
 
-## Domain
-
-
-```html
-primevideo.com
-www.primevideo.com
-amazonvideo.com
-www.amazonvideo.com
-```  
-
-
 ## Media Delivery
 
 
@@ -32,6 +21,17 @@ www.amazonvideo.com
 aiv-delivery.net
 media-amazon.com
 www.media-amazon.com
+```  
+
+
+## Root Domains
+
+
+```html
+primevideo.com
+www.amazonvideo.com
+amazonvideo.com
+www.primevideo.com
 ```  
 
 <br>

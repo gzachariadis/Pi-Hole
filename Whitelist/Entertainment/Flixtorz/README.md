@@ -12,7 +12,7 @@ static.flixtorz.to
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html

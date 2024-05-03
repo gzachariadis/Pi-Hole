@@ -27,7 +27,9 @@ www.dropboxstatic.com
 
 ```html
 ns2.dropbox.com
+www.dropbox-dns.com
 ns1.dropbox.com
+dropbox-dns.com
 ```  
 
 
@@ -39,21 +41,13 @@ dropboxusercontent.com
 ```  
 
 
-## Payment Processing
-
-
-```html
-dropboxpayments.com
-```  
-
-
 ## Root Domains
 
 
 ```html
 db.tt
-dropbox.com
 www.dropbox.com
+dropbox.com
 dropboxteam.com
 dropboxbusiness.com
 ```  
@@ -64,8 +58,8 @@ dropboxbusiness.com
 
 ```html
 www.getdropbox.com
-dl.dropbox.com
-dl.dropboxusercontent.com
 getdropbox.com
+dl.dropboxusercontent.com
+dl.dropbox.com
 ```  
 

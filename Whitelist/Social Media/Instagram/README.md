@@ -8,9 +8,9 @@
 
 
 ```html
+b.i.instagram.com
 i.instagram.com
 gateway.instagram.com
-b.i.instagram.com
 i-fallback.instagram.com
 ```  
 
@@ -20,18 +20,18 @@ i-fallback.instagram.com
 
 ```html
 z-p42-chat-e2ee-ig.facebook.com
-cdn-fallback.fbsbx.com
 edge-mqtt.facebook.com
+cdn-fallback.fbsbx.com
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html
 www.instagram.com
-instagram.com
 web.facebook.com
+instagram.com
 ```  
 
 <br>

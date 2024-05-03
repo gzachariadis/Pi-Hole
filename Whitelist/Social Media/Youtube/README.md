@@ -21,41 +21,32 @@ accounts.youtube.com
 ```  
 
 
-## Domain
-
-
-```html
-yt.be
-s.youtube.com
-www.youtube.com
-youtube.com
-m.youtube.com
-youtu.be
-```  
-
-
 ## Media Delivery
 
 
 ```html
+video.l.google.com
+ytimg.com
+i.ytimg.com
 youtubeembeddedplayer.googleapis.com
+video.google.com
 img.youtube.com
 yt-video-upload.l.google.com
-www.youtube-nocookie.com
-ytimg.com
-video.l.google.com
-youtube-nocookie.com
-i.ytimg.com
 googlevideo.com
-video.google.com
 ```  
 
 
-## [Google Photos](https://github.com/jerryn70/GoodbyeAds/issues/450)
+## Root Domains
 
 
 ```html
-yt3.ggpht.com
+youtu.be
+youtube.com
+youtube-nocookie.com
+www.youtube-nocookie.com
+www.youtube.com
+m.youtube.com
+s.youtube.com
+yt.be
 ```  
 
-<br>

@@ -17,6 +17,7 @@ steamcontent.com
 
 ```html
 steamstatic.com
+cdn.akamai.steamstatic.com
 ```  
 
 
@@ -32,8 +33,8 @@ steamusercontent.com
 
 
 ```html
-steamcommunity.com
 steampowered.com
+steamcommunity.com
 ```  
 
 
@@ -44,3 +45,4 @@ steampowered.com
 valvesoftware.com
 ```  
 
+<br>

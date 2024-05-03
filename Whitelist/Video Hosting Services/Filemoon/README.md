@@ -4,21 +4,21 @@
 <h1 align="center">Filemoon</h1>  
 
 
-## Domain
-
-
-```html
-www.filemoon.to
-filemoon.to
-kerapoxy.cc
-```  
-
-
 ## Media Delivery
 
 
 ```html
 www.kerapoxy.cc
+```  
+
+
+## Root Domains
+
+
+```html
+kerapoxy.cc
+filemoon.to
+www.filemoon.to
 ```  
 
 <br>

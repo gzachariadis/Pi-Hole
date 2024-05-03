@@ -4,21 +4,12 @@
 <h1 align="center">Signal</h1>  
 
 
-## API
-
-
-```html
-api.directory.signal.org
-storage.signal.org
-```  
-
-
 ## CDN
 
 
 ```html
-cdn.signal.org
 souqcdn.com
+cdn.signal.org
 cms.souqcdn.com
 ```  
 
@@ -27,9 +18,9 @@ cms.souqcdn.com
 
 
 ```html
-textsecure-service-whispersystems.org
 ud-chat.signal.org
 chat.signal.org
+textsecure-service-whispersystems.org
 ```  
 
 
@@ -38,8 +29,8 @@ chat.signal.org
 
 ```html
 whispersystems.org
-www.signal.org
 signal.org
+www.signal.org
 ```  
 
 
@@ -50,4 +41,3 @@ signal.org
 updates2.signal.org
 ```  
 
-<br>

@@ -8,11 +8,9 @@
 
 
 ```html
-android.apis.google.com
-androidwearcloudsync-pa.googleapis.com
-android.googleapis.com
 androidmanagement.googleapis.com
-android.l.google.com
+android.googleapis.com
+android.apis.google.com
 ```  
 
 
@@ -29,5 +27,16 @@ yt3.googleusercontent.com
 
 ```html
 android.com
+```  
+
+
+## Software Delivery
+
+
+```html
+clients3.google.com
+preprod-android-context-data.googleapis.com
+androidresumeonreboot-pa.googleapis.com
+android-context-data.googleapis.com
 ```  
 

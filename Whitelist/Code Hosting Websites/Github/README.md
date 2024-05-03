@@ -28,16 +28,6 @@ github.githubassets.com
 ```  
 
 
-## Domain
-
-
-```html
-www.github.com
-github.io
-github.com
-```  
-
-
 ## GitHub Container Registry (GCR)
 
 
@@ -46,25 +36,24 @@ ghcr.io
 ```  
 
 
-## Instant Messaging Forum
-
-
-```html
-gitter.im
-```  
-
-
 ## Media Delivery
 
 
 ```html
-githubassets.com
-raw.githubusercontent.com
-avatars.githubusercontent.com
-gist.github.com
-gist.githubusercontent.com
 githubusercontent.com
+avatars.githubusercontent.com
 camo.githubusercontent.com
+githubassets.com
+```  
+
+
+## Root Domains
+
+
+```html
+github.com
+www.github.com
+github.io
 ```  
 
 
@@ -75,4 +64,3 @@ camo.githubusercontent.com
 githubapp.com
 ```  
 
-<br>

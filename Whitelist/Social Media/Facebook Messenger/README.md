@@ -26,20 +26,20 @@ gateway.facebook.com
 
 
 ```html
-chat-e2ee-mini.facebook.com
-cdn.fbsbx.com
-l.facebook.com
 scontent.xx.fbcdn.net
+l.facebook.com
+cdn.fbsbx.com
+chat-e2ee-mini.facebook.com
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html
-facebook.com
 m.facebook.com
 www.facebook.com
+facebook.com
 ```  
 
 <br>

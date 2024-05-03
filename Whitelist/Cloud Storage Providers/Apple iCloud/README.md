@@ -8,8 +8,8 @@
 
 
 ```html
-api.apps.apple.com
 api-edge.apps.apple.com
+api.apps.apple.com
 ```  
 
 
@@ -42,10 +42,10 @@ www.icloud-content.com
 
 
 ```html
-www.icloud.com
-icloud.org
-icloud.net.cn
 apple-icloud.cn
 icloud.com
+icloud.net.cn
+www.icloud.com
+icloud.org
 ```  
 

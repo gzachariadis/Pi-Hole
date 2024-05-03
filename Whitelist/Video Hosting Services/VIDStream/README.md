@@ -4,12 +4,12 @@
 <h1 align="center">VIDStream</h1>  
 
 
-## Domain
+## Root Domains
 
 
 ```html
-vidstream.to
 www.vidstream.to
+vidstream.to
 ```  
 
 <br>

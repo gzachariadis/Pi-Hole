@@ -16,15 +16,8 @@ s.mzstatic.com
 
 
 ```html
-www.music.apple.com
-```  
-
-
-## Ve
-
-
-```html
 music.apple.com
+www.music.apple.com
 ```  
 
 <br>

@@ -13,7 +13,7 @@ icons.bitwarden.net
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html

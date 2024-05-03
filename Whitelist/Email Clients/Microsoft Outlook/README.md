@@ -8,10 +8,10 @@
 
 
 ```html
-outlook.office.com
 hotmail.com
-outlook.cn
+outlook.office.com
 outlook.com
+outlook.cn
 ```  
 
 <br>

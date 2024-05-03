@@ -4,15 +4,6 @@
 <h1 align="center">StreamTape</h1>  
 
 
-## Domain
-
-
-```html
-streamtape.com
-streamvid.net
-```  
-
-
 ## Media Delivery
 
 
@@ -25,7 +16,9 @@ b1.trafficdeposit.com
 
 
 ```html
+streamtape.com
 streamtape.to
+streamvid.net
 ```  
 
 <br>

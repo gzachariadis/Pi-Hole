@@ -9,7 +9,5 @@
 
 ```html
 firestore.googleapis.com
-reminders-pa.googleapis.com
 ```  
 
-<br>

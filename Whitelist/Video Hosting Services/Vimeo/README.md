@@ -12,7 +12,7 @@ vimeocdn.com
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html

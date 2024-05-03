@@ -8,14 +8,14 @@
 
 
 ```html
+paypal.at
+paypal-corp.com
 paypal.com
 www.paypal.com
-paypalobjects.com
-paypal.be
-paypal-corp.com
 paypal.co.uk
-paypal.at
+paypal.be
 paypalcorp.com
+paypalobjects.com
 ```  
 
 <br>

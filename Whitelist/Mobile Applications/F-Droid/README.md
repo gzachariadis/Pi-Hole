@@ -9,8 +9,8 @@
 
 ```html
 mirrors.dotsrc.org
-fdroid.tetaneutral.net
 guardianproject.info
+fdroid.tetaneutral.net
 dotsrc.org
 ```  
 

@@ -16,7 +16,6 @@ bpapi.apple.com
 
 
 ```html
-updates.cdn-apple.com
 updates-http.cdn-apple.com
 oscdn.apple.com
 ```  
@@ -26,8 +25,18 @@ oscdn.apple.com
 
 
 ```html
-ns.itunes.apple.com
 doh.dns.apple.com
+ns.itunes.apple.com
+```  
+
+
+## NTP
+
+
+```html
+time-macos.apple.com
+time-ios.apple.com
+time.apple.com
 ```  
 
 
@@ -35,9 +44,9 @@ doh.dns.apple.com
 
 
 ```html
-ocsp.verisign.net
 ocsp.apple.com
 ocsp.entrust.net
+ocsp.verisign.net
 ```  
 
 
@@ -45,8 +54,8 @@ ocsp.entrust.net
 
 
 ```html
-www.appleiphonecell.com
 www.apple.com
+www.appleiphonecell.com
 ```  
 
 
@@ -54,17 +63,11 @@ www.apple.com
 
 
 ```html
-gdmf.v.aaplimg.com
-ig.apple.com.v.aaplimg.com
-gg.apple.com.v.aaplimg.com
+updates.cdn-apple.com
 gs.apple.com.v.aaplimg.com
-```  
-
-
-## [Software Delivery](https://discussions.apple.com/thread/5538139?sortBy=best)
-
-
-```html
+gdmf.v.aaplimg.com
 appldnld.apple.com
+gg.apple.com.v.aaplimg.com
+ig.apple.com.v.aaplimg.com
 ```  
 

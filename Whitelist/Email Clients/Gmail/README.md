@@ -16,11 +16,11 @@ googleapis.l.google.com
 
 
 ```html
+mobile-mail.google.com
 googlemail.com
 mail.google.com
-gmail.com
 inbox.google.com
-mobile-mail.google.com
+gmail.com
 ```  
 
 <br>

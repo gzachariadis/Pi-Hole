@@ -8,9 +8,9 @@
 
 
 ```html
+api.amazon.com
 api.audible.co.uk
 api.amazon.co.uk
-api.amazon.com
 ```  
 
 
@@ -22,63 +22,27 @@ cognito-identity.us-east-1.amazonaws.com
 ```  
 
 
-## Domain
-
-
-```html
-www.amazon.com
-amazon.co.uk
-www.amazon.co.uk
-amazon.com
-```  
-
-
-## Highlights
-
-
-```html
-fls-eu.amazon.co.uk
-fls-na.amazon.com
-```  
-
-
-## Library
-
-
-```html
-kindle-content-update-proxy.amazon.com
-unagi.amazon.com
-unagi.amazon.co.uk
-unagi-eu.amazon.com
-unagi-na.amazon.com
-```  
-
-
 ## Media Delivery
 
 
 ```html
-images-na.ssl-images-amazon.com
+kindle-content-update-proxy.amazon.com
 s3-eu-west-1.amazonaws.com
-us-east-1.amazonaws.com
 kindle-digital-delivery.amazon.com
+images-na.ssl-images-amazon.com
+unagi.amazon.co.uk
+unagi-eu.amazon.com
+us-east-1.amazonaws.com
 ```  
 
 
-## Preferences Backup
+## Root Domains
 
 
 ```html
-mobile-app-expan.amazon.com
+www.amazon.com
+www.amazon.co.uk
+amazon.co.uk
+amazon.com
 ```  
 
-
-## Syncing
-
-
-```html
-syncdelivery.audible.co.uk
-todo-ta-g7g.amazon.com
-```  
-
-<br>

@@ -8,7 +8,7 @@
 
 
 ```html
-lamssettings-pa.googleapis.com
+www.googleapis.com
 ```  
 
 
@@ -29,7 +29,7 @@ ssl.gstatic.com
 ```  
 
 
-## Domain
+## Root Domains
 
 
 ```html

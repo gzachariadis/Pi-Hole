@@ -4,12 +4,12 @@
 <h1 align="center">Quad9</h1>  
 
 
-## Domain
+## Root Domains
 
 
 ```html
-quad9.net
 quad9.com
+quad9.net
 ```  
 
 <br>

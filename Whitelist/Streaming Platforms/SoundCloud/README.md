@@ -8,8 +8,8 @@
 
 
 ```html
-www.sndcdn.com
 sndcdn.com
+www.sndcdn.com
 ```  
 
 
