@@ -1,4 +1,5 @@
 import subprocess
+import sys 
 
 black_command = " ".join(
     [
@@ -20,8 +21,11 @@ try:
         black_command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
     )
 
-    print(blacks)
-    sys.exit()
+    for line in result.splitlines():
+        # Fetch Data by line
+        line = str(line.decode()).rstrip().strip()
+        print(line)
+
     
 except subprocess.CalledProcessError as cpe:
     blacks = cpe.output
