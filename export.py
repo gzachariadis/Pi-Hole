@@ -11,7 +11,7 @@ black_command = " ".join(
         "WHERE",
         "enabled=1",
         "AND",
-        "type=1;"
+        "type=1;",
     ]
 )
 
