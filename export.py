@@ -26,5 +26,3 @@ try:
 except subprocess.CalledProcessError as cpe:
     blacks = cpe.output
     print(blacks)
-    
-    
