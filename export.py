@@ -1,3 +1,5 @@
+import subprocess
+
 black_command = " ".join(
     [
         "sqlite3",
