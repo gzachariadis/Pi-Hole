@@ -35,22 +35,6 @@ white_command = " ".join(
     ]
 )
 
-black_command = " ".join(
-    [
-        "sqlite3",
-        '"/etc/pihole/gravity.db"',
-        '"SELECT',
-        'domain',
-        "FROM",
-        "domainlist",
-        "WHERE",
-        "enabled=1",
-        "AND",
-        "type=1;"
-    ]
-)
-
-
 def findOccurrences(string):
     if string[:-1] == "\|":
         string = Str[: len(string) - 1]
@@ -74,7 +58,7 @@ except subprocess.CalledProcessError as cpe:
     blacks = cpe.output
     print(blacks)
     
-
+"""
 # Run Command to Database, Decoding every line
 try:
     result = subprocess.check_output(
