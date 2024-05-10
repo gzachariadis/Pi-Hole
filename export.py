@@ -11,11 +11,11 @@ black_command = " ".join(
         "WHERE",
         "enabled=1",
         "AND",
-        "type=1;",
+        'type=1;"',
     ]
 )
 
-try: 
+try:
     blacks = subprocess.check_output(
         black_command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
     )
