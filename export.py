@@ -21,7 +21,7 @@ try:
         black_command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
     )
 
-    for line in result.splitlines():
+    for line in blacks.splitlines():
         # Fetch Data by line
         line = str(line.decode()).rstrip().strip()
         print(line)
