@@ -68,7 +68,8 @@ try:
     )
 
     print(blacks)
-
+    sys.exit()
+    
 except subprocess.CalledProcessError as cpe:
     blacks = cpe.output
     print(blacks)
