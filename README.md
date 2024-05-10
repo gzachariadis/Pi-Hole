@@ -24,7 +24,7 @@ A compehensive guide to setting up my personal configuration.
     - [Whitelist](#whitelist)
     - [Regex Blacklisting](#regex-blacklisting)
     - [Adlists](#adlists)
-- [Maitenance](#maitenance)
+- [Maintenance](#maintenance)
   - [Updating](#updating)
     - [Database Update Frequency](#database-update-frequency)
 - [Final Words](#final-words)
@@ -166,7 +166,7 @@ Another useful source for specific whitelists, can be found [here](https://githu
 - [ ] [Esox-Lucius](https://github.com/Esox-Lucius/PiHoleblocklists)
 - [ ] [Chris Trackers](https://github.com/cbuijs/accomplist/tree/master/chris/trackers)
 
-# Maitenance
+# Maintenance
 
 ## Updating
 
@@ -187,3 +187,19 @@ P.S. This is not a recommended configuration. Please, read the documentation, pl
 
 - [ ] [Pihole Guide](https://github.com/tgjohnst/pihole-guide)
 - [ ]
+
+
+
+- [ ] [Ultimate Pi-Hole Raspberry Pi Setup: Faster Internet in 15 min](https://www.smarthomebeginner.com/pi-hole-raspberry-pi-setup-guide-2023/)
+- [ ] [Pihole Local DNS Records synchronized from Active Directory](https://www.virtualizationhowto.com/2022/01/pihole-local-dns-records-synchronized-from-active-directory/)
+- [ ] [Pi-Hole vs AdGuard Home for Ad Blocking – 12 Key Differences](https://www.smarthomebeginner.com/pi-hole-vs-adguard-home/)
+- [ ] [Cloudflared (DoH)](https://docs.pi-hole.net/guides/dns/cloudflared/)
+- [ ] [Pi-hole as All-Around DNS Solution](https://docs.pi-hole.net/guides/dns/unbound/)
+- [ ] [DNS cache](https://docs.pi-hole.net/ftldns/dns-cache/)
+- [ ] [How to Run PiHole in Docker on Ubuntu, w/ and w/o Reverse Proxy?](https://www.smarthomebeginner.com/run-pihole-in-docker-on-ubuntu-with-reverse-proxy/)
+- [ ] [Gravity Sync](https://github.com/vmstan/gravity-sync)
+- [ ] [Configuring PiHole to Update More Regularly](https://www.bentasker.co.uk/posts/blog/privacy/467-configuring-pi-hole-to-update-blocklists-more-regularly.html)
+- [ ] [Whitelisted Domains](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212)
+- [ ] [One One One One](https://one.one.one.one/help/)
+- [ ] [DNS over HTTPS](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/#main)
+- [ ] 

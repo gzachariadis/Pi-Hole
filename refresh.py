@@ -12,7 +12,7 @@ root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
 whitelist = {}
 
 # Command to Fetch Whitelist from API_Dict
-command = " ".join(
+white_command = " ".join(
     [
         "sqlite3",
         '"/etc/pihole/gravity.db"',
@@ -35,6 +35,22 @@ command = " ".join(
     ]
 )
 
+black_command = " ".join(
+    [
+        "sqlite3",
+        '"/etc/pihole/gravity.db"',
+        '"SELECT',
+        'domain',
+        "FROM",
+        "domainlist",
+        "WHERE",
+        "enabled=1",
+        "AND",
+        "type=1;"
+    ]
+)
+
+
 def findOccurrences(string):
     if string[:-1] == "\|":
         string = Str[: len(string) - 1]
@@ -46,11 +62,22 @@ def findOccurrences(string):
 def pairwise(l):
     return [(x, y) for x, y in zip(l[:-1], l[1:])]
 
+try: 
+    blacks = subprocess.check_output(
+        black_command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
+    )
+
+    print(blacks)
+
+except subprocess.CalledProcessError as cpe:
+    blacks = cpe.output
+    print(blacks)
+    
 
 # Run Command to Database, Decoding every line
 try:
     result = subprocess.check_output(
-        command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
+        white_command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
     )
 
     for line in result.splitlines():
@@ -237,13 +264,15 @@ def create_file(Title, Static_Types, Non_Types):
                 existence.append(int(translations[typ3]["Priority"]))
     
     for num in sorted(existence):
-        print([key for key, value in translations.items() if value["Priority"] == num])
+        print([value["Tr"] for key, value in translations.items() if value["Priority"] == num])
     
     """
-    mdFile.new_header(level=2, title=str(translations.keys()[translations.values().index(num)]), add_table_of_contents="n")
+    mdFile.new_header(level=2, title=str(translate([key for key, value in translations.items() if value["Priority"] == num])), add_table_of_contents="n")
     mdFile.insert_code(str("\n".join([1,2,3])).strip(), language="html")
     mdFile.write("  \n\n")
+    """
     
+    """
     # Non Static Types
     if not Non_Types:
         mdFile.write("<br>\n")
