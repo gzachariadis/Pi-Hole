@@ -161,6 +161,7 @@
 - [Coin Blocker List](#coin-blocker-list)
 - [Government Malware Domains](#government-malware-domains)
 - [RPIList Special](#rpilist-special)
+- [Inversion DNSBL (Domain Name System-based blackhole list) Blocklists](#inversion-dnsbl-domain-name-system-based-blackhole-list-blocklists)
 
 ## [StevenBlack](https://github.com/StevenBlack/hosts)
 
@@ -3203,4 +3204,11 @@ https://raw.githubusercontent.com/fredprod/host-file.net-backup/master/pha.txt
 https://raw.githubusercontent.com/fredprod/host-file.net-backup/master/psh.txt
 https://raw.githubusercontent.com/tgjohnst/pihole-guide/master/whitelist.txt
 https://raw.githubusercontent.com/stamparm/maltrail/master/misc/whitelist.txt
+```
+
+## [Inversion DNSBL (Domain Name System-based blackhole list) Blocklists](https://github.com/elliotwutingfeng/Inversion-DNSBL-Blocklists)
+
+```
+https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_light.txt
+https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt
 ```
