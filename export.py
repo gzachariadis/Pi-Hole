@@ -75,10 +75,12 @@ try:
     
     # Change Working Directory to Last Source
     last_iteration = create_path(subD,str(selected))
+    print(last_iteration)
     os.chdir(Path(last_iteration))
     
     print(os.getcwd())
     
+    """
     #Return all Files
     arr = os.listdir()
     
@@ -91,7 +93,7 @@ try:
         txtfiles.append(file)
     
     print(txtfiles)
- 
+    """
  
     # Find the Last One, cd to it
     
