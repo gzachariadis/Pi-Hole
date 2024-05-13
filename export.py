@@ -58,7 +58,8 @@ try:
     subfolders = [f.name for f in os.scandir(subdirectory) if f.is_dir()]
     
     
-    print(sorted(subfolders))
+    print(sorted(subfolders)[-1])
+    
     
     # Find the Last One, cd to it
     
