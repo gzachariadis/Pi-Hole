@@ -6,22 +6,6 @@ import time
 from pathlib import Path
 from datetime import date
 
-def make_ordinal(n):
-    '''
-    Convert an integer into its ordinal representation::
-
-        make_ordinal(0)   => '0th'
-        make_ordinal(3)   => '3rd'
-        make_ordinal(122) => '122nd'
-        make_ordinal(213) => '213th'
-    '''
-    n = int(n)
-    if 11 <= (n % 100) <= 13:
-        suffix = 'th'
-    else:
-        suffix = ['th', 'st', 'nd', 'rd', 'th'][min(n % 10, 4)]
-    return str(n) + suffix
-
 black_command = " ".join(
     [
         "sqlite3",
@@ -41,10 +25,17 @@ def return_subDirs(subdirectory):
 
 def create_path(folder,subfolder):
     return Path(os.path.join(folder,subfolder))
-       
+
+# Search Files' Names for Today's Date and return matches  
+def count(Date, Files):
+    counter = 1
+    for N in Files:
+        if str(Date) in N:
+            counter = counter + 1
+    return counter
+     
 try:
-    
-    # Run the black command to Fetch Domains
+    # Step 1 : Run the black command to Fetch Domains
     blacks = subprocess.check_output(
         black_command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
     )
@@ -65,38 +56,32 @@ try:
     last_iteration = create_path(subD,str(selected))
     os.chdir(Path(last_iteration))
 
-    # Get all Txt Files in Current Directory
-    txtFiles = [f for f in os.listdir(os.curdir) if f.endswith('.txt')]
-       
+    # Step 2 : Get all Txt Files in Current Directory
+    TextFiles = [f for f in os.listdir(os.curdir) if f.endswith('.txt')]
     today = date.today().strftime("%d-%m-%Y")
-    counter = 1 
-
-    # Search txtFiles to append to counter
-    for Fname in txtFiles:
-        if str(today) in Fname:
-            counter = counter + 1
-    
-    # Create a New Text File (named [Number]. Date inside the folder
-    with open('.'.join([str("{:02d}".format(counter)),str(today),'txt']), 'w') as f:
-        lines = 0 
-        print(blacks)      
-        for line in blacks.splitlines():
-            # Fetch Data by line
-            line = str(line.decode()).rstrip().strip()
-            # Append to it line by line a formatted domain entry.
-            f.write(line + '\n')
-            lines  = lines + 1
-        # Save the File
-        f.close()
-
-    # Count the lines you write, every 10.000 lines
-    print(lines)
-
-    
-    # Save File - Switch to a new File (reset loop)
-    
-    
+    counter = count(Date=today,Files=TextFiles) 
+   
+    # Step 3 : Create the File based on BlackDomains (Backup)
+   
+    # Check if Bytes are Empty - So no domains
+    if not blacks:
+        sys.exit()
+    else:
+        # Create a New Text File (named [Number]. Date inside the folder
+        with open('.'.join([str("{:02d}".format(counter)),str(today),'txt']), 'w') as f:
+            lines = 0 
+                
+            for line in blacks.splitlines():
+                # Fetch Data by line
+                line = str(line.decode()).rstrip().strip()
+                # Append to it line by line a formatted domain entry.
+                f.write(line + '\n')
+                lines  = lines + 1
+            # Save the File
+            f.close()
+            
     # Step 4 - Delete Exact Blacklist 
+
     delete_command = " ".join(
     [
         "sqlite3",
@@ -108,15 +93,18 @@ try:
         'type=1;"',
     ])
     
-    # Verify the exact blacklist is nuked.
-    time.sleep(3)
-    # Delete Exact Blacklist using PiHole Command
-    subprocess.call(["pihole", "-b", "--nuke"]) 
-    time.sleep(5)
-    # Nuke the exact blacklist by using the delete_command (Directly from Database)
-    subprocess.call(delete_command,shell=True, executable="/bin/bash")
-
+    # If code processed blacklist 
+    if int(lines) > 0:
+        # Verify the exact blacklist is nuked.
+        time.sleep(3)
+        # Delete Exact Blacklist using PiHole Command
+        subprocess.call(["pihole", "-b", "--nuke"]) 
+        time.sleep(5)
+        # Nuke the exact blacklist by using the delete_command (Directly from Database)
+        subprocess.call(delete_command,shell=True, executable="/bin/bash")
+        
 except subprocess.CalledProcessError as cpe:
     blacks = cpe.output
     
     
+
