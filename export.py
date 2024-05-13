@@ -38,9 +38,11 @@ try:
 
     # Fetch all Subfolders inside Adlists > Sources
     root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
+    subdirectory = os.path.join(root_directory, "Blacklist", "Adlists")
+    subfolders = [f.path for f in os.scandir(subdirectory) if f.is_dir()]
     
-    print(root_directory)
-    
+    print(subfolders)
+
     
     # Find the Last One, cd to it
     
