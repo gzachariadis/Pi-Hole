@@ -59,6 +59,8 @@ def create_path(folder,subfolder):
     return Path(os.path.join(folder,subfolder))
        
 try:
+    
+    # Run the black command to Fetch Domains
     blacks = subprocess.check_output(
         black_command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
     )
@@ -84,17 +86,22 @@ try:
        
     today = date.today().strftime("%d-%m-%Y")
     counter = 1 
+
+    # Search txtFiles to append to counter
     for Fname in txtFiles:
         if str(today) in Fname:
             counter = counter + 1
     
-    print(counter)
-    
-    
-    
     # Create a New Text File (named [Number]. Date inside the folder
-    
-    # Append to it line by line a formatted domain entry.
+    with open('.'.join(counter,today), 'w') as f:
+        for line in blacks.splitlines():
+            # Fetch Data by line
+            line = str(line.decode()).rstrip().strip()
+            # Append to it line by line a formatted domain entry.
+            f.write(line + '\n')
+        # Save the File
+        f.close()
+
     
     # Count the lines you write, every 10.000 lines
     # Save File - Switch to a new File (reset loop)
@@ -107,9 +114,7 @@ try:
     ## pihole -b --list ---> Must be "Not showing empty list"
     
     """
-    for line in blacks.splitlines():
-        # Fetch Data by line
-        line = str(line.decode()).rstrip().strip()
+
     """
 
     
