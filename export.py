@@ -74,10 +74,10 @@ try:
     
     # Change Working Directory to Last Source
     last_iteration = create_path(subD,str(selected))
-    os.chdir(last_iteration) 
+    print(last_iteration)
     
     #Return all Files
-    print(list(pathlib.Path(last_iteration).glob('*.txt')))
+    # print(list(pathlib.Path(last_iteration).glob('*.txt')))
     
     # Find the Last One, cd to it
     
