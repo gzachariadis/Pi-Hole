@@ -78,8 +78,13 @@ try:
     os.chdir(Path(last_iteration))
     
     #Return all Files
-    print(list(pathlib.Path(last_iteration).glob('*.txt')))
-    
+    from os import listdir
+    from os.path import isfile, join
+    onlyfiles = [f for f in listdir(Path(last_iteration)) if isfile(join(Path(last_iteration), f))]
+    print(onlyfiles)
+ 
+ 
+ 
     # Find the Last One, cd to it
     
     # Fetch all Text Files inside of it.
