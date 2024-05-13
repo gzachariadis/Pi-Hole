@@ -79,6 +79,8 @@ try:
     # Create a New Text File (named [Number]. Date inside the folder
     with open('.'.join([str("{:02d}".format(counter)),str(today),'txt']), 'w') as f:
         lines = 0 
+        print(type(blacks))
+        
         for line in blacks.splitlines():
             # Fetch Data by line
             line = str(line.decode()).rstrip().strip()
@@ -95,7 +97,7 @@ try:
     # Save File - Switch to a new File (reset loop)
     
     
-    # Step 4 - Delete Exact Domainlist 
+    # Step 4 - Delete Exact Blacklist 
     delete_command = " ".join(
     [
         "sqlite3",
@@ -109,14 +111,12 @@ try:
     
     # Verify the exact blacklist is nuked.
     time.sleep(3)
-    ## Delete Exact Blacklist using PiHole Command
+    # Delete Exact Blacklist using PiHole Command
     subprocess.call(["pihole", "-b", "--nuke"]) 
     time.sleep(5)
-      # Nuke the exact blacklist by using the delete_command (Directly from Database)
+    # Nuke the exact blacklist by using the delete_command (Directly from Database)
     subprocess.call(delete_command,shell=True, executable="/bin/bash")
-    
-    ## pihole -b --list ---> Must be "Not showing empty list"
-    
+
 except subprocess.CalledProcessError as cpe:
     blacks = cpe.output
     
