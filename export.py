@@ -3,6 +3,8 @@ import sys
 import os 
 import pathlib
 from pathlib import Path
+import glob
+from datetime import date
 
 def make_ordinal(n):
     '''
@@ -77,23 +79,15 @@ try:
     last_iteration = create_path(subD,str(selected))
     os.chdir(Path(last_iteration))
 
-    #Return all Files
-    arr = os.listdir()
+    # Get all Txt Files in Current Directory
+    txtFiles = glob.glob('./*.txt')
     
-    print(arr)
+    print(type(txtFiles))
     
-    import glob
-
-    txtfiles = []
-    for file in glob.glob("*.txt"):
-        txtfiles.append(file)
+    today = date.today()
     
-    print(txtfiles)
-
- 
-    # Find the Last One, cd to it
+    print(today)
     
-    # Fetch all Text Files inside of it.
     
     # Create a New Text File (named [Number]. Date inside the folder
     
