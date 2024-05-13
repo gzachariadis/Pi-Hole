@@ -77,12 +77,20 @@ try:
     last_iteration = create_path(subD,str(selected))
     os.chdir(Path(last_iteration))
     
+    print(os.getcwd())
+    
     #Return all Files
-    from os import listdir
-    from os.path import isfile, join
-    onlyfiles = [f for f in listdir(Path(last_iteration)) if isfile(join(Path(last_iteration), f))]
-    print(onlyfiles)
- 
+    arr = os.listdir()
+    
+    print(arr)
+    
+    import glob
+
+    txtfiles = []
+    for file in glob.glob("*.txt"):
+        txtfiles.append(file)
+    
+    print(txtfiles)
  
  
     # Find the Last One, cd to it
