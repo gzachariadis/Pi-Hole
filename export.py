@@ -81,12 +81,14 @@ try:
 
     # Get all Txt Files in Current Directory
     txtFiles = [f for f in os.listdir(os.curdir) if f.endswith('.txt')]
-    
-    print(txtFiles)
-    
+       
     today = date.today().strftime("%d-%m-%Y")
     
-    print(today)
+    for Fname in txtFiles:
+        if str(today) in Fname:
+            print("Found")
+            
+    
     
     
     # Create a New Text File (named [Number]. Date inside the folder
