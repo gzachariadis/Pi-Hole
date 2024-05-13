@@ -82,9 +82,9 @@ try:
     # Get all Txt Files in Current Directory
     txtFiles = glob.glob('./*.txt')
     
-    print(type(txtFiles))
+    print(txtFiles)
     
-    today = date.today()
+    today = date.today().strftime("%d/%m/%Y")
     
     print(today)
     
