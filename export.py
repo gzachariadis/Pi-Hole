@@ -56,7 +56,7 @@ def create_path(folder,file):
     # return (os.path.abspath(os.path.dirname(folder)) + "/" + file.replace(" ", "\ "))
     print(folder)
     print(file)
-    
+    print(os.path.join(folder, file))
     
     
     
