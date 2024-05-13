@@ -54,7 +54,7 @@ def return_subDirs(subdirectory):
     return [f.name for f in os.scandir(subdirectory) if f.is_dir()]
 
 def create_path(folder,file):
-    return os.path.join(folder, file.replace(" ", "\\ ") + '//')
+    return os.path.join(folder, file.replace(" ", "\\ ") + "//")
        
 try:
     blacks = subprocess.check_output(
