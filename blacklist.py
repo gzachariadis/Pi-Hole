@@ -5,7 +5,8 @@ import pathlib
 import time
 from pathlib import Path
 from datetime import date
-
+import urllib 
+    
 black_command = " ".join(
     [
         "sqlite3",
@@ -56,7 +57,7 @@ try:
         # Fetch all Subfolders inside Adlists > Sources
         subF = return_subDirs(subdirectory=subD)
         
-        # Sort them so you add to the last One
+        # Sort them so you add to the last One (Iterations)
         selected = sorted(subF)[-1]
         
         # Change Working Directory to Last Source
@@ -87,8 +88,7 @@ try:
                 
     # Step 4 - Delete Exact Blacklist 
 
-    delete_command = " ".join(
-    [
+    delete_command = " ".join([
         "sqlite3",
         '"/etc/pihole/gravity.db"',
         '"DELETE',
@@ -109,6 +109,48 @@ try:
         print("Nuking Blacklist using Database Command...")
         # Nuke the exact blacklist by using the delete_command (Directly from Database)
         subprocess.call(delete_command,shell=True, executable="/bin/bash")
+       
+        # Git Add
+        
+        # Git Commit
+
+        # Git Push
+        
+
+        # Git Raw URLS Creator
+        base_url = "https://raw.githubusercontent.com/gzachariadis/Pi-Hole/main/Blacklist/Adlists/Sources/"
+        directory = urllib.parse.quote(selected)
+        filename = str('.'.join([str("{:02d}".format(counter)),str(today),'txt']))
+        
+        whole_url = base_url + '/' + str(directory) + '/' + filename
+        
+        print(whole_url)
+        
+        ## Add the URL into the domain list
+        
+        add_command = " ".join(
+        [
+            "sqlite3",
+            '"/etc/pihole/gravity.db"',
+            '"INSERT',
+            "INTO",
+            "adlist",
+            "(address,",
+            "enabled,",
+            "comment)",
+            "VALUES",
+            "('{whole_url}',",
+            "1,"
+            "'{filename}');",
+            '"'
+        ])
+        
+        # Execute the Command 
+        subprocess.call(add_command,shell=True, executable="/bin/bash")
+        print("Appended generated File into the ADlists Database...")
+    else:
+        print("The produced text file is empty or some error occurred.")
+        sys.exit()
         
 except subprocess.CalledProcessError as cpe:
     blacks = cpe.output

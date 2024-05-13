@@ -1,0 +1,16 @@
+Types
+
+Root Domains
+Domain
+Verified Domains - [Purpose]
+Media Delivery - [Purpose]
+Software Delivery - [Purpose]
+Hosting
+
+
+CSS
+OCSP
+API - [Purpose]
+CDN - [Purpose]
+NTP
+DNS
