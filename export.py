@@ -51,6 +51,8 @@ delete_command = " ".join(
 def return_subDirs(subdirectory):
     return [f.name for f in os.scandir(subdirectory) if f.is_dir()]
 
+def create_path(folder,file):
+    return (os.path.abspath(os.path.dirname(folder)) + "/" + file)
 
 try:
     blacks = subprocess.check_output(
@@ -70,7 +72,7 @@ try:
     selected = sorted(subF)[-1]
     
     # 
-    print(os.path.join(subD + selected))
+    print(create_path(subD,str(selected)))
     print(selected)
     
     
