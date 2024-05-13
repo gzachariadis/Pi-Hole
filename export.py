@@ -75,7 +75,6 @@ try:
     
     # Change Working Directory to Last Source
     last_iteration = create_path(subD,str(selected))
-    print(last_iteration)
     os.chdir(Path(last_iteration))
     
     print(os.getcwd())
