@@ -1,6 +1,7 @@
 import subprocess
 import sys 
 import os 
+import pathlib
 
 def make_ordinal(n):
     '''
@@ -71,9 +72,12 @@ try:
     # Sort them so you add to the last One
     selected = sorted(subF)[-1]
     
-    # 
-    print(create_path(subD,str(selected)))
-    print(selected)
+    # Change Working Directory to Last Source
+    last_iteration = create_path(subD,str(selected))
+    os.chdir(last_iteration) 
+    
+    # Return all Files
+    print(list(pathlib.Path(last_iteration).glob('*.txt')))
     
     
     
