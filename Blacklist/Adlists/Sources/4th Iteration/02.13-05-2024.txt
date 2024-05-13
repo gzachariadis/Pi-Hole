@@ -29,3 +29,13 @@ mazu.sec.miui.com
 feedback.miui.com
 data.sec.miui.com
 data.mistat.intl.xiaomi.com
+event-img.qwapi.com
+adserver-live.yoc.mobi
+admax.nexage.com
+mm.admob.com
+iphone-services.apple.com
+iphonesubmissions.apple.com
+ads2.greystripe.com
+adsx.greystripe.com
+c.greystripe.com
+a.medialytics.com
