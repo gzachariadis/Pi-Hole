@@ -111,7 +111,12 @@ try:
     # Save File - Switch to a new File (reset loop)
     # When input is complete 
     # Nuke the exact blacklist by using the delete_command
+    
+    
     # Verify the exact blacklist is nuked.
+    subprocess.run(["pihole", "-b", "--nuke"]) 
+    subprocess.call(["pihole", "-b", "--nuke"])
+    
     
     ## pihole -b --nuke ---> Another way to delete
     
