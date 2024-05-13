@@ -94,16 +94,20 @@ try:
     
     # Create a New Text File (named [Number]. Date inside the folder
     with open('.'.join([str("{:02d}".format(counter)),str(today),'txt']), 'w') as f:
+        lines = 0 
         for line in blacks.splitlines():
             # Fetch Data by line
             line = str(line.decode()).rstrip().strip()
             # Append to it line by line a formatted domain entry.
             f.write(line + '\n')
+            lines  = lines + 1
         # Save the File
         f.close()
 
-
     # Count the lines you write, every 10.000 lines
+    print(lines)
+
+    
     # Save File - Switch to a new File (reset loop)
     # When input is complete 
     # Nuke the exact blacklist by using the delete_command
