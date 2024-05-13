@@ -70,7 +70,7 @@ try:
     selected = sorted(subF)[-1]
     
     # 
-    print(os.path.join(subD + str(selected)))
+    print(os.path.join(subD + selected))
     print(selected)
     
     
