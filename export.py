@@ -53,13 +53,8 @@ def return_subDirs(subdirectory):
     return [f.name for f in os.scandir(subdirectory) if f.is_dir()]
 
 def create_path(folder,file):
-    # return (os.path.abspath(os.path.dirname(folder)) + "/" + file.replace(" ", "\ "))
-    print(folder)
-    print(file)
-    print(os.path.join(folder, file.replace(" ", "\\ ").replace("?", "\\?").replace("&", "\\&").replace("(", "\\(").replace(")", "\\)").replace("*", "\\*").replace("<", "\\<").replace(">", "\\>")))
-    
-    
-    
+    return os.path.join(folder, file.replace(" ", "\\ ").replace("?", "\\?").replace("&", "\\&").replace("(", "\\(").replace(")", "\\)").replace("*", "\\*").replace("<", "\\<").replace(">", "\\>"))
+       
 try:
     blacks = subprocess.check_output(
         black_command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
@@ -79,12 +74,10 @@ try:
     
     # Change Working Directory to Last Source
     last_iteration = create_path(subD,str(selected))
-    # os.chdir(last_iteration) 
+    os.chdir(last_iteration) 
     
-    # Return all Files
-    # print(list(pathlib.Path(last_iteration).glob('*.txt')))
-    
-    
+    #Return all Files
+    print(list(pathlib.Path(last_iteration).glob('*.txt')))
     
     # Find the Last One, cd to it
     
