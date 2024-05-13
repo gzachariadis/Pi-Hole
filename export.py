@@ -54,7 +54,6 @@ def return_subDirs(subdirectory):
 
 def create_path(folder,file):
     # return (os.path.abspath(os.path.dirname(folder)) + "/" + file.replace(" ", "\ "))
-    print((os.path.abspath(os.path.dirname(folder))))
     print(folder)
     print(file)
     
