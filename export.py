@@ -78,7 +78,7 @@ try:
     os.chdir(Path(last_iteration))
     
     #Return all Files
-    # print(list(pathlib.Path(last_iteration).glob('*.txt')))
+    print(list(pathlib.Path(last_iteration).glob('*.txt')))
     
     # Find the Last One, cd to it
     
