@@ -110,10 +110,10 @@ try:
     # Verify the exact blacklist is nuked.
     time.sleep(3)
     ## Delete Exact Blacklist using PiHole Command
-    subprocess.run(["pihole", "-b", "--nuke"],shell=True, executable="/bin/bash") 
+    subprocess.call(["pihole", "-b", "--nuke"]) 
     time.sleep(5)
       # Nuke the exact blacklist by using the delete_command (Directly from Database)
-    subprocess.run(delete_command,shell=True, executable="/bin/bash")
+    subprocess.call(delete_command,shell=True, executable="/bin/bash")
     
     ## pihole -b --list ---> Must be "Not showing empty list"
     
