@@ -53,8 +53,8 @@ delete_command = " ".join(
 def return_subDirs(subdirectory):
     return [f.name for f in os.scandir(subdirectory) if f.is_dir()]
 
-def create_path(folder,file):
-    return ''.join(folder, file.replace(" ", "\\ ") + "//")
+def create_path(folder,subfolder):
+    return Path(os.path.join(folder,subfolder))
        
 try:
     blacks = subprocess.check_output(
