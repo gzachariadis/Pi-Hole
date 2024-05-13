@@ -80,11 +80,11 @@ try:
     os.chdir(Path(last_iteration))
 
     # Get all Txt Files in Current Directory
-    txtFiles = glob.glob('./*.txt')
+    txtFiles = [f for f in os.listdir(os.curdir) if f.endswith('.txt')]
     
     print(txtFiles)
     
-    today = date.today().strftime("%d/%m/%Y")
+    today = date.today().strftime("%d-%m-%Y")
     
     print(today)
     
