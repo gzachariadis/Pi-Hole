@@ -47,18 +47,32 @@ delete_command = " ".join(
     ]
 )
 
+
+def return_subDirs(subdirectory):
+    return [f.name for f in os.scandir(subdirectory) if f.is_dir()]
+
+
 try:
     blacks = subprocess.check_output(
         black_command, shell=True, executable="/bin/bash", stderr=subprocess.STDOUT
     )
 
-    # Fetch all Subfolders inside Adlists > Sources
+    # Project Root Directory
     root_directory = dir_path = os.path.dirname(os.path.realpath(__file__))
-    subdirectory = os.path.join(root_directory, "Blacklist", "Adlists","Sources")
-    subfolders = [f.name for f in os.scandir(subdirectory) if f.is_dir()]
     
+    # Set Search onto Adlists > Sources
+    subD = os.path.join(root_directory, "Blacklist", "Adlists","Sources")
     
-    print(sorted(subfolders)[-1])
+    # Fetch all Subfolders inside Adlists > Sources
+    subF = return_subDirs(subdirectory=subD)
+    
+    # Sort them so you add to the last One
+    selected = sorted(subF)[-1]
+    
+    # 
+    print(os.path.join(subD + str(selected)))
+    print(selected)
+    
     
     
     # Find the Last One, cd to it
