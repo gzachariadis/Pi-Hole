@@ -83,11 +83,12 @@ try:
     txtFiles = [f for f in os.listdir(os.curdir) if f.endswith('.txt')]
        
     today = date.today().strftime("%d-%m-%Y")
-    
+    counter = 1 
     for Fname in txtFiles:
         if str(today) in Fname:
-            print("Found")
-            
+            counter = counter + 1
+    
+    print(counter)
     
     
     
