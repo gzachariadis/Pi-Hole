@@ -2,6 +2,7 @@ import subprocess
 import sys 
 import os 
 import pathlib
+from pathlib import Path
 
 def make_ordinal(n):
     '''
@@ -74,7 +75,7 @@ try:
     
     # Change Working Directory to Last Source
     last_iteration = create_path(subD,str(selected))
-    print(last_iteration)
+    os.chdir(Path(last_iteration))
     
     #Return all Files
     # print(list(pathlib.Path(last_iteration).glob('*.txt')))
