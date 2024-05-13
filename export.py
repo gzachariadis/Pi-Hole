@@ -93,7 +93,7 @@ try:
             counter = counter + 1
     
     # Create a New Text File (named [Number]. Date inside the folder
-    with open('.'.join([str(counter),str(today),'txt']), 'w') as f:
+    with open('.'.join([str('{%02d}'.format(counter)),str(today),'txt']), 'w') as f:
         for line in blacks.splitlines():
             # Fetch Data by line
             line = str(line.decode()).rstrip().strip()
