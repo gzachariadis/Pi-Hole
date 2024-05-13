@@ -93,7 +93,7 @@ try:
             counter = counter + 1
     
     # Create a New Text File (named [Number]. Date inside the folder
-    with open('.'.join(counter,today), 'w') as f:
+    with open('.'.join([str(counter),str(today)]), 'w') as f:
         for line in blacks.splitlines():
             # Fetch Data by line
             line = str(line.decode()).rstrip().strip()
@@ -102,7 +102,7 @@ try:
         # Save the File
         f.close()
 
-    
+
     # Count the lines you write, every 10.000 lines
     # Save File - Switch to a new File (reset loop)
     # When input is complete 
