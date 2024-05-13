@@ -2,6 +2,22 @@ import subprocess
 import sys 
 import os 
 
+def make_ordinal(n):
+    '''
+    Convert an integer into its ordinal representation::
+
+        make_ordinal(0)   => '0th'
+        make_ordinal(3)   => '3rd'
+        make_ordinal(122) => '122nd'
+        make_ordinal(213) => '213th'
+    '''
+    n = int(n)
+    if 11 <= (n % 100) <= 13:
+        suffix = 'th'
+    else:
+        suffix = ['th', 'st', 'nd', 'rd', 'th'][min(n % 10, 4)]
+    return str(n) + suffix
+
 black_command = " ".join(
     [
         "sqlite3",
@@ -42,7 +58,7 @@ try:
     subfolders = [f.name for f in os.scandir(subdirectory) if f.is_dir()]
     
     
-    print(subfolders)
+    print(sorted(subfolders))
     
     # Find the Last One, cd to it
     
