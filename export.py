@@ -2,8 +2,8 @@ import subprocess
 import sys 
 import os 
 import pathlib
+import time
 from pathlib import Path
-import glob
 from datetime import date
 
 def make_ordinal(n):
@@ -34,23 +34,7 @@ black_command = " ".join(
         "enabled=1",
         "AND",
         'type=1;"',
-    ]
-)
-
-# sudo sqlite3 /etc/pihole/gravity.db "delete from domainlist where type=1;"
-
-delete_command = " ".join(
-    [
-        "sqlite3",
-        '"/etc/pihole/gravity.db"',
-        '"DELETE',
-        "FROM",
-        "domainlist",
-        "WHERE",
-        'type=1;"',
-    ]
-)
-
+    ])
 
 def return_subDirs(subdirectory):
     return [f.name for f in os.scandir(subdirectory) if f.is_dir()]
@@ -109,23 +93,29 @@ try:
 
     
     # Save File - Switch to a new File (reset loop)
-    # When input is complete 
-    # Nuke the exact blacklist by using the delete_command
     
+    
+    # Step 4 - Delete Exact Domainlist 
+    delete_command = " ".join(
+    [
+        "sqlite3",
+        '"/etc/pihole/gravity.db"',
+        '"DELETE',
+        "FROM",
+        "domainlist",
+        "WHERE",
+        'type=1;"',
+    ])
     
     # Verify the exact blacklist is nuked.
-    subprocess.run(["pihole", "-b", "--nuke"]) 
-    subprocess.call(["pihole", "-b", "--nuke"])
-    
-    
-    ## pihole -b --nuke ---> Another way to delete
+    time.sleep(3)
+    ## Delete Exact Blacklist using PiHole Command
+    subprocess.run(["pihole", "-b", "--nuke"],shell=True, executable="/bin/bash") 
+    time.sleep(5)
+      # Nuke the exact blacklist by using the delete_command (Directly from Database)
+    subprocess.run(delete_command,shell=True, executable="/bin/bash")
     
     ## pihole -b --list ---> Must be "Not showing empty list"
-    
-    """
-
-    """
-
     
 except subprocess.CalledProcessError as cpe:
     blacks = cpe.output
