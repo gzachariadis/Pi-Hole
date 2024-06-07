@@ -1,0 +1,5 @@
+0.0.0.0 log-1.samsungacr.com
+0.0.0.0 log-2.samsungacr.com
+0.0.0.0 acr0.samsungcloudsolution.com
+0.0.0.0 doubleclick.net
+0.0.0.0 doublelick.com

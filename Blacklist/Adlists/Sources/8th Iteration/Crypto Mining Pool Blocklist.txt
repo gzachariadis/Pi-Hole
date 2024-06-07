@@ -1,0 +1,25 @@
+# Crypto Mining Pool Blocklist
+# Blocks the most popular crypto
+# Monero Mining Pool Addresses
+# From researh here: https://www.nextron-systems.com/2021/10/24/monero-mining-pool-fqdns/
+
+0.0.0.0 pool.minexmr.com
+0.0.0.0 fr.minexmr.com
+0.0.0.0 de.minexmr.com
+0.0.0.0 sg.minexmr.com
+0.0.0.0 ca.minexmr.com
+0.0.0.0 us-west.minexmr.com
+0.0.0.0 pool.supportxmr.com
+0.0.0.0 mine.c3pool.com
+0.0.0.0 xmr-eu1.nanopool.org
+0.0.0.0 xmr-eu2.nanopool.org
+0.0.0.0 xmr-us-east1.nanopool.org
+0.0.0.0 xmr-us-west1.nanopool.org
+0.0.0.0 xmr-asia1.nanopool.org
+0.0.0.0 xmr-jp1.nanopool.org
+0.0.0.0 xmr-au1.nanopool.org
+0.0.0.0 xmr.2miners.com
+0.0.0.0 xmr.hashcity.org
+0.0.0.0 xmr.f2pool.com
+0.0.0.0 xmrpool.eu
+0.0.0.0 pool.hashvault.pro

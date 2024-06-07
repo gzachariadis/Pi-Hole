@@ -1,0 +1,32 @@
+# Title:         verbraucherschutz.com Streaming
+# Expires:       7 days
+# Description:   verbraucherschutz.com published list of fraudulent streaming websites. Not regularly updated.
+# Homepage:      https://github.com/stonecrusher/filterlists-pihole/
+# License:       Taken from https://www.verbraucherschutz.com/warnungsticker/warnung-hier-drohen-hohe-streaming-rechnungen-und-aerger-nicht-registrieren/
+# Redirect:      https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/VScom_streaming-ph.txt
+# Last updated:  2022-10-14
+
+boplay.de
+cloudflix.de
+daplay.de
+everflix.de
+filmara.de
+flipflix.de
+foxusenet.de
+kimplay.de
+medplay.de
+miniflix.de
+monplay.de
+movieshub.de
+moviesta.de
+playneo.de
+playsome.de
+playted.de
+playvid.de
+realflix.de
+redflix.de
+roomflix.de
+unoplay.de
+wireplay.de
+wolfplay.de
+zeroplay.de

@@ -1,0 +1,120 @@
+
+
+### MoTD Adblocking ###
+# Pinion.gg Blocking #
+127.0.0.1 pinion.gg
+127.0.0.1 www.pinion.gg
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+127.0.0.1 adback.pinion.gg
+127.0.0.1 api.pinion.gg
+127.0.0.1 bin.pinion.gg
+127.0.0.1 blog.pinion.gg
+127.0.0.1 bork.pinion.gg
+127.0.0.1 calendar.pinion.gg
+127.0.0.1 cdn.pinion.gg
+127.0.0.1 cf-protected-bin.pinion.gg
+127.0.0.1 creative.pinion.gg
+127.0.0.1 crm.pinion.gg
+127.0.0.1 cp.pinion.gg
+127.0.0.1 cp-ng.pinion.gg
+127.0.0.1 delivery.pinion.gg
+127.0.0.1 direct.pinion.gg
+127.0.0.1 docs.pinion.gg
+127.0.0.1 git.pinion.gg
+127.0.0.1 immuniser.pinion.gg
+127.0.0.1 kermit.pinion.gg
+127.0.0.1 legacy.pinion.gg
+127.0.0.1 log.pinion.gg
+127.0.0.1 mail.pinion.gg
+127.0.0.1 mailer.pinion.gg
+127.0.0.1 motd.pinion.gg
+127.0.0.1 ns1.pinion.gg
+127.0.0.1 ns2.pinion.gg
+127.0.0.1 ns3.pinion.gg
+127.0.0.1 ns4.pinion.gg
+127.0.0.1 ns5.pinion.gg
+127.0.0.1 ns6.pinion.gg
+127.0.0.1 office.pinion.gg
+127.0.0.1 oscar.pinion.gg
+127.0.0.1 pinion-log.pinion.gg
+127.0.0.1 pog.pinion.gg
+127.0.0.1 pog2.pinion.gg
+127.0.0.1 quartermaster.pinion.gg
+127.0.0.1 seen.pinion.gg
+127.0.0.1 stage.pinion.gg
+127.0.0.1 templ4d2.pinion.gg
+127.0.0.1 tix.pinion.gg
+127.0.0.1 transcoded.pinion.gg
+127.0.0.1 transcoder.pinion.gg
+127.0.0.1 video.pinion.gg
+127.0.0.1 voip.pinion.gg
+127.0.0.1 wiki.pinion.gg
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+127.0.0.1 ads.intergi.com
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+127.0.0.1 pinionprizes.gg
+127.0.0.1 pog.gg
+
+# Unikrn #
+127.0.0.1 unikrn.com
+127.0.0.1 www.unikrn.com
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+127.0.0.1 affiliates.unikrn.com
+127.0.0.1 auctionbot.unikrn.com
+127.0.0.1 blog.unikrn.com
+127.0.0.1 cdn.unikrn.com
+127.0.0.1 http.unikrn.com
+127.0.0.1 intranet.unikrn.com
+127.0.0.1 jira.unikrn.com
+127.0.0.1 logs.unikrn.com
+127.0.0.1 mcemails.unikrn.com
+127.0.0.1 news.unikrn.com
+127.0.0.1 news-static.unikrn.com
+127.0.0.1 static.unikrn.com
+127.0.0.1 stats.unikrn.com
+127.0.0.1 t.unikrn.com
+127.0.0.1 wiki.unikrn.com
+
+# VPPGamingNetwork #
+127.0.0.1 vppgamingnetwork.com
+127.0.0.1 www.vppgamingnetwork.com
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+127.0.0.1 admin.vppgamingnetwork.com
+127.0.0.1 api.vppgamingnetwork.com
+127.0.0.1 autodiscover.vppgamingnetwork.com
+127.0.0.1 cpanel.vppgamingnetwork.com
+127.0.0.1 demo.vppgamingnetwork.com
+127.0.0.1 email.vppgamingnetwork.com
+127.0.0.1 ftp.vppgamingnetwork.com
+127.0.0.1 mail.vppgamingnetwork.com
+127.0.0.1 motd.vppgamingnetwork.com
+127.0.0.1 old.vppgamingnetwork.com
+127.0.0.1 sip.vppgamingnetwork.com
+127.0.0.1 story.vppgamingnetwork.com
+127.0.0.1 test.vppgamingnetwork.com
+
+# MOTDgd #
+127.0.0.1 motdgd.com
+127.0.0.1 www.motdgd.com
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+127.0.0.1 ads.motdgd.com
+127.0.0.1 api.motdgd.com
+127.0.0.1 hub.motdgd.com
+127.0.0.1 cdn.motdgd.com
+127.0.0.1 chat.motdgd.com
+127.0.0.1 demo.motdgd.com
+127.0.0.1 hub.motdgd.com
+127.0.0.1 motd.motdgd.com
+127.0.0.1 pool.motdgd.com
+127.0.0.1 portal.motdgd.com
+127.0.0.1 sip.motdgd.com
+127.0.0.1 story.motdgd.com
+127.0.0.1 support.motdgd.com
+
+# OtakuGamingTF #
+127.0.0.1 otaku.tf
+127.0.0.1 www.otaku.tf
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+127.0.0.1 motd.otaku.tf
+##################################
+

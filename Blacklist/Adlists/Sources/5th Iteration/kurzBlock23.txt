@@ -1,0 +1,13 @@
+# A personal blocklist curated by KurzGedanke.
+# You may use it with your own adblock or PiHole
+# but it may block some services which you like to use
+# feel free to fork it!
+# Most URL are based on advertising or pop-ups.
+# If you have any question just ask @KurzGedanke
+# License MIT
+
+
+
+d34zjr0p5kjx3b.cloudfront.net
+monda-magazin.de
+d26zuh3orto56v.cloudfront.net

@@ -1,0 +1,4 @@
+0.0.0.0 api.redshell.io
+0.0.0.0 application-api.redshell.io
+0.0.0.0 cdn.rdshll.com
+0.0.0.0 track-api.gamesight.io

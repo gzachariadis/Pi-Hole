@@ -1,0 +1,12 @@
+# Title: LittleCordines/mangacollections
+# Updated version which is most blacklists still not blocking this listed domains
+# Still in progress & will be updated frequently
+#
+# Date: 02 AUG 2022 (GMT)
+
+0.0.0.0 outlook.live.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 ae88play.com
+
+# End
+# blacklist
