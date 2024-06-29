@@ -201,6 +201,15 @@ https://raw.githubusercontent.com/schrebra/Windows.10.DNS.Block.List/main/hosts.
 
 ```
 
+## [Smashblock](https://github.com/smashah/smashblock)
+
+```
+https://raw.githubusercontent.com/smashah/smashblock/master/blocklist.txt
+https://raw.githubusercontent.com/smashah/smashblock/master/blocklist-r.txt
+https://raw.githubusercontent.com/smashah/smashblock/master/blocklist.txt
+
+```
+
 
 ## [Youtube Ads 4 Pihole](https://github.com/kboghdady/youTube_ads_4_pi-hole)
 
@@ -1172,6 +1181,46 @@ https://raw.githubusercontent.com/ThioJoe/YT-Spam-Lists/main/SpamDomainsList.txt
 https://phishunt.io/feed.txt
 https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt
 https://raw.githubusercontent.com/fabriziosalmi/blacklists/main/custom/streaming.txt
+```
+
+## [Nicholasb2101](https://github.com/nicholasb2101/PiHole)
+
+```
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Extended%20Primary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Primary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Secondary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Tertiary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Whitelists/Primary%20Whitelist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Primary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Secondary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Tertiary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Primary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Extended%20Primary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Secondary%20Blocklist.txt
+https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Blocklists/Tertiary%20Blocklist.txt
+```
+
+## [Tweedge]()
+
+```
+https://hosts.tweedge.net/malicious.txt
+https://hosts.tweedge.net/suspicious.txt
+https://hosts.tweedge.net/informational.txt
+```
+## [Advanced Blockist](https://github.com/Levi2288/AdvancedBlockList)
+
+```
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/adlist.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/abuse.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/malware.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/coinmining.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/phishing.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/privacy.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/redirect.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/spam.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/google_amp.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/regex.txt
+https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/whitelist.txt
 ```
 
 ## [The Great Wall](https://github.com/Sekhan/TheGreatWall)
