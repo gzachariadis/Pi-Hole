@@ -198,8 +198,20 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hos
 
 ```
 https://raw.githubusercontent.com/schrebra/Windows.10.DNS.Block.List/main/hosts.txt
+```
+
+## [PiHole Blocklist](https://github.com/daylamtayari/Pi-Hole-Blocklist)
 
 ```
+https://raw.githubusercontent.com/daylamtayari/Pi-Hole-Blocklist/master/Pi-Hole-Blocklist.txt
+```
+
+## [BetterBlocklist]()
+
+```
+
+```
+
 
 ## [Smashblock](https://github.com/smashah/smashblock)
 
@@ -207,9 +219,15 @@ https://raw.githubusercontent.com/schrebra/Windows.10.DNS.Block.List/main/hosts.
 https://raw.githubusercontent.com/smashah/smashblock/master/blocklist.txt
 https://raw.githubusercontent.com/smashah/smashblock/master/blocklist-r.txt
 https://raw.githubusercontent.com/smashah/smashblock/master/blocklist.txt
-
 ```
 
+## [Spotify AdsList](https://github.com/Isaaker/Spotify-AdsList)
+
+```
+https://raw.githubusercontent.com/Isaaker/Spotify-AdsList/main/Lists/pi-hole.txt
+https://raw.githubusercontent.com/Isaaker/Spotify-AdsList/main/Lists/standard_list.txt
+
+```
 
 ## [Youtube Ads 4 Pihole](https://github.com/kboghdady/youTube_ads_4_pi-hole)
 
@@ -1989,9 +2007,33 @@ https://raw.githubusercontent.com/ignaciocastro/adobe-is-dumb/main/list.txt
 ## [The Fucking List](https://github.com/eded333/TheFuckingList)
 
 ```
-
 https://raw.githubusercontent.com/eded333/TheFuckingList/main/pihole.txt
+https://raw.githubusercontent.com/eded333/TheFuckingList/main/hosts_nine.txt
 ```
+
+## [KitsapCreator - Pihole Blocklists](https://github.com/KitsapCreator/pihole-blocklists)
+
+```
+https://blocklists.kitsapcreator.com/general.txt
+https://blocklists.kitsapcreator.com/ads.txt
+https://blocklists.kitsapcreator.com/adult.txt
+https://blocklists.kitsapcreator.com/malware-malicious.txt
+https://blocklists.kitsapcreator.com/scam-spam.txt
+https://blocklists.kitsapcreator.com/social/facebook/facebook.txt
+https://blocklists.kitsapcreator.com/social/facebook/messenger.txt
+https://blocklists.kitsapcreator.com/social/facebook/instagram.txt
+https://blocklists.kitsapcreator.com/social/facebook/whatsapp.txt
+https://blocklists.kitsapcreator.com/social/reddit.txt
+https://blocklists.kitsapcreator.com/social/snapchat.txt
+https://blocklists.kitsapcreator.com/social/tiktok.txt
+https://blocklists.kitsapcreator.com/social/twitter.txt
+https://blocklists.kitsapcreator.com/gaming/game-scams.txt
+https://blocklists.kitsapcreator.com/autodiscover/autodiscover-tlds.txt
+https://blocklists.kitsapcreator.com/general-combined.txt
+https://blocklists.kitsapcreator.com/social-combined.txt
+https://blocklists.kitsapcreator.com/all-lists.txt
+```
+
 
 ## [Youtbe Spam Host](https://github.com/Snota418/Youtube-spam-host-list/tree/main)
 
