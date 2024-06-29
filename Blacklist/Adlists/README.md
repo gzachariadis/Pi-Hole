@@ -194,6 +194,9 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social-onl
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
 ```
 
+## 
+
+
 ## [Youtube Ads 4 Pihole](https://github.com/kboghdady/youTube_ads_4_pi-hole)
 
 ```
@@ -631,13 +634,12 @@ https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt
 
 ```
 https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
-https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
-https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
 https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
-https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
 https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt
-https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+https://filters.adtidy.org/extension/chromium/filters/15.txt
+https://easylist.to/easylist/easyprivacy.txt
 ```
 
 ## [Combined Privacy](https://github.com/bongochong/CombinedPrivacyBlockLists)
