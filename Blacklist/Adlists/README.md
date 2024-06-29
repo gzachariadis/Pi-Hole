@@ -206,12 +206,12 @@ https://raw.githubusercontent.com/schrebra/Windows.10.DNS.Block.List/main/hosts.
 https://raw.githubusercontent.com/daylamtayari/Pi-Hole-Blocklist/master/Pi-Hole-Blocklist.txt
 ```
 
-## [BetterBlocklist]()
+## [Windows-telemetry-blocklist](https://github.com/kevle1/windows-telemetry-blocklist)
 
 ```
+https://raw.githubusercontent.com/kevle1/Windows-telemetry-blocklist/master/windowsblock.txt
 
 ```
-
 
 ## [Smashblock](https://github.com/smashah/smashblock)
 
