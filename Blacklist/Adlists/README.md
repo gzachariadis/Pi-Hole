@@ -199,8 +199,33 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hos
 ```
 https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
 https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/crowed_list.txt
+```
+
+## [Social Blocklists](https://github.com/d43m0nhLInt3r/socialblocklists/tree/master)
 
 ```
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Youtube/youtubeblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Youtube/youtubeADBlocklist
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Windows/windowstelemetryblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/WhatsAppblocklist/whatsappblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Twitter/Twitterblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Tracking/trackingblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/TikTok/tiktokblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/TikTok/tiktokblocklistForFritzBox
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/TikTok/tiktokblocklistWithoutRegex.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Snapchat/snapchatblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/SmartTV/smarttvblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/SmartTV/smarttvblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Skype/skypeblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/MobileAppAds/appadsblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/MiFitXiaomi/mifitxiaomiblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Instagram/Instagramblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Facebook/facebookblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Android/androidblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Agency/agencyblocklist.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Adobe/adobeblocklist.txt
+```
+
 
 ## [Hazegi](https://github.com/hagezi/dns-blocklists)
 
