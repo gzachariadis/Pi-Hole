@@ -669,6 +669,8 @@ https://raw.githubusercontent.com/craiu/mobiletrackers/master/windowslist.txt
 ```
 https://mkb2091.github.io/blockconvert/output/domains.txt
 https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/domains.txt
+https://mkb2091.github.io/blockconvert/output/whitelist_domains.txt
+
 ```
 
 ## [Sefinek](https://sefinek.net/blocklist-generator/pihole)
