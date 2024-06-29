@@ -194,6 +194,14 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social-onl
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
 ```
 
+## [Youtube Ads 4 Pihole](https://github.com/kboghdady/youTube_ads_4_pi-hole)
+
+```
+https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
+https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/crowed_list.txt
+
+```
+
 ## [Hazegi](https://github.com/hagezi/dns-blocklists)
 
 ```
@@ -755,6 +763,7 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/mitche
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/neodevpro/host.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/useless-websites.txt
+
 ```
 
 ## [Shadow Whisperer](https://github.com/ShadowWhisperer/BlockLists)
