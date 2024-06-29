@@ -194,7 +194,12 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social-onl
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
 ```
 
-## 
+## DNS Block List for Windows
+
+```
+https://raw.githubusercontent.com/schrebra/Windows.10.DNS.Block.List/main/hosts.txt
+
+```
 
 
 ## [Youtube Ads 4 Pihole](https://github.com/kboghdady/youTube_ads_4_pi-hole)
