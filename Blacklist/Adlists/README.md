@@ -1903,6 +1903,14 @@ https://ente.dev/api/blocklist/twitter
 
 ```
 https://raw.githubusercontent.com/manic-code/Emerging-Malicious-Domain-Blocklist/main/hosts.txt
+https://raw.githubusercontent.com/manic-code/Emerging-Malicious-Domain-Blocklist/main/domains-abp-pihole.txt
+```
+
+## [Hkamran80](https://github.com/hkamran80/blocklists)
+
+```
+https://raw.githubusercontent.com/hkamran80/blocklists/main/smart-tv
+
 ```
 
 ## [Cookie Consent](https://github.com/johang/cookie-consent-hosts)
