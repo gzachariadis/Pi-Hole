@@ -206,6 +206,63 @@ https://raw.githubusercontent.com/originalsouth/NSOMet/master/nsomet_hosts.txt
 https://raw.githubusercontent.com/CleanMachine1/AdlistTXTS/main/list.txt
 ```
 
+## [Stop The Token](https://github.com/mklemmingen/StopTheToken)
+
+```
+https://raw.githubusercontent.com/mklemmingen/StopTheToken/main/blocklist.txt
+```
+
+## [Netguard Block](https://github.com/WorldWideBlock/netguard-block)
+
+```
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://raw.githubusercontent.com/jawz101/MobileAdTrackers/master/hosts
+https://raw.githubusercontent.com/WorldWideBlock/netguard-block/master/hosts.txt
+```
+
+## [Block-Domains](https://github.com/Joshi-Jhon23/Block-Domains)
+
+```
+https://github.com/Joshi-Jhon23/Block-Domains/wiki/Block-Domains---RAW-Links
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Youtube.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Whatsapp.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Video_Streaming.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Video_Chat.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Torrent_Trackers.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Torrent.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Social.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Mobile_App_Ads.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Job_search.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Indian_Classified_sites.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Emails.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Cloud_Storage_Drives.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Audio_Streaming.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Android_Tracking.txt
+https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Ads_Taboola.txt
+```
+
+## [ADBlockList](https://github.com/Werewolfke/AD-BlockList)
+
+```
+https://raw.githubusercontent.com/Werewolfke/AD-BlockList/main/BlockList/BlockList_V1.txt
+https://raw.githubusercontent.com/Werewolfke/AD-BlockList/main/BlockList/Beta/BlockList_V2.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_38.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_34.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_51.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_23.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt
+https://raw.githubusercontent.com/Werewolfke/AD-BlockList/main/Old/BlockList%20v2.0.0/BlockList%20v2.0.2.txt
+https://raw.githubusercontent.com/Werewolfke/AD-BlockList/main/Old/BlockList%20v2.0.0/BlockList%20v2.0.1.txt
+
+```
+
+
 ## [Blacklists Pihole](https://github.com/ogollemon/BlacklistsPihole)
 
 ```
