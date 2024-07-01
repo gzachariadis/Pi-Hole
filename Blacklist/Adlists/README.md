@@ -194,6 +194,12 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social-onl
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
 ```
 
+## [NSOMet](https://github.com/originalsouth/NSOMet)
+
+```
+https://raw.githubusercontent.com/originalsouth/NSOMet/master/nsomet_hosts.txt
+```
+
 ## DNS Block List for Windows
 
 ```
