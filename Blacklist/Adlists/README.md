@@ -243,6 +243,21 @@ https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Android_
 https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Ads_Taboola.txt
 ```
 
+
+## [Index: Tracker](https://git.herrbischoff.com/trackers/about/)
+
+```
+https://git.herrbischoff.com/trackers/plain/domains.txt
+https://git.herrbischoff.com/trackers/plain/telemetry.txt
+https://git.herrbischoff.com/trackers/plain/crap.txt
+https://git.herrbischoff.com/trackers/plain/cookie.txt
+https://git.herrbischoff.com/trackers/plain/reject.txt
+https://git.herrbischoff.com/trackers/plain/spam.txt
+https://git.herrbischoff.com/trackers/plain/urls.txt
+https://git.herrbischoff.com/trackers/plain/advertising.txt
+https://git.herrbischoff.com/trackers/plain/trackers.txt
+```
+
 ## [Pi-Hole-Lists](
 
 ```
