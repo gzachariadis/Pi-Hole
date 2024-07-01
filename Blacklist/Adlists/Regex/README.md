@@ -814,3 +814,9 @@ dns([0-9]+)\.quad9\.net
 
 (^|\.)encrypted-tbn([a-z0-9])([a-z0-9])?\.gstatic\.
 ```
+
+
+```
+watson\..*\.microsoft\.com
+(\.cn$|\.ru$|\.su$|\.vn$|\.top$)
+```
