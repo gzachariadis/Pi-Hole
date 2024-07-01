@@ -113,6 +113,25 @@ https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/PiHole/PiHole_Comm
 https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/PiHole/PiHole_HOSTS_Spyware_HOSTS.txt
 ```
 
+## [Anthony Wang - Pihole Blocklist](https://github.com/anthony-wang/PiHoleBlocklist/)
+
+```
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/xiaomi.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/samsung.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/oneplus.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/netgear.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/huawei.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/hosts3.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/hosts2.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/hosts1.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/hosts-spam.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/hosts-fitgirl.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/apple.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/app-link_domains.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/adobe.txt
+
+
+```
 
 ## [Heriberto Kubuntu](https://github.com/HeribertoKubuntu/pihole)
 
