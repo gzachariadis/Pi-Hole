@@ -856,5 +856,19 @@ watson\..*\.microsoft\.com
 ```
 
 ```
-
+^(.+[_.-])?ad[sxv]?[0-9]*[_.-]
+^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
+^(.+[_.-])?telemetry[_.-]
+^(www[0-9]*\.)?xn--
+^adim(age|g)s?[0-9]*[_.-]
+^adtrack(er|ing)?[0-9]*[_.-]
+^advert(s|is(ing|ements?))?[0-9]*[_.-]
+^aff(iliat(es?|ion))?[_.-]
+^analytics?[_.-]
+^banners?[_.-]
+^beacons?[0-9]*[_.-]
+^count(ers?)?[0-9]*[_.-]
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[_.-]
+^track(ing)?[0-9]*[_.-]
 ```
