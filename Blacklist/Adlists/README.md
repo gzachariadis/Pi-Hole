@@ -212,6 +212,14 @@ https://raw.githubusercontent.com/CleanMachine1/AdlistTXTS/main/list.txt
 https://raw.githubusercontent.com/mklemmingen/StopTheToken/main/blocklist.txt
 ```
 
+## [Noctual Archives](https://github.com/nocturnalarchives/BlockLists)
+
+```
+
+
+```
+
+
 ## [Netguard Block](https://github.com/WorldWideBlock/netguard-block)
 
 ```
@@ -525,7 +533,15 @@ https://raw.githubusercontent.com/yowu/AnnoyanceMobileAdHosts/master/AnnoyanceMo
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
 ```
 
-## [BlockLists-x](
+## [Youtube Spam Hosts](https://github.com/Snota418/Youtube-spam-host-list)
+
+```
+https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams
+https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/General%20phishing
+
+```
+
+## [Nocturnal Archives](https://github.com/nocturnalarchives/BlockLists)
 
 ```
 https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/master-block-list.txt
