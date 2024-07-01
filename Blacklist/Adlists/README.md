@@ -152,6 +152,12 @@ https://raw.githubusercontent.com/robi052/pihole/master/hosts
 
 ```
 
+## [ADSecu - Black Domains](https://github.com/ADsecu/black-domains)
+
+```
+https://raw.githubusercontent.com/ADsecu/black-domains/master/domain_hosts.txt
+```
+
 ## [](
 
 ```
