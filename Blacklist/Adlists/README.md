@@ -243,6 +243,32 @@ https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Android_
 https://raw.githubusercontent.com/Joshi-Jhon23/Block-Domains/main/Block_Ads_Taboola.txt
 ```
 
+## [Pi-Hole-Lists](
+
+```
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/mobile.txt
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/smarttv.txt
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/adobeblock.txt
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/nintendoblock.txt
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/nomsdata.txt
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/jbfake.txt
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/gamefake.txt
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/fakenewsde.txt
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/cryptomine.txt
+https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/other.txt
+https://raw.githubusercontent.com/tqml/Pi-Hole-Lists/master/other.txt
+
+```
+
+
+## [Pihole Settings](https://github.com/leroyby/PiHole_Settings/tree/master)
+
+```
+https://raw.githubusercontent.com/leroyby/PiHole_Settings/master/domains/blockeddomains.txt
+https://raw.githubusercontent.com/leroyby/PiHole_Settings/master/domains/blockeddomains
+https://raw.githubusercontent.com/leroyby/PiHole_Settings/master/domains/whitelistedomains
+```
+
 ## [ADBlockList](https://github.com/Werewolfke/AD-BlockList)
 
 ```
@@ -262,6 +288,12 @@ https://raw.githubusercontent.com/Werewolfke/AD-BlockList/main/Old/BlockList%20v
 
 ```
 
+## [Block News](https://github.com/MarByteBeep/BlockNews)
+
+```
+https://github.com/MarByteBeep/BlockNews/raw/main/blocknews.txt
+https://raw.githubusercontent.com/MarByteBeep/BlockNews/main/blocknews.txt
+```
 
 ## [Blacklists Pihole](https://github.com/ogollemon/BlacklistsPihole)
 
