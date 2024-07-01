@@ -421,6 +421,20 @@ https://raw.githubusercontent.com/yowu/AnnoyanceMobileAdHosts/master/AnnoyanceMo
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
 ```
 
+## [BlockLists-x](
+
+```
+https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/master-block-list.txt
+https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/netflix-trackers.txt
+https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/public-dns-servers.txt
+https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/sonos-master.txt
+https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/sonos-metrics.txt
+https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/sonos-updates.txt
+https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/facebook-trackers.txt
+https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/duckduckgo-trackers.txt
+https://raw.githubusercontent.com/nocturnalarchives/BlockLists-x/master/admiral-domains.txt
+```
+
 
 ## DNS Block List for Windows
 
